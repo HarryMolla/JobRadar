@@ -1,0 +1,61 @@
+# JobRadar — Scheduled Job Collector
+# Runs every 45 minutes (GitHub Actions free tier: 2000 min/month)
+# 45-min interval × 32 runs/day × 30 days = 960 runs (~1.5 min per run) = ~1440 min/month → comfortably inside the 2000 free min
+
+name: Job Collector
+
+on:
+  schedule:
+    - cron: '*/45 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (fetch & match without storing or emailing)'
+        type: boolean
+        default: false
+      source:
+        description: 'Run only this adapter (SOURCE_ID, e.g. remoteok, remotive, greenhouse, or leave empty for all)'
+        type: string
+        default: ''
+
+jobs:
+  collect:
+    name: Collect Jobs
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          GMAIL_CREDENTIALS_JSON: ${{ secrets.GMAIL_CREDENTIALS_JSON }}
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || '40' }}
+          NOTIFICATION_MIN_SCORE: ${{ vars.NOTIFICATION_MIN_SCORE || '50' }}
+          MAX_JOBS_PER_SOURCE: ${{ vars.MAX_JOBS_PER_SOURCE || '100' }}
+          REQUEST_TIMEOUT: '30'
+          REQUEST_DELAY_SECONDS: '2'
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            echo "Running in DRY RUN mode"
+            python scripts/run_collector.py --dry-run ${{ inputs.source && format('--source {0}', inputs.source) || '' }}
+          else
+            python -m backend.collector
+          fi
+

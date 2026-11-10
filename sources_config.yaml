@@ -1,0 +1,95 @@
+# ============================================================
+# JobRadar — Source Configuration
+# Add employer career boards & feeds here without touching Python code.
+# ============================================================
+
+# --- Greenhouse companies ---
+# Find board token from: https://boards.greenhouse.io/{token}
+greenhouse_boards:
+  - token: "shopify"
+    company: "Shopify"
+  - token: "atlassian"
+    company: "Atlassian"
+  - token: "canva"
+    company: "Canva"
+  - token: "hubspot"
+    company: "HubSpot"
+  - token: "zapier"
+    company: "Zapier"
+  - token: "intercom"
+    company: "Intercom"
+  - token: "gitlab"
+    company: "GitLab"
+  - token: "buffer"
+    company: "Buffer"
+
+# --- Lever companies ---
+# Find slug from: https://jobs.lever.co/{slug}
+lever_companies:
+  - slug: "automattic"
+    company: "Automattic"
+  - slug: "remote"
+    company: "Remote.com"
+  - slug: "1password"
+    company: "1Password"
+  - slug: "ghost"
+    company: "Ghost"
+
+# --- Ashby companies ---
+# Find slug from: https://jobs.ashbyhq.com/{slug}
+ashby_companies:
+  - slug: "vercel"
+    company: "Vercel"
+  - slug: "posthog"
+    company: "PostHog"
+
+# --- Workable companies ---
+workable_companies:
+  - slug: "skroutz"
+    company: "Skroutz"
+
+# --- Recruitee companies ---
+recruitee_companies:
+  - slug: "pitch"
+    company: "Pitch"
+
+# --- Personio companies ---
+# Uses https://{slug}.jobs.personio.de/xml
+personio_companies:
+  - slug: "taxfix"
+    company: "Taxfix"
+  - slug: "spryker"
+    company: "Spryker"
+
+# --- Workday career sites ---
+workday_sites:
+  - company: "Adobe"
+    url: "https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
+    base_url: "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced"
+
+# --- SmartRecruiters companies ---
+smartrecruiters_companies:
+  - slug: "IKEA"
+    company: "IKEA"
+  - slug: "Zalando"
+    company: "Zalando"
+
+# --- Custom RSS feeds ---
+rss_feeds:
+  - url: "https://weworkremotely.com/categories/remote-design-jobs.rss"
+    source_name: "wwr_design"
+    company: ""
+    remote_type: "remote_worldwide"
+  - url: "https://weworkremotely.com/categories/remote-front-end-programming-jobs.rss"
+    source_name: "wwr_frontend"
+    company: ""
+    remote_type: "remote_worldwide"
+  - url: "https://dynamitejobs.com/remote-design-jobs.rss"
+    source_name: "dynamite_design"
+    company: ""
+    remote_type: "remote_worldwide"
+
+# --- Disabled sources ---
+# Add SOURCE_IDs here to temporarily silence them
+disabled_sources: []
+  # - "wellfound"

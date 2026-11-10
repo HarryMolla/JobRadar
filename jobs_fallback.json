@@ -1,0 +1,76 @@
+{
+  "jobs": {
+    "remoteok::fixture-001": {
+      "source": "remoteok",
+      "source_id": "fixture-001",
+      "url": "https://remoteok.com/remote-jobs/fixture-001",
+      "title": "UX Designer",
+      "company": "Acme Corp",
+      "location": "Remote Worldwide",
+      "description": "Looking for a UX Designer with Figma experience. Work from anywhere in the world. 100% remote. Visa sponsorship available.",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role",
+        "Skill: figma (+15)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "sponsored",
+      "relocation_offered": false,
+      "match_category": "design",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "salary_currency": "USD",
+      "detected_at": "2024-03-15T10:00:00Z",
+      "posted_at": "2024-03-14T08:00:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "remoteok::fixture-001"
+    },
+    "remotive::fixture-002": {
+      "source": "remotive",
+      "source_id": "fixture-002",
+      "url": "https://remotive.com/job/fixture-002",
+      "title": "Frontend Developer",
+      "company": "StartupXYZ",
+      "location": "Remote (US Only)",
+      "description": "React, TypeScript, Next.js. Must be US-based. No sponsorship.",
+      "match_score": 60,
+      "match_reasons": [
+        "Title matches frontend role",
+        "Skill: react (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "remote_type": "remote_restricted",
+      "sponsorship": "not_sponsored",
+      "relocation_offered": false,
+      "match_category": "frontend",
+      "detected_at": "2024-03-14T08:00:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "remotive::fixture-002"
+    },
+    "greenhouse::fixture-003": {
+      "source": "greenhouse",
+      "source_id": "fixture-003",
+      "url": "https://boards.greenhouse.io/example/jobs/fixture-003",
+      "title": "Data Scientist",
+      "company": "DataCo",
+      "location": "San Francisco",
+      "description": "Machine learning, Python, TensorFlow",
+      "match_score": 0,
+      "match_reasons": [
+        "Excluded: title contains 'data scientist'"
+      ],
+      "remote_type": "onsite",
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "match_category": "irrelevant",
+      "detected_at": "2024-03-13T08:00:00Z",
+      "notified": false,
+      "application_status": "dismissed",
+      "fingerprint": "greenhouse::fixture-003"
+    }
+  },
+  "source_runs": []
+}

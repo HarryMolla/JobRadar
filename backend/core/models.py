@@ -1,0 +1,156 @@
+"""
+Shared data models for the JobRadar system.
+All adapters must normalize their output to JobListing.
+"""
+from __future__ import annotations
+
+import hashlib
+import re
+from dataclasses import dataclass, field
+from datetime import datetime, timezone
+from enum import Enum
+from typing import Optional
+
+
+class RemoteType(str, Enum):
+    WORLDWIDE = "remote_worldwide"      # Explicitly open to all countries
+    RESTRICTED = "remote_restricted"   # Remote but limited countries
+    HYBRID = "hybrid"
+    ONSITE = "onsite"
+    UNKNOWN = "unknown"
+
+
+class SponsorshipStatus(str, Enum):
+    SPONSORED = "sponsored"            # Explicitly offers visa sponsorship
+    NOT_SPONSORED = "not_sponsored"    # Explicitly states no sponsorship
+    UNKNOWN = "unknown"                # Not mentioned
+
+
+class MatchCategory(str, Enum):
+    DESIGN = "design"
+    FRONTEND = "frontend"
+    WORDPRESS = "wordpress"
+    RELATED = "related"
+    IRRELEVANT = "irrelevant"
+
+
+@dataclass
+class JobListing:
+    """
+    Canonical job representation.
+    Every adapter must populate at minimum: title, company, url, source.
+    """
+    # Identity
+    source: str                          # adapter identifier e.g. "remoteok"
+    source_id: str                       # source-specific job ID
+    url: str                             # direct application / job URL
+
+    # Core fields
+    title: str
+    company: str
+    location: str = ""
+    description: str = ""
+    description_html: str = ""
+
+    # Dates
+    posted_at: Optional[datetime] = None
+    detected_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
+
+    # Classification
+    remote_type: RemoteType = RemoteType.UNKNOWN
+    remote_countries: list[str] = field(default_factory=list)   # if restricted
+    sponsorship: SponsorshipStatus = SponsorshipStatus.UNKNOWN
+    relocation_offered: bool = False
+    employment_type: str = ""           # full-time, contract, part-time
+    seniority: str = ""                 # junior, mid, senior, lead
+
+    # Compensation
+    salary_min: Optional[int] = None
+    salary_max: Optional[int] = None
+    salary_currency: str = ""
+
+    # Matching (populated by matcher)
+    match_score: int = 0
+    match_reasons: list[str] = field(default_factory=list)
+    match_category: MatchCategory = MatchCategory.IRRELEVANT
+
+    # Workflow
+    notified: bool = False
+    application_status: str = "new"     # new, saved, applied, dismissed
+
+    @property
+    def fingerprint(self) -> str:
+        """
+        Stable deduplication key.
+        Prefer source_id when available, else hash of title+company+url.
+        """
+        if self.source_id:
+            return f"{self.source}::{self.source_id}"
+        raw = f"{self.title.lower().strip()}::{self.company.lower().strip()}::{self.url}"
+        return hashlib.sha256(raw.encode()).hexdigest()[:32]
+
+    def to_dict(self) -> dict:
+        return {
+            "fingerprint": self.fingerprint,
+            "source": self.source,
+            "source_id": self.source_id,
+            "url": self.url,
+            "title": self.title,
+            "company": self.company,
+            "location": self.location,
+            "description": self.description[:5000],  # Supabase text limit safety
+            "posted_at": self.posted_at.isoformat() if self.posted_at else None,
+            "detected_at": self.detected_at.isoformat(),
+            "remote_type": self.remote_type.value,
+            "remote_countries": self.remote_countries,
+            "sponsorship": self.sponsorship.value,
+            "relocation_offered": self.relocation_offered,
+            "employment_type": self.employment_type,
+            "seniority": self.seniority,
+            "salary_min": self.salary_min,
+            "salary_max": self.salary_max,
+            "salary_currency": self.salary_currency,
+            "match_score": self.match_score,
+            "match_reasons": self.match_reasons,
+            "match_category": self.match_category.value,
+            "notified": self.notified,
+            "application_status": self.application_status,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "JobListing":
+        """Reconstruct from stored dict (e.g. from Supabase)."""
+        job = cls(
+            source=data.get("source", ""),
+            source_id=data.get("source_id", ""),
+            url=data.get("url", ""),
+            title=data.get("title", ""),
+            company=data.get("company", ""),
+        )
+        job.location = data.get("location", "")
+        job.description = data.get("description", "")
+        if data.get("posted_at"):
+            try:
+                job.posted_at = datetime.fromisoformat(data["posted_at"])
+            except (ValueError, TypeError):
+                pass
+        if data.get("detected_at"):
+            try:
+                job.detected_at = datetime.fromisoformat(data["detected_at"])
+            except (ValueError, TypeError):
+                pass
+        job.remote_type = RemoteType(data.get("remote_type", RemoteType.UNKNOWN.value))
+        job.remote_countries = data.get("remote_countries", [])
+        job.sponsorship = SponsorshipStatus(data.get("sponsorship", SponsorshipStatus.UNKNOWN.value))
+        job.relocation_offered = data.get("relocation_offered", False)
+        job.employment_type = data.get("employment_type", "")
+        job.seniority = data.get("seniority", "")
+        job.salary_min = data.get("salary_min")
+        job.salary_max = data.get("salary_max")
+        job.salary_currency = data.get("salary_currency", "")
+        job.match_score = data.get("match_score", 0)
+        job.match_reasons = data.get("match_reasons", [])
+        job.match_category = MatchCategory(data.get("match_category", MatchCategory.IRRELEVANT.value))
+        job.notified = data.get("notified", False)
+        job.application_status = data.get("application_status", "new")
+        return job

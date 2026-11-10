@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRadar Settings</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="page-header">
+      <h1>🎯 JobRadar Settings</h1>
+      <p>Configure your job search preferences & data sources</p>
+    </header>
+
+    <div class="save-banner" id="saveBanner" style="display:none;">
+      ✓ Settings saved successfully!
+    </div>
+
+    <!-- Connection -->
+    <section class="card">
+      <h2 class="section-title">📡 Backend Connection</h2>
+      <p class="section-desc">
+        JobRadar connects to the local API server or queries Supabase directly.
+      </p>
+      <div class="form-group">
+        <label>API Server URL</label>
+        <input type="url" id="apiUrl" placeholder="http://127.0.0.1:8765" />
+        <span class="hint">Default: http://127.0.0.1:8765 (run <code>python -m backend.api.server</code> locally)</span>
+      </div>
+      <div class="form-group">
+        <label>API Key (optional)</label>
+        <input type="password" id="apiKey" placeholder="Leave blank for local dev" />
+        <span class="hint">Only required if configured with API_KEY on a remote host</span>
+      </div>
+      <div class="form-group">
+        <label>Supabase URL (Direct Fallback)</label>
+        <input type="url" id="supabaseUrl" placeholder="https://your-project.supabase.co" />
+        <span class="hint">Optional: Query Supabase directly when local server is offline</span>
+      </div>
+      <div class="form-group">
+        <label>Supabase Anon Key</label>
+        <input type="password" id="supabaseAnonKey" placeholder="eyJhbGci..." />
+        <span class="hint">Public anonymous key (safe in browser)</span>
+      </div>
+      <div class="form-actions">
+        <button class="btn-secondary" id="testConnection">Test Connection</button>
+        <span class="test-result" id="testResult"></span>
+      </div>
+    </section>
+
+    <!-- Matching -->
+    <section class="card">
+      <h2 class="section-title">🎯 Job Matching Criteria</h2>
+      <div class="form-group">
+        <label>Minimum Match Score (0–100)</label>
+        <div class="range-row">
+          <input type="range" id="minScore" min="0" max="100" step="5" value="50" />
+          <span class="range-val" id="minScoreVal">50</span>
+        </div>
+        <span class="hint">Jobs scoring below this threshold will not appear in notifications or popup</span>
+      </div>
+      <div class="form-group">
+        <label>Target Categories</label>
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" name="category" value="design" checked /> Design (UI/UX, Product, Web Design, Figma)
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="category" value="frontend" checked /> Frontend (React, Next.js, TypeScript, JS)
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="category" value="wordpress" checked /> WordPress & Web Development
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="category" value="related" /> Related Design/Dev Roles
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notifications -->
+    <section class="card">
+      <h2 class="section-title">🔔 Desktop & Cloud Alerts</h2>
+      <div class="form-group">
+        <label class="toggle-label">
+          <input type="checkbox" id="notificationsEnabled" checked />
+          <span>Enable Chrome Desktop Notifications</span>
+        </label>
+        <span class="hint">Shows instant desktop notification when new matching jobs are detected</span>
+      </div>
+      <div class="form-group">
+        <label>Sync Interval (minutes)</label>
+        <select id="syncInterval">
+          <option value="15">Every 15 minutes</option>
+          <option value="30" selected>Every 30 minutes</option>
+          <option value="60">Every 60 minutes</option>
+          <option value="120">Every 2 hours</option>
+        </select>
+        <span class="hint">How often the extension checks for new listings</span>
+      </div>
+      <div class="note">
+        <strong>📌 Note on 24/7 Monitoring:</strong><br/>
+        Local Chrome notifications require the browser to be running. 
+        However, the <strong>GitHub Actions collector</strong> runs independently in the cloud on a 45-minute schedule and sends <strong>Gmail notifications</strong> directly to your email inbox even when your computer is turned off.
+      </div>
+    </section>
+
+    <!-- Source health -->
+    <section class="card">
+      <h2 class="section-title">📊 Monitored Sources Health</h2>
+      <p class="section-desc">Current scan status and results across all adapters</p>
+      <div id="sourceHealth">
+        <div class="loading">Loading source stats...</div>
+      </div>
+      <div class="form-actions">
+        <button class="btn-secondary" id="refreshStats">Refresh Stats</button>
+      </div>
+    </section>
+
+    <!-- Save / Reset -->
+    <div class="page-actions">
+      <button class="btn-primary" id="saveBtn">Save Settings</button>
+      <button class="btn-danger" id="resetBtn">Reset All Data</button>
+    </div>
+
+  </div>
+
+  <script src="options.js" type="module"></script>
+</body>
+</html>
+

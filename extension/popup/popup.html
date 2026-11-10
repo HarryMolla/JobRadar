@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRadar</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app" id="app">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">
+          <span class="logo-icon">🎯</span>
+          <span class="logo-text">JobRadar</span>
+        </div>
+        <div class="sync-status" id="syncStatus">
+          <span class="status-dot" id="statusDot"></span>
+          <span class="status-text" id="statusText">Loading...</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="btn-icon" id="syncBtn" title="Sync now">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+          </svg>
+        </button>
+        <button class="btn-icon" id="optionsBtn" title="Settings">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <button class="stat-pill active" data-filter="all">
+        All <span class="pill-count" id="countAll">0</span>
+      </button>
+      <button class="stat-pill" data-filter="new">
+        New <span class="pill-count" id="countNew">0</span>
+      </button>
+      <button class="stat-pill" data-filter="saved">
+        Saved <span class="pill-count" id="countSaved">0</span>
+      </button>
+      <button class="stat-pill" data-filter="applied">
+        Applied <span class="pill-count" id="countApplied">0</span>
+      </button>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search title, company, skills..." />
+      <select class="filter-select" id="categoryFilter">
+        <option value="">All Categories</option>
+        <option value="design">Design (UI/UX/Product)</option>
+        <option value="frontend">Frontend (React/JS/TS)</option>
+        <option value="wordpress">WordPress</option>
+      </select>
+      <select class="filter-select" id="remoteFilter">
+        <option value="">All Locations</option>
+        <option value="remote_worldwide">🌍 Worldwide Remote</option>
+        <option value="remote_restricted">Remote (Restricted)</option>
+        <option value="sponsored">✈️ Visa Sponsor</option>
+        <option value="relocation">📦 Relocation</option>
+      </select>
+    </div>
+
+    <!-- Job list -->
+    <div class="job-list" id="jobList">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">🔍</div>
+        <div class="empty-title">No jobs yet</div>
+        <div class="empty-desc">Click the sync button or wait for the automatic scan.</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <span id="footerText">Ready</span>
+    </footer>
+
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
+
