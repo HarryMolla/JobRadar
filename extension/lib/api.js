@@ -1,6 +1,6 @@
 /**
- * API client for the JobRadar backend.
- * Talks to the local server (http://127.0.0.1:8765) or Supabase directly.
+ * API client for the JobRadar backend & GitHub Direct Cloud Mode.
+ * Talks to the local server (http://127.0.0.1:8765) or directly to GitHub repository state.
  */
 
 export const api = {
@@ -50,21 +50,39 @@ export const api = {
   },
 
   /**
-   * Direct Supabase query (alternative when local server is not running).
-   * Uses anon key — only reads public data.
+   * Direct GitHub Cloud Mode:
+   * Fetches data/job_state.json directly from GitHub without needing a local server!
+   * Works with public repos (raw.githubusercontent.com) or private repos (via optional GitHub token).
    */
-  async fetchJobsFromSupabase(supabaseUrl, anonKey, { min_score = 0, limit = 200 } = {}) {
-    const url = `${supabaseUrl}/rest/v1/jobs?select=*&match_score=gte.${min_score}&order=detected_at.desc&limit=${limit}`;
-    const resp = await fetch(url, {
-      headers: {
-        apikey: anonKey,
-        Authorization: `Bearer ${anonKey}`,
-        'Content-Type': 'application/json',
-      },
-    });
-    if (!resp.ok) throw new Error(`Supabase error ${resp.status}`);
-    const jobs = await resp.json();
-    return { jobs };
+  async fetchJobsFromGitHub(repo, { branch = 'main', token = '', min_score = 0, limit = 200 } = {}) {
+    const cleanRepo = repo.replace(/^https?:\/\/github\.com\//, '').replace(/\/+$/, '');
+    let jobs = [];
+
+    if (token) {
+      // Private repository access via GitHub API
+      const apiUrl = `https://api.github.com/repos/${cleanRepo}/contents/data/job_state.json?ref=${branch}`;
+      const resp = await fetch(apiUrl, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: 'application/vnd.github.v3.raw',
+        },
+      });
+      if (!resp.ok) throw new Error(`GitHub API error ${resp.status}: ${await resp.text()}`);
+      const data = await resp.json();
+      jobs = Object.values(data.jobs || {});
+    } else {
+      // Public repository raw content
+      const rawUrl = `https://raw.githubusercontent.com/${cleanRepo}/${branch}/data/job_state.json?t=${Date.now()}`;
+      const resp = await fetch(rawUrl);
+      if (!resp.ok) throw new Error(`GitHub fetch error ${resp.status}. For private repos, provide a GitHub Token in settings.`);
+      const data = await resp.json();
+      jobs = Object.values(data.jobs || {});
+    }
+
+    // Filter by score and sort newest first
+    jobs = jobs.filter((j) => (j.match_score || 0) >= min_score);
+    jobs.sort((a, b) => new Date(b.detected_at || 0) - new Date(a.detected_at || 0));
+
+    return { jobs: jobs.slice(0, limit) };
   },
 };
-

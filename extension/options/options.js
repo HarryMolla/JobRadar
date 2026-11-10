@@ -9,9 +9,8 @@ let settings = {};
 
 // DOM refs
 const apiUrlInput = document.getElementById('apiUrl');
-const apiKeyInput = document.getElementById('apiKey');
-const supabaseUrlInput = document.getElementById('supabaseUrl');
-const supabaseAnonKeyInput = document.getElementById('supabaseAnonKey');
+const githubRepoInput = document.getElementById('githubRepo');
+const githubTokenInput = document.getElementById('githubToken');
 const minScoreInput = document.getElementById('minScore');
 const minScoreVal = document.getElementById('minScoreVal');
 const notifEnabled = document.getElementById('notificationsEnabled');
@@ -32,9 +31,8 @@ const refreshStatsBtn = document.getElementById('refreshStats');
 
 function loadSettingsToUI() {
   apiUrlInput.value = settings.apiUrl || 'http://127.0.0.1:8765';
-  apiKeyInput.value = settings.apiKey || '';
-  supabaseUrlInput.value = settings.supabaseUrl || '';
-  supabaseAnonKeyInput.value = settings.supabaseAnonKey || '';
+  githubRepoInput.value = settings.githubRepo || 'HarryMolla/JobRadar';
+  githubTokenInput.value = settings.githubToken || '';
   minScoreInput.value = settings.minScore ?? 50;
   minScoreVal.textContent = settings.minScore ?? 50;
   notifEnabled.checked = settings.notificationsEnabled !== false;
@@ -60,9 +58,8 @@ saveBtn.addEventListener('click', async () => {
   const updated = {
     ...settings,
     apiUrl: apiUrlInput.value.trim(),
-    apiKey: apiKeyInput.value.trim(),
-    supabaseUrl: supabaseUrlInput.value.trim(),
-    supabaseAnonKey: supabaseAnonKeyInput.value.trim(),
+    githubRepo: githubRepoInput.value.trim(),
+    githubToken: githubTokenInput.value.trim(),
     minScore: parseInt(minScoreInput.value, 10),
     notificationsEnabled: notifEnabled.checked,
     syncIntervalMinutes: parseInt(syncIntervalSelect.value, 10),
@@ -92,23 +89,25 @@ testBtn.addEventListener('click', async () => {
   testResult.className = 'test-result';
   testResult.textContent = 'Testing connection...';
   const url = apiUrlInput.value.trim() || 'http://127.0.0.1:8765';
-  const key = apiKeyInput.value.trim();
-  const ok = await api.checkHealth(url, { apiKey: key });
+  const repo = githubRepoInput.value.trim();
+  const token = githubTokenInput.value.trim();
+
+  const ok = await api.checkHealth(url);
   if (ok) {
     testResult.className = 'test-result ok';
     testResult.textContent = '✓ Connected to Local API!';
-  } else if (supabaseUrlInput.value.trim() && supabaseAnonKeyInput.value.trim()) {
+  } else if (repo) {
     try {
-      await api.fetchJobsFromSupabase(supabaseUrlInput.value.trim(), supabaseAnonKeyInput.value.trim(), { limit: 1 });
+      const ghRes = await api.fetchJobsFromGitHub(repo, { token, limit: 1 });
       testResult.className = 'test-result ok';
-      testResult.textContent = '✓ Connected directly to Supabase!';
+      testResult.textContent = `✓ Connected directly to GitHub (${ghRes.jobs.length} jobs available in cloud state)!`;
     } catch (err) {
       testResult.className = 'test-result err';
-      testResult.textContent = `✗ Connection failed: ${err.message}`;
+      testResult.textContent = `✗ GitHub connection failed: ${err.message}`;
     }
   } else {
     testResult.className = 'test-result err';
-    testResult.textContent = '✗ Could not connect. Ensure python -m backend.api.server is running!';
+    testResult.textContent = '✗ Could not connect. Run "node scripts/server.js" or enter your GitHub Repo!';
   }
 });
 

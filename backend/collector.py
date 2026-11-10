@@ -33,18 +33,12 @@ def run_collection() -> None:
     config = get_config()
 
     # Validate config
-    errors = config.validate()
-    if errors:
-        for err in errors:
-            logger.warning("Config warning: %s", err)
-        if not config.supabase_url:
-            logger.warning(
-                "Supabase not configured — using local JSON fallback. "
-                "Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to persist data."
-            )
+    warnings = config.validate()
+    for warn in warnings:
+        logger.warning("Config notice: %s", warn)
 
-    # Initialize components
-    storage = Storage(config.supabase_url, config.supabase_key)
+    # Initialize components with repository-based state storage
+    storage = Storage(state_path=config.state_file_path)
     deduplicator = Deduplicator(storage)
     matcher = JobMatcher()
 
@@ -150,6 +144,9 @@ def run_collection() -> None:
             )
     else:
         logger.info("No new jobs above notification threshold (%d)", config.notification_min_score)
+
+    # Persist all updates to repository storage
+    storage.save_state()
 
     # Summary
     duration = (datetime.now(timezone.utc) - start_time).total_seconds()

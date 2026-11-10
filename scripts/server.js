@@ -10,22 +10,38 @@ const url = require('url');
 
 const PORT = parseInt(process.env.PORT || '8765', 10);
 const HOST = process.env.HOST || '127.0.0.1';
-const DB_FILE = path.join(__dirname, '..', 'jobs_fallback.json');
+const PRIMARY_DB_FILE = path.join(__dirname, '..', 'data', 'job_state.json');
+const FALLBACK_DB_FILE = path.join(__dirname, '..', 'jobs_fallback.json');
 
 // Ensure local db file exists
+function getDBPath() {
+  if (fs.existsSync(PRIMARY_DB_FILE)) return PRIMARY_DB_FILE;
+  if (fs.existsSync(FALLBACK_DB_FILE)) return FALLBACK_DB_FILE;
+  return PRIMARY_DB_FILE;
+}
+
 function loadDB() {
-  if (fs.existsSync(DB_FILE)) {
+  const filePath = getDBPath();
+  if (fs.existsSync(filePath)) {
     try {
-      return JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      // Ensure jobs dictionary
+      data.jobs = data.jobs || {};
+      data.source_runs = data.source_runs || [];
+      return data;
     } catch (e) {
-      console.error('Error reading jobs_fallback.json:', e.message);
+      console.error(`Error reading ${filePath}:`, e.message);
     }
   }
-  return { jobs: {}, source_runs: [] };
+  return { version: 1, last_updated: new Date().toISOString(), stats: {}, jobs: {}, source_runs: [] };
 }
 
 function saveDB(data) {
-  fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2), 'utf8');
+  const targetDir = path.dirname(PRIMARY_DB_FILE);
+  if (!fs.existsSync(targetDir)) {
+    fs.mkdirSync(targetDir, { recursive: true });
+  }
+  fs.writeFileSync(PRIMARY_DB_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
 // Initialize seed data if empty so the extension has demo jobs to display immediately

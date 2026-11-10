@@ -9,7 +9,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const DB_FILE = path.join(__dirname, '..', 'jobs_fallback.json');
+const PRIMARY_DB = path.join(__dirname, '..', 'data', 'job_state.json');
+const DB_FILE = fs.existsSync(PRIMARY_DB) ? PRIMARY_DB : (fs.existsSync(path.join(__dirname, '..', 'jobs_fallback.json')) ? path.join(__dirname, '..', 'jobs_fallback.json') : PRIMARY_DB);
 
 // --- Matching configuration ---
 const DESIGN_KEYWORDS = [

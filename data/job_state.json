@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "last_updated": "2026-11-10T14:05:47.933Z",
+  "stats": {
+    "total_jobs": 5,
+    "total_notified": 0
+  },
+  "jobs": {
+    "remoteok::ux-figma-01": {
+      "source": "remoteok",
+      "source_id": "ux-figma-01",
+      "url": "https://remoteok.com",
+      "title": "Senior Product & UI/UX Designer",
+      "company": "Automattic",
+      "location": "Remote Worldwide",
+      "description": "We are seeking a Product Designer proficient in Figma, Design Systems, and prototyping. Work from anywhere in the world.",
+      "match_score": 95,
+      "match_reasons": [
+        "Title matches design role: ui/ux",
+        "Skill: figma (+15)",
+        "Skill: design system (+12)",
+        "Skill: prototyping (+8)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "match_category": "design",
+      "salary_min": 85000,
+      "salary_max": 120000,
+      "salary_currency": "USD",
+      "detected_at": "2026-11-10T12:00:00Z",
+      "posted_at": "2026-11-10T10:00:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "remoteok::ux-figma-01"
+    },
+    "ashby::fe-react-02": {
+      "source": "ashby",
+      "source_id": "fe-react-02",
+      "url": "https://linear.app/careers",
+      "title": "Frontend Engineer (React / Next.js)",
+      "company": "Linear",
+      "location": "Worldwide Remote",
+      "description": "Build high-performance web applications with React, TypeScript, Next.js and Tailwind CSS. Open to engineers globally.",
+      "match_score": 92,
+      "match_reasons": [
+        "Title matches frontend role: react",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: next.js (+10)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "match_category": "frontend",
+      "salary_min": 90000,
+      "salary_max": 135000,
+      "salary_currency": "USD",
+      "detected_at": "2026-11-10T11:30:00Z",
+      "posted_at": "2026-11-10T09:00:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "ashby::fe-react-02"
+    },
+    "greenhouse::reloc-sponsor-03": {
+      "source": "greenhouse",
+      "source_id": "reloc-sponsor-03",
+      "url": "https://boards.greenhouse.io/figma",
+      "title": "Design Engineer (Figma / Web)",
+      "company": "Figma",
+      "location": "Amsterdam / Remote (Relocation Offered)",
+      "description": "Bridging design and engineering. We provide full visa sponsorship and relocation support for international talent.",
+      "match_score": 96,
+      "match_reasons": [
+        "Title matches design role: design engineer",
+        "Skill: figma (+15)",
+        "Skill: react (+12)",
+        "Visa sponsorship explicitly offered (+15)",
+        "Relocation package mentioned (+8)"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "sponsored",
+      "relocation_offered": true,
+      "match_category": "design",
+      "salary_min": 110000,
+      "salary_max": 150000,
+      "salary_currency": "EUR",
+      "detected_at": "2026-11-10T11:00:00Z",
+      "posted_at": "2026-11-10T08:30:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "greenhouse::reloc-sponsor-03"
+    },
+    "jobicy::wp-dev-04": {
+      "source": "jobicy",
+      "source_id": "wp-dev-04",
+      "url": "https://jobicy.com",
+      "title": "WordPress & Frontend Web Developer",
+      "company": "Awesome Motive",
+      "location": "Remote Worldwide",
+      "description": "Seeking a talented WordPress developer experienced with modern Gutenberg, React, custom themes, and Elementor.",
+      "match_score": 88,
+      "match_reasons": [
+        "Title matches WordPress role: wordpress",
+        "Skill: wordpress (+8)",
+        "Skill: react (+12)",
+        "Skill: css (+6)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "match_category": "wordpress",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "salary_currency": "USD",
+      "detected_at": "2026-11-10T10:15:00Z",
+      "posted_at": "2026-11-10T07:00:00Z",
+      "notified": false,
+      "application_status": "new",
+      "fingerprint": "jobicy::wp-dev-04"
+    },
+    "weworkremotely::ui-interaction-05": {
+      "source": "weworkremotely",
+      "source_id": "ui-interaction-05",
+      "url": "https://weworkremotely.com",
+      "title": "UI & Interaction Designer",
+      "company": "Doist",
+      "location": "Worldwide",
+      "description": "Help craft the future of async productivity tools. Deep expertise in interaction design, micro-animations, and user research.",
+      "match_score": 90,
+      "match_reasons": [
+        "Title matches design role: ui designer",
+        "Skill: figma (+15)",
+        "Skill: design system (+12)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "remote_type": "remote_worldwide",
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "match_category": "design",
+      "salary_min": 75000,
+      "salary_max": 105000,
+      "salary_currency": "USD",
+      "detected_at": "2026-11-10T09:45:00Z",
+      "posted_at": "2026-11-09T18:00:00Z",
+      "notified": false,
+      "application_status": "saved",
+      "fingerprint": "weworkremotely::ui-interaction-05"
+    }
+  },
+  "source_runs": [
+    {
+      "source": "remoteok",
+      "total_jobs": 14,
+      "last_success": "2026-11-10T12:00:00Z",
+      "last_error": ""
+    },
+    {
+      "source": "greenhouse",
+      "total_jobs": 28,
+      "last_success": "2026-11-10T12:00:00Z",
+      "last_error": ""
+    },
+    {
+      "source": "ashby",
+      "total_jobs": 19,
+      "last_success": "2026-11-10T12:00:00Z",
+      "last_error": ""
+    },
+    {
+      "source": "weworkremotely",
+      "total_jobs": 22,
+      "last_success": "2026-11-10T12:00:00Z",
+      "last_error": ""
+    }
+  ]
+}

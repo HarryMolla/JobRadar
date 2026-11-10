@@ -51,12 +51,25 @@ class GmailNotifier:
         from googleapiclient.discovery import build
 
         token_data = json.loads(self._token_json)
+
+        # Fallback to credentials_json if client_id or client_secret are not inside token_json
+        client_id = token_data.get("client_id")
+        client_secret = token_data.get("client_secret")
+        if not client_id or not client_secret:
+            try:
+                creds_raw = json.loads(self._credentials_json)
+                app_info = creds_raw.get("installed") or creds_raw.get("web") or {}
+                client_id = client_id or app_info.get("client_id")
+                client_secret = client_secret or app_info.get("client_secret")
+            except Exception as e:
+                logger.debug("Could not parse client_id from credentials_json: %s", e)
+
         creds = Credentials(
             token=token_data.get("token"),
             refresh_token=token_data.get("refresh_token"),
             token_uri=token_data.get("token_uri", "https://oauth2.googleapis.com/token"),
-            client_id=token_data.get("client_id"),
-            client_secret=token_data.get("client_secret"),
+            client_id=client_id,
+            client_secret=client_secret,
             scopes=token_data.get("scopes", self.SCOPES),
         )
         # Refresh if expired

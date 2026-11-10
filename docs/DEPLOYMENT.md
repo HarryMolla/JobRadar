@@ -1,56 +1,78 @@
-# Free Hosting, Deployment & Cloud Architecture Guide
+# Free Cloud Deployment & Architecture Guide (6-Hour Schedule)
 
-JobRadar is engineered specifically to operate **100% free of charge**, within perpetual free-tier quotas of trusted developer services.
+JobRadar is engineered to operate **100% free of charge**, with **zero server costs**, **no database pause risks**, and completely unattended cloud automation.
 
 ---
 
 ## 1. Cloud Scheduler: GitHub Actions
 
-### Why GitHub Actions?
-- **Quota**: GitHub Free accounts receive **2,000 Action runner minutes every month** for private repositories (unlimited for public repositories).
-- **Execution Budget**:
-  - The JobRadar collector completes an end-to-end collection run in **~1 to 2 minutes**.
-  - Polling interval: **Every 45 minutes** (`*/45 * * * *`).
-  - Monthly calculation: 32 runs/day × 30 days = 960 runs.
-  - At 1.5 minutes average runtime per run, consumption is **~1,440 minutes/month** — comfortably within the 2,000 monthly free minutes.
-- **Computer-Independent**: Your computer can be powered off, asleep, or disconnected; the cloud runner performs the scraping, matching, deduplication, and email dispatch automatically.
+### Schedule: Every 6 Hours (`0 */6 * * *`)
+The collector runs automatically 4 times per day:
+- **00:00 UTC**
+- **06:00 UTC**
+- **12:00 UTC**
+- **18:00 UTC**
+
+### Actions Minutes & Free Quota Budget
+- **Measured execution time**: The collection run finishes in **~1 to 2 minutes** per run.
+- **Monthly runs**: 4 runs/day × 30 days = **120 runs/month**.
+- **Usage calculation**:
+  - At 1.5 minutes average: `120 × 1.5 = 180 runner minutes/month`.
+  - At 2.0 minutes maximum: `120 × 2.0 = 240 runner minutes/month`.
+- **Comparison to GitHub Free Quota**:
+  - **Private Repository**: GitHub Free accounts include **2,000 Linux runner minutes/month**.
+    - Usage: `180 – 240 / 2,000` = **only 9% to 12%** of your monthly allowance!
+    - Leaves **1,760+ free minutes** every month.
+  - **Public Repository**: GitHub Actions runner minutes are **100% free and unlimited**.
+- **Runner Configuration**: Uses GitHub-hosted `ubuntu-latest` (Linux x86_64 has a 1x minute multiplier, whereas Windows has 2x and macOS has 10x).
+- **Concurrency Protection**: The workflow specifies `concurrency: group: jobradar-collector, cancel-in-progress: false` to ensure runs never overlap or corrupt repository state.
+- **Scheduling Latency Note**: GitHub Actions schedule triggers can be delayed by 3 to 15 minutes during peak platform traffic hours. This is standard GitHub behavior and does not impact job monitoring accuracy.
 
 ---
 
-## 2. Persistent Storage: Supabase Free Tier
+## 2. Persistent Storage: Git Repository State (`data/job_state.json`)
 
-### Why Supabase?
-- **Database Engine**: Production PostgreSQL 15.
-- **Free Tier Quotas**:
-  - **500 MB** database storage (holds roughly 150,000+ job listings).
-  - **50,000** monthly active users.
-  - **5 GB** bandwidth per month.
-  - PostgREST auto-generated REST API (allowing secure client-side queries with Row-Level Security).
-- **Setup**:
-  1. Create a free account at [supabase.com](https://supabase.com).
-  2. Create a new project named `jobradar`.
-  3. Navigate to **SQL Editor** in the left sidebar.
-  4. Paste and execute the contents of `scripts/setup_supabase.sql`.
-  5. Go to **Project Settings → API** to obtain:
-     - `Project URL` → `SUPABASE_URL`
-     - `anon / public` key → `SUPABASE_ANON_KEY`
-     - `service_role` key → `SUPABASE_SERVICE_ROLE_KEY` (keep secret!)
+### Why Remove Supabase?
+- Supabase Free tier automatically **pauses projects after 7 days of inactivity** unless upgraded to a paid plan.
+- External databases introduce network failure modes, connection latency, and third-party credential dependencies.
+
+### How Repository State Works
+- **File**: `data/job_state.json`
+- **State Schema**: Stores version, timestamps, per-source execution history, and all seen job listings keyed by fingerprint.
+- **Deduplication**: Remembers previously alerted jobs by their unique source ID and title/company hash. Jobs are never alerted twice.
+- **Atomic Writes**: Written to `.tmp` first, then atomically replaced to guarantee zero corrupted files if interrupted.
+- **Push Conflict Handling**: The workflow pulls with rebase (`git pull --rebase origin main`) and retries up to 3 times before pushing.
+- **Repository Visibility**:
+  - **Private Repository (Strongly Recommended)**: Keeps your job search history, bookmarked roles, and email notifications private.
+  - **Public Repository**: Note that `data/job_state.json` would be publicly viewable on GitHub. No secrets or credentials are ever written to the state file.
+
+### Migrating Existing Supabase Data (If Needed)
+If you previously had jobs in Supabase you want to export into `data/job_state.json`:
+1. In Supabase SQL editor: `SELECT json_agg(jobs) FROM jobs;`
+2. Save the output JSON and merge it into `data/job_state.json` under `"jobs"`.
 
 ---
 
-## 3. Email Alerts: Official Gmail API (OAuth 2.0)
+## 3. Gmail API Alerts: Unattended OAuth 2.0 Configuration
 
-### Why Official Gmail API?
-- **No SMTP credential hacking**: Traditional SMTP with password or app-password requires insecure credential storage and frequently triggers Google account fraud flags.
-- **Security**: Official OAuth 2.0 with the minimal scope: `https://www.googleapis.com/auth/gmail.send`.
-- **Cost**: Completely free. Personal Gmail accounts support up to 500 emails/day; Google Workspace accounts support up to 2,000/day.
+### ⚠️ Critical: Avoiding the 7-Day Token Expiration
+By default, Google Cloud OAuth apps created in **"Testing"** publishing status have refresh tokens that **expire after 7 days**.
+
+To ensure your Gmail alerts run unattended forever without breaking:
+1. Go to [Google Cloud Console](https://console.cloud.google.com/) → **APIs & Services → OAuth consent screen**.
+2. Under **Publishing status**, click **"PUBLISH APP"** to set it to **"In production"**.
+3. *Do you need verification?* **NO.** Because you are only using the app for yourself (accessing your own inbox to send alerts), Google verification is optional and unnecessary. You do not need to submit the app for verification.
+4. Refresh tokens generated for an app in production do **not** expire after 7 days.
+
+### Required GitHub Secrets
+In your GitHub repo (**Settings → Secrets and variables → Actions**), add:
+- `NOTIFICATION_EMAIL`: Your Gmail address.
+- `GMAIL_CREDENTIALS_JSON`: The JSON content of `credentials.json`.
+- `GMAIL_TOKEN_JSON`: The JSON content of `token.json` (generated by `python scripts/gmail_auth.py`).
 
 ---
 
 ## 4. Chrome Extension: Manifest V3
 
-### Architecture
-- **Service Worker**: `background.js` uses `chrome.alarms` to poll the API every 30 minutes.
-- **Direct Fallback**: If the local Python server is not running on `127.0.0.1:8765`, the extension can query Supabase's PostgREST API directly using the public `anon` key.
-- **Native Notifications**: `chrome.notifications` triggers native OS notifications for newly detected jobs with direct action buttons (`Apply Now`).
-
+- **Direct Cloud Mode**: The extension can fetch `data/job_state.json` directly from your GitHub repository (via raw content or GitHub API), requiring **no local server running**.
+- **Local Dev Server**: You can also run `node scripts/server.js` or `python -m backend.api.server` on `http://127.0.0.1:8765`.

@@ -90,14 +90,16 @@ async function syncJobs() {
         limit: 200,
         apiKey: settings.apiKey || '',
       });
-    } else if (settings.supabaseUrl && settings.supabaseAnonKey) {
-      // Fallback to Supabase direct query
-      result = await api.fetchJobsFromSupabase(settings.supabaseUrl, settings.supabaseAnonKey, {
+    } else if (settings.githubRepo) {
+      // Direct Cloud Mode: fetch data/job_state.json directly from GitHub
+      result = await api.fetchJobsFromGitHub(settings.githubRepo, {
+        token: settings.githubToken || '',
+        branch: settings.githubBranch || 'main',
         min_score: minScore,
         limit: 200,
       });
     } else {
-      throw new Error('Local API server is not running and Supabase is not configured.');
+      throw new Error('Local API is offline. Run "node scripts/server.js" or enter your GitHub Repo in Settings.');
     }
 
     if (!result?.jobs || !Array.isArray(result.jobs)) {

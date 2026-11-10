@@ -19,29 +19,24 @@
 
     <!-- Connection -->
     <section class="card">
-      <h2 class="section-title">📡 Backend Connection</h2>
+      <h2 class="section-title">📡 Data Source & Connection</h2>
       <p class="section-desc">
-        JobRadar connects to the local API server or queries Supabase directly.
+        JobRadar connects to your local server, or reads directly from your GitHub repository state.
       </p>
       <div class="form-group">
-        <label>API Server URL</label>
+        <label>Local API Server URL</label>
         <input type="url" id="apiUrl" placeholder="http://127.0.0.1:8765" />
-        <span class="hint">Default: http://127.0.0.1:8765 (run <code>python -m backend.api.server</code> locally)</span>
+        <span class="hint">Default: http://127.0.0.1:8765 (run <code>node scripts/server.js</code>)</span>
       </div>
       <div class="form-group">
-        <label>API Key (optional)</label>
-        <input type="password" id="apiKey" placeholder="Leave blank for local dev" />
-        <span class="hint">Only required if configured with API_KEY on a remote host</span>
+        <label>GitHub Repository (Direct Cloud Mode)</label>
+        <input type="text" id="githubRepo" placeholder="HarryMolla/JobRadar" />
+        <span class="hint">Optional: Fetches latest jobs directly from your repo without running a local server!</span>
       </div>
       <div class="form-group">
-        <label>Supabase URL (Direct Fallback)</label>
-        <input type="url" id="supabaseUrl" placeholder="https://your-project.supabase.co" />
-        <span class="hint">Optional: Query Supabase directly when local server is offline</span>
-      </div>
-      <div class="form-group">
-        <label>Supabase Anon Key</label>
-        <input type="password" id="supabaseAnonKey" placeholder="eyJhbGci..." />
-        <span class="hint">Public anonymous key (safe in browser)</span>
+        <label>GitHub Personal Access Token (for private repos)</label>
+        <input type="password" id="githubToken" placeholder="ghp_..." />
+        <span class="hint">Only needed if your repository is private (fine-grained token with repo read permissions)</span>
       </div>
       <div class="form-actions">
         <button class="btn-secondary" id="testConnection">Test Connection</button>

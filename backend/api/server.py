@@ -83,7 +83,7 @@ class JobRadarHandler(BaseHTTPRequestHandler):
             from backend.core.config import get_config
             from backend.core.storage import Storage
             cfg = get_config()
-            storage = Storage(cfg.supabase_url, cfg.supabase_key)
+            storage = Storage(cfg.state_file_path)
 
             if path == "/jobs":
                 min_score = int(qp("min_score", "0"))
@@ -121,7 +121,7 @@ class JobRadarHandler(BaseHTTPRequestHandler):
             from backend.core.config import get_config
             from backend.core.storage import Storage
             cfg = get_config()
-            storage = Storage(cfg.supabase_url, cfg.supabase_key)
+            storage = Storage(cfg.state_file_path)
 
             if path == "/jobs/update":
                 fp = body.get("fingerprint")
@@ -133,16 +133,10 @@ class JobRadarHandler(BaseHTTPRequestHandler):
                 if new_status not in allowed:
                     self._send_error(f"application_status must be one of {allowed}")
                     return
-                # Update in storage
-                if storage._client:
-                    storage._client.table("jobs").update(
-                        {"application_status": new_status}
-                    ).eq("fingerprint", fp).execute()
-                else:
-                    data = storage._load_local()
-                    if fp in data["jobs"]:
-                        data["jobs"][fp]["application_status"] = new_status
-                        storage._save_local(data)
+                # Update in repository storage
+                if fp in storage._data["jobs"]:
+                    storage._data["jobs"][fp]["application_status"] = new_status
+                    storage.save_state()
                 self._send_json({"ok": True, "fingerprint": fp, "status": new_status})
 
             else:
