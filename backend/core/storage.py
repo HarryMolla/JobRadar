@@ -48,9 +48,13 @@ class Storage:
     # ------------------------------------------------------------------
 
     def load_state(self) -> None:
-        """Load state from state_path or legacy fallback file."""
+        """Load state from state_path, or legacy fallback only for the default state file."""
         target = self.state_path
-        if not target.exists() and LEGACY_FALLBACK_PATH.exists():
+        if (
+            not target.exists()
+            and self.state_path == DEFAULT_STATE_PATH
+            and LEGACY_FALLBACK_PATH.exists()
+        ):
             target = LEGACY_FALLBACK_PATH
             logger.info("Loading initial state from fallback file: %s", target)
 
