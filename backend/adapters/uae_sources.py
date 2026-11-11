@@ -134,7 +134,7 @@ UAE_SOURCE_CATALOG: list[dict] = [
         "reason": "Taleo portal requires interactive session/SSO; public REST search disabled — manual search link provided.",
     },
     {
-        "id": "tamm",
+        "id": "tamm_abudhabi",
         "name": "Abu Dhabi TAMM",
         "category": "government",
         "url": "https://www.tamm.abudhabi/",
@@ -152,7 +152,7 @@ UAE_SOURCE_CATALOG: list[dict] = [
         "reason": "Federal HR portal requires UAE PASS / lacks public JobPosting feed — manual search link provided.",
     },
     {
-        "id": "sharjahhr",
+        "id": "sharjah_hr",
         "name": "Sharjah HR",
         "category": "government",
         "url": "https://www.sharjahhr.gov.ae/",
@@ -162,7 +162,7 @@ UAE_SOURCE_CATALOG: list[dict] = [
     },
     # --- Specialist recruitment agencies ---
     {
-        "id": "michaelpage_ae",
+        "id": "michaelpage_uae",
         "name": "Michael Page UAE",
         "category": "agency",
         "url": "https://www.michaelpage.ae/",
@@ -181,7 +181,7 @@ UAE_SOURCE_CATALOG: list[dict] = [
     },
     # --- Direct employer career pages ---
     {
-        "id": "emirates",
+        "id": "emirates_group",
         "name": "Emirates Group",
         "category": "employer",
         "url": "https://www.emiratesgroupcareers.com/",

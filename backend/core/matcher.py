@@ -139,25 +139,97 @@ RELOCATION_NEGATIVE = [
 ]
 
 FLIGHT_POSITIVE = [
-    "flight ticket provided", "flight tickets provided", "annual flight",
-    "return flight", "air ticket provided", "airfare covered",
-    "flight allowance", "joining ticket", "repatriation ticket",
+    "flight ticket provided", "flight tickets provided", "flight ticket covered",
+    "flight tickets covered", "flight covered", "flights covered",
+    "company-paid flight", "company paid flight", "company-provided flight",
+    "company provided flight", "paid flight", "annual flight", "return flight",
+    "air ticket provided", "air ticket covered", "airfare provided",
+    "airfare covered", "airfare included", "flight allowance",
+    "joining ticket", "repatriation ticket",
 ]
 
 FLIGHT_NEGATIVE = [
-    "no flight", "flights not covered", "airfare not included",
-    "flight not provided",
+    "no flight", "no flights", "no airfare", "flights not covered",
+    "flight not covered", "flight ticket not covered", "flight tickets not covered",
+    "flight ticket not provided", "airfare not included", "airfare not covered",
+    "flight not provided", "without flight",
 ]
 
 ACCOMMODATION_POSITIVE = [
-    "accommodation provided", "housing provided", "company accommodation",
-    "housing allowance", "furnished accommodation", "hotel stay provided",
-    "temporary accommodation", "accommodation covered",
+    "accommodation provided", "accommodation covered", "accommodation included",
+    "company-provided accommodation", "company provided accommodation",
+    "company-paid accommodation", "company paid accommodation",
+    "company accommodation", "free accommodation", "staff accommodation",
+    "furnished accommodation", "temporary accommodation", "hotel stay provided",
+    "housing provided", "housing covered", "housing included",
+    "housing allowance", "company housing",
 ]
 
 ACCOMMODATION_NEGATIVE = [
-    "no accommodation", "housing not provided", "accommodation not included",
-    "accommodation not provided",
+    "no accommodation", "no housing", "housing not provided",
+    "housing not covered", "housing not included", "accommodation not included",
+    "accommodation not provided", "accommodation not covered",
+    "accommodation not available", "without accommodation", "without housing",
+]
+
+_AMBIGUITY_QUALIFIER_RE = re.compile(
+    r"\b(?:may|might|could|possible|possibly|subject to|depending on|"
+    r"case-by-case|case by case|discretionary|if applicable|if needed|"
+    r"if required|not guaranteed|negotiable|upon request|tbd)\b"
+)
+_LEADING_CONDITIONAL_RE = re.compile(
+    r"^(?:subject to|depending on|if |upon |on a case|at discretion|unless |provided that)"
+)
+_SUBCLAUSE_SPLIT_RE = re.compile(r"(?:,+|\band\b|\bbut\b)")
+_SENTENCE_SPLIT_RE = re.compile(r"[.;!\n•]+")
+_LOCAL_NEGATION_RE = re.compile(r"\b(?:no|not|without|never|neither)\b")
+
+_VISA_POS_PATTERNS = [re.compile(rf"\b{re.escape(p)}") for p in SPONSORSHIP_POSITIVE]
+_VISA_NEG_PATTERNS = [
+    re.compile(rf"\b{re.escape(p)}") for p in SPONSORSHIP_NEGATIVE
+] + [
+    re.compile(r"\b(?:no|neither)\s+[\w\s,/-]{0,25}\b(?:or|nor)\s+(?:visa\s+)?sponsorship\b"),
+    re.compile(r"\bvisa(?:\s+sponsorship)?\b[^.;!\n]{0,25}\bnot\s+(?:provided|covered|available|offered|sponsored)\b"),
+]
+
+_RELOC_POS_PATTERNS = [
+    re.compile(rf"\b{re.escape(p)}\b")
+    for p in ("relocation package", "relocation assistance", "relocation support", "relocation provided", "relocation covered", "relocation", "relocate")
+]
+_RELOC_NEG_PATTERNS = [
+    re.compile(rf"\b{re.escape(p)}") for p in RELOCATION_NEGATIVE
+] + [
+    re.compile(r"\b(?:no|neither)\s+[\w\s,/-]{0,25}\b(?:or|nor)\s+relocation\b"),
+    re.compile(r"\brelocation\b[^.;!\n]{0,25}\bnot\s+(?:provided|covered|available|offered|supported)\b"),
+]
+
+_FLIGHT_POS_PATTERNS = [
+    re.compile(r"\b(?:flight|air)\s*tickets?\s+(?:are\s+|is\s+|will\s+be\s+)?(?:provided|covered|included|offered|reimbursed)\b"),
+    re.compile(r"\bflights?\s+(?:are\s+|is\s+|will\s+be\s+)?(?:covered|provided|included|offered)\b"),
+    re.compile(r"\b(?:company|employer)[-\s]+(?:paid|provided)\s+(?:return\s+|annual\s+)?flights?(?:\s+tickets?)?\b"),
+    re.compile(r"\b(?:paid\s+flight|(?:annual|return|joining|repatriation)\s+(?:flight|ticket))(?:\s+(?:tickets?|provided|covered|included|allowance))?\b"),
+    re.compile(r"\bairfare\s+(?:is\s+|will\s+be\s+)?(?:provided|covered|included|reimbursed)\b"),
+    re.compile(r"\bflight\s+allowance\b"),
+]
+_FLIGHT_NEG_PATTERNS = [
+    re.compile(rf"\b{re.escape(p)}\b") for p in FLIGHT_NEGATIVE
+] + [
+    re.compile(r"\b(?:flight|flights|air\s*ticket|airfare)s?\b[^.;!\n]{0,30}\bnot\s+(?:covered|provided|included|offered|reimbursed)\b"),
+    re.compile(r"\b(?:no|neither|without)\s+[\w\s,/-]{0,25}\b(?:or|nor)\s+(?:return\s+|annual\s+|air\s+)?(?:flight|flights|airfare|flight tickets?)\b"),
+]
+
+_ACCOMMODATION_POS_PATTERNS = [
+    re.compile(r"\b(?:company|employer)[-\s]+(?:paid|provided)\s+(?:furnished\s+|temporary\s+)?(?:accommodation|housing)\b"),
+    re.compile(r"\b(?:furnished|temporary|staff|free|company)\s+(?:accommodation|housing)\b"),
+    re.compile(r"\b(?:accommodation|housing)\s+(?:is\s+|are\s+|will\s+be\s+)?(?:provided|covered|included|offered|arranged)\b"),
+    re.compile(r"\bhousing\s+allowance\b"),
+    re.compile(r"\bhotel\s+stay\s+provided\b"),
+]
+_ACCOMMODATION_NEG_PATTERNS = [
+    re.compile(rf"\b{re.escape(p)}\b") for p in ACCOMMODATION_NEGATIVE
+] + [
+    re.compile(r"\b(?:accommodation|housing)\b[^.;!\n]{0,30}\bnot\s+(?:covered|provided|included|offered|available|arranged)\b"),
+    re.compile(r"\b(?:no|neither|without)\s+[\w\s,/-]{0,25}\b(?:or|nor)\s+(?:company[- ]+|furnished\s+|staff\s+)?(?:accommodation|housing)\b"),
 ]
 
 UAE_EMIRATES = [
@@ -351,9 +423,11 @@ class JobMatcher:
 
         job.relocation_support = self._detect_relocation_benefit(combined)
         job.relocation_offered = job.relocation_support == BenefitStatus.CONFIRMED
-        job.flight_covered = self._detect_benefit(combined, FLIGHT_POSITIVE, FLIGHT_NEGATIVE)
+        job.flight_covered = self._detect_benefit(
+            combined, _FLIGHT_POS_PATTERNS, _FLIGHT_NEG_PATTERNS
+        )
         job.accommodation_covered = self._detect_benefit(
-            combined, ACCOMMODATION_POSITIVE, ACCOMMODATION_NEGATIVE
+            combined, _ACCOMMODATION_POS_PATTERNS, _ACCOMMODATION_NEG_PATTERNS
         )
 
         # --- Seniority extraction ---
@@ -468,34 +542,46 @@ class JobMatcher:
         return SponsorshipStatus.UNKNOWN
 
     def _detect_benefit(
-        self, text: str, positive: list[str], negative: list[str]
+        self,
+        text: str,
+        positive: list[str] | list[re.Pattern[str]],
+        negative: list[str] | list[re.Pattern[str]],
     ) -> BenefitStatus:
-        for phrase in negative:
-            if phrase in text:
+        """
+        Evaluate a single benefit status (`UNAVAILABLE`, `CONFIRMED`, or `NOT_CONFIRMED`).
+        Checks explicit negatives first, then confirms positive clauses unless negated
+        or qualified by ambiguity/possibility phrasing.
+        """
+        neg_patterns = [
+            p if isinstance(p, re.Pattern) else re.compile(re.escape(p)) for p in negative
+        ]
+        for pat in neg_patterns:
+            if pat.search(text):
                 return BenefitStatus.UNAVAILABLE
-        for phrase in positive:
-            if phrase in text:
-                return BenefitStatus.CONFIRMED
+
+        pos_patterns = [
+            p if isinstance(p, re.Pattern) else re.compile(re.escape(p)) for p in positive
+        ]
+        for sentence in _SENTENCE_SPLIT_RE.split(text):
+            clauses = [c.strip() for c in _SUBCLAUSE_SPLIT_RE.split(sentence) if c.strip()]
+            for idx, clause in enumerate(clauses):
+                for pat in pos_patterns:
+                    if not pat.search(clause):
+                        continue
+                    if _LOCAL_NEGATION_RE.search(clause):
+                        continue
+                    if _AMBIGUITY_QUALIFIER_RE.search(clause):
+                        continue
+                    if idx + 1 < len(clauses) and _LEADING_CONDITIONAL_RE.match(clauses[idx + 1]):
+                        continue
+                    return BenefitStatus.CONFIRMED
         return BenefitStatus.NOT_CONFIRMED
 
     def _detect_visa_benefit(self, text: str) -> BenefitStatus:
-        # Check negative phrases first so "no visa sponsorship" never triggers "visa sponsorship"
-        for phrase in SPONSORSHIP_NEGATIVE:
-            if phrase in text:
-                return BenefitStatus.UNAVAILABLE
-        for phrase in SPONSORSHIP_POSITIVE:
-            if phrase in text:
-                return BenefitStatus.CONFIRMED
-        return BenefitStatus.NOT_CONFIRMED
+        return self._detect_benefit(text, _VISA_POS_PATTERNS, _VISA_NEG_PATTERNS)
 
     def _detect_relocation_benefit(self, text: str) -> BenefitStatus:
-        for phrase in RELOCATION_NEGATIVE:
-            if phrase in text:
-                return BenefitStatus.UNAVAILABLE
-        for phrase in RELOCATION_SIGNALS:
-            if phrase in text:
-                return BenefitStatus.CONFIRMED
-        return BenefitStatus.NOT_CONFIRMED
+        return self._detect_benefit(text, _RELOC_POS_PATTERNS, _RELOC_NEG_PATTERNS)
 
     def _detect_work_location(self, location: str, text: str) -> str:
         loc_lower = (location or "").lower()

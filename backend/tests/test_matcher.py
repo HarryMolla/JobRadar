@@ -417,6 +417,58 @@ class TestExpandedRolesAndUAEBenefits:
         assert job.sponsorship == SponsorshipStatus.NOT_SPONSORED
         assert job.relocation_support == BenefitStatus.UNAVAILABLE
 
+    @pytest.mark.parametrize("flight_phrase,acc_phrase", [
+        ("flight ticket provided", "accommodation provided"),
+        ("company-paid flight", "company-provided accommodation"),
+        ("flight tickets are covered", "housing is covered"),
+        ("return flight ticket included", "company accommodation"),
+    ])
+    def test_confirmed_flight_and_accommodation_wording_variants(self, matcher, flight_phrase, acc_phrase):
+        job = make_job(
+            "UI/UX Designer",
+            description=f"Join our Dubai team. Benefits: {flight_phrase}, {acc_phrase}.",
+            location="Dubai, UAE",
+        )
+        matcher.match(job)
+        assert job.flight_covered == BenefitStatus.CONFIRMED
+        assert job.accommodation_covered == BenefitStatus.CONFIRMED
+        assert job.visa_sponsorship == BenefitStatus.NOT_CONFIRMED
+        assert job.relocation_support == BenefitStatus.NOT_CONFIRMED
+
+    def test_ambiguous_or_possible_benefits_stay_not_confirmed(self, matcher):
+        ambiguous = make_job(
+            "Product Designer",
+            description=(
+                "Flight ticket may be provided depending on experience. "
+                "Company-provided accommodation, subject to management approval. "
+                "Possible relocation assistance if required."
+            ),
+        )
+        unrelated_possible = make_job(
+            "Product Designer",
+            description="We create the best possible user experiences. Accommodation provided. Company-paid flight.",
+        )
+        matcher.match(ambiguous)
+        matcher.match(unrelated_possible)
+
+        assert ambiguous.flight_covered == BenefitStatus.NOT_CONFIRMED
+        assert ambiguous.accommodation_covered == BenefitStatus.NOT_CONFIRMED
+        assert ambiguous.relocation_support == BenefitStatus.NOT_CONFIRMED
+
+        assert unrelated_possible.flight_covered == BenefitStatus.CONFIRMED
+        assert unrelated_possible.accommodation_covered == BenefitStatus.CONFIRMED
+
+    @pytest.mark.parametrize("text", [
+        "No flight or accommodation provided.",
+        "Flights not covered; housing not included.",
+        "Flight ticket not provided and accommodation not covered.",
+    ])
+    def test_explicit_unavailable_flight_and_accommodation(self, matcher, text):
+        job = make_job("Frontend Developer", description=f"React engineer role. {text}")
+        matcher.match(job)
+        assert job.flight_covered == BenefitStatus.UNAVAILABLE
+        assert job.accommodation_covered == BenefitStatus.UNAVAILABLE
+
     @pytest.mark.parametrize("raw_loc,expected_emirate", [
         ("Dubai, United Arab Emirates", "Dubai, UAE"),
         ("Abu Dhabi", "Abu Dhabi, UAE"),

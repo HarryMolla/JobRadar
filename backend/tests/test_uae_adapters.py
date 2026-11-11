@@ -274,7 +274,9 @@ class TestHttpFailureAndCatalogStatus:
 
     def test_uae_source_catalog_covers_all_19_sources(self):
         assert len(UAE_SOURCE_CATALOG) == 19
-        ids = {entry["id"] for entry in UAE_SOURCE_CATALOG}
+        ids_list = [entry["id"] for entry in UAE_SOURCE_CATALOG]
+        ids = set(ids_list)
+        assert len(ids) == 19
         expected = {
             "bayt", "indeed_uae", "dubizzle", "gulftalent", "naukrigulf",
             "linkedin_uae", "founditgulf", "glassdoor_uae", "laimoon", "gulfnews",
@@ -283,4 +285,10 @@ class TestHttpFailureAndCatalogStatus:
             "emirates_group", "sawatech", "prism_digital",
         }
         assert ids == expected
+
+        by_id = {entry["id"]: entry for entry in UAE_SOURCE_CATALOG}
+        assert by_id["emirates_group"]["url"] == "https://www.emiratesgroupcareers.com/"
+        assert by_id["tamm_abudhabi"]["url"] == "https://www.tamm.abudhabi/"
+        assert by_id["sharjah_hr"]["url"] == "https://www.sharjahhr.gov.ae/"
+        assert by_id["michaelpage_uae"]["url"] == "https://www.michaelpage.ae/"
 
