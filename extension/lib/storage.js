@@ -3,6 +3,8 @@
  * Wraps chrome.storage.local for type safety and convenience.
  */
 
+import { isWithinPostingAge } from './api.js';
+
 const JOBS_KEY = 'jobradar_jobs';
 const SETTINGS_KEY = 'jobradar_settings';
 const SYNC_KEY = 'jobradar_last_sync';
@@ -23,18 +25,25 @@ export const storage = {
     return result[JOBS_KEY] || [];
   },
 
-  async saveJobs(jobs) {
+  async saveJobs(jobs, maxAgeHours = 24) {
     // Merge new jobs with existing, keeping application_status from local
     const existing = await this.getJobs();
     const existingMap = {};
     for (const job of existing) {
-      existingMap[job.fingerprint] = job;
+      const st = job.application_status || 'new';
+      // Drop cached un-saved jobs older than maxAgeHours
+      if (st === 'saved' || st === 'applied' || isWithinPostingAge(job, maxAgeHours)) {
+        existingMap[job.fingerprint] = job;
+      }
     }
 
     // Track all fingerprints we've ever seen
     const fpSet = await this.getKnownFingerprints();
 
     for (const job of jobs) {
+      if (!isWithinPostingAge(job, maxAgeHours)) {
+        continue;
+      }
       if (!fpSet.has(job.fingerprint)) {
         fpSet.add(job.fingerprint);
       }
@@ -47,12 +56,24 @@ export const storage = {
     }
 
     const allJobs = Object.values(existingMap);
-    // Sort by detected_at desc, keep last 2000
-    allJobs.sort((a, b) => new Date(b.detected_at || 0) - new Date(a.detected_at || 0));
+    // Sort by posted_at/detected_at desc, keep last 2000
+    allJobs.sort((a, b) => new Date(b.posted_at || b.detected_at || 0) - new Date(a.posted_at || a.detected_at || 0));
     const trimmed = allJobs.slice(0, 2000);
 
     await chrome.storage.local.set({ [JOBS_KEY]: trimmed });
     await chrome.storage.local.set({ [FINGERPRINTS_KEY]: [...fpSet] });
+  },
+
+  async pruneExpiredJobs(maxAgeHours = 24) {
+    const jobs = await this.getJobs();
+    const kept = jobs.filter((job) => {
+      const st = job.application_status || 'new';
+      return st === 'saved' || st === 'applied' || isWithinPostingAge(job, maxAgeHours);
+    });
+    if (kept.length !== jobs.length) {
+      await chrome.storage.local.set({ [JOBS_KEY]: kept });
+    }
+    return kept;
   },
 
   async getKnownFingerprints() {

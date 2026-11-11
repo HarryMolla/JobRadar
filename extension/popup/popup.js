@@ -4,7 +4,7 @@
  */
 
 import { storage } from '../lib/storage.js';
-import { api } from '../lib/api.js';
+import { api, isWithinPostingAge } from '../lib/api.js';
 
 let allJobs = [];
 let currentFilter = 'all';
@@ -34,7 +34,7 @@ const countApplied = document.getElementById('countApplied');
 // Initialize
 (async () => {
   settings = await storage.getSettings();
-  allJobs = await storage.getJobs();
+  allJobs = await storage.pruneExpiredJobs(24);
   updateCounts();
   renderJobs();
   updateSyncStatus();
@@ -109,8 +109,10 @@ remoteFilter.addEventListener('change', () => {
 });
 
 function updateCounts() {
-  const all = allJobs.length;
-  const newC = allJobs.filter((j) => (j.application_status || 'new') === 'new').length;
+  const all = allJobs.filter((j) => isWithinPostingAge(j, 24)).length;
+  const newC = allJobs.filter(
+    (j) => (j.application_status || 'new') === 'new' && isWithinPostingAge(j, 24)
+  ).length;
   const saved = allJobs.filter((j) => j.application_status === 'saved').length;
   const applied = allJobs.filter((j) => j.application_status === 'applied').length;
 
@@ -126,6 +128,11 @@ function getFilteredJobs() {
   // Status filter
   if (currentFilter !== 'all') {
     jobs = jobs.filter((j) => (j.application_status || 'new') === currentFilter);
+  }
+
+  // Enforce 24-hour posting age filter in All and New tabs
+  if (currentFilter === 'all' || currentFilter === 'new') {
+    jobs = jobs.filter((j) => isWithinPostingAge(j, 24));
   }
 
   // Category filter
@@ -216,8 +223,8 @@ function createJobCard(job) {
   }
   tags.push(`<span class="tag tag-source">${job.source || '?'}</span>`);
 
-  // Date
-  const dateStr = formatDate(job.detected_at || job.posted_at);
+  // Date (show original posting time first so real age is transparent)
+  const dateStr = formatDate(job.posted_at || job.detected_at);
 
   // Reason
   const reason = job.match_reasons?.slice(0, 2).join('; ') || '';
@@ -315,10 +322,12 @@ function formatSalary(n) {
 function formatDate(isoStr) {
   if (!isoStr) return '';
   const d = new Date(isoStr);
-  const now = new Date();
-  const diffMs = now - d;
-  const diffDays = Math.floor(diffMs / 86400000);
-  if (diffDays === 0) return 'Today';
+  if (Number.isNaN(d.getTime())) return '';
+  const diffMs = Date.now() - d.getTime();
+  const diffHours = Math.floor(diffMs / 3600000);
+  if (diffHours < 1) return 'Just now';
+  if (diffHours < 24) return `${diffHours}h ago`;
+  const diffDays = Math.floor(diffHours / 24);
   if (diffDays === 1) return '1d ago';
   if (diffDays < 7) return `${diffDays}d ago`;
   if (diffDays < 30) return `${Math.floor(diffDays / 7)}w ago`;

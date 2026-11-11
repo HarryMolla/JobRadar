@@ -93,6 +93,7 @@ const server = http.createServer((req, res) => {
     const minScore = parseInt(query.min_score || '0', 10);
     const status = query.status || null;
     const limit = parseInt(query.limit || '200', 10);
+    const maxAgeHours = parseFloat(query.max_age_hours || process.env.MAX_POSTING_AGE_HOURS || '24');
 
     const currentDB = loadDB();
     let jobs = Object.values(currentDB.jobs || {});
@@ -100,7 +101,18 @@ const server = http.createServer((req, res) => {
     if (status) {
       jobs = jobs.filter(j => (j.application_status || 'new') === status);
     }
-    jobs.sort((a, b) => new Date(b.detected_at || 0) - new Date(a.detected_at || 0));
+    if (!status || (status !== 'saved' && status !== 'applied')) {
+      const nowMs = Date.now();
+      jobs = jobs.filter(j => {
+        if (j.application_status === 'saved' || j.application_status === 'applied') return true;
+        if (j.timestamp_reliable === false || !j.posted_at) return false;
+        const postedMs = Date.parse(j.posted_at);
+        if (Number.isNaN(postedMs)) return false;
+        const ageHours = (nowMs - postedMs) / 3600000;
+        return ageHours >= 0 && ageHours <= maxAgeHours;
+      });
+    }
+    jobs.sort((a, b) => new Date(b.posted_at || b.detected_at || 0) - new Date(a.posted_at || a.detected_at || 0));
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ jobs: jobs.slice(0, limit), count: jobs.length }));

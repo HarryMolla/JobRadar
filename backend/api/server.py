@@ -89,7 +89,20 @@ class JobRadarHandler(BaseHTTPRequestHandler):
                 min_score = int(qp("min_score", "0"))
                 status = qp("status")
                 limit = int(qp("limit", "200"))
-                jobs = storage.get_jobs(min_score=min_score, status=status, limit=limit)
+                max_age_param = qp("max_age_hours")
+                max_age_hours = (
+                    float(max_age_param)
+                    if max_age_param is not None
+                    else cfg.max_posting_age_hours
+                )
+                if status in ("saved", "applied"):
+                    max_age_hours = None
+                jobs = storage.get_jobs(
+                    min_score=min_score,
+                    status=status,
+                    limit=limit,
+                    max_age_hours=max_age_hours,
+                )
                 self._send_json({"jobs": jobs, "count": len(jobs)})
 
             elif path == "/jobs/stats":

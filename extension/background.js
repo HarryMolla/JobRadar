@@ -4,7 +4,7 @@
  */
 
 import { storage } from './lib/storage.js';
-import { api } from './lib/api.js';
+import { api, isWithinPostingAge } from './lib/api.js';
 import { showJobNotification } from './lib/notifications.js';
 
 const ALARM_NAME = 'jobradar-sync';
@@ -108,8 +108,9 @@ async function syncJobs() {
       return { newJobs: 0 };
     }
 
-    // Filter by category
+    // Filter by category and strict 24-hour posting age
     const filtered = result.jobs.filter((job) => {
+      if (!isWithinPostingAge(job, 24)) return false;
       if (categories.length === 0) return true;
       return categories.includes(job.match_category);
     });

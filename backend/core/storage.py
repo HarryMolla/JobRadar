@@ -186,17 +186,31 @@ class Storage:
         min_score: int = 0,
         status: Optional[str] = None,
         limit: int = 200,
+        max_age_hours: Optional[float] = None,
     ) -> list[dict]:
-        """Fetch jobs matching criteria, sorted by detected_at descending."""
+        """Fetch jobs matching criteria, optionally enforcing UTC posting age window."""
+        from backend.core.time_utils import parse_utc_timestamp
+
+        now_utc = datetime.now(timezone.utc)
         results = []
         for job in self._data["jobs"].values():
             if (job.get("match_score", 0) or 0) < min_score:
                 continue
-            if status and job.get("application_status", "new") != status:
+            job_status = job.get("application_status", "new")
+            if status and job_status != status:
                 continue
+            if max_age_hours is not None and job_status not in ("saved", "applied"):
+                if job.get("timestamp_reliable") is False:
+                    continue
+                posted_dt, _, reliable = parse_utc_timestamp(job.get("posted_at"))
+                if posted_dt is None or not reliable:
+                    continue
+                age_hours = (now_utc - posted_dt).total_seconds() / 3600.0
+                if age_hours < 0 or age_hours > max_age_hours:
+                    continue
             results.append(job)
 
-        results.sort(key=lambda j: j.get("detected_at", ""), reverse=True)
+        results.sort(key=lambda j: j.get("posted_at") or j.get("detected_at", ""), reverse=True)
         return results[:limit]
 
     # ------------------------------------------------------------------
