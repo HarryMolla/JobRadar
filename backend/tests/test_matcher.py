@@ -2,9 +2,12 @@
 Unit tests for the Job Matching and Scoring Engine.
 Verifies keyword recognition, skill scoring, exclusions, remote classification, and sponsorship.
 """
+from datetime import datetime, timedelta, timezone
+from typing import Optional
 import pytest
 from backend.core.matcher import JobMatcher, MatchConfig
 from backend.core.models import JobListing, MatchCategory, RemoteType, SponsorshipStatus
+from backend.core.time_utils import parse_utc_timestamp
 
 
 @pytest.fixture
@@ -12,7 +15,23 @@ def matcher():
     return JobMatcher()
 
 
-def make_job(title: str, description: str = "", location: str = "") -> JobListing:
+_UNSET = object()
+
+
+def make_job(
+    title: str,
+    description: str = "",
+    location: str = "",
+    posted_at: object = _UNSET,
+    updated_at: Optional[datetime] = None,
+    timestamp_reliable: bool = True,
+    is_repost: bool = False,
+    source_timestamp_raw: str = "",
+) -> JobListing:
+    if posted_at is _UNSET:
+        resolved_posted_at = datetime.now(timezone.utc) - timedelta(hours=1)
+    else:
+        resolved_posted_at = posted_at  # type: ignore[assignment]
     return JobListing(
         source="test",
         source_id="test-001",
@@ -21,6 +40,11 @@ def make_job(title: str, description: str = "", location: str = "") -> JobListin
         company="TestCo",
         location=location,
         description=description,
+        posted_at=resolved_posted_at,
+        updated_at=updated_at,
+        timestamp_reliable=timestamp_reliable,
+        is_repost=is_repost,
+        source_timestamp_raw=source_timestamp_raw,
     )
 
 
@@ -194,4 +218,120 @@ class TestMatchReasons:
         job = make_job("Data Scientist")
         matcher.match(job)
         assert any("Excluded" in r for r in job.match_reasons)
+
+
+class TestPostingAgeFilter:
+    def test_job_posted_3_hours_ago_included(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("UX Designer", description="Figma worldwide remote", posted_at=now - timedelta(hours=3))
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is True
+        assert job.match_score >= 50
+        assert job.age_hours == pytest.approx(3.0, abs=0.01)
+
+    def test_job_posted_20_hours_ago_included(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("Frontend Developer", description="React TypeScript", posted_at=now - timedelta(hours=20))
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is True
+        assert job.match_score >= 50
+        assert job.age_hours == pytest.approx(20.0, abs=0.01)
+
+    def test_job_posted_25_hours_ago_excluded(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("Product Designer", description="Figma worldwide remote", posted_at=now - timedelta(hours=25))
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+        assert job.match_category == MatchCategory.IRRELEVANT
+        assert job.exclusion_reason
+
+    def test_missing_posted_at_excluded(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("UX Designer", description="Figma remote", posted_at=None, timestamp_reliable=False)
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+        assert job.exclusion_reason
+
+    def test_unreliable_timestamp_excluded_even_with_datetime(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("UX Designer", posted_at=now - timedelta(hours=2), timestamp_reliable=False)
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+
+    def test_updated_at_only_not_treated_as_new_job(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job(
+            "UI Designer",
+            posted_at=None,
+            updated_at=now - timedelta(hours=1),
+            timestamp_reliable=False,
+            is_repost=False,
+        )
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+
+    def test_updated_at_with_verified_repost_flag_included(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job(
+            "UI Designer",
+            posted_at=None,
+            updated_at=now - timedelta(hours=2),
+            timestamp_reliable=False,
+            is_repost=True,
+        )
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is True
+        assert job.match_score >= 50
+
+    def test_non_utc_timezone_converted_accurately(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        eat = timezone(timedelta(hours=3))
+        posted_eat = (now - timedelta(hours=4)).astimezone(eat)
+        job = make_job("React Developer", posted_at=posted_eat)
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is True
+        assert job.age_hours == pytest.approx(4.0, abs=0.01)
+
+    def test_naive_datetime_rejected(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        naive_dt = datetime(2026, 11, 11, 10, 0, 0)
+        job = make_job("UX Designer", posted_at=naive_dt)
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+
+    def test_future_timestamp_excluded(self, matcher):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        job = make_job("UX Designer", posted_at=now + timedelta(hours=2))
+        matcher.match(job, now=now)
+        assert job.age_filter_passed is False
+        assert job.match_score == 0
+
+    def test_configurable_max_posting_age_hours(self):
+        now = datetime(2026, 11, 11, 12, 0, 0, tzinfo=timezone.utc)
+        strict_matcher = JobMatcher(MatchConfig(max_posting_age_hours=6.0))
+        fresh = make_job("UX Designer", posted_at=now - timedelta(hours=4))
+        stale = make_job("UX Designer", posted_at=now - timedelta(hours=8))
+        strict_matcher.match(fresh, now=now)
+        strict_matcher.match(stale, now=now)
+        assert fresh.age_filter_passed is True
+        assert fresh.match_score >= 50
+        assert stale.age_filter_passed is False
+        assert stale.match_score == 0
+
+    def test_parse_utc_timestamp_rejects_ambiguous_strings(self):
+        dt_date, _, rel_date = parse_utc_timestamp("2026-11-11")
+        assert dt_date is None and rel_date is False
+
+        dt_rel, _, rel_flag = parse_utc_timestamp("Posted Today")
+        assert dt_rel is None and rel_flag is False
+
+        dt_iso, _, rel_iso = parse_utc_timestamp("2026-11-11T09:00:00Z")
+        assert dt_iso == datetime(2026, 11, 11, 9, 0, 0, tzinfo=timezone.utc)
+        assert rel_iso is True
+
 

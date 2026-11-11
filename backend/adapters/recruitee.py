@@ -6,11 +6,11 @@ API: https://{company}.recruitee.com/api/offers/
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timezone
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -73,13 +73,8 @@ class RecruiteeAdapter(BaseAdapter):
         is_remote = raw.get("remote", False) or "remote" in (location + title).lower()
         remote_type = RemoteType.WORLDWIDE if is_remote else RemoteType.UNKNOWN
 
-        posted_at = None
         pub = raw.get("published_at", raw.get("created_at", ""))
-        if pub:
-            try:
-                posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(pub)
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -90,6 +85,8 @@ class RecruiteeAdapter(BaseAdapter):
             location=location,
             description=raw.get("description_plain", raw.get("description", ""))[:5000],
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
             employment_type=raw.get("employment_type", ""),
         )

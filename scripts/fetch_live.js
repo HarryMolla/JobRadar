@@ -11,6 +11,7 @@ const path = require('path');
 
 const PRIMARY_DB = path.join(__dirname, '..', 'data', 'job_state.json');
 const DB_FILE = fs.existsSync(PRIMARY_DB) ? PRIMARY_DB : (fs.existsSync(path.join(__dirname, '..', 'jobs_fallback.json')) ? path.join(__dirname, '..', 'jobs_fallback.json') : PRIMARY_DB);
+const MAX_POSTING_AGE_HOURS = Number(process.env.MAX_POSTING_AGE_HOURS || 24);
 
 // --- Matching configuration ---
 const DESIGN_KEYWORDS = [
@@ -55,7 +56,66 @@ const SKILLS = {
   'wordpress': 8,
 };
 
+function parseUtcTimestamp(rawVal) {
+  if (rawVal === null || rawVal === undefined) {
+    return { dt: null, raw: '', reliable: false };
+  }
+  if (typeof rawVal === 'number' && Number.isFinite(rawVal)) {
+    const ms = rawVal > 1e12 ? rawVal : rawVal * 1000;
+    const d = new Date(ms);
+    return Number.isNaN(d.getTime()) ? { dt: null, raw: String(rawVal), reliable: false } : { dt: d, raw: String(rawVal), reliable: true };
+  }
+  const text = String(rawVal).trim();
+  if (!text) return { dt: null, raw: '', reliable: false };
+  // Reject date-only YYYY-MM-DD or relative phrases ("today", "2 days ago") as ambiguous
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text) || /\b(ago|today|yesterday)\b/i.test(text)) {
+    return { dt: null, raw: text, reliable: false };
+  }
+  // Numeric unix timestamp string
+  if (/^\d{10,13}$/.test(text)) {
+    const num = Number(text);
+    const ms = text.length > 10 ? num : num * 1000;
+    const d = new Date(ms);
+    return Number.isNaN(d.getTime()) ? { dt: null, raw: text, reliable: false } : { dt: d, raw: text, reliable: true };
+  }
+  // ISO without timezone offset (e.g. "2026-11-11T10:00:00") -> treat as UTC since RemoteOK/Remotive/Jobicy use UTC
+  let normalized = text;
+  if (/^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}(:\d{2}(\.\d+)?)?$/.test(text)) {
+    normalized = text.replace(' ', 'T') + 'Z';
+  }
+  const parsed = new Date(normalized);
+  if (Number.isNaN(parsed.getTime())) {
+    return { dt: null, raw: text, reliable: false };
+  }
+  return { dt: parsed, raw: text, reliable: true };
+}
+
+function evaluatePostingAge(job, now = new Date()) {
+  const { dt, raw, reliable } = parseUtcTimestamp(job.posted_at);
+  if (!dt || !reliable) {
+    return { passed: false, ageHours: null, rawTs: raw, postedAtIso: null, reason: 'Excluded: missing or unreliable original posting timestamp' };
+  }
+  const ageHours = (now.getTime() - dt.getTime()) / 3600000;
+  if (ageHours < 0) {
+    return { passed: false, ageHours: Number(ageHours.toFixed(2)), rawTs: raw, postedAtIso: dt.toISOString(), reason: `Excluded: posting timestamp is in the future (${ageHours.toFixed(2)}h)` };
+  }
+  if (ageHours > MAX_POSTING_AGE_HOURS) {
+    return { passed: false, ageHours: Number(ageHours.toFixed(2)), rawTs: raw, postedAtIso: dt.toISOString(), reason: `Excluded: posted ${ageHours.toFixed(1)}h ago (exceeds ${MAX_POSTING_AGE_HOURS}h limit)` };
+  }
+  return { passed: true, ageHours: Number(ageHours.toFixed(2)), rawTs: raw, postedAtIso: dt.toISOString(), reason: '' };
+}
+
 function scoreJob(job) {
+  const ageCheck = evaluatePostingAge(job);
+  if (!ageCheck.passed) {
+    return {
+      score: 0,
+      reasons: [ageCheck.reason],
+      category: 'irrelevant',
+      ageCheck,
+    };
+  }
+
   const title = (job.title || '').toLowerCase();
   const desc = (job.description || '').toLowerCase();
   const combined = `${title} ${desc} ${(job.location || '').toLowerCase()}`;
@@ -63,7 +123,7 @@ function scoreJob(job) {
   // Check exclusions
   for (const excl of EXCLUSION_KEYWORDS) {
     if (title.includes(excl)) {
-      return { score: 0, reasons: [`Excluded: title contains "${excl}"`], category: 'irrelevant' };
+      return { score: 0, reasons: [`Excluded: title contains "${excl}"`], category: 'irrelevant', ageCheck };
     }
   }
 
@@ -154,7 +214,8 @@ function scoreJob(job) {
     category,
     remoteType,
     sponsorship,
-    relocation
+    relocation,
+    ageCheck
   };
 }
 
@@ -177,7 +238,7 @@ async function fetchRemoteOK() {
       company: raw.company || '',
       location: raw.location || 'Remote Worldwide',
       description: `${(raw.tags || []).join(', ')}\n\n${raw.description || ''}`,
-      posted_at: raw.date || new Date().toISOString(),
+      posted_at: raw.date || raw.epoch || null,
       salary_min: raw.salary_min ? parseInt(raw.salary_min) : null,
       salary_max: raw.salary_max ? parseInt(raw.salary_max) : null,
       salary_currency: 'USD'
@@ -206,7 +267,7 @@ async function fetchRemotive() {
       company: raw.company_name || '',
       location: raw.candidate_required_location || 'Remote',
       description: `${(raw.tags || []).join(', ')}\n\n${raw.description || ''}`,
-      posted_at: raw.publication_date || new Date().toISOString(),
+      posted_at: raw.publication_date || null,
       salary_min: null,
       salary_max: null,
       salary_currency: 'USD'
@@ -235,7 +296,7 @@ async function fetchJobicy() {
       company: raw.companyName || '',
       location: raw.jobGeo || 'Remote',
       description: raw.jobDescription || '',
-      posted_at: raw.pubDate || new Date().toISOString(),
+      posted_at: raw.pubDate || null,
       salary_min: raw.annualSalaryMin ? parseInt(raw.annualSalaryMin) : null,
       salary_max: raw.annualSalaryMax ? parseInt(raw.annualSalaryMax) : null,
       salary_currency: raw.salaryCurrency || 'USD'
@@ -264,14 +325,30 @@ async function main() {
     try { db = JSON.parse(fs.readFileSync(DB_FILE, 'utf8')); } catch (e) {}
   }
   db.jobs = db.jobs || {};
+  db.recent_exclusions = Array.isArray(db.recent_exclusions) ? db.recent_exclusions : [];
 
   let matchedCount = 0;
   let newCount = 0;
+  let ageExcludedCount = 0;
 
   for (const raw of allRaw) {
     if (!raw.title || !raw.url) continue;
 
     const match = scoreJob(raw);
+    if (match.ageCheck && !match.ageCheck.passed) {
+      ageExcludedCount++;
+      db.recent_exclusions.unshift({
+        source: raw.source,
+        source_id: raw.source_id,
+        title: raw.title,
+        company: raw.company,
+        source_timestamp_raw: match.ageCheck.rawTs,
+        posted_at: match.ageCheck.postedAtIso,
+        detected_at: new Date().toISOString(),
+        exclusion_reason: match.ageCheck.reason,
+      });
+      continue;
+    }
     if (match.score < 40) continue; // Min match threshold
 
     matchedCount++;
@@ -288,7 +365,11 @@ async function main() {
         company: raw.company,
         location: raw.location,
         description: (raw.description || '').slice(0, 3000),
-        posted_at: raw.posted_at,
+        posted_at: match.ageCheck.postedAtIso,
+        source_timestamp_raw: match.ageCheck.rawTs,
+        timestamp_reliable: true,
+        age_hours: match.ageCheck.ageHours,
+        age_filter_passed: true,
         detected_at: new Date().toISOString(),
         remote_type: match.remoteType,
         sponsorship: match.sponsorship,
@@ -305,11 +386,13 @@ async function main() {
     }
   }
 
+  db.recent_exclusions = db.recent_exclusions.slice(0, 50);
   fs.writeFileSync(DB_FILE, JSON.stringify(db, null, 2), 'utf8');
 
   console.log(`\n======================================================`);
   console.log(`✓ Discovery complete!`);
   console.log(`  Raw fetched:     ${allRaw.length}`);
+  console.log(`  Age-excluded:    ${ageExcludedCount} (strict ${MAX_POSTING_AGE_HOURS}h rule)`);
   console.log(`  Profile matched: ${matchedCount}`);
   console.log(`  Newly added:     ${newCount}`);
   console.log(`  Total in store:  ${Object.keys(db.jobs).length}`);

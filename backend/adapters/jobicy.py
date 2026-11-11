@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -53,13 +54,8 @@ class JobicyAdapter(BaseAdapter):
         if not title:
             return None
 
-        posted_at = None
         pub = raw.get("pubDate", "")
-        if pub:
-            try:
-                posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(pub, assume_utc_if_naive=True)
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -70,6 +66,8 @@ class JobicyAdapter(BaseAdapter):
             location=raw.get("jobGeo", "Remote") or "Remote",
             description=raw.get("jobDescription", ""),
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=RemoteType.WORLDWIDE,
             employment_type=raw.get("jobType", ""),
             salary_min=raw.get("annualSalaryMin"),

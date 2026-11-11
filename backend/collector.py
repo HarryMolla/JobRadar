@@ -24,7 +24,7 @@ logger = logging.getLogger("collector")
 def run_collection() -> None:
     """Main collection loop. Run all adapters, match, deduplicate, store, notify."""
     from backend.core.config import get_config
-    from backend.core.matcher import JobMatcher
+    from backend.core.matcher import JobMatcher, MatchConfig
     from backend.core.storage import Storage
     from backend.core.deduplicator import Deduplicator
     from backend.core.notifier import GmailNotifier, TelegramNotifier
@@ -40,7 +40,7 @@ def run_collection() -> None:
     # Initialize components with repository-based state storage
     storage = Storage(state_path=config.state_file_path)
     deduplicator = Deduplicator(storage)
-    matcher = JobMatcher()
+    matcher = JobMatcher(MatchConfig(max_posting_age_hours=config.max_posting_age_hours))
 
     sources_config = load_sources_config()
     disabled = sources_config.get("disabled_sources", [])
@@ -70,16 +70,30 @@ def run_collection() -> None:
                 logger.warning("%s: %s", result.source, result.error)
             continue
 
-        # Match jobs
+        # Match jobs (enforces strict UTC posting age filter centrally)
         matched = []
+        age_excluded = 0
         for job in result.jobs:
             matcher.match(job)
+            if not job.age_filter_passed:
+                age_excluded += 1
+                logger.debug(
+                    "%s: age-excluded '%s' (%s) | source_ts=%s | detected_at=%s | reason=%s",
+                    result.source,
+                    job.title,
+                    job.company,
+                    job.source_timestamp_raw or job.posted_at,
+                    job.detected_at.isoformat(),
+                    job.exclusion_reason,
+                )
+                storage.log_excluded_job(job.to_dict())
+                continue
             if job.match_score >= config.min_match_score:
                 matched.append(job)
 
         logger.info(
-            "%s: %d total → %d matched (score >= %d)",
-            result.source, len(result.jobs), len(matched), config.min_match_score
+            "%s: %d total → %d matched (score >= %d, %d age-excluded)",
+            result.source, len(result.jobs), len(matched), config.min_match_score, age_excluded
         )
 
         # Deduplicate
@@ -99,12 +113,32 @@ def run_collection() -> None:
         len(all_new_jobs)
     )
 
-    # Send notifications for jobs above notification threshold
-    notify_jobs = [
-        j for j in all_new_jobs
-        if j.match_score >= config.notification_min_score
-    ]
+    # Recheck age filter immediately before sending notifications
+    pre_notify_now = datetime.now(timezone.utc)
+    notify_jobs = []
+    expired_before_notify = []
+    for job in all_new_jobs:
+        if job.match_score < config.notification_min_score:
+            continue
+        passed, reason = matcher.evaluate_posting_age(job, now=pre_notify_now)
+        if not passed:
+            logger.info(
+                "Pre-notification age recheck excluded '%s' (%s) | source_ts=%s | detected_at=%s | reason=%s",
+                job.title,
+                job.company,
+                job.source_timestamp_raw or job.posted_at,
+                job.detected_at.isoformat(),
+                reason,
+            )
+            storage.log_excluded_job(job.to_dict())
+            expired_before_notify.append(job)
+            continue
+        notify_jobs.append(job)
 
+    if expired_before_notify:
+        storage.upsert_jobs([j.to_dict() for j in expired_before_notify])
+
+    notified_count = 0
     if notify_jobs:
         notify_dicts = [j.to_dict() for j in notify_jobs]
         notified = False
@@ -121,6 +155,7 @@ def run_collection() -> None:
                     fps = [j.fingerprint for j in notify_jobs]
                     storage.mark_notified(fps)
                     notified = True
+                    notified_count = len(notify_jobs)
                     logger.info("Gmail digest sent: %d jobs", len(notify_jobs))
             except Exception as exc:
                 logger.error("Gmail notification failed: %s", exc)
@@ -132,18 +167,20 @@ def run_collection() -> None:
                 if ok:
                     fps = [j.fingerprint for j in notify_jobs]
                     storage.mark_notified(fps)
+                    notified = True
+                    notified_count = len(notify_jobs)
                     logger.info("Telegram digest sent: %d jobs", len(notify_jobs))
             except Exception as exc:
                 logger.error("Telegram notification failed: %s", exc)
 
         if not notified:
             logger.warning(
-                "No notification method configured. "
+                "No notification method configured or delivery failed. "
                 "Set up Gmail (GMAIL_CREDENTIALS_JSON/GMAIL_TOKEN_JSON) or "
                 "Telegram (TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID) to receive alerts."
             )
     else:
-        logger.info("No new jobs above notification threshold (%d)", config.notification_min_score)
+        logger.info("No eligible new jobs for notification (threshold=%d, max_age=%.1fh)", config.notification_min_score, config.max_posting_age_hours)
 
     # Persist all updates to repository storage
     storage.save_state()
@@ -154,7 +191,7 @@ def run_collection() -> None:
     fail_count = len(source_results) - success_count
     logger.info(
         "Run summary: %.1fs elapsed | %d sources OK | %d failed | %d new jobs stored | %d notifications sent",
-        duration, success_count, fail_count, len(all_new_jobs), len(notify_jobs) if notify_jobs else 0
+        duration, success_count, fail_count, len(all_new_jobs), notified_count
     )
 
 

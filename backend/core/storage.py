@@ -39,6 +39,7 @@ class Storage:
             "stats": {"total_jobs": 0, "total_notified": 0},
             "jobs": {},
             "source_runs": [],
+            "recent_exclusions": [],
         }
         self.load_state()
 
@@ -61,6 +62,8 @@ class Storage:
                     self._data["jobs"] = raw["jobs"]
                 if "source_runs" in raw and isinstance(raw["source_runs"], list):
                     self._data["source_runs"] = raw["source_runs"]
+                if "recent_exclusions" in raw and isinstance(raw["recent_exclusions"], list):
+                    self._data["recent_exclusions"] = raw["recent_exclusions"]
                 if "version" in raw:
                     self._data["version"] = raw["version"]
                 if "stats" in raw and isinstance(raw["stats"], dict):
@@ -214,6 +217,23 @@ class Storage:
         self._data["source_runs"].insert(0, record)
         # Keep last 500 run records to prevent unbounded file growth
         self._data["source_runs"] = self._data["source_runs"][:500]
+        self._has_changes = True
+
+    def log_excluded_job(self, job_dict: dict) -> None:
+        """Record debugging metadata for jobs excluded by the posting age filter."""
+        record = {
+            "source": job_dict.get("source", ""),
+            "source_id": job_dict.get("source_id", ""),
+            "title": job_dict.get("title", ""),
+            "company": job_dict.get("company", ""),
+            "source_timestamp_raw": job_dict.get("source_timestamp_raw", ""),
+            "posted_at": job_dict.get("posted_at"),
+            "detected_at": job_dict.get("detected_at"),
+            "exclusion_reason": job_dict.get("exclusion_reason", ""),
+        }
+        exclusions = self._data.setdefault("recent_exclusions", [])
+        exclusions.insert(0, record)
+        self._data["recent_exclusions"] = exclusions[:50]
         self._has_changes = True
 
     def get_source_stats(self) -> list[dict]:

@@ -111,7 +111,7 @@ class TestRemotiveAdapter:
 
 class TestGreenhouseAdapter:
     @patch("backend.adapters.greenhouse.get_json")
-    def test_fetches_company_boards(self, mock_get_json):
+    def test_fetches_company_boards_updated_only_not_treated_as_posted(self, mock_get_json):
         mock_get_json.return_value = SAMPLE_GREENHOUSE
         adapter = GreenhouseAdapter(config={})
         adapter._boards = [("figma", "Figma")]
@@ -119,6 +119,37 @@ class TestGreenhouseAdapter:
 
         assert result.success is True
         assert len(result.jobs) == 1
-        assert result.jobs[0].title == "Product Designer"
-        assert result.jobs[0].company == "Figma"
+        job = result.jobs[0]
+        assert job.title == "Product Designer"
+        assert job.company == "Figma"
+        assert job.posted_at is None
+        assert job.updated_at is not None
+        assert job.timestamp_reliable is False
+
+    @patch("backend.adapters.greenhouse.get_json")
+    def test_greenhouse_uses_first_published_as_posted_at(self, mock_get_json):
+        mock_get_json.return_value = {
+            "jobs": [
+                {
+                    "id": 888,
+                    "title": "Design Engineer",
+                    "absolute_url": "https://boards.greenhouse.io/figma/jobs/888",
+                    "location": {"name": "Remote"},
+                    "departments": [{"name": "Engineering"}],
+                    "content": "Design systems role",
+                    "first_published": "2026-11-11T10:00:00Z",
+                    "updated_at": "2026-11-11T11:30:00Z",
+                }
+            ]
+        }
+        adapter = GreenhouseAdapter(config={})
+        adapter._boards = [("figma", "Figma")]
+        result = adapter.run()
+
+        assert result.success is True
+        assert len(result.jobs) == 1
+        job = result.jobs[0]
+        assert job.posted_at is not None
+        assert job.posted_at.hour == 10
+        assert job.timestamp_reliable is True
 

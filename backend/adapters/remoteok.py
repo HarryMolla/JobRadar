@@ -11,6 +11,7 @@ from datetime import datetime, timezone
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -54,13 +55,9 @@ class RemoteOKAdapter(BaseAdapter):
         if not title or not company:
             return None
 
-        # Parse date
-        posted_at = None
-        if raw.get("date"):
-            try:
-                posted_at = datetime.fromisoformat(raw["date"].replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        # Parse original posting date in UTC
+        raw_date = raw.get("date") or raw.get("epoch")
+        posted_at, raw_ts, reliable = parse_utc_timestamp(raw_date, assume_utc_if_naive=True)
 
         # Tags contain skills/keywords
         tags = raw.get("tags", []) or []
@@ -91,6 +88,8 @@ class RemoteOKAdapter(BaseAdapter):
             location=raw.get("location", "Remote") or "Remote",
             description=description,
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=RemoteType.WORLDWIDE,  # RemoteOK is explicitly global
             employment_type=raw.get("employment_type", ""),
             salary_min=salary_min,

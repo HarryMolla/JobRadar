@@ -11,6 +11,7 @@ from urllib.parse import urlencode
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -59,13 +60,8 @@ class RemotiveAdapter(BaseAdapter):
         if not title or not url:
             return None
 
-        posted_at = None
         pub = raw.get("publication_date", "")
-        if pub:
-            try:
-                posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(pub, assume_utc_if_naive=True)
 
         tags = raw.get("tags", []) or []
         description = raw.get("description", "")
@@ -85,6 +81,8 @@ class RemotiveAdapter(BaseAdapter):
             location=raw.get("candidate_required_location", "Remote") or "Remote",
             description=description,
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=RemoteType.WORLDWIDE,  # Remotive is global-focused
             employment_type=raw.get("job_type", ""),
             salary_min=salary_min,

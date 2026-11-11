@@ -45,6 +45,9 @@ class Config:
     )
 
     # Collector thresholds
+    max_posting_age_hours: float = field(
+        default_factory=lambda: float(os.environ.get("MAX_POSTING_AGE_HOURS", "24"))
+    )
     min_match_score: int = field(
         default_factory=lambda: int(os.environ.get("MIN_MATCH_SCORE", "40"))
     )

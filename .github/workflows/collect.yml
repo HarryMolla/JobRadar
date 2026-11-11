@@ -60,6 +60,7 @@ jobs:
           GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MAX_POSTING_AGE_HOURS: ${{ vars.MAX_POSTING_AGE_HOURS || '24' }}
           MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || '40' }}
           NOTIFICATION_MIN_SCORE: ${{ vars.NOTIFICATION_MIN_SCORE || '50' }}
           MAX_JOBS_PER_SOURCE: ${{ vars.MAX_JOBS_PER_SOURCE || '100' }}

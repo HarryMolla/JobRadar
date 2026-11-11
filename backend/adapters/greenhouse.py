@@ -15,6 +15,7 @@ from typing import Any
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -98,14 +99,13 @@ class GreenhouseAdapter(BaseAdapter):
         # Content / description
         content = raw.get("content", "") or ""
 
-        # Posted date
-        posted_at = None
-        updated = raw.get("updated_at", "")
-        if updated:
-            try:
-                posted_at = datetime.fromisoformat(updated.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        # Original posting date vs last-updated date (never treat updated_at as posted_at)
+        first_pub = raw.get("first_published")
+        updated_raw = raw.get("updated_at")
+        posted_at, raw_ts, reliable = parse_utc_timestamp(first_pub)
+        updated_at, updated_ts, _ = parse_utc_timestamp(updated_raw)
+        if not raw_ts and updated_ts:
+            raw_ts = f"updated_at:{updated_ts}"
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -116,5 +116,8 @@ class GreenhouseAdapter(BaseAdapter):
             location=location,
             description=f"Department: {dept}\n\n{content}"[:5000],
             posted_at=posted_at,
+            updated_at=updated_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
         )

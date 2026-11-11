@@ -11,7 +11,6 @@ import base64
 import json
 import logging
 import re
-from datetime import datetime, timezone
 from typing import Optional
 from bs4 import BeautifulSoup
 
@@ -120,6 +119,8 @@ class EmailAlertsAdapter(BaseAdapter):
                     title=title,
                     company=company,
                     location=location,
+                    posted_at=None,
+                    timestamp_reliable=False,
                     remote_type=RemoteType.UNKNOWN,
                 )
             )
@@ -154,6 +155,8 @@ class EmailAlertsAdapter(BaseAdapter):
                     title=title,
                     company=company,
                     location=location,
+                    posted_at=None,
+                    timestamp_reliable=False,
                     remote_type=RemoteType.UNKNOWN,
                 )
             )

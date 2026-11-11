@@ -54,6 +54,10 @@ class JobListing:
 
     # Dates
     posted_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None
+    source_timestamp_raw: str = ""
+    timestamp_reliable: bool = True
+    is_repost: bool = False
     detected_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
 
     # Classification
@@ -69,10 +73,13 @@ class JobListing:
     salary_max: Optional[int] = None
     salary_currency: str = ""
 
-    # Matching (populated by matcher)
+    # Matching & Age Filter (populated by matcher)
     match_score: int = 0
     match_reasons: list[str] = field(default_factory=list)
     match_category: MatchCategory = MatchCategory.IRRELEVANT
+    age_hours: Optional[float] = None
+    age_filter_passed: bool = False
+    exclusion_reason: str = ""
 
     # Workflow
     notified: bool = False
@@ -98,8 +105,12 @@ class JobListing:
             "title": self.title,
             "company": self.company,
             "location": self.location,
-            "description": self.description[:5000],  # Supabase text limit safety
+            "description": self.description[:5000],
             "posted_at": self.posted_at.isoformat() if self.posted_at else None,
+            "updated_at": self.updated_at.isoformat() if self.updated_at else None,
+            "source_timestamp_raw": self.source_timestamp_raw,
+            "timestamp_reliable": self.timestamp_reliable,
+            "is_repost": self.is_repost,
             "detected_at": self.detected_at.isoformat(),
             "remote_type": self.remote_type.value,
             "remote_countries": self.remote_countries,
@@ -113,13 +124,16 @@ class JobListing:
             "match_score": self.match_score,
             "match_reasons": self.match_reasons,
             "match_category": self.match_category.value,
+            "age_hours": self.age_hours,
+            "age_filter_passed": self.age_filter_passed,
+            "exclusion_reason": self.exclusion_reason,
             "notified": self.notified,
             "application_status": self.application_status,
         }
 
     @classmethod
     def from_dict(cls, data: dict) -> "JobListing":
-        """Reconstruct from stored dict (e.g. from Supabase)."""
+        """Reconstruct from stored dict."""
         job = cls(
             source=data.get("source", ""),
             source_id=data.get("source_id", ""),
@@ -134,6 +148,14 @@ class JobListing:
                 job.posted_at = datetime.fromisoformat(data["posted_at"])
             except (ValueError, TypeError):
                 pass
+        if data.get("updated_at"):
+            try:
+                job.updated_at = datetime.fromisoformat(data["updated_at"])
+            except (ValueError, TypeError):
+                pass
+        job.source_timestamp_raw = data.get("source_timestamp_raw", "")
+        job.timestamp_reliable = data.get("timestamp_reliable", True)
+        job.is_repost = data.get("is_repost", False)
         if data.get("detected_at"):
             try:
                 job.detected_at = datetime.fromisoformat(data["detected_at"])
@@ -151,6 +173,9 @@ class JobListing:
         job.match_score = data.get("match_score", 0)
         job.match_reasons = data.get("match_reasons", [])
         job.match_category = MatchCategory(data.get("match_category", MatchCategory.IRRELEVANT.value))
+        job.age_hours = data.get("age_hours")
+        job.age_filter_passed = data.get("age_filter_passed", False)
+        job.exclusion_reason = data.get("exclusion_reason", "")
         job.notified = data.get("notified", False)
         job.application_status = data.get("application_status", "new")
         return job

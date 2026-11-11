@@ -7,11 +7,11 @@ Companies added in sources_config.yaml or DEFAULT_COMPANIES.
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timezone
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -77,13 +77,8 @@ class SmartRecruitersAdapter(BaseAdapter):
 
         remote_type = RemoteType.RESTRICTED if "remote" in location.lower() else RemoteType.UNKNOWN
 
-        posted_at = None
         rel = raw.get("releasedDate", "")
-        if rel:
-            try:
-                posted_at = datetime.fromisoformat(rel.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(rel, assume_utc_if_naive=True)
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -94,6 +89,8 @@ class SmartRecruitersAdapter(BaseAdapter):
             location=location,
             description="",
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
             employment_type=raw.get("typeOfEmployment", {}).get("label", ""),
         )

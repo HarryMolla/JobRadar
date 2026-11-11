@@ -8,11 +8,11 @@ Companies configured in sources_config.yaml or DEFAULT_COMPANIES.
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timezone
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -96,13 +96,8 @@ class LeverAdapter(BaseAdapter):
         description = " ".join(filter(None, desc_parts))
 
         # Date
-        posted_at = None
         created = raw.get("createdAt")
-        if created:
-            try:
-                posted_at = datetime.fromtimestamp(created / 1000, tz=timezone.utc)
-            except (ValueError, TypeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(created)
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -113,6 +108,8 @@ class LeverAdapter(BaseAdapter):
             location=location,
             description=description[:5000],
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
             employment_type=commitment,
         )

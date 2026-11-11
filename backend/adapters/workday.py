@@ -8,9 +8,7 @@ Respects rate limits and handles schema differences.
 """
 from __future__ import annotations
 
-import json
 import logging
-from datetime import datetime, timezone
 from typing import Optional
 import requests
 
@@ -117,6 +115,9 @@ class WorkdayAdapter(BaseAdapter):
             company=company,
             location=locations or "Multiple Locations",
             description=f"Posted: {posted_str}",
+            posted_at=None,
+            source_timestamp_raw=str(posted_str or ""),
+            timestamp_reliable=False,
             remote_type=remote_type,
         )
 

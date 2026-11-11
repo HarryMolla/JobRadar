@@ -5,12 +5,14 @@ Uses public RSS feed.
 from __future__ import annotations
 
 import logging
+from calendar import timegm
 from datetime import datetime, timezone
 
 import feedparser
 
 from backend.adapters.base import BaseAdapter
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -64,13 +66,17 @@ class DynamiteJobsAdapter(BaseAdapter):
             title = parts[0].strip()
             company = parts[1].strip()
 
-        posted_at = None
-        if hasattr(entry, "published_parsed") and entry.published_parsed:
-            try:
-                from time import mktime
-                posted_at = datetime.fromtimestamp(mktime(entry.published_parsed), tz=timezone.utc)
-            except Exception:
-                pass
+        raw_pub = entry.get("published", "")
+        posted_at, raw_ts, reliable = parse_utc_timestamp(raw_pub)
+        if posted_at is None:
+            parsed_struct = getattr(entry, "published_parsed", None) or entry.get("published_parsed")
+            if parsed_struct:
+                try:
+                    posted_at = datetime.fromtimestamp(timegm(parsed_struct), tz=timezone.utc)
+                    raw_ts = raw_ts or posted_at.isoformat()
+                    reliable = True
+                except Exception:
+                    pass
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -81,5 +87,7 @@ class DynamiteJobsAdapter(BaseAdapter):
             location="Remote",
             description=entry.get("summary", ""),
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=RemoteType.WORLDWIDE,
         )

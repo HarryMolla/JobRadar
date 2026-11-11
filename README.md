@@ -18,6 +18,10 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
   - Detects explicit visa sponsorship (`Visa sponsorship available`, `Will sponsor`).
   - Detects relocation packages (`Relocation assistance`).
   - Distinguishes restricted regional remote (`US only`, `EU only`) from genuinely global roles.
+- **Strict 24-Hour Posting Age Filter**:
+  - Enforced centrally in `JobMatcher` across every source adapter (`0 <= age <= MAX_POSTING_AGE_HOURS`, defaulting to `24` hours in UTC).
+  - Separates original publication timestamps (`posted_at`) from scrape discovery (`detected_at`) and update timestamps (`updated_at`), excluding missing, ambiguous, date-only, or update-only listings by default.
+  - Rechecked immediately before sending the Gmail digest so stale jobs never trigger notifications, while logging excluded reasons in `data/job_state.json`.
 - **Transparent Match Engine**:
   - High weights for target roles (UI/UX, Product Design, Frontend, React, Next.js, WordPress).
   - Skill boosts for Figma, Design Systems, TypeScript, Tailwind, Accessibility (WCAG).
@@ -156,6 +160,9 @@ In your GitHub repository (**Settings → Secrets and variables → Actions**), 
 | `NOTIFICATION_EMAIL` | `your-email@gmail.com` | Destination email for job alerts |
 | `GMAIL_CREDENTIALS_JSON` | Content of `credentials.json` | Google Cloud OAuth Client ID & Secret |
 | `GMAIL_TOKEN_JSON` | Content of `token.json` | OAuth refresh & access tokens |
+
+Optional repository **Variables** (**Settings → Secrets and variables → Actions → Variables**):
+- `MAX_POSTING_AGE_HOURS`: Maximum verified job age in UTC hours (default: `24`).
 
 *(Optional Telegram fallback: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`)*
 

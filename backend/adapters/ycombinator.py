@@ -7,11 +7,11 @@ skip gracefully if blocked.
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timezone
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -75,13 +75,8 @@ class YCombinatorAdapter(BaseAdapter):
         is_remote = raw.get("remote", False) or "remote" in location.lower()
         remote_type = RemoteType.WORLDWIDE if is_remote else RemoteType.UNKNOWN
 
-        posted_at = None
         created = raw.get("created_at", raw.get("posted_at", ""))
-        if created:
-            try:
-                posted_at = datetime.fromisoformat(created.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(created)
 
         return JobListing(
             source=self.SOURCE_ID,
@@ -92,5 +87,7 @@ class YCombinatorAdapter(BaseAdapter):
             location=location,
             description=raw.get("description", "")[:5000],
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
         )

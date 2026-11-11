@@ -123,3 +123,4 @@ class TestRepositoryStorage:
         assert "greenhouse" in sources
         assert sources["greenhouse"]["successful_runs"] == 0
         assert "429" in sources["greenhouse"]["last_error"]
+

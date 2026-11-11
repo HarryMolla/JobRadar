@@ -7,9 +7,11 @@ from __future__ import annotations
 import re
 import logging
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from typing import Optional
 
 from backend.core.models import JobListing, MatchCategory, RemoteType, SponsorshipStatus
+from backend.core.time_utils import to_utc
 
 logger = logging.getLogger(__name__)
 
@@ -134,6 +136,8 @@ class MatchConfig:
     skill_weight_multiplier: float = 1.0
     include_wordpress: bool = True
     include_related: bool = True
+    max_posting_age_hours: float = 24.0
+    enforce_age_filter: bool = True
     # Titles that immediately score very high
     high_value_titles: list[str] = field(default_factory=lambda: [
         "ux designer", "ui designer", "ui/ux", "product designer",
@@ -144,16 +148,102 @@ class MatchConfig:
 class JobMatcher:
     """
     Transparent rule-based matcher.
-    Returns a score 0–100 and a list of human-readable reasons.
+    Enforces the strict 24-hour UTC posting age rule centrally across all sources,
+    and returns a score 0–100 with human-readable reasons.
     """
 
     def __init__(self, config: Optional[MatchConfig] = None):
         self.config = config or MatchConfig()
 
-    def match(self, job: JobListing) -> JobListing:
+    def evaluate_posting_age(
+        self, job: JobListing, now: Optional[datetime] = None
+    ) -> tuple[bool, str]:
         """
-        Score and categorize a job. Mutates job in place and returns it.
+        Verify that the job's original publication timestamp is reliable and within
+        [0, max_posting_age_hours] in UTC.
+
+        Updates job.age_hours, job.age_filter_passed, and job.exclusion_reason.
         """
+        now_utc = to_utc(now) if now is not None else datetime.now(timezone.utc)
+        if now_utc is None:
+            now_utc = now.replace(tzinfo=timezone.utc)  # type: ignore[union-attr]
+
+        effective_dt = job.posted_at
+        using_verified_repost = False
+        if effective_dt is None:
+            if job.updated_at is not None and job.is_repost:
+                effective_dt = job.updated_at
+                using_verified_repost = True
+            elif job.updated_at is not None:
+                reason = (
+                    "Excluded by age filter: source only provided last-updated timestamp, "
+                    "not original posting date"
+                )
+                job.age_filter_passed = False
+                job.exclusion_reason = reason
+                return False, reason
+            else:
+                reason = "Excluded by age filter: missing or unreliable original posting date"
+                job.age_filter_passed = False
+                job.exclusion_reason = reason
+                return False, reason
+
+        if not using_verified_repost and not job.timestamp_reliable:
+            reason = "Excluded by age filter: source posting timestamp is ambiguous or unreliable"
+            job.age_filter_passed = False
+            job.exclusion_reason = reason
+            return False, reason
+
+        posted_utc = to_utc(effective_dt)
+        if posted_utc is None:
+            reason = (
+                "Excluded by age filter: original posting timestamp lacks timezone "
+                "(cannot verify UTC age)"
+            )
+            job.age_filter_passed = False
+            job.exclusion_reason = reason
+            return False, reason
+
+        age_seconds = (now_utc - posted_utc).total_seconds()
+        age_hours = age_seconds / 3600.0
+        job.age_hours = round(age_hours, 2)
+
+        if age_seconds < 0:
+            reason = (
+                f"Excluded by age filter: posting timestamp is in the future "
+                f"({age_hours:.2f}h, unreliable)"
+            )
+            job.age_filter_passed = False
+            job.exclusion_reason = reason
+            return False, reason
+
+        max_hours = self.config.max_posting_age_hours
+        if age_hours > max_hours:
+            reason = (
+                f"Excluded by age filter: posted {age_hours:.1f}h ago "
+                f"(exceeds {max_hours:g}h limit)"
+            )
+            job.age_filter_passed = False
+            job.exclusion_reason = reason
+            return False, reason
+
+        job.age_filter_passed = True
+        job.exclusion_reason = ""
+        return True, f"Posted {age_hours:.1f}h ago (within {max_hours:g}h UTC window)"
+
+    def match(self, job: JobListing, now: Optional[datetime] = None) -> JobListing:
+        """
+        Score and categorize a job, enforcing the strict posting-age filter centrally.
+        Mutates job in place and returns it.
+        """
+        if self.config.enforce_age_filter:
+            age_ok, age_reason = self.evaluate_posting_age(job, now=now)
+            if not age_ok:
+                job.match_score = 0
+                job.match_reasons = [age_reason]
+                job.match_category = MatchCategory.IRRELEVANT
+                return job
+
         title_lower = job.title.lower()
         desc_lower = (job.description or "").lower()
         combined = f"{title_lower} {desc_lower}"
@@ -168,8 +258,10 @@ class JobMatcher:
                 # Exception: "game designer" in title but also "ux" → not excluded
                 if excl == "game designer" and "ux" in combined:
                     continue
+                reason = f"Excluded: title contains '{excl}'"
                 job.match_score = 0
-                job.match_reasons = [f"Excluded: title contains '{excl}'"]
+                job.exclusion_reason = reason
+                job.match_reasons = [reason]
                 job.match_category = MatchCategory.IRRELEVANT
                 return job
 

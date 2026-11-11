@@ -9,13 +9,13 @@ Alternative: Use Wellfound job alert emails forwarded to Gmail and parsed.
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timezone
 
 import requests
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import DEFAULT_HEADERS
 from backend.core.models import JobListing, RemoteType
+from backend.core.time_utils import parse_utc_timestamp
 
 logger = logging.getLogger(__name__)
 
@@ -123,13 +123,8 @@ class WellfoundAdapter(BaseAdapter):
         is_remote = node.get("remote", False)
         remote_type = RemoteType.WORLDWIDE if is_remote else RemoteType.RESTRICTED
 
-        posted_at = None
         live_start = node.get("liveStartDate", "")
-        if live_start:
-            try:
-                posted_at = datetime.fromisoformat(live_start.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                pass
+        posted_at, raw_ts, reliable = parse_utc_timestamp(live_start)
 
         description = node.get("description", "") or startup.get("highConcept", "")
 
@@ -142,5 +137,7 @@ class WellfoundAdapter(BaseAdapter):
             location=location,
             description=description[:5000],
             posted_at=posted_at,
+            source_timestamp_raw=raw_ts,
+            timestamp_reliable=reliable,
             remote_type=remote_type,
         )
