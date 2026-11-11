@@ -249,11 +249,51 @@ body {
 }
 .tag-remote-worldwide { background: #dbeafe; color: #1d4ed8; }
 .tag-remote-restricted { background: #f3f4f6; color: #374151; }
-.tag-sponsored { background: #ede9fe; color: #6d28d9; }
-.tag-relocation { background: #dcfce7; color: #15803d; }
+.tag-sponsored { background: #dcfce7; color: #15803d; }
+.tag-unverified { background: #f3f4f6; color: #6b7280; }
+.tag-unavailable { background: #fee2e2; color: #b91c1c; }
+.tag-relocation { background: #e0f2fe; color: #0369a1; }
 .tag-category { background: #f0f9ff; color: #0369a1; }
 .tag-salary { background: #fef3c7; color: #92400e; }
-.tag-source { background: var(--bg-secondary); color: var(--text-muted); }
+.tag-source { background: var(--bg-secondary); color: var(--text-secondary); }
+
+.filter-bar { flex-wrap: wrap; }
+.filter-bar .search-input { min-width: 100%; }
+.filter-bar .filter-select { flex: 1 1 46%; min-width: 110px; }
+
+.uae-toolbar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.uae-toolbar .filter-select { flex: 1; }
+.uae-group-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin: 10px 2px 5px;
+}
+.uae-source-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 9px 10px;
+  margin-bottom: 6px;
+}
+.uae-source-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.uae-source-name { font-weight: 600; font-size: 12.5px; color: var(--text); }
+.uae-badge-auto { background: #dcfce7; color: #15803d; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+.uae-badge-email { background: #dbeafe; color: #1d4ed8; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+.uae-badge-manual { background: #fef3c7; color: #92400e; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+.uae-source-reason { font-size: 11px; color: var(--text-secondary); margin-bottom: 6px; line-height: 1.35; }
+.uae-source-actions { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 10.5px; color: var(--text-muted); }
 
 .card-reason {
   font-size: 11px;

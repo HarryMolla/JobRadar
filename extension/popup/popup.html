@@ -49,23 +49,37 @@
       <button class="stat-pill" data-filter="applied">
         Applied <span class="pill-count" id="countApplied">0</span>
       </button>
+      <button class="stat-pill" data-filter="uae_sources">
+        🇦🇪 UAE <span class="pill-count" id="countUae">19</span>
+      </button>
     </div>
 
     <!-- Filter bar -->
-    <div class="filter-bar">
-      <input type="text" class="search-input" id="searchInput" placeholder="Search title, company, skills..." />
+    <div class="filter-bar" id="filterBar">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search title, company, Dubai, skills..." />
+      <select class="filter-select" id="sourceFilter">
+        <option value="">All Sources</option>
+      </select>
       <select class="filter-select" id="categoryFilter">
-        <option value="">All Categories</option>
-        <option value="design">Design (UI/UX/Product)</option>
-        <option value="frontend">Frontend (React/JS/TS)</option>
+        <option value="">All Roles</option>
+        <option value="design">Design (UI/UX/Brand)</option>
+        <option value="frontend">Frontend (React/Next/Web)</option>
         <option value="wordpress">WordPress</option>
+        <option value="marketing">Marketing / SEO / Content</option>
+      </select>
+      <select class="filter-select" id="visaFilter">
+        <option value="">All Visa Status</option>
+        <option value="confirmed">✓ Visa Confirmed</option>
+        <option value="not_confirmed">? Visa Unverified</option>
+        <option value="unavailable">✕ No Visa</option>
       </select>
       <select class="filter-select" id="remoteFilter">
-        <option value="">All Locations</option>
+        <option value="">All Benefits & Geo</option>
+        <option value="relocation">📦 Relocation Confirmed</option>
+        <option value="flight">✈️ Flight Covered</option>
+        <option value="accommodation">🏠 Accommodation Covered</option>
         <option value="remote_worldwide">🌍 Worldwide Remote</option>
         <option value="remote_restricted">Remote (Restricted)</option>
-        <option value="sponsored">✈️ Visa Sponsor</option>
-        <option value="relocation">📦 Relocation</option>
       </select>
     </div>
 

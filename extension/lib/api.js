@@ -84,7 +84,7 @@ export const api = {
    */
   async fetchJobsFromGitHub(repo, { branch = 'main', token = '', min_score = 0, limit = 200, max_age_hours = 24 } = {}) {
     const cleanRepo = repo.replace(/^https?:\/\/github\.com\//, '').replace(/\/+$/, '');
-    let jobs = [];
+    let data = {};
 
     if (token) {
       // Private repository access via GitHub API
@@ -96,16 +96,16 @@ export const api = {
         },
       });
       if (!resp.ok) throw new Error(`GitHub API error ${resp.status}: ${await resp.text()}`);
-      const data = await resp.json();
-      jobs = Object.values(data.jobs || {});
+      data = await resp.json();
     } else {
       // Public repository raw content
       const rawUrl = `https://raw.githubusercontent.com/${cleanRepo}/${branch}/data/job_state.json?t=${Date.now()}`;
       const resp = await fetch(rawUrl);
       if (!resp.ok) throw new Error(`GitHub fetch error ${resp.status}. For private repos, provide a GitHub Token in settings.`);
-      const data = await resp.json();
-      jobs = Object.values(data.jobs || {});
+      data = await resp.json();
     }
+
+    let jobs = Object.values(data.jobs || {});
 
     // Filter by score + strict posting age window and sort newest first
     jobs = jobs.filter((j) =>
@@ -113,6 +113,14 @@ export const api = {
     );
     jobs.sort((a, b) => new Date(b.posted_at || b.detected_at || 0) - new Date(a.posted_at || a.detected_at || 0));
 
-    return { jobs: jobs.slice(0, limit) };
+    return { jobs: jobs.slice(0, limit), uae_sources: data.uae_sources || [] };
+  },
+
+  async fetchUaeSources(baseUrl, { apiKey = '' } = {}) {
+    const headers = {};
+    if (apiKey) headers['X-API-Key'] = apiKey;
+    const resp = await fetch(`${baseUrl}/sources/uae`, { headers });
+    if (!resp.ok) throw new Error(`UAE sources API error ${resp.status}`);
+    return resp.json();
   },
 };

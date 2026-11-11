@@ -40,6 +40,7 @@ class Storage:
             "jobs": {},
             "source_runs": [],
             "recent_exclusions": [],
+            "uae_sources": [],
         }
         self.load_state()
 
@@ -68,6 +69,8 @@ class Storage:
                     self._data["source_runs"] = raw["source_runs"]
                 if "recent_exclusions" in raw and isinstance(raw["recent_exclusions"], list):
                     self._data["recent_exclusions"] = raw["recent_exclusions"]
+                if "uae_sources" in raw and isinstance(raw["uae_sources"], list):
+                    self._data["uae_sources"] = raw["uae_sources"]
                 if "version" in raw:
                     self._data["version"] = raw["version"]
                 if "stats" in raw and isinstance(raw["stats"], dict):
@@ -139,6 +142,13 @@ class Storage:
             # Preserve notified flag if already notified
             if existing.get("notified"):
                 job_dict["notified"] = True
+            # Preserve original discovery timestamps across subsequent checks
+            if existing.get("first_seen_at"):
+                job_dict["first_seen_at"] = existing["first_seen_at"]
+            if existing.get("detected_at"):
+                job_dict["detected_at"] = existing["detected_at"]
+        elif not job_dict.get("first_seen_at") and job_dict.get("detected_at"):
+            job_dict["first_seen_at"] = job_dict["detected_at"]
 
         self._data["jobs"][fp] = job_dict
         self._has_changes = True
@@ -253,6 +263,15 @@ class Storage:
         exclusions.insert(0, record)
         self._data["recent_exclusions"] = exclusions[:50]
         self._has_changes = True
+
+    def set_uae_sources(self, uae_sources: list[dict]) -> None:
+        """Persist UAE source catalog and latest check metadata for extension display."""
+        self._data["uae_sources"] = uae_sources
+        self._has_changes = True
+
+    def get_uae_sources(self) -> list[dict]:
+        """Return persisted UAE source status entries."""
+        return list(self._data.get("uae_sources", []))
 
     def get_source_stats(self) -> list[dict]:
         """Aggregate per-source run health statistics."""

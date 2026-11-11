@@ -6,7 +6,13 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional
 import pytest
 from backend.core.matcher import JobMatcher, MatchConfig
-from backend.core.models import JobListing, MatchCategory, RemoteType, SponsorshipStatus
+from backend.core.models import (
+    BenefitStatus,
+    JobListing,
+    MatchCategory,
+    RemoteType,
+    SponsorshipStatus,
+)
 from backend.core.time_utils import parse_utc_timestamp
 
 
@@ -333,5 +339,94 @@ class TestPostingAgeFilter:
         dt_iso, _, rel_iso = parse_utc_timestamp("2026-11-11T09:00:00Z")
         assert dt_iso == datetime(2026, 11, 11, 9, 0, 0, tzinfo=timezone.utc)
         assert rel_iso is True
+
+
+class TestExpandedRolesAndUAEBenefits:
+    @pytest.mark.parametrize("title", [
+        "Graphic Designer",
+        "Brand and Visual Designer",
+        "Visual Designer",
+    ])
+    def test_expanded_design_roles_match(self, matcher, title):
+        job = make_job(title)
+        matcher.match(job)
+        assert job.match_category == MatchCategory.DESIGN
+        assert job.match_score >= 45
+
+    @pytest.mark.parametrize("title", [
+        "Digital Marketing Specialist",
+        "SEO Specialist",
+        "Social Media Manager",
+        "Digital Content Creator",
+    ])
+    def test_digital_marketing_roles_match(self, matcher, title):
+        job = make_job(
+            title,
+            description="SEO, Google Analytics, social media content creation, Figma campaigns.",
+        )
+        matcher.match(job)
+        assert job.match_category == MatchCategory.MARKETING
+        assert job.match_score >= 45
+
+    def test_confirmed_benefits_tracked_separately_and_boost_score(self, matcher):
+        base = make_job("Product Designer", description="Figma design systems in Dubai, UAE.")
+        rich = make_job(
+            "Product Designer",
+            description=(
+                "Figma design systems in Dubai, UAE. Visa sponsorship provided, "
+                "relocation package available, flight ticket covered, and housing allowance included."
+            ),
+            location="Dubai, UAE",
+        )
+        matcher.match(base)
+        matcher.match(rich)
+
+        assert base.visa_sponsorship == BenefitStatus.NOT_CONFIRMED
+        assert base.relocation_support == BenefitStatus.NOT_CONFIRMED
+        assert base.flight_covered == BenefitStatus.NOT_CONFIRMED
+        assert base.accommodation_covered == BenefitStatus.NOT_CONFIRMED
+        assert base.match_score >= 45  # Still included when benefits unverified
+
+        assert rich.visa_sponsorship == BenefitStatus.CONFIRMED
+        assert rich.sponsorship == SponsorshipStatus.SPONSORED
+        assert rich.relocation_support == BenefitStatus.CONFIRMED
+        assert rich.relocation_offered is True
+        assert rich.flight_covered == BenefitStatus.CONFIRMED
+        assert rich.accommodation_covered == BenefitStatus.CONFIRMED
+        assert rich.match_score > base.match_score
+
+    def test_missing_flight_and_accommodation_stay_not_confirmed(self, matcher):
+        job = make_job(
+            "UI/UX Designer",
+            description="Employment visa provided in Abu Dhabi.",
+            location="Abu Dhabi, UAE",
+        )
+        matcher.match(job)
+        assert job.visa_sponsorship == BenefitStatus.CONFIRMED
+        assert job.relocation_support == BenefitStatus.NOT_CONFIRMED
+        assert job.flight_covered == BenefitStatus.NOT_CONFIRMED
+        assert job.accommodation_covered == BenefitStatus.NOT_CONFIRMED
+
+    def test_unavailable_benefits_recorded_and_penalized(self, matcher):
+        job = make_job(
+            "Frontend Developer",
+            description="React developer. No visa sponsorship available. No relocation support.",
+        )
+        matcher.match(job)
+        assert job.visa_sponsorship == BenefitStatus.UNAVAILABLE
+        assert job.sponsorship == SponsorshipStatus.NOT_SPONSORED
+        assert job.relocation_support == BenefitStatus.UNAVAILABLE
+
+    @pytest.mark.parametrize("raw_loc,expected_emirate", [
+        ("Dubai, United Arab Emirates", "Dubai, UAE"),
+        ("Abu Dhabi", "Abu Dhabi, UAE"),
+        ("Sharjah, UAE", "Sharjah, UAE"),
+        ("Remote - UAE", "UAE"),
+    ])
+    def test_uae_work_location_normalized(self, matcher, raw_loc, expected_emirate):
+        job = make_job("Web Developer", location=raw_loc)
+        matcher.match(job)
+        assert job.work_location == expected_emirate
+
 
 

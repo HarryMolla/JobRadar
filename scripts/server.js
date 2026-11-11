@@ -139,6 +139,14 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Get UAE sources status catalog
+  if (req.method === 'GET' && pathname === '/sources/uae') {
+    const currentDB = loadDB();
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ uae_sources: currentDB.uae_sources || [] }));
+    return;
+  }
+
   // Update job status
   if (req.method === 'POST' && pathname === '/jobs/update') {
     let body = '';

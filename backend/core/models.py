@@ -26,10 +26,17 @@ class SponsorshipStatus(str, Enum):
     UNKNOWN = "unknown"                # Not mentioned
 
 
+class BenefitStatus(str, Enum):
+    CONFIRMED = "confirmed"
+    NOT_CONFIRMED = "not_confirmed"
+    UNAVAILABLE = "unavailable"
+
+
 class MatchCategory(str, Enum):
     DESIGN = "design"
     FRONTEND = "frontend"
     WORDPRESS = "wordpress"
+    MARKETING = "marketing"
     RELATED = "related"
     IRRELEVANT = "irrelevant"
 
@@ -49,6 +56,9 @@ class JobListing:
     title: str
     company: str
     location: str = ""
+    work_location: str = ""              # normalized city/emirate (e.g., Dubai, UAE)
+    source_name: str = ""                # human-readable originating website
+    source_job_url: str = ""             # original vacancy URL
     description: str = ""
     description_html: str = ""
 
@@ -59,12 +69,18 @@ class JobListing:
     timestamp_reliable: bool = True
     is_repost: bool = False
     detected_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
+    first_seen_at: Optional[datetime] = None
+    last_checked_at: Optional[datetime] = None
 
     # Classification
     remote_type: RemoteType = RemoteType.UNKNOWN
     remote_countries: list[str] = field(default_factory=list)   # if restricted
     sponsorship: SponsorshipStatus = SponsorshipStatus.UNKNOWN
     relocation_offered: bool = False
+    visa_sponsorship: BenefitStatus = BenefitStatus.NOT_CONFIRMED
+    relocation_support: BenefitStatus = BenefitStatus.NOT_CONFIRMED
+    flight_covered: BenefitStatus = BenefitStatus.NOT_CONFIRMED
+    accommodation_covered: BenefitStatus = BenefitStatus.NOT_CONFIRMED
     employment_type: str = ""           # full-time, contract, part-time
     seniority: str = ""                 # junior, mid, senior, lead
 
@@ -85,6 +101,18 @@ class JobListing:
     notified: bool = False
     application_status: str = "new"     # new, saved, applied, dismissed
 
+    def __post_init__(self) -> None:
+        if not self.source_job_url and self.url:
+            self.source_job_url = self.url
+        if not self.url and self.source_job_url:
+            self.url = self.source_job_url
+        if not self.source_name and self.source:
+            self.source_name = self.source
+        if not self.work_location and self.location:
+            self.work_location = self.location
+        if self.first_seen_at is None:
+            self.first_seen_at = self.detected_at
+
     @property
     def fingerprint(self) -> str:
         """
@@ -100,11 +128,14 @@ class JobListing:
         return {
             "fingerprint": self.fingerprint,
             "source": self.source,
+            "source_name": self.source_name or self.source,
             "source_id": self.source_id,
             "url": self.url,
+            "source_job_url": self.source_job_url or self.url,
             "title": self.title,
             "company": self.company,
             "location": self.location,
+            "work_location": self.work_location or self.location,
             "description": self.description[:5000],
             "posted_at": self.posted_at.isoformat() if self.posted_at else None,
             "updated_at": self.updated_at.isoformat() if self.updated_at else None,
@@ -112,10 +143,16 @@ class JobListing:
             "timestamp_reliable": self.timestamp_reliable,
             "is_repost": self.is_repost,
             "detected_at": self.detected_at.isoformat(),
+            "first_seen_at": (self.first_seen_at or self.detected_at).isoformat(),
+            "last_checked_at": self.last_checked_at.isoformat() if self.last_checked_at else None,
             "remote_type": self.remote_type.value,
             "remote_countries": self.remote_countries,
             "sponsorship": self.sponsorship.value,
             "relocation_offered": self.relocation_offered,
+            "visa_sponsorship": self.visa_sponsorship.value,
+            "relocation_support": self.relocation_support.value,
+            "flight_covered": self.flight_covered.value,
+            "accommodation_covered": self.accommodation_covered.value,
             "employment_type": self.employment_type,
             "seniority": self.seniority,
             "salary_min": self.salary_min,
@@ -142,6 +179,9 @@ class JobListing:
             company=data.get("company", ""),
         )
         job.location = data.get("location", "")
+        job.work_location = data.get("work_location", job.location)
+        job.source_name = data.get("source_name", job.source)
+        job.source_job_url = data.get("source_job_url", job.url)
         job.description = data.get("description", "")
         if data.get("posted_at"):
             try:
@@ -161,10 +201,42 @@ class JobListing:
                 job.detected_at = datetime.fromisoformat(data["detected_at"])
             except (ValueError, TypeError):
                 pass
+        if data.get("first_seen_at"):
+            try:
+                job.first_seen_at = datetime.fromisoformat(data["first_seen_at"])
+            except (ValueError, TypeError):
+                job.first_seen_at = job.detected_at
+        else:
+            job.first_seen_at = job.detected_at
+        if data.get("last_checked_at"):
+            try:
+                job.last_checked_at = datetime.fromisoformat(data["last_checked_at"])
+            except (ValueError, TypeError):
+                pass
         job.remote_type = RemoteType(data.get("remote_type", RemoteType.UNKNOWN.value))
         job.remote_countries = data.get("remote_countries", [])
         job.sponsorship = SponsorshipStatus(data.get("sponsorship", SponsorshipStatus.UNKNOWN.value))
         job.relocation_offered = data.get("relocation_offered", False)
+        job.visa_sponsorship = BenefitStatus(
+            data.get(
+                "visa_sponsorship",
+                BenefitStatus.CONFIRMED.value
+                if job.sponsorship == SponsorshipStatus.SPONSORED
+                else BenefitStatus.UNAVAILABLE.value
+                if job.sponsorship == SponsorshipStatus.NOT_SPONSORED
+                else BenefitStatus.NOT_CONFIRMED.value,
+            )
+        )
+        job.relocation_support = BenefitStatus(
+            data.get(
+                "relocation_support",
+                BenefitStatus.CONFIRMED.value if job.relocation_offered else BenefitStatus.NOT_CONFIRMED.value,
+            )
+        )
+        job.flight_covered = BenefitStatus(data.get("flight_covered", BenefitStatus.NOT_CONFIRMED.value))
+        job.accommodation_covered = BenefitStatus(
+            data.get("accommodation_covered", BenefitStatus.NOT_CONFIRMED.value)
+        )
         job.employment_type = data.get("employment_type", "")
         job.seniority = data.get("seniority", "")
         job.salary_min = data.get("salary_min")

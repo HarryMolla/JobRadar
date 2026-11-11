@@ -29,10 +29,13 @@ from backend.adapters.rss_feeds import RSSFeedsAdapter
 from backend.adapters.personio import PersonioAdapter
 from backend.adapters.workday import WorkdayAdapter
 from backend.adapters.email_alerts import EmailAlertsAdapter
+from backend.adapters.sawatech import SawaTechAdapter
+from backend.adapters.prism_digital import PrismDigitalAdapter
+from backend.adapters.hays_uae import HaysUAEAdapter
 
 logger = logging.getLogger(__name__)
 
-# All registered adapters — targeting ~20 job source integrations
+# All registered adapters — remote + UAE job source integrations
 ALL_ADAPTERS: list[type[BaseAdapter]] = [
     RemoteOKAdapter,
     RemotiveAdapter,
@@ -52,6 +55,9 @@ ALL_ADAPTERS: list[type[BaseAdapter]] = [
     WorkdayAdapter,
     RSSFeedsAdapter,
     EmailAlertsAdapter,
+    SawaTechAdapter,
+    PrismDigitalAdapter,
+    HaysUAEAdapter,
 ]
 
 

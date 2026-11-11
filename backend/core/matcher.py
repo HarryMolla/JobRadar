@@ -10,7 +10,13 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Optional
 
-from backend.core.models import JobListing, MatchCategory, RemoteType, SponsorshipStatus
+from backend.core.models import (
+    BenefitStatus,
+    JobListing,
+    MatchCategory,
+    RemoteType,
+    SponsorshipStatus,
+)
 from backend.core.time_utils import to_utc
 
 logger = logging.getLogger(__name__)
@@ -22,7 +28,9 @@ logger = logging.getLogger(__name__)
 DESIGN_TITLE_KEYWORDS = [
     "ui/ux", "ui ux", "ux/ui", "ux designer", "ui designer",
     "product designer", "web designer", "interaction designer",
-    "visual designer", "figma designer", "ux researcher",
+    "visual designer", "graphic designer", "brand designer",
+    "brand and visual designer", "brand & visual designer",
+    "figma designer", "ux researcher",
     "user experience", "user interface", "design lead",
     "senior designer", "junior designer", "design engineer",
     "motion designer",  # borderline but keep
@@ -46,10 +54,19 @@ WORDPRESS_TITLE_KEYWORDS = [
     "elementor", "divi",
 ]
 
+MARKETING_TITLE_KEYWORDS = [
+    "digital marketing specialist", "digital marketing",
+    "seo specialist", "social media manager",
+    "digital content creator", "content creator",
+]
+
 SKILL_KEYWORDS = {
     "figma": 15,
     "sketch": 10,
     "adobe xd": 10,
+    "photoshop": 8,
+    "illustrator": 8,
+    "branding": 8,
     "prototyping": 8,
     "wireframe": 8,
     "design system": 12,
@@ -79,13 +96,18 @@ SKILL_KEYWORDS = {
     "svelte": 6,
     "graphql": 5,
     "rest api": 4,
+    "seo": 10,
+    "google analytics": 8,
+    "social media": 8,
+    "meta ads": 8,
+    "google ads": 8,
+    "content creation": 8,
 }
 
 EXCLUSION_KEYWORDS = [
     "data scientist", "machine learning", "deep learning",
     "devops", "sre", "infrastructure", "backend only",
     "sales", "account executive", "account manager",
-    "marketing manager", "seo specialist",
     "copywriter", "content writer",
     "game designer",  # unless combined with UX
     "print designer",
@@ -96,18 +118,56 @@ EXCLUSION_KEYWORDS = [
 ]
 
 SPONSORSHIP_POSITIVE = [
-    "visa sponsorship", "sponsor visa", "will sponsor",
-    "sponsorship available", "visa support", "work permit",
-    "relocation package", "relocation assistance",
-    "we sponsor",
+    "visa sponsorship", "employment visa provided", "residence visa provided",
+    "uae visa provided", "company provides visa", "work permit sponsorship",
+    "sponsor visa", "will sponsor", "sponsorship available", "visa support",
+    "work permit", "we sponsor",
 ]
 
 SPONSORSHIP_NEGATIVE = [
-    "no sponsorship", "no visa", "must be authorized",
-    "must be eligible to work", "no relocation",
+    "no sponsorship", "no visa sponsorship", "no visa provided", "no visa",
+    "will not sponsor", "not sponsor", "must be authorized",
+    "must be eligible to work", "must have valid uae visa", "own visa",
     "citizen only", "permanent resident only",
     "us citizen", "uk citizen", "eu citizen",
-    "right to work", "not sponsor",
+    "right to work",
+]
+
+RELOCATION_NEGATIVE = [
+    "no relocation", "relocation not provided", "relocation not offered",
+    "without relocation",
+]
+
+FLIGHT_POSITIVE = [
+    "flight ticket provided", "flight tickets provided", "annual flight",
+    "return flight", "air ticket provided", "airfare covered",
+    "flight allowance", "joining ticket", "repatriation ticket",
+]
+
+FLIGHT_NEGATIVE = [
+    "no flight", "flights not covered", "airfare not included",
+    "flight not provided",
+]
+
+ACCOMMODATION_POSITIVE = [
+    "accommodation provided", "housing provided", "company accommodation",
+    "housing allowance", "furnished accommodation", "hotel stay provided",
+    "temporary accommodation", "accommodation covered",
+]
+
+ACCOMMODATION_NEGATIVE = [
+    "no accommodation", "housing not provided", "accommodation not included",
+    "accommodation not provided",
+]
+
+UAE_EMIRATES = [
+    ("dubai", "Dubai, UAE"),
+    ("abu dhabi", "Abu Dhabi, UAE"),
+    ("sharjah", "Sharjah, UAE"),
+    ("ajman", "Ajman, UAE"),
+    ("ras al khaimah", "Ras Al Khaimah, UAE"),
+    ("fujairah", "Fujairah, UAE"),
+    ("umm al quwain", "Umm Al Quwain, UAE"),
 ]
 
 REMOTE_WORLDWIDE_SIGNALS = [
@@ -277,29 +337,49 @@ class JobMatcher:
         score += min(skill_score, 35)  # cap skill bonus
         reasons.extend(skill_reasons)
 
-        # --- Determine remote type ---
+        # --- Determine remote type, benefits & UAE location ---
         job.remote_type = self._detect_remote(combined, job.location)
-        job.sponsorship = self._detect_sponsorship(combined)
-        job.relocation_offered = any(s in combined for s in RELOCATION_SIGNALS)
+        job.work_location = self._detect_work_location(job.location, combined) or job.location
+
+        job.visa_sponsorship = self._detect_visa_benefit(combined)
+        if job.visa_sponsorship == BenefitStatus.CONFIRMED:
+            job.sponsorship = SponsorshipStatus.SPONSORED
+        elif job.visa_sponsorship == BenefitStatus.UNAVAILABLE:
+            job.sponsorship = SponsorshipStatus.NOT_SPONSORED
+        else:
+            job.sponsorship = SponsorshipStatus.UNKNOWN
+
+        job.relocation_support = self._detect_relocation_benefit(combined)
+        job.relocation_offered = job.relocation_support == BenefitStatus.CONFIRMED
+        job.flight_covered = self._detect_benefit(combined, FLIGHT_POSITIVE, FLIGHT_NEGATIVE)
+        job.accommodation_covered = self._detect_benefit(
+            combined, ACCOMMODATION_POSITIVE, ACCOMMODATION_NEGATIVE
+        )
 
         # --- Seniority extraction ---
         job.seniority = self._extract_seniority(title_lower + " " + desc_lower[:500])
 
-        # --- Ethiopian eligibility bonus ---
+        # --- Eligibility & benefit priority bonuses ---
         if job.remote_type == RemoteType.WORLDWIDE:
             score += 10
             reasons.append("Remote worldwide — eligible from Ethiopia")
-        elif job.sponsorship == SponsorshipStatus.SPONSORED:
-            score += 15
-            reasons.append("Visa sponsorship explicitly mentioned")
-        elif job.relocation_offered:
-            score += 8
-            reasons.append("Relocation package mentioned")
         elif job.remote_type == RemoteType.RESTRICTED:
-            # Penalize restricted remote unless Ethiopia/Africa mentioned
-            if not any(c in combined for c in ["ethiopia", "africa", "worldwide"]):
+            if not any(c in combined for c in ["ethiopia", "africa", "worldwide", "uae", "dubai", "abu dhabi"]):
                 score = max(0, score - 10)
                 reasons.append("Remote restricted — may not include Ethiopia")
+
+        if job.visa_sponsorship == BenefitStatus.CONFIRMED:
+            score += 15
+            reasons.append("Visa sponsorship confirmed")
+        if job.relocation_support == BenefitStatus.CONFIRMED:
+            score += 8
+            reasons.append("Relocation support confirmed")
+        if job.flight_covered == BenefitStatus.CONFIRMED:
+            score += 5
+            reasons.append("Flight ticket covered")
+        if job.accommodation_covered == BenefitStatus.CONFIRMED:
+            score += 5
+            reasons.append("Accommodation covered")
 
         # --- Clamp ---
         score = max(0, min(100, score))
@@ -339,6 +419,15 @@ class JobMatcher:
                     category = MatchCategory.FRONTEND
                     break
 
+        # Digital Marketing / SEO / Social Media / Content Creator
+        if category == MatchCategory.IRRELEVANT:
+            for kw in MARKETING_TITLE_KEYWORDS:
+                if kw in title:
+                    score = 55
+                    reasons.append(f"Title matches digital marketing role: '{kw}'")
+                    category = MatchCategory.MARKETING
+                    break
+
         return score, reasons, category
 
     def _score_skills(self, text: str) -> tuple[int, list[str]]:
@@ -371,13 +460,51 @@ class JobMatcher:
         return RemoteType.UNKNOWN
 
     def _detect_sponsorship(self, text: str) -> SponsorshipStatus:
-        for phrase in SPONSORSHIP_POSITIVE:
+        status = self._detect_visa_benefit(text)
+        if status == BenefitStatus.CONFIRMED:
+            return SponsorshipStatus.SPONSORED
+        if status == BenefitStatus.UNAVAILABLE:
+            return SponsorshipStatus.NOT_SPONSORED
+        return SponsorshipStatus.UNKNOWN
+
+    def _detect_benefit(
+        self, text: str, positive: list[str], negative: list[str]
+    ) -> BenefitStatus:
+        for phrase in negative:
             if phrase in text:
-                return SponsorshipStatus.SPONSORED
+                return BenefitStatus.UNAVAILABLE
+        for phrase in positive:
+            if phrase in text:
+                return BenefitStatus.CONFIRMED
+        return BenefitStatus.NOT_CONFIRMED
+
+    def _detect_visa_benefit(self, text: str) -> BenefitStatus:
+        # Check negative phrases first so "no visa sponsorship" never triggers "visa sponsorship"
         for phrase in SPONSORSHIP_NEGATIVE:
             if phrase in text:
-                return SponsorshipStatus.NOT_SPONSORED
-        return SponsorshipStatus.UNKNOWN
+                return BenefitStatus.UNAVAILABLE
+        for phrase in SPONSORSHIP_POSITIVE:
+            if phrase in text:
+                return BenefitStatus.CONFIRMED
+        return BenefitStatus.NOT_CONFIRMED
+
+    def _detect_relocation_benefit(self, text: str) -> BenefitStatus:
+        for phrase in RELOCATION_NEGATIVE:
+            if phrase in text:
+                return BenefitStatus.UNAVAILABLE
+        for phrase in RELOCATION_SIGNALS:
+            if phrase in text:
+                return BenefitStatus.CONFIRMED
+        return BenefitStatus.NOT_CONFIRMED
+
+    def _detect_work_location(self, location: str, text: str) -> str:
+        loc_lower = (location or "").lower()
+        for token, canonical in UAE_EMIRATES:
+            if token in loc_lower or token in text:
+                return canonical
+        if "united arab emirates" in loc_lower or re.search(r"\buae\b", loc_lower):
+            return "UAE"
+        return location or ""
 
     def _extract_seniority(self, text: str) -> str:
         if any(w in text for w in ["lead", "principal", "staff", "head of"]):

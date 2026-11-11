@@ -27,9 +27,12 @@ def run_collection() -> None:
     from backend.core.matcher import JobMatcher, MatchConfig
     from backend.core.storage import Storage
     from backend.core.deduplicator import Deduplicator
+    from backend.core.http_client import clear_cache
     from backend.core.notifier import GmailNotifier, TelegramNotifier
     from backend.adapters.registry import get_enabled_adapters, load_sources_config
+    from backend.adapters.uae_sources import build_uae_source_status
 
+    clear_cache()
     config = get_config()
 
     # Validate config
@@ -69,6 +72,16 @@ def run_collection() -> None:
             if result.error:
                 logger.warning("%s: %s", result.source, result.error)
             continue
+
+        # Record verified check time and human-readable source name only on successful run
+        checked_at_utc = datetime.now(timezone.utc)
+        for job in result.jobs:
+            if job.last_checked_at is None:
+                job.last_checked_at = checked_at_utc
+            if not job.source_name or job.source_name == job.source:
+                job.source_name = adapter.DISPLAY_NAME
+            if not job.source_job_url:
+                job.source_job_url = job.url
 
         # Match jobs (enforces strict UTC posting age filter centrally)
         matched = []
@@ -182,7 +195,8 @@ def run_collection() -> None:
     else:
         logger.info("No eligible new jobs for notification (threshold=%d, max_age=%.1fh)", config.notification_min_score, config.max_posting_age_hours)
 
-    # Persist all updates to repository storage
+    # Refresh UAE source catalog health and persist all updates to repository storage
+    storage.set_uae_sources(build_uae_source_status(storage._data.get("source_runs", [])))
     storage.save_state()
 
     # Summary

@@ -134,33 +134,55 @@ class GmailNotifier:
         for job in jobs:
             score = job.get("match_score", 0)
             reasons = "; ".join(job.get("match_reasons", [])[:3])
+            location = job.get("work_location") or job.get("location", "?")
+            source_name = job.get("source_name") or job.get("source", "?")
+            apply_url = job.get("source_job_url") or job.get("url", "#")
+            visa = job.get("visa_sponsorship", "not_confirmed")
+            reloc = job.get("relocation_support", "not_confirmed")
+            flight = job.get("flight_covered", "not_confirmed")
+            accom = job.get("accommodation_covered", "not_confirmed")
+            age_label = f" ({job['age_hours']}h ago)" if job.get("age_hours") is not None else ""
             salary = ""
             if job.get("salary_min"):
                 salary = f"{job.get('salary_currency','')} {job['salary_min']:,}"
                 if job.get("salary_max"):
                     salary += f" – {job['salary_max']:,}"
+
+            benefit_lines = []
+            if visa == "confirmed" or job.get("sponsorship") == "sponsored":
+                benefit_lines.append('<p style="color:#15803d;margin:0 0 4px 0;font-size:12px;">✓ Visa sponsorship confirmed</p>')
+            elif visa == "unavailable" or job.get("sponsorship") == "not_sponsored":
+                benefit_lines.append('<p style="color:#b91c1c;margin:0 0 4px 0;font-size:12px;">✕ Visa sponsorship unavailable</p>')
+            else:
+                benefit_lines.append('<p style="color:#6b7280;margin:0 0 4px 0;font-size:12px;">? Visa sponsorship not confirmed</p>')
+            if reloc == "confirmed" or job.get("relocation_offered"):
+                benefit_lines.append('<p style="color:#1d4ed8;margin:0 0 4px 0;font-size:12px;">📦 Relocation support confirmed</p>')
+            if flight == "confirmed":
+                benefit_lines.append('<p style="color:#0369a1;margin:0 0 4px 0;font-size:12px;">✈️ Flight ticket covered</p>')
+            if accom == "confirmed":
+                benefit_lines.append('<p style="color:#0369a1;margin:0 0 4px 0;font-size:12px;">🏠 Accommodation covered</p>')
+
             rows.append(f"""
 <div style="border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin-bottom:12px;font-family:sans-serif;">
   <h3 style="margin:0 0 4px 0;color:#1a1a2e;">
-    <a href="{job.get('url','#')}" style="color:#1a1a2e;text-decoration:none;">
+    <a href="{apply_url}" style="color:#1a1a2e;text-decoration:none;">
       {job.get('title','Unknown')}
     </a>
   </h3>
   <p style="margin:0 0 8px 0;color:#555;">
-    {job.get('company','?')} · {job.get('location','?')}
+    {job.get('company','?')} · {location}
     {f' · {job.get("remote_type","").replace("_"," ").title()}' if job.get('remote_type') else ''}
   </p>
   {'<p style="color:#27ae60;margin:0 0 4px 0;">💰 ' + salary + '</p>' if salary else ''}
   <p style="color:#e67e22;margin:0 0 4px 0;font-size:13px;">Match score: {score}/100</p>
   <p style="color:#666;margin:0 0 8px 0;font-size:12px;">Why: {reasons}</p>
-  {'<p style="color:#8e44ad;margin:0 0 4px 0;font-size:12px;">✈️ Visa sponsorship available</p>' if job.get('sponsorship') == 'sponsored' else ''}
-  {'<p style="color:#3498db;margin:0 0 4px 0;font-size:12px;">📦 Relocation offered</p>' if job.get('relocation_offered') else ''}
-  <a href="{job.get('url','#')}" style="display:inline-block;background:#1a1a2e;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-size:14px;margin-top:4px;">
+  {''.join(benefit_lines)}
+  <a href="{apply_url}" style="display:inline-block;background:#1a1a2e;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-size:14px;margin-top:4px;">
     Apply Now →
   </a>
   <p style="color:#999;font-size:11px;margin:8px 0 0 0;">
-    Source: {job.get('source','?')} · Detected: {job.get('detected_at','?')[:10]}
-    {' · Posted: ' + job['posted_at'][:10] if job.get('posted_at') else ''}
+    Source: {source_name} · First seen: {job.get('detected_at','?')[:16]}
+    {' · Posted: ' + str(job.get('posted_at'))[:16] + age_label if job.get('posted_at') else ''}
   </p>
 </div>""")
         return f"""

@@ -68,6 +68,9 @@
             <input type="checkbox" name="category" value="wordpress" checked /> WordPress & Web Development
           </label>
           <label class="checkbox-label">
+            <input type="checkbox" name="category" value="marketing" checked /> Digital Marketing, SEO & Social Media
+          </label>
+          <label class="checkbox-label">
             <input type="checkbox" name="category" value="related" /> Related Design/Dev Roles
           </label>
         </div>
@@ -97,7 +100,7 @@
       <div class="note">
         <strong>📌 Note on 24/7 Monitoring:</strong><br/>
         Local Chrome notifications require the browser to be running. 
-        However, the <strong>GitHub Actions collector</strong> runs independently in the cloud on a 45-minute schedule and sends <strong>Gmail notifications</strong> directly to your email inbox even when your computer is turned off.
+        However, the <strong>GitHub Actions collector</strong> runs independently in the cloud every <strong>6 hours</strong> (<code>0 */6 * * *</code>) and sends <strong>Gmail notifications</strong> directly to your email inbox even when your computer is turned off.
       </div>
     </section>
 

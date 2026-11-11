@@ -9,6 +9,7 @@ const JOBS_KEY = 'jobradar_jobs';
 const SETTINGS_KEY = 'jobradar_settings';
 const SYNC_KEY = 'jobradar_last_sync';
 const FINGERPRINTS_KEY = 'jobradar_fingerprints';
+const UAE_SOURCES_KEY = 'jobradar_uae_sources';
 
 export const storage = {
   async getSettings() {
@@ -107,6 +108,15 @@ export const storage = {
   async getLastSync() {
     const result = await chrome.storage.local.get(SYNC_KEY);
     return result[SYNC_KEY] || null;
+  },
+
+  async setUaeSources(sources) {
+    await chrome.storage.local.set({ [UAE_SOURCES_KEY]: sources || [] });
+  },
+
+  async getUaeSources() {
+    const result = await chrome.storage.local.get(UAE_SOURCES_KEY);
+    return result[UAE_SOURCES_KEY] || [];
   },
 
   async clearAll() {

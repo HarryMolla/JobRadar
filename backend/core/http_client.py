@@ -30,8 +30,18 @@ DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Cache robots.txt per domain to avoid repeated fetches
-_robots_cache: dict[str, RobotFileParser] = {}
+# Cache robots.txt and optional per-run GET responses to reduce duplicate requests
+_robots_cache: dict[str, Optional[RobotFileParser]] = {}
+_response_cache: dict[str, requests.Response] = {}
+
+
+class PermanentHTTPError(requests.HTTPError):
+    """HTTP 4xx client error (e.g. 403/404) that should not be retried."""
+
+
+def clear_cache() -> None:
+    """Clear the per-run HTTP GET response cache."""
+    _response_cache.clear()
 
 
 def _get_robots(domain: str, timeout: int = 10) -> Optional[RobotFileParser]:
@@ -89,12 +99,17 @@ def get(
     delay: Optional[float] = None,
     check_robots: bool = True,
     session: Optional[requests.Session] = None,
+    use_cache: bool = False,
 ) -> requests.Response:
     """
-    HTTP GET with rate limiting, robots.txt checking, and retry.
-    Raises requests.HTTPError on 4xx/5xx.
+    HTTP GET with rate limiting, robots.txt checking, caching, and retry.
+    Raises requests.HTTPError on 5xx / 429 after retries, PermanentHTTPError on 4xx.
     Raises PermissionError if robots.txt disallows.
     """
+    cache_key = f"{url}::{sorted((params or {}).items())}"
+    if use_cache and cache_key in _response_cache:
+        return _response_cache[cache_key]
+
     if check_robots and not is_allowed(url):
         raise PermissionError(f"robots.txt disallows: {url}")
 
@@ -116,18 +131,23 @@ def get(
     )
     def _do_get() -> requests.Response:
         resp = client.get(url, headers=merged_headers, params=params, timeout=timeout)
-        # Retry on 429 / 5xx
+        # Retry on 429 / 5xx; fail fast on permanent 4xx (403/404) without wasting Actions minutes
         if resp.status_code == 429:
-            retry_after = int(resp.headers.get("Retry-After", "60"))
+            retry_after = min(int(resp.headers.get("Retry-After", "60")), 60)
             logger.warning("Rate limited by %s — sleeping %ds", domain, retry_after)
             time.sleep(retry_after)
             raise requests.HTTPError(response=resp)
         if resp.status_code >= 500:
             raise requests.HTTPError(response=resp)
-        resp.raise_for_status()
         return resp
 
-    return _do_get()
+    resp = _do_get()
+    if 400 <= resp.status_code < 500:
+        raise PermanentHTTPError(f"HTTP {resp.status_code} for {url}", response=resp)
+    resp.raise_for_status()
+    if use_cache:
+        _response_cache[cache_key] = resp
+    return resp
 
 
 def get_json(url: str, **kwargs) -> dict:

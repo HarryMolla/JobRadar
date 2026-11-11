@@ -39,7 +39,7 @@ function loadSettingsToUI() {
   syncIntervalSelect.value = String(settings.syncIntervalMinutes || 30);
 
   // Categories
-  const cats = settings.categories || ['design', 'frontend', 'wordpress'];
+  const cats = settings.categories || ['design', 'frontend', 'wordpress', 'marketing'];
   document.querySelectorAll('[name="category"]').forEach((cb) => {
     cb.checked = cats.includes(cb.value);
   });

@@ -74,3 +74,41 @@ class TestDeduplicator:
     def test_empty_batch_returns_empty(self, deduplicator):
         assert deduplicator.filter_new([]) == []
 
+    def test_cross_source_same_title_and_company_deduplicated(self, deduplicator):
+        job_a = JobListing(
+            source="sawatech",
+            source_id="sw-1",
+            url="https://sawatech.com/jobs/ui-ux?utm_source=feed",
+            title="Senior UI/UX Designer!",
+            company="Acme Digital LLC",
+        )
+        job_b = JobListing(
+            source="hays_uae",
+            source_id="hy-99",
+            url="https://www.hays.ae/job-detail/ui-ux-designer_99",
+            title="Senior UI UX Designer",
+            company="Acme Digital LLC",
+        )
+        result = deduplicator.filter_new([job_a, job_b])
+        assert len(result) == 1
+        assert result[0].source == "sawatech"
+
+    def test_canonical_url_strips_tracking_params(self, deduplicator):
+        job_a = JobListing(
+            source="prism_digital",
+            source_id="p-1",
+            url="https://www.prism-me.com/careers/seo-lead/?utm_source=linkedin&trk=123",
+            title="SEO Specialist",
+            company="Prism Digital",
+        )
+        job_b = JobListing(
+            source="prism_digital",
+            source_id="p-2",
+            url="https://www.prism-me.com/careers/seo-lead",
+            title="SEO Lead",
+            company="OtherCo",
+        )
+        deduplicator.mark_seen(job_a)
+        assert deduplicator.is_new(job_b) is False
+
+

@@ -26,7 +26,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
       minScore: 50,
       syncIntervalMinutes: SYNC_INTERVAL_MINUTES,
       notificationsEnabled: true,
-      categories: ['design', 'frontend', 'wordpress'],
+      categories: ['design', 'frontend', 'wordpress', 'marketing'],
       theme: 'system',
     });
   }
@@ -75,7 +75,7 @@ async function syncJobs() {
   const settings = await storage.getSettings();
   const apiUrl = settings.apiUrl || 'http://127.0.0.1:8765';
   const minScore = settings.minScore || 50;
-  const categories = settings.categories || ['design', 'frontend', 'wordpress'];
+  const categories = settings.categories || ['design', 'frontend', 'wordpress', 'marketing'];
 
   let newJobCount = 0;
 
@@ -90,6 +90,14 @@ async function syncJobs() {
         limit: 200,
         apiKey: settings.apiKey || '',
       });
+      try {
+        const uaeRes = await api.fetchUaeSources(apiUrl, { apiKey: settings.apiKey || '' });
+        if (Array.isArray(uaeRes?.uae_sources) && uaeRes.uae_sources.length > 0) {
+          await storage.setUaeSources(uaeRes.uae_sources);
+        }
+      } catch {
+        // Ignore if UAE sources endpoint not available
+      }
     } else if (settings.githubRepo) {
       // Direct Cloud Mode: fetch data/job_state.json directly from GitHub
       result = await api.fetchJobsFromGitHub(settings.githubRepo, {
@@ -98,6 +106,9 @@ async function syncJobs() {
         min_score: minScore,
         limit: 200,
       });
+      if (Array.isArray(result?.uae_sources) && result.uae_sources.length > 0) {
+        await storage.setUaeSources(result.uae_sources);
+      }
     } else {
       throw new Error('Local API is offline. Run "node scripts/server.js" or enter your GitHub Repo in Settings.');
     }

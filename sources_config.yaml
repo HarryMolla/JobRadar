@@ -89,6 +89,35 @@ rss_feeds:
     company: ""
     remote_type: "remote_worldwide"
 
+# --- UAE adapter settings ---
+sawatech_max_details: 10
+prism_max_pages: 2
+prism_max_details: 12
+hays_max_details: 10
+
+uae_search_keywords:
+  - "visa sponsorship"
+  - "employment visa provided"
+  - "relocation assistance"
+  - "international candidates"
+  - "overseas applicants"
+  - "flight ticket provided"
+  - "accommodation provided"
+  - "work permit sponsorship"
+  - "UI UX Designer"
+  - "Product Designer"
+  - "Frontend Developer"
+  - "WordPress Developer"
+  - "Digital Marketing Specialist"
+
+uae_locations:
+  - "Dubai"
+  - "Abu Dhabi"
+  - "Sharjah"
+  - "Ajman"
+  - "Ras Al Khaimah"
+  - "UAE"
+
 # --- Disabled sources ---
 # Add SOURCE_IDs here to temporarily silence them
 disabled_sources: []

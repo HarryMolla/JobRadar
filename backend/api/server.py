@@ -109,6 +109,11 @@ class JobRadarHandler(BaseHTTPRequestHandler):
                 stats = storage.get_source_stats()
                 self._send_json({"sources": stats})
 
+            elif path == "/sources/uae":
+                from backend.adapters.uae_sources import build_uae_source_status
+                uae_sources = build_uae_source_status(storage._data.get("source_runs", []))
+                self._send_json({"uae_sources": uae_sources})
+
             elif path == "/health":
                 self._send_json({"status": "ok", "version": "1.0.0"})
 
