@@ -1,4 +1,4 @@
-# 🎯 JobRadar — Automated Job Search System & Chrome Extension
+# JobRadar — Automated Job Search System & Chrome Extension
 
 JobRadar is an automated, free-to-run job monitoring system designed specifically for **UI/UX Designers**, **Frontend Engineers**, and **WordPress Developers** living in **Ethiopia** (or seeking worldwide remote, visa sponsorship, or relocation opportunities).
 
@@ -8,7 +8,7 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Automated Cloud Collection (Every 6 Hours)**: Runs at 00:00, 06:00, 12:00, and 18:00 UTC on GitHub Actions (`0 */6 * * *`).
 - **Minimal Actions Quota**: 4 runs/day × 30 days = 120 runs/month (~180 minutes total, using under **10%** of your GitHub 2,000 monthly free allowance).
@@ -41,7 +41,7 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 
 ---
 
-## 🏗️ Architecture & Free Quotas
+## Architecture & Free Quotas
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -72,7 +72,7 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 
 ---
 
-## 📊 Actions Minutes & 6-Hour Schedule Budget
+## Actions Minutes & 6-Hour Schedule Budget
 
 | Metric | Calculation | Notes |
 |---|---|---|
@@ -88,7 +88,7 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 
 ---
 
-## 📋 Implemented Job Source Integrations
+## Implemented Job Source Integrations
 
 | # | Source | Adapter | Integration Method | Status |
 |---|--------|---------|--------------------|--------|
@@ -125,7 +125,7 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 
 ---
 
-## 🚀 Setup & Deployment Guide
+## Setup & Deployment Guide
 
 ### Step 1: Push Changes to GitHub
 
@@ -203,11 +203,11 @@ Optional repository **Variables** (**Settings → Secrets and variables → Acti
 4. Click the gear icon in the extension to open **Settings**:
    - **Direct Cloud Mode (No server needed)**: Enter your GitHub repository (`HarryMolla/JobRadar`) to fetch live jobs directly from GitHub!
    - **Local Server Mode**: Or run `node scripts/server.js` and connect to `http://127.0.0.1:8765`.
-5. Click **Sync** (🔄) to view new jobs, save favorites, mark applied, or click direct **Apply →** links.
+5. Click **Sync** to view new jobs, save favorites, mark applied, or click direct **Apply →** links.
 
 ---
 
-## 🧪 Automated Testing
+## Automated Testing
 
 Run the test suite to verify matching, deduplication, and repository state storage:
 
@@ -219,7 +219,7 @@ All tests pass without requiring any external database connections.
 
 ---
 
-## 🛠️ Troubleshooting & Rollback
+## Troubleshooting & Rollback
 
 - **GitHub Workflow Permission Error (`403 Resource not accessible by integration`)**:
   - Go to your repo **Settings → Actions → General → Workflow permissions**.
