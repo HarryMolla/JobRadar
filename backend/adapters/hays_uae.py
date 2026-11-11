@@ -85,12 +85,20 @@ class HaysUAEAdapter(BaseAdapter):
         if "remote" in f"{title} {location} {description}".lower():
             remote_type = RemoteType.RESTRICTED
 
+        apply_url = str(
+            ld.get("applicationUrl")
+            or ld.get("applyUrl")
+            or (ld.get("url") if ld.get("url") and ld.get("url") != url else "")
+            or ""
+        ).strip()
+
         return JobListing(
             source=self.SOURCE_ID,
             source_name=self.DISPLAY_NAME,
             source_id=f"hy_{slug[:64]}",
-            url=url,
+            url=apply_url or url,
             source_job_url=url,
+            apply_url=apply_url,
             title=title,
             company=company.strip(),
             location=location,

@@ -113,11 +113,13 @@ The system continuously scans **~20 real job sources** every 6 hours, filters op
 | 19 | **SawaTech (UAE)** | `sawatech.py` | Public WordPress RSS (`/jobs/feed/`) + JSON-LD | ✅ Active |
 | 20 | **Prism Digital (UAE)** | `prism_digital.py` | Public Next.js `__NEXT_DATA__` careers feed (`createdAt` verified) | ✅ Active |
 | 21 | **Hays UAE** | `hays_uae.py` | Public `/job-search` + Schema.org `JobPosting` JSON-LD (24h UTC timestamps enforced) | ✅ Active |
+| 22 | **Himalayas** | `himalayas.py` | Public cursor-paginated `/jobs/api` + permitted `/jobs/api/search` (Unix UTC `pubDate` + direct `applicationLink`) | ✅ Active |
 
-### 🇦🇪 UAE Job Sources, Target Roles & Benefits
+### 🇦🇪 UAE Job Sources, Target Roles, Direct Apply Links & Benefits
 
 - **Automated UAE Adapters (3):** `SawaTech`, `Prism Digital`, and `Hays UAE` (permitted public RSS / Next.js JSON / Schema.org `JobPosting` endpoints, strictly subject to the central 24-hour UTC `posted_at` rule — date-only strings like `YYYY-MM-DD` are marked unreliable and excluded from notifications).
-- **Email-Alert & Manual-Search UAE Sources (16):** `Bayt`, `Indeed UAE`, `Dubizzle Jobs`, `GulfTalent`, `Naukrigulf`, `LinkedIn Jobs UAE`, `Foundit Gulf`, `Glassdoor UAE`, `Laimoon`, `Gulf News`, `Dubai Careers`, `Abu Dhabi TAMM`, `UAE FAHR`, `Sharjah HR`, `Michael Page UAE`, and `Emirates Group` are tracked in the **🇦🇪 UAE 19** extension tab and `/sources/uae` API with instant UAE keyword + Emirate manual search links (without bypassing Cloudflare/Akamai WAF blocks, UAE PASS logins, or `robots.txt` rules).
+- **Email-Alert & Manual-Search UAE Sources (16):** `Bayt`, `Indeed UAE`, `Dubizzle Jobs`, `GulfTalent`, `Naukrigulf`, `LinkedIn Jobs UAE`, `Foundit Gulf`, `Glassdoor UAE`, `Laimoon`, `Gulf News`, `Dubai Careers`, `Abu Dhabi TAMM`, `UAE FAHR`, `Sharjah HR`, `Michael Page UAE`, and `Emirates Group` are tracked alongside live 24-hour UAE job cards in the **🇦🇪 UAE** extension tab (with paired Keyword/Source + Location dropdown filters and collapsible portal directory) and `/sources/uae` API.
+- **Direct Apply & Job Detail Links Across All Sources:** Each listing separates `apply_url` (direct employer/ATS application URL) and `source_job_url` (individual job detail page), rejects generic `/careers` / `/jobs` / search URLs without fabricating unverified links, and displays `Direct link unavailable` when neither exists.
 - **Expanded Target Roles:** UI/UX, Product, Web, Graphic, and Brand & Visual Designers; Frontend, React, Next.js, WordPress, and Web Developers; Digital Marketing, SEO, Social Media, and Digital Content Creators.
 - **Separate Benefit Verification:** Jobs report `visa_sponsorship`, `relocation_support`, `flight_covered`, and `accommodation_covered` independently (`confirmed`, `not_confirmed`, or `unavailable`) across backend scoring, Gmail alerts, and Chrome extension badges — never assuming unmentioned benefits are covered.
 

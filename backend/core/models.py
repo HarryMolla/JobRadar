@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 from enum import Enum
 from typing import Optional
 
+from backend.core.url_utils import resolve_job_urls
+
 
 class RemoteType(str, Enum):
     WORLDWIDE = "remote_worldwide"      # Explicitly open to all countries
@@ -58,7 +60,8 @@ class JobListing:
     location: str = ""
     work_location: str = ""              # normalized city/emirate (e.g., Dubai, UAE)
     source_name: str = ""                # human-readable originating website
-    source_job_url: str = ""             # original vacancy URL
+    source_job_url: str = ""             # exact individual job-detail URL on originating site
+    apply_url: str = ""                  # direct employer/ATS application URL when available
     description: str = ""
     description_html: str = ""
 
@@ -102,10 +105,14 @@ class JobListing:
     application_status: str = "new"     # new, saved, applied, dismissed
 
     def __post_init__(self) -> None:
-        if not self.source_job_url and self.url:
-            self.source_job_url = self.url
-        if not self.url and self.source_job_url:
-            self.url = self.source_job_url
+        primary_url, valid_apply, valid_detail = resolve_job_urls(
+            apply_url=self.apply_url,
+            detail_url=self.source_job_url,
+            fallback_url=self.url,
+        )
+        self.apply_url = valid_apply
+        self.source_job_url = valid_detail or primary_url
+        self.url = primary_url
         if not self.source_name and self.source:
             self.source_name = self.source
         if not self.work_location and self.location:
@@ -132,6 +139,7 @@ class JobListing:
             "source_id": self.source_id,
             "url": self.url,
             "source_job_url": self.source_job_url or self.url,
+            "apply_url": self.apply_url,
             "title": self.title,
             "company": self.company,
             "location": self.location,
@@ -181,7 +189,16 @@ class JobListing:
         job.location = data.get("location", "")
         job.work_location = data.get("work_location", job.location)
         job.source_name = data.get("source_name", job.source)
+        job.apply_url = data.get("apply_url", "")
         job.source_job_url = data.get("source_job_url", job.url)
+        primary_url, valid_apply, valid_detail = resolve_job_urls(
+            apply_url=job.apply_url,
+            detail_url=job.source_job_url,
+            fallback_url=job.url,
+        )
+        job.apply_url = valid_apply
+        job.source_job_url = valid_detail or primary_url
+        job.url = primary_url
         job.description = data.get("description", "")
         if data.get("posted_at"):
             try:

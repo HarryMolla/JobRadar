@@ -220,6 +220,30 @@ function scoreJob(job) {
 }
 
 // --- Live fetchers ---
+function isValidJobUrl(rawUrl) {
+  if (!rawUrl || typeof rawUrl !== 'string') return false;
+  const trimmed = rawUrl.trim();
+  if (!trimmed || trimmed.startsWith('#')) return false;
+  try {
+    const parsed = new URL(trimmed);
+    if (!['http:', 'https:'].includes(parsed.protocol)) return false;
+    const normPath = parsed.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+    const genericPaths = new Set([
+      '', 'apply', 'jobs', 'job', 'careers', 'career', 'vacancies', 'openings',
+      'job-search', 'search', 'search-and-apply', 'remote-jobs', 'j', 'o', 'job-detail'
+    ]);
+    const hasJobIdParam = ['id', 'jobid', 'job_id', 'gh_jid', 'jk', 'vjk', 'postingid'].some((k) => parsed.searchParams.has(k));
+    if (hasJobIdParam) return true;
+    if (genericPaths.has(normPath)) return false;
+    if (['/jobs', '/careers', '/job-search', '/search-and-apply', '/j', '/job', '/o'].some((s) => normPath.endsWith(s))) {
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function fetchRemoteOK() {
   console.log('Fetching live jobs from RemoteOK API...');
   try {
@@ -230,21 +254,77 @@ async function fetchRemoteOK() {
     const data = await res.json();
     const rawJobs = Array.isArray(data) ? data.filter(d => d && d.id) : [];
 
-    return rawJobs.map(raw => ({
-      source: 'remoteok',
-      source_id: String(raw.id),
-      url: raw.url || `https://remoteok.com/remote-jobs/${raw.id}`,
-      title: raw.position || '',
-      company: raw.company || '',
-      location: raw.location || 'Remote Worldwide',
-      description: `${(raw.tags || []).join(', ')}\n\n${raw.description || ''}`,
-      posted_at: raw.date || raw.epoch || null,
-      salary_min: raw.salary_min ? parseInt(raw.salary_min) : null,
-      salary_max: raw.salary_max ? parseInt(raw.salary_max) : null,
-      salary_currency: 'USD'
-    }));
+    return rawJobs.map(raw => {
+      const detailUrl = isValidJobUrl(raw.url) ? raw.url : '';
+      const applyUrl = isValidJobUrl(raw.apply_url) ? raw.apply_url : '';
+      return {
+        source: 'remoteok',
+        source_name: 'Remote OK',
+        source_id: String(raw.id),
+        url: applyUrl || detailUrl,
+        source_job_url: detailUrl,
+        apply_url: applyUrl,
+        title: raw.position || '',
+        company: raw.company || '',
+        location: raw.location || 'Remote Worldwide',
+        description: `${(raw.tags || []).join(', ')}\n\n${raw.description || ''}`,
+        posted_at: raw.date || raw.epoch || null,
+        salary_min: raw.salary_min ? parseInt(raw.salary_min) : null,
+        salary_max: raw.salary_max ? parseInt(raw.salary_max) : null,
+        salary_currency: 'USD'
+      };
+    });
   } catch (err) {
     console.error('RemoteOK fetch failed:', err.message);
+    return [];
+  }
+}
+
+async function fetchHimalayas() {
+  console.log('Fetching live jobs from Himalayas API...');
+  try {
+    const res = await fetch('https://himalayas.app/jobs/api?limit=20', {
+      headers: { 'User-Agent': 'JobRadar-Bot/1.0' }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const rawJobs = data.jobs || [];
+
+    return rawJobs.map(raw => {
+      const detailUrl = isValidJobUrl(raw.guid) ? raw.guid : '';
+      let applyUrl = '';
+      if (isValidJobUrl(raw.applicationLink)) {
+        try {
+          const u = new URL(raw.applicationLink);
+          for (const k of [...u.searchParams.keys()]) {
+            if (k.toLowerCase().startsWith('utm_')) u.searchParams.delete(k);
+          }
+          applyUrl = isValidJobUrl(u.toString()) ? u.toString() : '';
+        } catch {
+          applyUrl = raw.applicationLink;
+        }
+      }
+      const slug = (detailUrl || raw.companySlug || raw.title || '').split('/').pop();
+      const locs = Array.isArray(raw.locationRestrictions) ? raw.locationRestrictions : [];
+      return {
+        source: 'himalayas',
+        source_name: 'Himalayas',
+        source_id: `hm_${raw.companySlug || 'job'}_${slug}`.slice(0, 80),
+        url: applyUrl || detailUrl,
+        source_job_url: detailUrl,
+        apply_url: applyUrl,
+        title: raw.title || '',
+        company: raw.companyName || '',
+        location: locs.length ? locs.slice(0, 5).join(', ') : 'Worldwide',
+        description: `${(raw.categories || []).join(', ')}\n\n${raw.excerpt || ''}\n\n${(raw.description || '').replace(/<[^>]+>/g, ' ')}`,
+        posted_at: raw.pubDate || null,
+        salary_min: raw.minSalary ? parseInt(raw.minSalary) : null,
+        salary_max: raw.maxSalary ? parseInt(raw.maxSalary) : null,
+        salary_currency: raw.currency || 'USD'
+      };
+    });
+  } catch (err) {
+    console.error('Himalayas fetch failed:', err.message);
     return [];
   }
 }
@@ -310,13 +390,14 @@ async function fetchJobicy() {
 async function main() {
   console.log('--- Starting Live Job Discovery ---');
 
-  const [remoteokJobs, remotiveJobs, jobicyJobs] = await Promise.all([
+  const [remoteokJobs, remotiveJobs, jobicyJobs, himalayasJobs] = await Promise.all([
     fetchRemoteOK(),
     fetchRemotive(),
-    fetchJobicy()
+    fetchJobicy(),
+    fetchHimalayas()
   ]);
 
-  const allRaw = [...remoteokJobs, ...remotiveJobs, ...jobicyJobs];
+  const allRaw = [...remoteokJobs, ...remotiveJobs, ...jobicyJobs, ...himalayasJobs];
   console.log(`Fetched ${allRaw.length} total live job listings.`);
 
   // Load existing storage
@@ -332,7 +413,7 @@ async function main() {
   let ageExcludedCount = 0;
 
   for (const raw of allRaw) {
-    if (!raw.title || !raw.url) continue;
+    if (!raw.title) continue;
 
     const match = scoreJob(raw);
     if (match.ageCheck && !match.ageCheck.passed) {
@@ -359,8 +440,11 @@ async function main() {
       db.jobs[fingerprint] = {
         fingerprint,
         source: raw.source,
+        source_name: raw.source_name || raw.source,
         source_id: raw.source_id,
         url: raw.url,
+        source_job_url: raw.source_job_url || raw.url,
+        apply_url: raw.apply_url || '',
         title: raw.title,
         company: raw.company,
         location: raw.location,

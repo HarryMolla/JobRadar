@@ -108,10 +108,10 @@ class WellfoundAdapter(BaseAdapter):
         return all_jobs
 
     def _normalize(self, node: dict) -> JobListing | None:
-        job_id = str(node.get("id", ""))
-        slug = node.get("slug", job_id)
-        apply_url = node.get("applyUrl", "")
-        url = apply_url or f"https://wellfound.com/jobs/{slug}"
+        job_id = str(node.get("id", "") or "").strip()
+        slug = str(node.get("slug", "") or "").strip()
+        apply_url = node.get("applyUrl", "") or ""
+        detail_url = f"https://wellfound.com/jobs/{slug}" if slug else ""
         title = node.get("title", "")
         startup = node.get("startup", {}) or {}
         company = startup.get("name", "")
@@ -131,7 +131,9 @@ class WellfoundAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"wf_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company,
             location=location,

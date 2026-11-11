@@ -50,7 +50,7 @@
         Applied <span class="pill-count" id="countApplied">0</span>
       </button>
       <button class="stat-pill" data-filter="uae_sources">
-        🇦🇪 UAE <span class="pill-count" id="countUae">19</span>
+        🇦🇪 UAE <span class="pill-count" id="countUae">0</span>
       </button>
     </div>
 
@@ -81,6 +81,19 @@
         <option value="remote_worldwide">🌍 Worldwide Remote</option>
         <option value="remote_restricted">Remote (Restricted)</option>
       </select>
+    </div>
+
+    <!-- UAE-specific filter controls (shown on UAE tab alongside common search/filters) -->
+    <div class="uae-toolbar" id="uaeToolbar" style="display: none;">
+      <select class="filter-select" id="uaeKeywordFilter" aria-label="Filter UAE jobs by role, benefit, source, or keyword">
+        <option value="">All Roles &amp; Benefits</option>
+      </select>
+      <select class="filter-select" id="uaeLocationFilter" aria-label="Filter UAE jobs by location">
+        <option value="">All UAE Locations</option>
+      </select>
+      <button class="btn-action uae-portals-toggle" id="uaePortalsToggle" type="button" title="Show/hide 19 UAE portals & manual search">
+        🌐 Portals (19)
+      </button>
     </div>
 
     <!-- Job list -->

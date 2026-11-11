@@ -47,9 +47,8 @@ class RemoteOKAdapter(BaseAdapter):
 
     def _normalize(self, raw: dict) -> JobListing | None:
         job_id = str(raw.get("id", ""))
-        url = raw.get("url", "")
-        if not url:
-            url = f"https://remoteok.com/remote-jobs/{job_id}"
+        detail_url = raw.get("url", "") or ""
+        apply_url = raw.get("apply_url", "") or ""
         title = raw.get("position", "")
         company = raw.get("company", "")
         if not title or not company:
@@ -82,7 +81,9 @@ class RemoteOKAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=job_id,
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company,
             location=raw.get("location", "Remote") or "Remote",

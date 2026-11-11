@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Optional
 
 from backend.adapters.base import BaseAdapter
+from backend.adapters.himalayas import HimalayasAdapter
 from backend.adapters.remoteok import RemoteOKAdapter
 from backend.adapters.remotive import RemotiveAdapter
 from backend.adapters.weworkremotely import WeWorkRemotelyAdapter
@@ -42,6 +43,7 @@ ALL_ADAPTERS: list[type[BaseAdapter]] = [
     WeWorkRemotelyAdapter,
     JobicyAdapter,
     WorkingNomadsAdapter,
+    HimalayasAdapter,
     GreenhouseAdapter,
     LeverAdapter,
     AshbyAdapter,

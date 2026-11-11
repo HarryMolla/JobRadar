@@ -131,12 +131,20 @@ class PrismDigitalAdapter(BaseAdapter):
         elif "hybrid" in work_loc_type:
             remote_type = RemoteType.HYBRID
 
+        apply_url = str(
+            detail.get("applyUrl")
+            or detail.get("applicationUrl")
+            or detail.get("applyLink")
+            or ""
+        ).strip()
+
         return JobListing(
             source=self.SOURCE_ID,
             source_name=self.DISPLAY_NAME,
             source_id=f"pr_{job_id}",
-            url=url,
+            url=apply_url or url,
             source_job_url=url,
+            apply_url=apply_url,
             title=title,
             company="Prism Digital",
             location=location,

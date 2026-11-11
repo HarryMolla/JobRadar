@@ -4,13 +4,23 @@
  */
 
 import { storage } from '../lib/storage.js';
-import { api, isWithinPostingAge } from '../lib/api.js';
+import { api } from '../lib/api.js';
 import {
   DEFAULT_UAE_SOURCES,
-  UAE_LOCATIONS,
-  UAE_SEARCH_KEYWORDS,
   buildUaeSearchUrl,
 } from '../lib/uae_sources.js';
+import {
+  applyCommonJobFilters,
+  buildUaeDropdownOptions,
+  filterUaeJobs,
+  formatDescriptionPreview,
+  getJobApplyUrl,
+  getJobDetailUrl,
+  getRelocationStatus,
+  getVisaStatus,
+  isUaeJob,
+  isWithinPostingAge,
+} from '../lib/filters.js';
 
 let allJobs = [];
 let uaeSources = [...DEFAULT_UAE_SOURCES];
@@ -20,14 +30,19 @@ let currentCategory = '';
 let currentVisa = '';
 let currentRemote = '';
 let searchQuery = '';
-let selectedUaeKeyword = 'UI UX Designer';
-let selectedUaeLocation = 'Dubai';
+let selectedUaeKeyword = '';
+let selectedUaeLocation = '';
+let showUaePortals = false;
 let settings = {};
 
 // DOM refs
 const jobList = document.getElementById('jobList');
 const emptyState = document.getElementById('emptyState');
 const filterBar = document.getElementById('filterBar');
+const uaeToolbar = document.getElementById('uaeToolbar');
+const uaeKeywordFilter = document.getElementById('uaeKeywordFilter');
+const uaeLocationFilter = document.getElementById('uaeLocationFilter');
+const uaePortalsToggle = document.getElementById('uaePortalsToggle');
 const statusDot = document.getElementById('statusDot');
 const statusText = document.getElementById('statusText');
 const syncBtn = document.getElementById('syncBtn');
@@ -55,6 +70,7 @@ const countUae = document.getElementById('countUae');
     uaeSources = storedUae;
   }
   populateSourceFilter();
+  populateUaeFilters();
   updateCounts();
   renderCurrentView();
   updateSyncStatus();
@@ -74,6 +90,7 @@ syncBtn.addEventListener('click', async () => {
       uaeSources = storedUae;
     }
     populateSourceFilter();
+    populateUaeFilters();
     updateCounts();
     renderCurrentView();
     updateSyncStatus();
@@ -149,10 +166,37 @@ remoteFilter.addEventListener('change', () => {
   renderCurrentView();
 });
 
+// UAE filter dropdown 1: role / benefit / source / keyword
+if (uaeKeywordFilter) {
+  uaeKeywordFilter.addEventListener('change', () => {
+    selectedUaeKeyword = uaeKeywordFilter.value;
+    renderCurrentView();
+  });
+}
+
+// UAE filter dropdown 2: emirate / location
+if (uaeLocationFilter) {
+  uaeLocationFilter.addEventListener('change', () => {
+    selectedUaeLocation = uaeLocationFilter.value;
+    renderCurrentView();
+  });
+}
+
+// Toggle 19 UAE portals directory panel
+if (uaePortalsToggle) {
+  uaePortalsToggle.addEventListener('click', () => {
+    showUaePortals = !showUaePortals;
+    uaePortalsToggle.classList.toggle('active', showUaePortals);
+    renderCurrentView();
+  });
+}
+
 function populateSourceFilter() {
   if (!sourceFilter) return;
   const currentVal = sourceFilter.value;
-  const sourcesMap = new Map();
+  const sourcesMap = new Map([
+    ['himalayas', 'Himalayas'],
+  ]);
   for (const job of allJobs) {
     if (job.source) {
       sourcesMap.set(job.source, job.source_name || job.source);
@@ -173,6 +217,43 @@ function populateSourceFilter() {
   sourceFilter.value = currentVal;
 }
 
+function populateUaeFilters() {
+  const uaeJobs = allJobs.filter((j) => isUaeJob(j) && isWithinPostingAge(j, 24));
+  const { keywordOptions, locationOptions } = buildUaeDropdownOptions(uaeJobs);
+
+  if (uaeKeywordFilter) {
+    uaeKeywordFilter.innerHTML = '';
+    for (const { value, label } of keywordOptions) {
+      const opt = document.createElement('option');
+      opt.value = value;
+      opt.textContent = label;
+      uaeKeywordFilter.appendChild(opt);
+    }
+    if ([...uaeKeywordFilter.options].some((o) => o.value === selectedUaeKeyword)) {
+      uaeKeywordFilter.value = selectedUaeKeyword;
+    } else {
+      selectedUaeKeyword = '';
+      uaeKeywordFilter.value = '';
+    }
+  }
+
+  if (uaeLocationFilter) {
+    uaeLocationFilter.innerHTML = '';
+    for (const { value, label } of locationOptions) {
+      const opt = document.createElement('option');
+      opt.value = value;
+      opt.textContent = label;
+      uaeLocationFilter.appendChild(opt);
+    }
+    if ([...uaeLocationFilter.options].some((o) => o.value === selectedUaeLocation)) {
+      uaeLocationFilter.value = selectedUaeLocation;
+    } else {
+      selectedUaeLocation = '';
+      uaeLocationFilter.value = '';
+    }
+  }
+}
+
 function updateCounts() {
   const all = allJobs.filter((j) => isWithinPostingAge(j, 24)).length;
   const newC = allJobs.filter(
@@ -180,135 +261,79 @@ function updateCounts() {
   ).length;
   const saved = allJobs.filter((j) => j.application_status === 'saved').length;
   const applied = allJobs.filter((j) => j.application_status === 'applied').length;
+  const uaeCount = allJobs.filter((j) => isUaeJob(j) && isWithinPostingAge(j, 24)).length;
 
   countAll.textContent = all;
   countNew.textContent = newC;
   countSaved.textContent = saved;
   countApplied.textContent = applied;
-  if (countUae) countUae.textContent = uaeSources.length;
+  if (countUae) countUae.textContent = uaeCount;
 }
 
-function getVisaStatus(job) {
-  if (job.visa_sponsorship) return job.visa_sponsorship;
-  if (job.sponsorship === 'sponsored') return 'confirmed';
-  if (job.sponsorship === 'not_sponsored') return 'unavailable';
-  return 'not_confirmed';
-}
-
-function getRelocationStatus(job) {
-  if (job.relocation_support) return job.relocation_support;
-  return job.relocation_offered ? 'confirmed' : 'not_confirmed';
+function getCommonFilterState() {
+  return {
+    tab: currentFilter,
+    source: currentSource,
+    category: currentCategory,
+    visa: currentVisa,
+    remote: currentRemote,
+    searchQuery,
+    maxAgeHours: 24,
+  };
 }
 
 function getFilteredJobs() {
-  let jobs = [...allJobs];
-
-  // Status filter
-  if (currentFilter !== 'all') {
-    jobs = jobs.filter((j) => (j.application_status || 'new') === currentFilter);
-  }
-
-  // Enforce 24-hour posting age filter in All and New tabs
-  if (currentFilter === 'all' || currentFilter === 'new') {
-    jobs = jobs.filter((j) => isWithinPostingAge(j, 24));
-  }
-
-  // Source filter
-  if (currentSource) {
-    jobs = jobs.filter((j) => j.source === currentSource);
-  }
-
-  // Category filter
-  if (currentCategory) {
-    jobs = jobs.filter((j) => j.match_category === currentCategory);
-  }
-
-  // Visa sponsorship filter
-  if (currentVisa) {
-    jobs = jobs.filter((j) => getVisaStatus(j) === currentVisa);
-  }
-
-  // Benefits & Remote filter
-  if (currentRemote === 'relocation') {
-    jobs = jobs.filter((j) => getRelocationStatus(j) === 'confirmed');
-  } else if (currentRemote === 'flight') {
-    jobs = jobs.filter((j) => j.flight_covered === 'confirmed');
-  } else if (currentRemote === 'accommodation') {
-    jobs = jobs.filter((j) => j.accommodation_covered === 'confirmed');
-  } else if (currentRemote === 'remote_worldwide') {
-    jobs = jobs.filter((j) => j.remote_type === 'remote_worldwide');
-  } else if (currentRemote === 'remote_restricted') {
-    jobs = jobs.filter((j) => j.remote_type === 'remote_restricted');
-  }
-
-  // Search
-  if (searchQuery) {
-    jobs = jobs.filter(
-      (j) =>
-        j.title?.toLowerCase().includes(searchQuery) ||
-        j.company?.toLowerCase().includes(searchQuery) ||
-        (j.work_location || j.location || '').toLowerCase().includes(searchQuery) ||
-        (j.source_name || j.source || '').toLowerCase().includes(searchQuery) ||
-        j.description?.toLowerCase().includes(searchQuery)
-    );
-  }
-
-  // Sort by score desc, then posted_at desc
-  jobs.sort((a, b) => {
-    const scoreDiff = (b.match_score || 0) - (a.match_score || 0);
-    if (scoreDiff !== 0) return scoreDiff;
-    return new Date(b.posted_at || b.detected_at || 0) - new Date(a.posted_at || a.detected_at || 0);
-  });
-
-  return jobs;
+  return applyCommonJobFilters(allJobs, getCommonFilterState());
 }
 
 function renderCurrentView() {
+  if (filterBar) filterBar.style.display = 'flex';
+  if (uaeToolbar) {
+    uaeToolbar.style.display = currentFilter === 'uae_sources' ? 'flex' : 'none';
+  }
   if (currentFilter === 'uae_sources') {
-    if (filterBar) filterBar.style.display = 'none';
-    renderUaeSources();
+    renderUaeView();
   } else {
-    if (filterBar) filterBar.style.display = 'flex';
     renderJobs();
   }
 }
 
-function renderUaeSources() {
+function renderUaeView() {
+  const filteredUae = filterUaeJobs(allJobs, {
+    ...getCommonFilterState(),
+    uaeKeyword: selectedUaeKeyword,
+    uaeLocation: selectedUaeLocation,
+  });
+
   jobList.innerHTML = '';
 
-  const toolbar = document.createElement('div');
-  toolbar.className = 'uae-toolbar';
-  const kwSelect = document.createElement('select');
-  kwSelect.className = 'filter-select';
-  for (const kw of UAE_SEARCH_KEYWORDS) {
-    const opt = document.createElement('option');
-    opt.value = kw;
-    opt.textContent = kw;
-    if (kw === selectedUaeKeyword) opt.selected = true;
-    kwSelect.appendChild(opt);
+  if (filteredUae.length === 0) {
+    emptyState.style.display = 'flex';
+    const emptyTitle = emptyState.querySelector('.empty-title');
+    const emptyDesc = emptyState.querySelector('.empty-desc');
+    if (emptyTitle) emptyTitle.textContent = 'No matching UAE jobs in the last 24h';
+    if (emptyDesc) {
+      emptyDesc.textContent = 'Try clearing one of the UAE filters above, or click "🌐 Portals (19)" to run a manual UAE search.';
+    }
+    jobList.appendChild(emptyState);
+  } else {
+    emptyState.style.display = 'none';
+    for (const job of filteredUae) {
+      jobList.appendChild(createJobCard(job));
+    }
   }
-  kwSelect.addEventListener('change', () => {
-    selectedUaeKeyword = kwSelect.value;
-    renderUaeSources();
-  });
 
-  const locSelect = document.createElement('select');
-  locSelect.className = 'filter-select';
-  for (const loc of UAE_LOCATIONS) {
-    const opt = document.createElement('option');
-    opt.value = loc;
-    opt.textContent = loc;
-    if (loc === selectedUaeLocation) opt.selected = true;
-    locSelect.appendChild(opt);
+  if (showUaePortals) {
+    renderUaePortalsPanel();
   }
-  locSelect.addEventListener('change', () => {
-    selectedUaeLocation = locSelect.value;
-    renderUaeSources();
-  });
 
-  toolbar.appendChild(kwSelect);
-  toolbar.appendChild(locSelect);
-  jobList.appendChild(toolbar);
+  const totalUae = allJobs.filter((j) => isUaeJob(j) && isWithinPostingAge(j, 24)).length;
+  footerText.textContent = `Showing ${filteredUae.length} of ${totalUae} UAE jobs (last 24h)`;
+}
+
+function renderUaePortalsPanel() {
+  const panel = document.createElement('div');
+  panel.className = 'uae-portals-panel';
 
   const groups = [
     ['general', 'General UAE Job Boards'],
@@ -317,7 +342,15 @@ function renderUaeSources() {
     ['employer', 'Direct Employer Career Pages'],
   ];
 
-  let autoCount = 0;
+  const manualKeyword = selectedUaeKeyword.startsWith('term:')
+    ? selectedUaeKeyword.slice(5)
+    : selectedUaeKeyword.startsWith('category:')
+      ? selectedUaeKeyword.slice(9)
+      : 'UI UX Designer';
+  const manualLocation = selectedUaeLocation && selectedUaeLocation !== 'remote_uae'
+    ? selectedUaeLocation
+    : 'Dubai';
+
   for (const [catKey, groupLabel] of groups) {
     const items = uaeSources.filter((s) => s.category === catKey);
     if (items.length === 0) continue;
@@ -325,10 +358,9 @@ function renderUaeSources() {
     const heading = document.createElement('div');
     heading.className = 'uae-group-title';
     heading.textContent = `${groupLabel} (${items.length})`;
-    jobList.appendChild(heading);
+    panel.appendChild(heading);
 
     for (const src of items) {
-      if (src.mode === 'automated') autoCount++;
       const badgeClass =
         src.mode === 'automated'
           ? 'uae-badge-auto'
@@ -342,7 +374,7 @@ function renderUaeSources() {
             ? 'Email Alert / Manual'
             : 'Manual Search';
 
-      const searchHref = buildUaeSearchUrl(src, selectedUaeKeyword, selectedUaeLocation);
+      const searchHref = buildUaeSearchUrl(src, manualKeyword, manualLocation);
       const checkedNote = src.last_checked_at
         ? `Checked ${timeAgo(src.last_checked_at)} (${src.last_success ? `${src.last_jobs_found || 0} found` : 'failed'})`
         : src.mode === 'automated'
@@ -362,11 +394,11 @@ function renderUaeSources() {
           <a href="${escHtml(searchHref)}" target="_blank" rel="noopener noreferrer" class="btn-apply">Open / Search →</a>
         </div>
       `;
-      jobList.appendChild(card);
+      panel.appendChild(card);
     }
   }
 
-  footerText.textContent = `UAE Sources: ${autoCount} automated · ${uaeSources.length - autoCount} manual/email-alert`;
+  jobList.appendChild(panel);
 }
 
 function renderJobs() {
@@ -375,6 +407,15 @@ function renderJobs() {
 
   if (filtered.length === 0) {
     emptyState.style.display = 'flex';
+    const emptyTitle = emptyState.querySelector('.empty-title');
+    const emptyDesc = emptyState.querySelector('.empty-desc');
+    if (emptyTitle) emptyTitle.textContent = allJobs.length ? 'No matching jobs' : 'No jobs yet';
+    if (emptyDesc) {
+      emptyDesc.textContent = allJobs.length
+        ? 'Try clearing or widening your search and filter dropdowns.'
+        : 'Click the sync button or wait for the automatic scan.';
+    }
+    jobList.appendChild(emptyState);
     footerText.textContent = allJobs.length ? 'No jobs match current filters' : 'No jobs yet — click sync';
     return;
   }
@@ -447,16 +488,26 @@ function createJobCard(job) {
   const ageStr = formatDate(postedIso);
   const utcLabel = postedIso ? new Date(postedIso).toISOString().slice(5, 16).replace('T', ' ') + ' UTC' : '';
   const dateStr = utcLabel ? `${ageStr} (${utcLabel})` : ageStr;
-  const vacancyUrl = job.source_job_url || job.url || '#';
-  const displayLoc = job.work_location || job.location || 'Remote / UAE';
+  const applyUrl = getJobApplyUrl(job);
+  const detailUrl = getJobDetailUrl(job);
+  const displayLoc = job.work_location || job.location || 'Location not specified';
 
-  // Reason
+  // Match reason & description preview
   const reason = job.match_reasons?.slice(0, 3).join('; ') || '';
+  const descPreview = formatDescriptionPreview(job.description, 140);
 
   // Action button states
   const isSaved = status === 'saved';
   const isApplied = status === 'applied';
   const isDismissed = status === 'dismissed';
+
+  const applyControlHtml = applyUrl
+    ? `<a href="${escHtml(applyUrl)}" target="_blank" rel="noopener noreferrer" class="btn-apply" title="Open ${escHtml(applyUrl)}">Apply →</a>`
+    : `<span class="btn-apply disabled" title="No direct job-specific URL available from this source">Direct link unavailable</span>`;
+
+  const detailControlHtml = detailUrl && detailUrl !== applyUrl
+    ? `<a href="${escHtml(detailUrl)}" target="_blank" rel="noopener noreferrer" class="btn-detail" title="View job listing on ${escHtml(job.source_name || job.source || 'source')}">Details</a>`
+    : '';
 
   card.innerHTML = `
     <div class="card-top">
@@ -465,9 +516,11 @@ function createJobCard(job) {
     </div>
     <div class="card-company">${escHtml(job.company || '?')} · ${escHtml(displayLoc)}</div>
     ${tags.length ? `<div class="card-tags">${tags.join('')}</div>` : ''}
+    ${descPreview ? `<div class="card-description">${escHtml(descPreview)}</div>` : ''}
     ${reason ? `<div class="card-reason">${escHtml(reason)}</div>` : ''}
     <div class="card-actions">
-      <a href="${escHtml(vacancyUrl)}" target="_blank" rel="noopener noreferrer" class="btn-apply">Apply →</a>
+      ${applyControlHtml}
+      ${detailControlHtml}
       <button class="btn-action ${isSaved ? 'active' : ''}" data-action="saved">
         ${isSaved ? '★ Saved' : '☆ Save'}
       </button>
@@ -504,7 +557,7 @@ function createJobCard(job) {
       }
 
       updateCounts();
-      renderJobs();
+      renderCurrentView();
     });
   });
 

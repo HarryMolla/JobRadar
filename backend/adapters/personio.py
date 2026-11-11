@@ -43,18 +43,18 @@ class PersonioAdapter(BaseAdapter):
 
         for slug, company_name in self._companies:
             feed_urls = [
-                f"https://{slug}.jobs.personio.de/xml",
-                f"https://{slug}.jobs.personio.com/xml",
+                (f"https://{slug}.jobs.personio.de", f"https://{slug}.jobs.personio.de/xml"),
+                (f"https://{slug}.jobs.personio.com", f"https://{slug}.jobs.personio.com/xml"),
             ]
             success = False
-            for url in feed_urls:
+            for base_origin, url in feed_urls:
                 try:
                     resp = get(url, headers={"Accept": "application/xml, text/xml"})
                     root = ET.fromstring(resp.content)
                     positions = root.findall(".//position")
                     self.logger.info("Personio %s: %d positions found", company_name, len(positions))
                     for pos in positions:
-                        job = self._normalize(pos, company_name, slug)
+                        job = self._normalize(pos, company_name, slug, base_origin)
                         if job and job.fingerprint not in seen:
                             seen.add(job.fingerprint)
                             all_jobs.append(job)
@@ -68,14 +68,19 @@ class PersonioAdapter(BaseAdapter):
 
         return all_jobs
 
-    def _normalize(self, pos: ET.Element, company_name: str, slug: str) -> Optional[JobListing]:
-        job_id = pos.findtext("id", "")
+    def _normalize(
+        self, pos: ET.Element, company_name: str, slug: str, base_origin: str = ""
+    ) -> Optional[JobListing]:
+        job_id = (pos.findtext("id", "") or "").strip()
         title = pos.findtext("name", "")
         if not title:
             return None
 
-        # Build apply/job URL
-        url = f"https://{slug}.jobs.personio.de/job/{job_id}"
+        # Use explicit feed URL when present, else verified matching host/job/<id>
+        origin = base_origin or f"https://{slug}.jobs.personio.de"
+        detail_url = (pos.findtext("url", "") or "").strip()
+        if not detail_url and job_id:
+            detail_url = f"{origin}/job/{job_id}"
 
         # Location & office
         office = pos.findtext("office", "")
@@ -108,7 +113,8 @@ class PersonioAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"ps_{job_id}",
-            url=url,
+            url=detail_url,
+            source_job_url=detail_url,
             title=title,
             company=company_name,
             location=office or "Remote",

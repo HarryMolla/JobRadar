@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import logging
 from typing import Optional
+from urllib.parse import urlparse
 import requests
 
 from backend.adapters.base import BaseAdapter
@@ -79,7 +80,7 @@ class WorkdayAdapter(BaseAdapter):
                 self.logger.info("Workday %s: %d postings found", company, len(job_postings))
 
                 for raw in job_postings:
-                    job = self._normalize(raw, company, base_url)
+                    job = self._normalize(raw, company, base_url, endpoint)
                     if job and job.fingerprint not in seen:
                         seen.add(job.fingerprint)
                         all_jobs.append(job)
@@ -89,14 +90,24 @@ class WorkdayAdapter(BaseAdapter):
 
         return all_jobs
 
-    def _normalize(self, raw: dict, company: str, base_url: str) -> Optional[JobListing]:
+    def _normalize(
+        self, raw: dict, company: str, base_url: str, endpoint: str = ""
+    ) -> Optional[JobListing]:
         title = raw.get("title", "")
-        external_path = raw.get("externalPath", "")
-        if not title or not external_path:
+        external_path = (raw.get("externalPath", "") or "").strip()
+        if not title or not external_path or external_path in ("/", "/jobs"):
             return None
 
-        # Build direct job link
-        url = f"{base_url}{external_path}" if base_url else f"https://myworkdayjobs.com{external_path}"
+        # Build direct job link from configured portal base_url or derived CXS tenant portal
+        portal_base = (base_url or "").rstrip("/")
+        if not portal_base and endpoint:
+            parsed = urlparse(endpoint)
+            parts = [p for p in parsed.path.split("/") if p]
+            if len(parts) >= 4 and parts[:2] == ["wday", "cxs"]:
+                portal_base = f"{parsed.scheme}://{parsed.netloc}/{parts[3]}"
+
+        detail_url = f"{portal_base}/{external_path.lstrip('/')}" if portal_base else ""
+        apply_url = raw.get("externalUrl", "") or ""
         source_id = external_path.strip("/").split("/")[-1]
 
         locations = raw.get("locationsText", "")
@@ -110,7 +121,9 @@ class WorkdayAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"wd_{source_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company,
             location=locations or "Multiple Locations",

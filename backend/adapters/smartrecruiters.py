@@ -48,7 +48,7 @@ class SmartRecruitersAdapter(BaseAdapter):
                 jobs_raw = data.get("content", [])
                 self.logger.info("SmartRecruiters %s: %d jobs", company_name, len(jobs_raw))
                 for raw in jobs_raw:
-                    job = self._normalize(raw, company_name)
+                    job = self._normalize(raw, company_name, slug)
                     if job and job.fingerprint not in seen:
                         seen.add(job.fingerprint)
                         all_jobs.append(job)
@@ -57,14 +57,16 @@ class SmartRecruitersAdapter(BaseAdapter):
 
         return all_jobs
 
-    def _normalize(self, raw: dict, company_name: str) -> JobListing | None:
-        job_id = raw.get("id", "")
-        ref_num = raw.get("refNumber", job_id)
+    def _normalize(self, raw: dict, company_name: str, company_slug: str = "") -> JobListing | None:
+        job_id = str(raw.get("id", "") or "").strip()
         title = raw.get("name", "")
         if not title:
             return None
 
-        url = f"https://jobs.smartrecruiters.com/{company_name.replace(' ','-')}/{ref_num}"
+        detail_url = raw.get("postingUrl", "") or raw.get("jobUrl", "") or ""
+        apply_url = raw.get("applyUrl", "") or ""
+        if not detail_url and company_slug and job_id:
+            detail_url = f"https://jobs.smartrecruiters.com/{company_slug}/{job_id}"
 
         location = ""
         loc_data = raw.get("location", {})
@@ -83,7 +85,9 @@ class SmartRecruitersAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"sr_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location,

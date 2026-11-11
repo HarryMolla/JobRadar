@@ -54,10 +54,11 @@ class RemotiveAdapter(BaseAdapter):
 
     def _normalize(self, raw: dict) -> JobListing | None:
         job_id = str(raw.get("id", ""))
-        url = raw.get("url", "")
+        detail_url = raw.get("url", "") or ""
+        apply_url = raw.get("apply_url", "") or ""
         title = raw.get("title", "")
         company = raw.get("company_name", "")
-        if not title or not url:
+        if not title:
             return None
 
         pub = raw.get("publication_date", "")
@@ -75,7 +76,9 @@ class RemotiveAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=job_id,
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company,
             location=raw.get("candidate_required_location", "Remote") or "Remote",

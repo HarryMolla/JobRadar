@@ -48,7 +48,7 @@ class RecruiteeAdapter(BaseAdapter):
                     offers = []
                 self.logger.info("Recruitee %s: %d offers", company_name, len(offers))
                 for raw in offers:
-                    job = self._normalize(raw, company_name)
+                    job = self._normalize(raw, company_name, slug)
                     if job and job.fingerprint not in seen:
                         seen.add(job.fingerprint)
                         all_jobs.append(job)
@@ -57,12 +57,17 @@ class RecruiteeAdapter(BaseAdapter):
 
         return all_jobs
 
-    def _normalize(self, raw: dict, company_name: str) -> JobListing | None:
-        job_id = str(raw.get("id", ""))
-        slug = raw.get("slug", job_id)
-        url = raw.get("careers_url", f"https://{company_name.lower()}.recruitee.com/o/{slug}/")
+    def _normalize(self, raw: dict, company_name: str, company_slug: str = "") -> JobListing | None:
+        job_id = str(raw.get("id", "") or "").strip()
+        offer_slug = str(raw.get("slug", "") or "").strip()
+        detail_url = raw.get("careers_url", "") or (
+            f"https://{company_slug}.recruitee.com/o/{offer_slug}/"
+            if company_slug and offer_slug
+            else ""
+        )
+        apply_url = raw.get("careers_apply_url", "") or ""
         title = raw.get("title", "")
-        if not title or not url:
+        if not title:
             return None
 
         location = raw.get("location", "")
@@ -79,7 +84,9 @@ class RecruiteeAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"rt_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location,

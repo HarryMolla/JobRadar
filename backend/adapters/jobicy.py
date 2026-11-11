@@ -48,7 +48,8 @@ class JobicyAdapter(BaseAdapter):
 
     def _normalize(self, raw: dict) -> JobListing | None:
         job_id = str(raw.get("id", raw.get("jobSlug", "")))
-        url = raw.get("url", f"https://jobicy.com/jobs/{job_id}")
+        detail_url = raw.get("url", "") or ""
+        apply_url = raw.get("applyUrl", "") or raw.get("applicationUrl", "") or ""
         title = raw.get("jobTitle", "")
         company = raw.get("companyName", "")
         if not title:
@@ -60,7 +61,9 @@ class JobicyAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=job_id,
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company,
             location=raw.get("jobGeo", "Remote") or "Remote",

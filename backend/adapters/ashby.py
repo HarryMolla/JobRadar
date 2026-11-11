@@ -61,9 +61,10 @@ class AshbyAdapter(BaseAdapter):
 
     def _normalize(self, raw: dict, company_name: str) -> JobListing | None:
         job_id = raw.get("id", "")
-        url = raw.get("jobUrl", "")
+        detail_url = raw.get("jobUrl", "") or ""
+        apply_url = raw.get("applyUrl", "") or ""
         title = raw.get("title", "")
-        if not title or not url:
+        if not title:
             return None
 
         location = raw.get("location", "")
@@ -83,7 +84,9 @@ class AshbyAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"ab_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location,

@@ -62,11 +62,12 @@ class YCombinatorAdapter(BaseAdapter):
         return all_jobs
 
     def _normalize(self, raw: dict) -> JobListing | None:
-        job_id = str(raw.get("id", ""))
+        job_id = str(raw.get("id", "") or "").strip()
         title = raw.get("title", raw.get("role", ""))
         company = raw.get("company", {})
         company_name = company.get("name", "") if isinstance(company, dict) else str(company)
-        url = raw.get("url", f"https://www.workatastartup.com/jobs/{job_id}")
+        detail_url = raw.get("url") or raw.get("job_url") or ""
+        apply_url = raw.get("apply_url") or raw.get("applyUrl") or ""
 
         if not title:
             return None
@@ -81,7 +82,9 @@ class YCombinatorAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"yc_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location,

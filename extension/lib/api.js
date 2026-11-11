@@ -3,24 +3,9 @@
  * Talks to the local server (http://127.0.0.1:8765) or directly to GitHub repository state.
  */
 
-export function isWithinPostingAge(job, maxAgeHours = 24) {
-  if (!job || job.timestamp_reliable === false || !job.posted_at) {
-    return false;
-  }
-  const raw = String(job.posted_at).trim();
-  if (!raw || /^\d{4}-\d{2}-\d{2}$/.test(raw)) {
-    return false;
-  }
-  const normalized = /^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}(:\d{2}(\.\d+)?)?$/.test(raw)
-    ? raw.replace(' ', 'T') + 'Z'
-    : raw;
-  const postedMs = Date.parse(normalized);
-  if (Number.isNaN(postedMs)) {
-    return false;
-  }
-  const ageHours = (Date.now() - postedMs) / 3600000;
-  return ageHours >= 0 && ageHours <= maxAgeHours;
-}
+import { isWithinPostingAge } from './filters.js';
+
+export { isWithinPostingAge };
 
 export const api = {
   async fetchJobs(baseUrl, { min_score = 0, limit = 200, status = null, apiKey = '', max_age_hours = 24 } = {}) {

@@ -95,6 +95,10 @@ prism_max_pages: 2
 prism_max_details: 12
 hays_max_details: 10
 
+# --- Himalayas adapter settings ---
+himalayas_max_pages: 5
+himalayas_page_limit: 20
+
 uae_search_keywords:
   - "visa sponsorship"
   - "employment visa provided"

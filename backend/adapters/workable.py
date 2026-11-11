@@ -64,12 +64,16 @@ class WorkableAdapter(BaseAdapter):
         return all_jobs
 
     def _normalize(self, raw: dict, company_name: str, slug: str) -> JobListing | None:
-        job_id = raw.get("shortcode", raw.get("id", ""))
+        shortcode = str(raw.get("shortcode", "") or "").strip()
+        job_id = shortcode or str(raw.get("id", "") or "").strip()
         title = raw.get("title", "")
         if not title:
             return None
 
-        url = f"https://apply.workable.com/{slug}/j/{job_id}/"
+        detail_url = raw.get("url", "") or (
+            f"https://apply.workable.com/{slug}/j/{shortcode}/" if slug and shortcode else ""
+        )
+        apply_url = raw.get("application_url", "") or raw.get("apply_url", "") or ""
 
         location = raw.get("location", {})
         if isinstance(location, dict):
@@ -88,7 +92,9 @@ class WorkableAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"wb_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location_str,

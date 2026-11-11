@@ -71,6 +71,7 @@ class SawaTechAdapter(BaseAdapter):
             employment_type = ""
 
             # Only fetch detail JSON-LD if RSS timestamp is plausibly recent (saves Actions bandwidth)
+            apply_url = ""
             is_potentially_fresh = (
                 posted_at is not None
                 and reliable
@@ -80,6 +81,7 @@ class SawaTechAdapter(BaseAdapter):
                 detail_fetches += 1
                 detail = self._fetch_detail_jsonld(url)
                 if detail:
+                    apply_url = str(detail.get("applicationUrl") or detail.get("applyUrl") or detail.get("url") or "")
                     ld_date, ld_raw, ld_rel = parse_utc_timestamp(detail.get("datePosted"))
                     if ld_date and ld_rel:
                         posted_at, raw_ts, reliable = ld_date, ld_raw, ld_rel
@@ -113,8 +115,9 @@ class SawaTechAdapter(BaseAdapter):
                     source=self.SOURCE_ID,
                     source_name=self.DISPLAY_NAME,
                     source_id=f"sw_{slug[:64]}",
-                    url=url,
+                    url=apply_url or url,
                     source_job_url=url,
+                    apply_url=apply_url,
                     title=title,
                     company="SawaTech",
                     location=location,

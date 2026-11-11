@@ -67,9 +67,10 @@ class LeverAdapter(BaseAdapter):
 
     def _normalize(self, raw: dict, company_name: str) -> JobListing | None:
         job_id = raw.get("id", "")
-        url = raw.get("hostedUrl", raw.get("applyUrl", ""))
+        detail_url = raw.get("hostedUrl", "") or ""
+        apply_url = raw.get("applyUrl", "") or ""
         title = raw.get("text", "")
-        if not title or not url:
+        if not title:
             return None
 
         location = ""
@@ -102,7 +103,9 @@ class LeverAdapter(BaseAdapter):
         return JobListing(
             source=self.SOURCE_ID,
             source_id=f"lv_{job_id}",
-            url=url,
+            url=apply_url or detail_url,
+            source_job_url=detail_url,
+            apply_url=apply_url,
             title=title,
             company=company_name,
             location=location,

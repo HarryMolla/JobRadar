@@ -15,6 +15,8 @@ from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Optional
 
+from backend.core.url_utils import is_valid_job_url
+
 logger = logging.getLogger(__name__)
 
 
@@ -136,7 +138,8 @@ class GmailNotifier:
             reasons = "; ".join(job.get("match_reasons", [])[:3])
             location = job.get("work_location") or job.get("location", "?")
             source_name = job.get("source_name") or job.get("source", "?")
-            apply_url = job.get("source_job_url") or job.get("url", "#")
+            raw_candidates = [job.get("apply_url", ""), job.get("source_job_url", ""), job.get("url", "")]
+            apply_url = next((u for u in raw_candidates if is_valid_job_url(u)), "")
             visa = job.get("visa_sponsorship", "not_confirmed")
             reloc = job.get("relocation_support", "not_confirmed")
             flight = job.get("flight_covered", "not_confirmed")
@@ -162,12 +165,21 @@ class GmailNotifier:
             if accom == "confirmed":
                 benefit_lines.append('<p style="color:#0369a1;margin:0 0 4px 0;font-size:12px;">🏠 Accommodation covered</p>')
 
+            title_html = (
+                f'<a href="{apply_url}" style="color:#1a1a2e;text-decoration:none;">{job.get("title","Unknown")}</a>'
+                if apply_url
+                else job.get("title", "Unknown")
+            )
+            cta_html = (
+                f'<a href="{apply_url}" style="display:inline-block;background:#1a1a2e;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-size:14px;margin-top:4px;">Apply Now →</a>'
+                if apply_url
+                else '<span style="display:inline-block;background:#e5e7eb;color:#4b5563;padding:6px 12px;border-radius:4px;font-size:12px;margin-top:4px;">Direct link unavailable</span>'
+            )
+
             rows.append(f"""
 <div style="border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin-bottom:12px;font-family:sans-serif;">
   <h3 style="margin:0 0 4px 0;color:#1a1a2e;">
-    <a href="{apply_url}" style="color:#1a1a2e;text-decoration:none;">
-      {job.get('title','Unknown')}
-    </a>
+    {title_html}
   </h3>
   <p style="margin:0 0 8px 0;color:#555;">
     {job.get('company','?')} · {location}
@@ -177,9 +189,7 @@ class GmailNotifier:
   <p style="color:#e67e22;margin:0 0 4px 0;font-size:13px;">Match score: {score}/100</p>
   <p style="color:#666;margin:0 0 8px 0;font-size:12px;">Why: {reasons}</p>
   {''.join(benefit_lines)}
-  <a href="{apply_url}" style="display:inline-block;background:#1a1a2e;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-size:14px;margin-top:4px;">
-    Apply Now →
-  </a>
+  {cta_html}
   <p style="color:#999;font-size:11px;margin:8px 0 0 0;">
     Source: {source_name} · First seen: {job.get('detected_at','?')[:16]}
     {' · Posted: ' + str(job.get('posted_at'))[:16] + age_label if job.get('posted_at') else ''}
@@ -206,7 +216,9 @@ class GmailNotifier:
             lines.append(f"Location: {job.get('location','?')}")
             lines.append(f"Score: {job.get('match_score',0)}/100")
             lines.append(f"Why: {'; '.join(job.get('match_reasons',[])[:3])}")
-            lines.append(f"Apply: {job.get('url','')}")
+            raw_candidates = [job.get("apply_url", ""), job.get("source_job_url", ""), job.get("url", "")]
+            apply_url = next((u for u in raw_candidates if is_valid_job_url(u)), "Direct link unavailable")
+            lines.append(f"Apply: {apply_url}")
             lines.append("-" * 40)
         return "\n".join(lines)
 
@@ -239,11 +251,14 @@ class TelegramNotifier:
             return True
         messages = []
         for job in jobs[:5]:  # Telegram has message length limits
+            raw_candidates = [job.get("apply_url", ""), job.get("source_job_url", ""), job.get("url", "")]
+            apply_url = next((u for u in raw_candidates if is_valid_job_url(u)), "")
+            link_line = f"🔗 [Apply]({apply_url})" if apply_url else "🔗 Direct link unavailable"
             msg = (
                 f"🎯 *{job.get('title','?')}* at _{job.get('company','?')}_\n"
                 f"📍 {job.get('location','?')}\n"
                 f"⭐ Score: {job.get('match_score',0)}/100\n"
-                f"🔗 [Apply]({job.get('url','')})"
+                f"{link_line}"
             )
             messages.append(msg)
 
