@@ -156,6 +156,109 @@ class TestHimalayasAdapter:
         assert result.success is False
         assert "API unreachable" in result.error
 
+    def test_remote_type_distinguishes_worldwide_restricted_onsite_and_unknown(self):
+        now = datetime.now(timezone.utc)
+        fresh_ts = int((now - timedelta(hours=2)).timestamp())
+        adapter = HimalayasAdapter()
+        matcher = JobMatcher()
+
+        # 1. Worldwide unrestricted remote (empty locationRestrictions + broad timezones)
+        worldwide = adapter._normalize({
+            "title": "Senior UI/UX Designer",
+            "companyName": "GlobalDesign",
+            "guid": "https://himalayas.app/companies/globaldesign/jobs/senior-ui-ux",
+            "pubDate": fresh_ts,
+            "locationRestrictions": [],
+            "timezoneRestrictions": list(range(-11, 15)),
+            "excerpt": "Collaborate with distributed teams.",
+        })
+        assert worldwide is not None
+        assert worldwide.remote_type == RemoteType.WORLDWIDE
+        assert worldwide.location == "Worldwide"
+        assert matcher.match(worldwide, now=now).remote_type == RemoteType.WORLDWIDE
+
+        # 2. Country-restricted remote (explicit UAE restriction on Himalayas)
+        uae_restricted = adapter._normalize({
+            "title": "Product Designer",
+            "companyName": "EmiratesRemote",
+            "guid": "https://himalayas.app/companies/emiratesremote/jobs/product-designer",
+            "pubDate": fresh_ts,
+            "locationRestrictions": ["United Arab Emirates"],
+            "timezoneRestrictions": [4],
+            "excerpt": "Remote product design role for UAE residents.",
+        })
+        assert uae_restricted is not None
+        assert uae_restricted.remote_type == RemoteType.RESTRICTED
+        assert uae_restricted.location == "United Arab Emirates"
+        assert matcher.match(uae_restricted, now=now).remote_type == RemoteType.RESTRICTED
+
+        # 3. Timezone-restricted remote even when locationRestrictions is empty
+        tz_restricted = adapter._normalize({
+            "title": "Frontend Developer",
+            "companyName": "AmericasCo",
+            "guid": "https://himalayas.app/companies/americasco/jobs/frontend-dev",
+            "pubDate": fresh_ts,
+            "locationRestrictions": [],
+            "timezoneRestrictions": [-8, -7, -6, -5],
+            "excerpt": "React and TypeScript engineer.",
+        })
+        assert tz_restricted is not None
+        assert tz_restricted.remote_type == RemoteType.RESTRICTED
+        assert matcher.match(tz_restricted, now=now).remote_type == RemoteType.RESTRICTED
+
+        # 4. On-site job in UAE must NOT be classified as remote-restricted
+        uae_onsite_field = adapter._normalize({
+            "title": "UI/UX Designer",
+            "companyName": "DubaiStudio",
+            "guid": "https://himalayas.app/companies/dubaistudio/jobs/ui-ux-designer",
+            "pubDate": fresh_ts,
+            "locationRestrictions": ["United Arab Emirates"],
+            "workplaceType": "onsite",
+            "excerpt": "Design mobile experiences in our Dubai office.",
+        })
+        assert uae_onsite_field is not None
+        assert uae_onsite_field.remote_type == RemoteType.ONSITE
+        assert matcher.match(uae_onsite_field, now=now).remote_type == RemoteType.ONSITE
+
+        uae_onsite_text = adapter._normalize({
+            "title": "Brand Designer",
+            "companyName": "AbuDhabiWorks",
+            "guid": "https://himalayas.app/companies/abudhabiworks/jobs/brand-designer",
+            "pubDate": fresh_ts,
+            "location": "Abu Dhabi, UAE",
+            "excerpt": "Full-time on-site role in Abu Dhabi.",
+        })
+        assert uae_onsite_text is not None
+        assert uae_onsite_text.remote_type == RemoteType.ONSITE
+        assert matcher.match(uae_onsite_text, now=now).remote_type == RemoteType.ONSITE
+
+        # 5. Genuinely unknown remote status when eligibility fields & signals are absent (including UAE)
+        uae_unknown = adapter._normalize({
+            "title": "Graphic Designer",
+            "companyName": "MarinaMedia",
+            "guid": "https://himalayas.app/companies/marinamedia/jobs/graphic-designer",
+            "pubDate": fresh_ts,
+            "location": "Dubai, UAE",
+            "excerpt": "Create visual campaigns for hospitality brands in Dubai.",
+        })
+        assert uae_unknown is not None
+        assert uae_unknown.remote_type == RemoteType.UNKNOWN
+        assert matcher.match(uae_unknown, now=now).remote_type == RemoteType.UNKNOWN
+
+        # Direct matcher guard: UAE location alone without remote signals remains UNKNOWN
+        direct_uae = JobListing(
+            source="test",
+            source_id="uae-plain-1",
+            url="https://example.com/jobs/1",
+            title="UI/UX Designer",
+            company="Dubai Co",
+            location="Dubai, UAE",
+            description="Figma design systems in Dubai.",
+            posted_at=now - timedelta(hours=1),
+            timestamp_reliable=True,
+        )
+        assert matcher.match(direct_uae, now=now).remote_type == RemoteType.UNKNOWN
+
 
 class TestAllAdaptersApplyUrls:
     def test_remoteok_ashby_lever_recruitee_preserve_apply_and_detail_urls(self):

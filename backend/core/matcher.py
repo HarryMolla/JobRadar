@@ -256,10 +256,57 @@ REMOTE_RESTRICTED_SIGNALS = [
     "australia only", "latam only",
 ]
 
+_NON_REMOTE_RE = re.compile(r"\b(?:no|not|non)[-\s]+remote\b")
+
 RELOCATION_SIGNALS = [
     "relocation", "relocate", "relocation package",
     "relocation assistance", "relocation support",
 ]
+
+
+def detect_remote_type(text: str, location: str = "") -> RemoteType:
+    """
+    Detect remote eligibility from job text and location strings.
+    Requires explicit remote eligibility signals rather than inferring restrictions
+    from location names alone (e.g., UAE cities without remote indicators stay UNKNOWN).
+    """
+    combined = f"{text or ''} {location or ''}".lower()
+    is_explicit_non_remote = bool(_NON_REMOTE_RE.search(combined))
+
+    if not is_explicit_non_remote:
+        for signal in REMOTE_WORLDWIDE_SIGNALS:
+            if signal in combined:
+                return RemoteType.WORLDWIDE
+        for signal in REMOTE_RESTRICTED_SIGNALS:
+            if signal in combined:
+                return RemoteType.RESTRICTED
+        if "remote" in combined:
+            return RemoteType.RESTRICTED  # Remote but unclear scope → restricted
+
+    if any(x in combined for x in ("hybrid", "flexible")):
+        return RemoteType.HYBRID
+    if any(x in combined for x in ("onsite", "on-site", "in office", "in-office")):
+        return RemoteType.ONSITE
+    return RemoteType.UNKNOWN
+
+
+def _merge_remote_type(adapter_remote: RemoteType, detected_remote: RemoteType) -> RemoteType:
+    """
+    Merge adapter-level structured remote metadata with text/location detection.
+    Preserves structured adapter classifications when text lacks remote keywords, while
+    allowing text restrictions/hybrid/on-site signals to refine unspecific WORLDWIDE defaults.
+    """
+    if adapter_remote == RemoteType.UNKNOWN:
+        return detected_remote
+    if detected_remote == RemoteType.UNKNOWN:
+        return adapter_remote
+    if adapter_remote == RemoteType.WORLDWIDE and detected_remote in (
+        RemoteType.RESTRICTED,
+        RemoteType.HYBRID,
+        RemoteType.ONSITE,
+    ):
+        return detected_remote
+    return adapter_remote
 
 
 @dataclass
@@ -410,7 +457,8 @@ class JobMatcher:
         reasons.extend(skill_reasons)
 
         # --- Determine remote type, benefits & UAE location ---
-        job.remote_type = self._detect_remote(combined, job.location)
+        detected_remote = self._detect_remote(combined, job.location)
+        job.remote_type = _merge_remote_type(job.remote_type, detected_remote)
         job.work_location = self._detect_work_location(job.location, combined) or job.location
 
         job.visa_sponsorship = self._detect_visa_benefit(combined)
@@ -434,11 +482,15 @@ class JobMatcher:
         job.seniority = self._extract_seniority(title_lower + " " + desc_lower[:500])
 
         # --- Eligibility & benefit priority bonuses ---
+        combined_with_loc = f"{combined} {(job.location or '').lower()}"
         if job.remote_type == RemoteType.WORLDWIDE:
             score += 10
             reasons.append("Remote worldwide — eligible from Ethiopia")
         elif job.remote_type == RemoteType.RESTRICTED:
-            if not any(c in combined for c in ["ethiopia", "africa", "worldwide", "uae", "dubai", "abu dhabi"]):
+            if not any(
+                c in combined_with_loc
+                for c in ["ethiopia", "africa", "worldwide", "uae", "united arab emirates", "dubai", "abu dhabi"]
+            ):
                 score = max(0, score - 10)
                 reasons.append("Remote restricted — may not include Ethiopia")
 
@@ -517,21 +569,7 @@ class JobMatcher:
         return total, reasons
 
     def _detect_remote(self, text: str, location: str) -> RemoteType:
-        combined = f"{text} {location}".lower()
-        for signal in REMOTE_WORLDWIDE_SIGNALS:
-            if signal in combined:
-                return RemoteType.WORLDWIDE
-        # Check restricted
-        for signal in REMOTE_RESTRICTED_SIGNALS:
-            if signal in combined:
-                return RemoteType.RESTRICTED
-        if "remote" in combined:
-            return RemoteType.RESTRICTED  # Remote but unclear scope → restricted
-        if any(x in combined for x in ["hybrid", "flexible"]):
-            return RemoteType.HYBRID
-        if "onsite" in combined or "on-site" in combined or "in office" in combined:
-            return RemoteType.ONSITE
-        return RemoteType.UNKNOWN
+        return detect_remote_type(text, location)
 
     def _detect_sponsorship(self, text: str) -> SponsorshipStatus:
         status = self._detect_visa_benefit(text)

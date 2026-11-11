@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 from backend.adapters.base import BaseAdapter
 from backend.core.http_client import get_json
+from backend.core.matcher import detect_remote_type
 from backend.core.models import JobListing, RemoteType
 from backend.core.time_utils import parse_utc_timestamp
 from backend.core.url_utils import clean_job_url, is_valid_job_url, resolve_job_urls
@@ -111,6 +112,70 @@ class HimalayasAdapter(BaseAdapter):
         self.logger.info("Himalayas: parsed %d unique jobs", len(all_jobs))
         return all_jobs
 
+    @staticmethod
+    def _resolve_remote_and_location(raw: dict, text: str) -> tuple[str, RemoteType]:
+        """
+        Interpret Himalayas' locationRestrictions, timezoneRestrictions, optional
+        workplaceType/isRemote fields, and text signals using shared remote detection.
+        """
+        raw_locs = raw.get("locationRestrictions")
+        has_loc_restrictions = isinstance(raw_locs, list)
+        locs = [str(loc).strip() for loc in raw_locs if str(loc).strip()] if has_loc_restrictions else []
+
+        raw_tz = raw.get("timezoneRestrictions")
+        tz_list = [tz for tz in raw_tz if tz is not None] if isinstance(raw_tz, list) else []
+        # Worldwide Himalayas postings typically cover >=20 UTC offsets or none at all.
+        tz_restricted = 0 < len(tz_list) < 20
+
+        fallback_location = str(raw.get("location") or "").strip()
+        if locs:
+            location = ", ".join(locs[:5]) + (f" (+{len(locs) - 5} more)" if len(locs) > 5 else "")
+        else:
+            location = fallback_location
+
+        workplace_raw = str(
+            raw.get("workplaceType") or raw.get("workplace_type") or raw.get("locationType") or ""
+        ).strip().lower()
+        if workplace_raw:
+            if any(k in workplace_raw for k in ("onsite", "on-site", "in office", "in-office")):
+                return location, RemoteType.ONSITE
+            if "hybrid" in workplace_raw:
+                return location, RemoteType.HYBRID
+
+        explicit_remote = (
+            raw.get("isRemote")
+            if isinstance(raw.get("isRemote"), bool)
+            else (raw.get("remote") if isinstance(raw.get("remote"), bool) else None)
+        )
+        text_remote = detect_remote_type(text, location)
+
+        if explicit_remote is False:
+            return location, RemoteType.HYBRID if text_remote == RemoteType.HYBRID else RemoteType.ONSITE
+
+        if explicit_remote is not True and "remote" not in workplace_raw:
+            if text_remote in (RemoteType.ONSITE, RemoteType.HYBRID):
+                return location, text_remote
+
+        if has_loc_restrictions:
+            if locs:
+                locs_lower = " ".join(locs).lower()
+                if any(w in locs_lower for w in ("worldwide", "anywhere", "global")) and not tz_restricted:
+                    return location, RemoteType.WORLDWIDE
+                return location, RemoteType.RESTRICTED
+            if text_remote == RemoteType.RESTRICTED or tz_restricted:
+                return location or "Remote", RemoteType.RESTRICTED
+            return location or "Worldwide", RemoteType.WORLDWIDE
+
+        if tz_list:
+            if tz_restricted:
+                return location or "Remote", RemoteType.RESTRICTED
+            return location or "Worldwide", RemoteType.WORLDWIDE
+
+        if explicit_remote is True or "remote" in workplace_raw:
+            return location, text_remote if text_remote != RemoteType.UNKNOWN else RemoteType.RESTRICTED
+
+        return location, text_remote
+
     def _normalize(self, raw: dict) -> Optional[JobListing]:
         title = (raw.get("title") or "").strip()
         company = (raw.get("companyName") or "").strip()
@@ -132,18 +197,6 @@ class HimalayasAdapter(BaseAdapter):
 
         posted_at, raw_ts, reliable = parse_utc_timestamp(raw.get("pubDate"))
 
-        locs = [str(loc).strip() for loc in (raw.get("locationRestrictions") or []) if str(loc).strip()]
-        if not locs:
-            location = "Worldwide"
-            remote_type = RemoteType.WORLDWIDE
-        else:
-            location = ", ".join(locs[:5]) + (f" (+{len(locs) - 5} more)" if len(locs) > 5 else "")
-            locs_lower = " ".join(locs).lower()
-            if "worldwide" in locs_lower or "anywhere" in locs_lower or "global" in locs_lower:
-                remote_type = RemoteType.WORLDWIDE
-            else:
-                remote_type = RemoteType.RESTRICTED
-
         excerpt = (raw.get("excerpt") or "").strip()
         cats = [str(c).replace("-", " ") for c in (raw.get("categories") or []) if c]
         parent_cats = [str(c) for c in (raw.get("parentCategories") or []) if c]
@@ -158,6 +211,8 @@ class HimalayasAdapter(BaseAdapter):
         if body_text:
             desc_parts.append(body_text)
         description = "\n\n".join(desc_parts)[:5000]
+
+        location, remote_type = self._resolve_remote_and_location(raw, f"{title} {description}")
 
         salary_min = None
         salary_max = None
