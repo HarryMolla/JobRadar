@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T05:11:20.007664+00:00",
+  "last_updated": "2026-11-12T14:26:16.214426+00:00",
   "stats": {
-    "total_jobs": 19,
+    "total_jobs": 21,
     "total_notified": 0
   },
   "jobs": {
@@ -821,9 +821,258 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "605467e24e6d8094ab3602913ccd9c7a": {
+      "fingerprint": "605467e24e6d8094ab3602913ccd9c7a",
+      "source": "workingnomads",
+      "source_name": "Working Nomads",
+      "source_id": "",
+      "url": "https://www.workingnomads.com/job/go/2016531/",
+      "source_job_url": "https://www.workingnomads.com/job/go/2016531/",
+      "apply_url": "",
+      "title": "Senior React Full-stack Developer",
+      "company": "Lemon.io",
+      "location": "Europe, LATAM, APAC, the U.S., Canada",
+      "work_location": "Europe, LATAM, APAC, the U.S., Canada",
+      "description": "<p><a href=\"https://lemon.io/for-developers/?utm_source=workingnomads&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_react_python/node/ruby_nov_2026_job_ad\" rel=\"nofollow\" target=\"_blank\">Lemon.io</a> helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us.</p>\n<p>New roles for Senior React Full-stack Engineers come in all the time, and several are open right now.</p>\n<p><strong>Two ways to work with clients</strong></p>\n<ul>\n<li><strong>Contract:</strong> most roles are contract-based. You join the client’s team and work as part of it.</li>\n<li><strong>Direct hire:</strong> some clients hire engineers full-time, and we support you through the process.</li>\n</ul>\n<p>Because companies trust our vetting, applying through <a href=\"https://lemon.io/for-developers/?utm_source=workingnomads&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_react_python/node/ruby_nov_2026_job_ad\" rel=\"nofollow\" target=\"_blank\">Lemon.io</a> is often a shortcut. You get to the client faster than going through their full hiring process on your own.</p>\n<p><strong>What you get</strong></p>\n<ul>\n<li>Competitive rate, based on your seniority and skills</li>\n<li>We find the projects. No client hunting or rate negotiations. We match you manually based on your skills and preferences.</li>\n<li>Flexible schedule. Work async or with a small overlap with the team’s hours.</li>\n<li>No micromanagement, no screen trackers</li>\n<li>Direct work with clients, most of them with technical backgrounds</li>\n<li>Ongoing support from your application through every project, plus a community of engineers from 75+ countries</li>\n</ul>\n<h3><strong>We’re looking for<br/><br/>Senior React &amp; Python Developers with:</strong></h3>\n<ul>\n<li>\n<p>4+ years of software development experience</p>\n</li>\n<li>\n<p>Commercial experience in one of the following combinations:<br/>React.js 3+ years and Python 3+ years;<br/>React.js 2+ years and Python 5+ years;<br/>React.js 5+ years and Python 2+ years</p>\n</li>\n<li>Commercial experience with at least one cloud provider: AWS, GCP, or Azure</li>\n</ul>\n<h3><strong>Senior React.js &amp; Node.js Developers with:</strong></h3>\n<ul>\n<li>5+ years of software development experience</li>\n<li>Commercial experience in one of the following combinations:<br/>React.js 3+ years and Node.js 5+ years,<br/>React.js 5+ years and Node.js 3+ years</li>\n<li>3+ years of commercial experience with Next.js</li>\n<li>Hands-on experience with TypeScript, AWS, and AI-assisted coding (required)</li>\n</ul>\n<h3><strong>Senior Ruby &amp; React Developers with:</strong></h3>\n<ul>\n<li>5+ years of software development experience</li>\n<li>Commercial experience in one of the following combinations:<br/>React.js: 2+ years and Ruby: 5+ years<br/>React.js: 5+ years and Ruby: 2+ years</li>\n<li>Commercial experience with at least one cloud provider: AWS, GCP, or Azure</li>\n</ul>\n<h3><strong>Other requirements for all roles:</strong></h3>\n<ul>\n<li>You own problems end-to-end: you identify issues, design and build solutions, and ship them to production</li>\n<li>You can demonstrate business impact with concrete results (e.g., faster processing, lower costs, more users, fewer incidents)</li>\n<li>You have advanced (C1) English: you discuss business tasks, explain your decisions, raise issues early, and communicate your results clearly on client calls</li>\n<li>You work full-time, fully remote, and work independently</li>\n<li>You ramp up quickly and start delivering within your first few weeks</li>\n</ul>\n<p><strong>How it works</strong></p>\n<ol>\n<li>Apply and complete your profile</li>\n<li>Verify your role</li>\n<li>Once approved, we match you with a project. Typical time to first project: 3 weeks</li>\n</ol>\n<p>Ready? Apply and join the <a href=\"https://lemon.io/for-developers/?utm_source=workingnomads&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_react_python/node/ruby_nov_2026_job_ad\" rel=\"nofollow\" target=\"_blank\">Lemon.io</a> community.</p>\n<p><strong>NOT YOUR TECH STACK?</strong></p>\n<p>We’re placing senior tech professionals with 4+ years of commercial experience in the following roles: AI Agent Architect, AI Automation Architect, AI Engineer, Forward Deployed Engineer, Machine Learning Engineer, MLOps, Data Analyst, Data Annotator, Data Architect, Data Engineer, Data Scientist, DevOps, Site Reliability Engineer, Platform Engineer, Solutions Architect, Solutions Engineer, Embedded Software Engineer, Animator, Graphic Designer, UI/UX Designer, Project Manager, Product Manager, QA Automation Engineer, Manual QA Engineer, Back-end Developer (.NET &amp; C#, Golang, Java &amp; Spring, Magento 2 / Adobe Commerce, Node.js &amp; TypeScript, PHP &amp; Laravel, Python, Python &amp; LLM, Python &amp; Node.js, Ruby, Rust, TypeScript, Scala, or C++), Front-end Developer (Angular or Vue &amp; Nuxt), Full-stack",
+      "posted_at": "2026-11-12T11:47:52+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "2026-11-12T06:47:52-05:00",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-12T14:24:15.838442+00:00",
+      "first_seen_at": "2026-11-12T14:24:15.838442+00:00",
+      "last_checked_at": "2026-11-12T14:24:19.844045+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 45,
+      "match_reasons": [
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: next.js (+10)",
+        "Skill: wordpress (+8)",
+        "Skill: vue (+6)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "irrelevant",
+      "age_hours": 2.61,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_remotejobsone_senior-mechanical-design-engineer-remote-worldwide": {
+      "fingerprint": "himalayas::hm_remotejobsone_senior-mechanical-design-engineer-remote-worldwide",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_remotejobsone_senior-mechanical-design-engineer-remote-worldwide",
+      "url": "https://himalayas.app/companies/remotejobsone/jobs/senior-mechanical-design-engineer-remote-worldwide",
+      "source_job_url": "https://himalayas.app/companies/remotejobsone/jobs/senior-mechanical-design-engineer-remote-worldwide",
+      "apply_url": "https://himalayas.app/companies/remotejobsone/jobs/senior-mechanical-design-engineer-remote-worldwide",
+      "title": "Senior Mechanical Design Engineer – Remote (Worldwide)",
+      "company": "RemoteJobsOne",
+      "location": "Canada, France, Germany, India, Netherlands (+3 more)",
+      "work_location": "Canada, France, Germany, India, Netherlands (+3 more)",
+      "description": "Categories: Hardware Engineer, Mechanical Design Engineer, Mechanical Engineer, Design Engineer, Cad Engineer\n\nIMPORTANT: after you apply, please check your email.\n\nIMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder. This is a fully remote position , open to candidates based in 55 countries, including United States, United Kingdom, Canada, Germany, India, France, Netherlands, Singapore. Pay: $40–$90/hr Role Title: Senior Mechanical Design Engineer Role Type: Contractor (~15hrs/week) Location: Remote We are engaging Senior Mechanical Design Engineers to contribute to a customer's project involving complex CAD assembly exploration and AI advancement. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required — your domain knowledge is what matters. Scope of Work Analyze and dissect multi-part mechanical assemblies to identify critical design decisions, constraints, and potential failure points that challenge expert reasoning. Formulate challenging, non-obvious technical questions that test real-world mechanical design judgment, ensuring relevance and difficulty beyond junior-level understanding. Validate and document defensible, exact answers directly from CAD models, ensuring clear traceability and accuracy. Review AI-generated outputs, pinpoint breakdowns or inaccuracies in mechanical reasoning, and suggest targeted improvements. Flag ambiguous, trivial, or unanswerable questions, refining or sharpening them for clarity and precision. Thoroughly document edge cases and sources of disagreement within answers to maintain strict verifiability. Communicate findings and reasoning in clear, professional written and verbal form to support continuous project improvement. Preferred Qualifications 5+ years of professional experience creating and overseeing multi-part mechanical assemblies from concept, not just from existing drawings. Mastery in at least one major parametric CAD tool (SolidWorks, Creo, NX, CATIA, Inventor, Fusion, Onshape, or Solid Edge). Demonstrated experience in teaching, mentoring, or leading — whether through formal instruction, leading design reviews, or coaching engineering teams. Expertise in design intent, assembly reasoning, mechanism and kinematic analysis, and robust GD&T/tolerance judgment. Background in at least one discipline: industrial machinery and automation, robotics, automotive and heavy equipment, aerospace and defense, medical devices, consumer products, or tooling and fixture design. Exceptional written English communication skills — your documentation directly influences project deliverables. Bonus: Experience with FreeCAD, advanced GD&T/tolerance analysis, or formal design review leadership. How to apply Apply here with your profile. We will then email you a link to complete yourapplication on the hiring platform — your application is only considered oncethat final step is done. Originally posted on Himalayas",
+      "posted_at": "2026-11-12T12:33:42+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794486822",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-12T14:24:28.055141+00:00",
+      "first_seen_at": "2026-11-12T14:24:28.055141+00:00",
+      "last_checked_at": "2026-11-12T14:24:36.419830+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "senior",
+      "salary_min": 40,
+      "salary_max": 90,
+      "salary_currency": "USD",
+      "match_score": 60,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'"
+      ],
+      "match_category": "design",
+      "age_hours": 1.85,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-12T14:26:16.214136+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-12T14:26:15.907912+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:49.263185+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:48.195262+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 40,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:48.138839+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 24,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:47.137546+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:44.708148+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:42.078128+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:39.365725+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:39.230919+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:38.759742+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:38.347134+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:38.236537+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:37.922656+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:37.802279+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 620,
+      "error": "",
+      "checked_at": "2026-11-12T14:25:11.057336+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:36.419811+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:19.844023+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:15.306557+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 138,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:15.165324+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:13.914750+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 98,
+      "error": "",
+      "checked_at": "2026-11-12T14:24:13.792517+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -1795,8 +2044,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-12T05:11:19.923394+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11679.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:15.907759+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11688.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1805,8 +2054,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-12T05:11:17.867978+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11678.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:13.845584+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11688.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1815,8 +2064,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-12T05:11:16.070561+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11678.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:11.875143+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11688.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1825,8 +2074,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-12T05:11:13.983415+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11656.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:09.923067+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11665.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1835,8 +2084,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-12T05:11:12.003911+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11656.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:07.869818+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11665.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1845,8 +2094,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-12T05:11:09.892500+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:05.893634+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11665.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1855,8 +2104,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-12T05:11:07.813000+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:03.823509+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11665.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1865,8 +2114,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-12T05:11:05.936748+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:26:01.965912+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11664.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1875,8 +2124,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-12T05:11:03.785333+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:59.849172+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11664.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1885,8 +2134,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-12T05:11:01.916032+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:57.847549+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11664.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1895,8 +2144,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-12T05:11:00.065675+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11655.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:55.992676+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11664.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -1905,8 +2154,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-12T05:10:57.996148+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10127.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:54.620884+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10136.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1915,8 +2164,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-12T05:10:53.357839+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.263063+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1925,8 +2174,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-12T05:10:53.356490+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.262617+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1935,8 +2184,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-12T05:10:53.356252+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.262455+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1945,8 +2194,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-12T05:10:53.356053+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.262291+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1955,8 +2204,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-12T05:10:53.355845+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.262121+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1965,8 +2214,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-12T05:10:53.355636+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20325.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.261945+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20334.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -1975,8 +2224,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-12T05:10:53.355386+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13881.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:49.261730+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13890.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -1985,8 +2234,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-12T05:10:51.565495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 573.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886745+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 582.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -1995,8 +2244,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-12T05:10:51.565380+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 477.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886637+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 486.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2005,8 +2254,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-12T05:10:51.565229+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 477.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886539+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 486.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2015,8 +2264,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-12T05:10:51.565107+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 405.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886440+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 414.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2025,8 +2274,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-12T05:10:51.564994+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 348.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886340+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 357.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2035,8 +2284,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-12T05:10:51.564878+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 343.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886243+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 352.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2045,8 +2294,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-12T05:10:51.564755+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 333.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886142+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 342.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2055,8 +2304,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-12T05:10:51.564631+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 285.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.886037+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 294.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2065,8 +2314,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-12T05:10:51.564501+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 285.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.885931+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 294.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2075,8 +2324,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-12T05:10:51.564336+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 261.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.885788+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 270.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2085,8 +2334,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-12T05:10:51.415637+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1022.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.717232+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1031.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2095,8 +2344,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-12T05:10:51.415532+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1022.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.717136+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1031.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2105,8 +2354,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-12T05:10:51.415427+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 869.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.717041+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 878.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2115,8 +2364,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-12T05:10:51.415319+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 869.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716946+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 878.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2125,8 +2374,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 14 Oct 2026 07:30:48 +0000",
       "posted_at": "2026-10-14T07:30:48+00:00",
-      "detected_at": "2026-11-12T05:10:51.415199+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 693.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716853+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 702.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2135,8 +2384,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 14 Oct 2026 07:30:48 +0000",
       "posted_at": "2026-10-14T07:30:48+00:00",
-      "detected_at": "2026-11-12T05:10:51.415091+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 693.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716758+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 702.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2145,8 +2394,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-12T05:10:51.414984+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 573.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716650+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 582.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2155,8 +2404,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-12T05:10:51.414875+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 540.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716552+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 549.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2165,8 +2414,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-12T05:10:51.414765+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 520.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716454+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 529.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2175,8 +2424,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-12T05:10:51.414654+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 401.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716355+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 410.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2185,8 +2434,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-12T05:10:51.414542+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 373.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716256+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 382.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2195,8 +2444,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-12T05:10:51.414430+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 318.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716157+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 327.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2205,8 +2454,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-12T05:10:51.414308+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 309.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.716054+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 318.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2215,8 +2464,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-12T05:10:51.414166+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 309.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.715954+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 318.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2225,8 +2474,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-12T05:10:51.414043+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 204.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.715847+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 213.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2235,8 +2484,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-12T05:10:51.413921+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 150.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.715736+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 159.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2245,17 +2494,37 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-12T05:10:51.413785+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 108.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-12T14:25:47.715604+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 117.4h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "why-a-fintech-developer-needs-more-than-coding-knowledge-17gl",
+      "title": "Why a Fintech Developer Needs More Than Coding Knowledge",
+      "company": "",
+      "source_timestamp_raw": "Wed, 11 Nov 2026 12:22:37 +0000",
+      "posted_at": "2026-11-11T12:22:37+00:00",
+      "detected_at": "2026-11-12T14:25:47.524179+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 26.1h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "new-mexico-layoffs-november-2026-warn-numbers-explained-3cip",
+      "title": "New Mexico Layoffs November 2026: WARN Numbers Explained",
+      "company": "",
+      "source_timestamp_raw": "Wed, 11 Nov 2026 12:44:55 +0000",
+      "posted_at": "2026-11-11T12:44:55+00:00",
+      "detected_at": "2026-11-12T14:25:47.524082+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 25.7h ago (exceeds 24h limit)"
     },
     {
       "source": "workday",
       "source_id": "wd_Principal-Systems-Analyst_2136534",
       "title": "Principal Systems Analyst",
       "company": "Fidelity",
-      "source_timestamp_raw": "Posted 30 Days Ago",
+      "source_timestamp_raw": "Posted 30+ Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-12T05:10:49.525372+00:00",
+      "detected_at": "2026-11-12T14:25:46.356945+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     },
     {
@@ -2263,29 +2532,9 @@
       "source_id": "wd_Senior-Software-Engineer-Developer_2137724",
       "title": "Senior Software Engineer/Developer",
       "company": "Fidelity",
-      "source_timestamp_raw": "Posted 7 Days Ago",
+      "source_timestamp_raw": "Posted 8 Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-12T05:10:49.525342+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
-    },
-    {
-      "source": "workday",
-      "source_id": "wd_Director--Data-Modeling_2137731",
-      "title": "Director, Data Modeling",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 7 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-12T05:10:49.525307+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
-    },
-    {
-      "source": "workday",
-      "source_id": "wd_Product-Analyst--Portfolio-Construction-Solutions_2135291-2",
-      "title": "Product Manager, Portfolio Construction Solutions",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 6 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-12T05:10:49.525223+00:00",
+      "detected_at": "2026-11-12T14:25:46.356926+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     }
   ],
@@ -2311,7 +2560,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-12T05:10:51.894235+00:00",
+      "last_checked_at": "2026-11-12T14:25:48.195262+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -2363,7 +2612,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-12T05:10:51.894235+00:00",
+      "last_checked_at": "2026-11-12T14:25:48.195262+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -2493,7 +2742,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-12T05:11:20.007306+00:00",
+      "last_checked_at": "2026-11-12T14:26:16.214136+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -2519,7 +2768,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-12T05:10:53.357992+00:00",
+      "last_checked_at": "2026-11-12T14:25:49.263185+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -2532,7 +2781,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-12T05:11:19.923552+00:00",
+      "last_checked_at": "2026-11-12T14:26:15.907912+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
