@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T23:04:35.195583+00:00",
+  "last_updated": "2026-11-13T04:27:35.907653+00:00",
   "stats": {
-    "total_jobs": 27,
+    "total_jobs": 30,
     "total_notified": 0
   },
   "jobs": {
@@ -1201,9 +1201,307 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_pdq_senior-software-engineer-elixir": {
+      "fingerprint": "himalayas::hm_pdq_senior-software-engineer-elixir",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_pdq_senior-software-engineer-elixir",
+      "url": "https://himalayas.app/companies/pdq/jobs/senior-software-engineer-elixir",
+      "source_job_url": "https://himalayas.app/companies/pdq/jobs/senior-software-engineer-elixir",
+      "apply_url": "https://himalayas.app/companies/pdq/jobs/senior-software-engineer-elixir",
+      "title": "Senior Software Engineer, Elixir",
+      "company": "PDQ",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Data Science, Software Engineer, Backend Engineer, Frontend Engineer, AI Engineer\n\nAbout PDQ PDQ, founded in Salt Lake City, UT, USA, makes device management simple, secure, and Pretty Damn Quick.\n\nAbout PDQ PDQ , founded in Salt Lake City, UT, USA, makes device management simple, secure, and Pretty Damn Quick. IT teams use our products to reduce complexity, improve efficiency, and enhance control in their unique environments. We are backed by TA Associates and Berkshire Partners, top-tier global private equity firms. Our Core Values: Honesty: You communicate transparently and build trust through your actions. Ownership: You take responsibility for outcomes and follow through on commitments. Collaboration: You value diverse perspectives and work effectively across teams. Improvement: You actively seek opportunities to learn, grow, and innovate. Location Remote, US - This position is open to candidates residing in any of PDQ ’s open states: AR, AZ, CO, CT, FL, GA, ID, IL, IN, KY, MD, MI, MN, MO, NC, NH, OK, OR, TN, TX, UT, VA, WA, WI. PDQ is seeking a Senior Software Engineer to help build and scale intelligent, autonomous systems that transform how users interact with our products. In this role, you will develop AI-powered agents and workflows that can reason, plan, execute tasks, and interact with tools and systems to solve complex problems with minimal human intervention. You will work across the full software development lifecycle, combining strong software engineering fundamentals with hands-on experience in LLMs, agentic architectures, and AI-driven application development to bring practical, production-ready AI capabilities to life. What you'll be doing: Build new features in Elixir and React with TypeScript while designing and operating agentic AI systems that perform multi-step reasoning, planning, and tool execution for our cloud-native SaaS product. Work in a CI/CD environment, shipping code to production frequently following agile principles. Collaborate with engineering teammates in the US and Romania on shared priorities. Troubleshoot technical issues, from bugs to outages and customer support cases. Research, prototype, and contribute to technical decisions. Participate in constructive code reviews and continuous learning. We're looking for people who have: Bachelor's degree in Computer Science, a related degree, or equivalent experience 5+ years experience developing Elixir or Erlang based applications, with much of this experience in a professional setting Experience with AI fundamentals and agentic workflows, including: Autonomous or semi-autonomous agents Multi-step reasoning, planning, and tool use Feedback loops, memory, and stateful agents LLM orchestration frameworks (e.g., LangChain, semantic kernels, custom agent frameworks) Experience integrating LLMs via APIs (OpenAI, Anthropic, etc.) Understanding of prompt engineering vs. system design tradeoffs Experience handling hallucinations, guardrails, evaluation, and observability Proven experience building intuitive, scalable UI/UX for SaaS products Experience with agent-based or end-point management SaaS products is a plus Familiarity with agile development and CI/CD workflows. Experience with GraphQL for building and consuming APIs Familiarity with Google Cloud Platform (GCP) and PostgreSQL Exposure to observability and monitoring tools such as Prometheus and Grafana Exposure to open-source development is a plus. Who you are: Ownership: You take responsibility for projects, drive results, and deliver on commitments Honesty: You demonstrate integrity, transparency, and ethical behavior in all interactions Collaboration: You work effectively with cross-functional teams and foster a culture of teamwork Improvement: You continuously seek opportunities for growth, innovation, and personal development Passionate about delivering business value by applying your engineering skills Experience building clean and simple solutions at scale Possess strong analytic, technical, and problem-solving skills Ability to communicate effectively through written or verbal medium Knowledge of Git version control and branching strategies Defensive security strategies for both client and server-side web systems Strong ability to create lightweight proposals, diagrams, specifications, and other analyses from user requirements Excellent debugging skills and pragmatic design experience Experience with test-driven development and automated testing frameworks Ability to read code and quickly make sense of an unfamiliar codebase Ability to understand a problem space and make code changes safely Experience with internal quality validation marker PDQ -Elixir-SIGNAL- PDQ Perks & Benefits: PDQ offers all of the great perks and benefits you'd expect from working at a very cool tech company, and even some you might not expect, including: 4-Day Work Week Equity Managers who champion professional development 100% Premium Coverage for medical, dental an",
+      "posted_at": "2026-11-13T01:04:43+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794531883",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-13T04:25:31.130019+00:00",
+      "first_seen_at": "2026-11-13T04:25:31.130019+00:00",
+      "last_checked_at": "2026-11-13T04:25:45.438752+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 72,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: graphql (+5)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 3.35,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_harbor-compliance_manager-software-engineering": {
+      "fingerprint": "himalayas::hm_harbor-compliance_manager-software-engineering",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_harbor-compliance_manager-software-engineering",
+      "url": "https://himalayas.app/companies/harbor-compliance/jobs/manager-software-engineering",
+      "source_job_url": "https://himalayas.app/companies/harbor-compliance/jobs/manager-software-engineering",
+      "apply_url": "https://himalayas.app/companies/harbor-compliance/jobs/manager-software-engineering",
+      "title": "Manager, Software Engineering",
+      "company": "Harbor Compliance",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Engineering Manager, Software Engineering Manager, Software Development Manager, Technical Manager\n\n🏆 Great Place to Work® Certified | USA Harbor Compliance is a leading technology platform for entity compliance, helping more than 80,000 businesses and nonprofits manage licensing, tax registration, and legal entity requirements nationwide.\n\n🏆 Great Place to Work® Certified | USA Harbor Compliance is a leading technology platform for entity compliance, helping more than 80,000 businesses and nonprofits manage licensing, tax registration, and legal entity requirements nationwide. Founded in 2012 and recognized repeatedly by the Inc. 5000 and Deloitte Technology Fast 500, we've grown through five strategic acquisitions — and are now backed by a 2026 majority growth investment from Bregal Sagemount to accelerate product, AI, and customer experience. We're a passionate team making compliance simpler and smarter for every organization we serve. The Engineering Manager leads a team of software engineers building Harbor’s next-generation compliance platform. This is a player-coach role: you will ship code, build proofs of concept, and review code in the details, while owning predictable delivery, service reliability, and team growth. You will translate product priorities into executable technical plans, guide architecture and AI-assisted workflows, and develop a mature, high-ownership team. The work includes a massive agentic orchestration layer and an evergreen data problem, and it will reach tens of thousands of organizations from day one. Responsibilities Lead a team of engineers building Harbor’s next-generation platform in TypeScript and Go, including a large-scale agentic orchestration layer and a complex, evergreen data problem. Ship code. Build proofs of concept, contribute to the codebase, and review code in the details alongside your team. Drive delivery of team commitments by planning, scoping, and unblocking work, giving engineers ownership and trusting them to run with it. Coach, mentor, and manage engineers through regular feedback, clear expectations, and performance management, including lifting up struggling performers and managing out when needed. Hire and develop high-caliber engineers, and create growth paths for internal talent. Shape how the team builds with AI, including agentic coding tools and harnesses, and drive adoption across your team. Own the reliability and quality of your team’s systems, including incident response and postmortems. Partner with Product, Operations, and other engineering leaders to align priorities and resolve trade-offs, and manage distributed team members who work asynchronously (including in Prague). Requirements About 1+ year of people management experience in an engineering organization, with a clear philosophy of leadership and management and concrete examples of applying that philosophy. Hands-on engineering depth with modern languages (TypeScript, Go, or similar), and the polyglot appetite to pick up new languages, stacks, and legacy code (PHP) as the problem demands. Active use of agentic coding tools (Claude Code, Cursor, Codex, or similar) Comfort managing engineers who may be more senior or higher paid than you, such as staff-level individual contributors. Strong passion for building and ongoing learning, with a habit of staying current on how technology and AI are evolving. Based in the U.S. with availability aligned to Eastern core business hours (9a-5p). West Coast candidates should expect some early mornings when managing team members in other time zones. Preferred Skills Experience with modern database technology (such as SurrealDB) and distributed systems. Experience leading agentic transformation of existing code. Experience managing distributed teams in different time zones, including asynchronous collaboration. Accommodations: Harbor Compliance is committed to providing any reasonable accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter. Compensation: Harbor Compliance ’s base salary range for this role is listed below. Compensation at the time of offer is based on factors such as skill set, experience, qualifications, and work location. Salary is one part of Harbor Compliance ’s total compensation package. Other benefits may include health benefits, flexible paid time off, parental leave, fertility and adoption assistance, 401(k), and educational reimbursement. Note that the salary range and benefits apply only to U.S.-based candidates. Pay Transparency Policy Statement Harbor Compliance will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their ",
+      "posted_at": "2026-11-13T00:23:54+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794529434",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-13T04:25:35.108340+00:00",
+      "first_seen_at": "2026-11-13T04:25:35.108340+00:00",
+      "last_checked_at": "2026-11-13T04:25:45.438752+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 162930,
+      "salary_max": 203663,
+      "salary_currency": "USD",
+      "match_score": 55,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 4.03,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_atlassian_senior-product-designer-administration": {
+      "fingerprint": "himalayas::hm_atlassian_senior-product-designer-administration",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_atlassian_senior-product-designer-administration",
+      "url": "https://himalayas.app/companies/atlassian/jobs/senior-product-designer-administration",
+      "source_job_url": "https://himalayas.app/companies/atlassian/jobs/senior-product-designer-administration",
+      "apply_url": "https://himalayas.app/companies/atlassian/jobs/senior-product-designer-administration",
+      "title": "Senior Product Designer, Administration",
+      "company": "Atlassian",
+      "location": "Australia",
+      "work_location": "Australia",
+      "description": "Categories: Design, Product Designer, UX Designer\n\nOverviewWorking at AtlassianAtlassians can choose where they work – whether in an office, from home, or a combination of the two.\n\nOverview Working at Atlassian Atlassian s can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassian s have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Atlassian Administration is the control centre for every organisation running on Atlassian 's System of Work. Admins use it to set up their organisation, get the right people onto the right apps, keep their data secure and compliant, and grow their Atlassian investment over time. As Atlassian becomes AI-first, Administration is changing from a place where admins dig for information into one that tells them what to act on, explains how and why, and acts on their behalf. It's built on trusted data, flexible org structures and visibility into everything connected to a customer's Atlassian portfolio, and powered by Rovo and agents. The result is enterprise-grade governance with far less effort. Your Future Team You'll join Admin Experience , the team behind the operating system for Atlassian admins. Admins use it to set up and manage their organisation, get people onto the right apps, and grow their Atlassian investment over time. Our vision is an Atlassian Admin that tells admins what to act on, advises them on how and why, and acts on their behalf. To get there, we're rebuilding trusted foundations: accurate license data, reliable org structure through Units, and visibility into what's connected to a customer's Atlassian portfolio. At the same time we're launching AI-powered experiences such as Rovo in Admin Hub and a reimagined Overview. You'll be part of a small, high-conviction design team working on problems at enterprise scale, for some of the world's largest and most regulated organisations. Responsibilities What you will do Design the high-stakes foundation every Atlassian customer runs on. Every organisation depends on Administration to set up, secure and scale how it works, one decision can affect every user, app and site. Admin actions are often irreversible and hard to see, so you’ll make changes clear, safe and auditable at the scale of the world’s largest, most regulated enterprises. Own whole admin journeys, not just screens. Define complete journeys end to end — setting up an organisation, structuring it with Units, managing licences, governing connected apps, including the edge cases, errors and bulk actions that only show up at scale. Shape AI-powered administration. Help turn Administration from a place where admins dig for answers into one that tells them what to act on, explains how and why, and acts on their behalf through Rovo and agents, designing the transparency, controls and governance that make admins comfortable trusting AI. Make Administration feel like one product. Many teams build admin experiences; you’ll create the patterns, information architecture and Admin UI Kit components that make them feel consistent and cohesive for admins. Turn trust into a design outcome and champion admins. Partner with Engineering and Data so licence counts, user activity and connected-app data are accurate and easy to understand. Represent IT admins, security teams and org owners, learning from customer calls, escalations and usage data, and measuring your work against leading enterprise admin tools. What your day to day looks like Designing end-to-end admin experiences for complex, data-heavy and permission-sensitive workflows, such as licensing, org hierarchies, identity and access, and app governance. Designing AI-native and agentic experiences, including recommendations, approvals, audit trails and rollback, that earn the trust enterprise admins need. Building functional, AI-enabled prototypes to explore options, de-risk complex flows and test ideas with customers. Contributing patterns to the Admin UI Kit and the Atlassian Design System so the admin experience stays cohesive across contributing teams. Partnering with your PM and Engineering partners to define goals, reduce ambiguity and own outcomes as priorities change. Compensation At Atlassian , we strive to design equitable, explainable, and competitive compensation programs. We follow consistent hiring practices and account for each candidate's skills, knowledge, and experience when setting base pay within the range. This role may also be eligible for benefits, bonuses, commissions, and equity. Qualifications What You Bring We'd love to see a portfolio that demonstrates: Enterprise and admin SaaS experience. 5+ years of product design experience with complex B2B, SaaS or enterprise software, including time spent on administration, settings or other data-heavy, permission-sensitive surfaces. Strong craft in visual and interaction design. A high level of craft a",
+      "posted_at": "2026-11-13T00:02:40+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794528160",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-13T04:25:35.119412+00:00",
+      "first_seen_at": "2026-11-13T04:25:35.119412+00:00",
+      "last_checked_at": "2026-11-13T04:25:45.438752+00:00",
+      "remote_type": "hybrid",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Other",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 90,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: design system (+12)",
+        "Skill: information architecture (+8)",
+        "Skill: interaction design (+10)"
+      ],
+      "match_category": "design",
+      "age_hours": 4.38,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-13T04:27:35.907328+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:35.809038+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:09.171475+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:07.958027+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 40,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:07.923149+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 24,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:06.642627+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:02.449340+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:27:00.107254+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:57.032733+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:56.915450+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:54.806083+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:54.368275+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:54.260164+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:54.150172+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:54.038696+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 617,
+      "error": "",
+      "checked_at": "2026-11-13T04:26:20.068547+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:45.438731+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:28.847901+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:24.345682+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 143,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:24.213718+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:21.789199+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 98,
+      "error": "",
+      "checked_at": "2026-11-13T04:25:21.641218+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -2483,8 +2781,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-12T23:04:35.151849+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:35.808889+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2493,8 +2791,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-12T23:04:33.090938+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11696.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:33.792029+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2503,8 +2801,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-12T23:04:31.073144+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11696.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:31.845685+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2513,8 +2811,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-12T23:04:29.071628+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11674.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:29.768427+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11679.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2523,8 +2821,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-12T23:04:27.071456+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11674.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:27.808726+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11679.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2533,8 +2831,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-12T23:04:25.123320+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:25.850026+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11679.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2543,8 +2841,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-12T23:04:23.042144+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:23.756085+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11679.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2553,8 +2851,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-12T23:04:21.126004+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:21.824313+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11678.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2563,8 +2861,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-12T23:04:19.075489+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:19.763082+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11678.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2573,8 +2871,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-12T23:04:17.162135+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:17.784452+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11678.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2583,8 +2881,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-12T23:04:15.135395+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11673.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:15.907113+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11678.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -2593,8 +2891,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-12T23:04:13.174269+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10145.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:14.063101+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10150.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2603,8 +2901,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-12T23:04:08.665255+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20343.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.171363+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2613,8 +2911,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-12T23:04:08.664788+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20343.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170951+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2623,8 +2921,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-12T23:04:08.664586+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20343.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170803+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2633,8 +2931,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-12T23:04:08.664372+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20343.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170649+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2643,8 +2941,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-12T23:04:08.664163+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20343.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170480+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2653,8 +2951,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-12T23:04:08.663953+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20342.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170318+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20348.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -2663,8 +2961,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-12T23:04:08.663712+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13898.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:09.170121+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13904.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2673,8 +2971,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-12T23:04:06.878226+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 591.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.701385+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 596.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2683,8 +2981,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-12T23:04:06.878062+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 495.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.701290+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 500.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2693,8 +2991,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-12T23:04:06.877900+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 495.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.701196+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 500.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2703,8 +3001,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-12T23:04:06.877734+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 423.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.701102+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 428.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2713,8 +3011,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-12T23:04:06.877572+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 366.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.701010+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 371.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2723,8 +3021,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-12T23:04:06.877408+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 361.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.700914+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 366.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2733,8 +3031,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-12T23:04:06.877253+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 351.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.700818+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 356.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2743,8 +3041,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-12T23:04:06.877093+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 303.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.700720+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 308.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2753,8 +3051,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-12T23:04:06.876922+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 303.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.700620+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 308.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -2763,8 +3061,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-12T23:04:06.876722+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 279.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.700475+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 284.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2773,8 +3071,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-12T23:04:06.736831+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1040.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.275076+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1045.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2783,8 +3081,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-12T23:04:06.736723+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1039.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274987+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1045.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2793,8 +3091,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-12T23:04:06.736613+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 886.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274897+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 892.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2803,8 +3101,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-12T23:04:06.736495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 886.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274808+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 892.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2813,8 +3111,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 14 Oct 2026 07:30:48 +0000",
       "posted_at": "2026-10-14T07:30:48+00:00",
-      "detected_at": "2026-11-12T23:04:06.736368+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 711.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274716+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 716.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2823,8 +3121,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 14 Oct 2026 07:30:48 +0000",
       "posted_at": "2026-10-14T07:30:48+00:00",
-      "detected_at": "2026-11-12T23:04:06.736258+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 711.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274628+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 716.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2833,8 +3131,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-12T23:04:06.736152+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 591.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274528+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 596.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2843,8 +3141,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-12T23:04:06.736047+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 558.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274436+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 563.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2853,8 +3151,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-12T23:04:06.735937+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 538.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274344+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 543.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2863,8 +3161,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-12T23:04:06.735831+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 419.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274253+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 424.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2873,8 +3171,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-12T23:04:06.735721+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 391.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274161+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 396.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2883,8 +3181,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-12T23:04:06.735610+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 336.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.274067+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 341.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2893,8 +3191,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-12T23:04:06.735463+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 327.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273970+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2903,8 +3201,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-12T23:04:06.735348+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 327.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273878+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2913,8 +3211,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-12T23:04:06.735228+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 222.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273780+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 227.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2923,8 +3221,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-12T23:04:06.735106+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 168.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273686+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 173.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2933,8 +3231,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-12T23:04:06.734977+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 126.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273564+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 131.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -2943,18 +3241,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-12T23:04:06.734796+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 30.0h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "devto_hiring",
-      "source_id": "att-files-50-worker-warn-notice-in-new-jersey-effective-january-",
-      "title": "AT&T Files 50-Worker WARN Notice in New Jersey, Effective January 31, 2027",
-      "company": "",
-      "source_timestamp_raw": "Wed, 11 Nov 2026 20:47:16 +0000",
-      "posted_at": "2026-11-11T20:47:16+00:00",
-      "detected_at": "2026-11-12T23:04:06.552900+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 26.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.273443+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 35.4h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -2963,18 +3251,28 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 22:03:00 +0000",
       "posted_at": "2026-11-11T22:03:00+00:00",
-      "detected_at": "2026-11-12T23:04:06.552786+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 25.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-13T04:27:07.075609+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 30.4h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Principal-Systems-Analyst_2136534",
-      "title": "Principal Systems Analyst",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-12T23:04:05.279256+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "devto_hiring",
+      "source_id": "ubs-files-39-worker-warn-notice-for-weehawken-new-jersey-effecti",
+      "title": "UBS Files 39-Worker WARN Notice for Weehawken, New Jersey, Effective February 2, 2027",
+      "company": "",
+      "source_timestamp_raw": "Wed, 11 Nov 2026 23:05:51 +0000",
+      "posted_at": "2026-11-11T23:05:51+00:00",
+      "detected_at": "2026-11-13T04:27:07.075488+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 29.4h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "the-week-of-november-12-7578-workers-scheduled-for-layoffs-29dd",
+      "title": "The Week of November 12: 7,578 Workers Scheduled for Layoffs",
+      "company": "",
+      "source_timestamp_raw": "Thu, 12 Nov 2026 00:55:49 +0000",
+      "posted_at": "2026-11-12T00:55:49+00:00",
+      "detected_at": "2026-11-13T04:27:07.075384+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 27.5h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -2999,7 +3297,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-12T23:04:07.174433+00:00",
+      "last_checked_at": "2026-11-13T04:27:07.958027+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -3051,7 +3349,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-12T23:04:07.174433+00:00",
+      "last_checked_at": "2026-11-13T04:27:07.958027+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -3181,7 +3479,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-12T23:04:35.195222+00:00",
+      "last_checked_at": "2026-11-13T04:27:35.907328+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -3207,7 +3505,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-12T23:04:08.665371+00:00",
+      "last_checked_at": "2026-11-13T04:27:09.171475+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -3220,7 +3518,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-12T23:04:35.152009+00:00",
+      "last_checked_at": "2026-11-13T04:27:35.809038+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
