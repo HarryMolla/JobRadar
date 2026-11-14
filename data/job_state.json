@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T04:23:29.271872+00:00",
+  "last_updated": "2026-11-14T12:50:18.555301+00:00",
   "stats": {
-    "total_jobs": 56,
+    "total_jobs": 62,
     "total_notified": 0
   },
   "jobs": {
@@ -2604,9 +2604,446 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_remote-va_remote-ai-graphic-designer": {
+      "fingerprint": "himalayas::hm_remote-va_remote-ai-graphic-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_remote-va_remote-ai-graphic-designer",
+      "url": "https://himalayas.app/companies/remote-va/jobs/remote-ai-graphic-designer",
+      "source_job_url": "https://himalayas.app/companies/remote-va/jobs/remote-ai-graphic-designer",
+      "apply_url": "https://himalayas.app/companies/remote-va/jobs/remote-ai-graphic-designer",
+      "title": "Remote AI Graphic Designer",
+      "company": "Remote VA",
+      "location": "Philippines",
+      "work_location": "Philippines",
+      "description": "Categories: Design, Graphic Designer, E Commerce Listing Specialist, Product Listing Specialist, Visual Content Designer\n\nWe're Hiring: Graphic Designer / E-commerce Lister Are you a creative and detail-oriented Graphic Designer with experience in e-commerce product listings?\n\nWe're Hiring: Graphic Designer / E-commerce Lister Are you a creative and detail-oriented Graphic Designer with experience in e-commerce product listings? We're looking for a skilled professional to join our team and help create engaging product listings that drive sales. Position: Graphic Designer / Lister Schedule: 9:00 AM – 5:00 PM Key Responsibilities: Create high-quality graphics for new product listings Write compelling and accurate product descriptions Upload and manage listings across e-commerce platforms Fine-tune and optimize existing listings to improve visibility and conversions Utilize AI-powered tools and listing software, including 4Seller.com and similar platforms Ensure all listings maintain brand consistency and accuracy Collaborate with the team to improve listing performance and customer engagement Requirements: Strong graphic design skills with proficiency in design software Experience creating product images, infographics, and promotional content Excellent written English and attention to detail Familiarity with e-commerce marketplaces and listing optimization strategies Experience using AI tools and listing management software is highly preferred Ability to work independently and meet deadlines If you're passionate about combining creativity with e-commerce, we'd love to hear from you! Originally posted on Himalayas",
+      "posted_at": "2026-11-14T10:56:38+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794653798",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:10.465313+00:00",
+      "first_seen_at": "2026-11-14T12:48:10.465313+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 50,
+      "match_reasons": [
+        "Title matches design role: 'graphic designer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.86,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_logistics-management-institute_full-stack-software-engineer": {
+      "fingerprint": "himalayas::hm_logistics-management-institute_full-stack-software-engineer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_logistics-management-institute_full-stack-software-engineer",
+      "url": "https://himalayas.app/companies/logistics-management-institute/jobs/full-stack-software-engineer",
+      "source_job_url": "https://himalayas.app/companies/logistics-management-institute/jobs/full-stack-software-engineer",
+      "apply_url": "https://himalayas.app/companies/logistics-management-institute/jobs/full-stack-software-engineer",
+      "title": "Full Stack Software Engineer",
+      "company": "Logistics Management Institute",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Full Stack Engineer, Software Engineer, Web Application Developer, Backend Engineer\n\nOverviewLMI is seeking a talented and motivated Full Stack Software Engineer to join the team developing and advancing RAPTR®, LMI's innovative modeling, simulation, and analysis platform.\n\nOverview LMI is seeking a talented and motivated Full Stack Software Engineer to join the team developing and advancing RAPTR®, LMI's innovative modeling, simulation, and analysis platform. RAPTR enables federal defense and national security customers to make faster, more informed decisions through advanced analytics, interactive visualizations, and rapid modeling and simulation capabilities. As a Full Stack Software Engineer on the RAPTR team, you will play a critical role in designing, developing, integrating, and deploying scalable, secure, and high-performance software solutions that support complex mission requirements. You will work across the full technology stack, building intuitive web applications, robust backend services, and data-driven capabilities that transform complex information into actionable insights. The ideal candidate is a technically strong, adaptable engineer who thrives in a fast-paced, collaborative environment, takes ownership of challenging problems, and is passionate about delivering innovative technology to support critical government missions. This position offers the opportunity to directly influence product capabilities, contribute to technical decisions, and work closely with customers and multidisciplinary teams to deliver meaningful mission impact. This is a remote role. This position requires the ability to obtain a CBP BI clearance. You must be a U.S. citizen. Responsibilities Responsibilities: Design, develop, and maintain scalable, secure, and high-performance full-stack applications supporting RAPTR's modeling, simulation, and analytics capabilities. Build and enhance intuitive, responsive user interfaces using modern frontend frameworks such as Angular and React, delivering seamless user experiences and interactive data visualizations. Develop and integrate robust backend services, RESTful APIs, and data pipelines using Python, Node.js, TypeScript, and PostgreSQL. Collaborate with cross-functional teams, including software engineers, data scientists, product managers, and government stakeholders, to translate complex mission requirements into innovative technical solutions. Support application deployment, automation, and continuous integration and delivery (CI/CD) processes using Docker, GitLab, and cloud infrastructure, including AWS GovCloud. Troubleshoot complex technical challenges, optimize application performance, and implement secure coding practices to ensure reliability, scalability, and compliance with federal security requirements. Contribute to technical architecture decisions, software design reviews, and product enhancements to continuously improve RAPTR's capabilities and support evolving customer needs. Engage directly with government customers to understand operational challenges, gather feedback, and deliver software solutions that drive measurable mission impact. Qualifications Required Qualifications Must be able to obtain and maintain a favorable U.S. Customs and Border Protection (CBP) Background Investigation (BI) determination. Advanced proficiency in Python. Extensive experience with PostgreSQL, including database development and management. Proven experience with the MEAN stack and full-stack application development using TypeScript. Experience developing modern web applications using Angular or React. Experience developing backend services using server-side frameworks such as Node.js or equivalent technologies. Experience designing, developing, and integrating RESTful APIs to support frontend applications and external data sources. Strong knowledge of containerization technologies, such as Docker, and CI/CD pipelines using GitLab. Familiarity with cloud deployment models, particularly AWS GovCloud, and/or experience working within DoD or federal environments. Demonstrated ability to integrate software solutions with existing business processes, systems, and APIs. Strong understanding of the software development lifecycle (SDLC), secure coding practices, and software security principles. Ability to effectively manage multiple tasks, balance competing priorities, and deliver results in a fast-paced environment. Demonstrated ability to work independently, take initiative, and operate with significant autonomy in dynamic environments. Willingness and availability to travel to client sites as needed. Preferred Qualifications Current favorable U.S. Customs and Border Protection (CBP) Background Investigation (BI) determination. Experience supporting federal government customers, with an understanding of their unique mission needs, operational challenges, and requirements. Demonstrated ability to develop strategic relationships with key stakeholders and",
+      "posted_at": "2026-11-14T10:37:42+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794652662",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:14.468711+00:00",
+      "first_seen_at": "2026-11-14T12:48:14.468711+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Other",
+      "seniority": "",
+      "salary_min": 111000,
+      "salary_max": 211000,
+      "salary_currency": "USD",
+      "match_score": 67,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.18,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_lynker-corporation_scientific-software-engineer-meteorological-decoders-for-o": {
+      "fingerprint": "himalayas::hm_lynker-corporation_scientific-software-engineer-meteorological-decoders-for-o",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_lynker-corporation_scientific-software-engineer-meteorological-decoders-for-o",
+      "url": "https://himalayas.app/companies/lynker-corporation/jobs/scientific-software-engineer-meteorological-decoders-for-observation-processin",
+      "source_job_url": "https://himalayas.app/companies/lynker-corporation/jobs/scientific-software-engineer-meteorological-decoders-for-observation-processin",
+      "apply_url": "https://himalayas.app/companies/lynker-corporation/jobs/scientific-software-engineer-meteorological-decoders-for-observation-processin",
+      "title": "Scientific Software Engineer - Meteorological Decoders for Observation Processin",
+      "company": "Lynker Corporation",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Scientific Software Engineer, Software Engineer, Data Processing Engineer, HPC Engineer\n\nOverviewLynker is seeking a highly skilled Software Engineer to support the NOAA/NWS Office of Modeling and Development by managing, developing, and optimizing the meteorological data decoder systems.\n\nOverview Lynker is seeking a highly skilled Software Engineer to support the NOAA/NWS Office of Modeling and Development by managing, developing, and optimizing the meteorological data decoder systems. This role focuses on the critical pipeline that converts diverse, native-format meteorological observations into standardized formats required for downstream numerical weather prediction (NWP) systems. Responsibilities Duties of the Scientific Software Engineer will include the following: Technical Operations & R&D Develop, maintain, and optimize C and Fortran programs used to decode raw meteorological bulletins. Translate non-standard native data formats into BUFR and JEDI IODA netcdf by engineering specialized decoder logic Ensure uninterrupted, efficient data flow by managing input and output streams for ingest data queues, descriptor lists, and temporary BUFR message storage. Systems & Data Integration Monitor and troubleshoot operational data ingestion across major meteorological data servers, including LDM, DBNet, GTS, and WIS2. Ensure decoded data tanks are optimized for rapid assimilation into the NCEP NWP system, supporting the generation of thousands of daily weather products. Manage and maintain the software repositories pertaining to legacy and operational decoder processing. Coordination & Reporting Liaise with upstream data originators and downstream NCO Operations users to seamlessly integrate new observational data types into the BUFR pipeline. Report on software task progress, system performance metrics, and project risks to the Lead Scientist and Federal oversight managers. Participate in the Modernization of Observation Infrastructure project (GEODE) to transition legacy decoder frameworks to modern architectures. Qualifications The Scientist Software Engineer selected for this role should meet the following qualifications: Advanced skills and knowledge of Fortran and C programming languages specifically tailored for data parsing and processing. Deep understanding of BUFR (Binary Universal Form for the Representation of meteorological data), including table-driven descriptors and binary extraction logic. Experience working in a UNIX/Linux environment with advanced shell scripting languages. Demonstrated knowledge of meteorological data servers and distribution networks (LDM, DBNet, GTS, WIS2). Skills and knowledge of High-Performance Computing (HPC) file systems and job schedulers (e.g., WCOSS environment, MPI, Slurm, LSF). Knowledge of modern software development practices and version control software, particularly Git/GitHub/Gitflow. Ability to perform complex, mission-critical debugging in a fast-paced, operational environment. Additional desirable experiences and skills include: Knowledge of global Data Assimilation (DA) systems and observation networks. Experience transitioning legacy meteorological codebases into Cloud environments. Background in atmospheric physics or earth system modeling. About Lynker Lynker is a growing, employee owned business, specializing in professional, scientific and technical services. Our continually expanding team combines scientific expertise with mature, results-driven processes and tools to achieve technically sound, cost effective solutions in hydrology/water sciences, geospatial analysis, information technology, resource management, conservation, and management and business process improvement. We focus on putting the right people in the right place to be effective. And having the right people is critical for success. Our streamlined organization enables and empowers our talented professionals to tackle our customers' scientific and technical priorities – creatively and effectively. Lynker offers a team-oriented work environment, and the opportunity to work in a culture of exceptionally skilled professionals who embrace sound science and creative solutions. Lynker's benefits include the following: Comprehensive healthcare for the employee at no monthly cost Healthcare benefit covers medical, prescription drug, dental, and vision Personal Time Off (PTO) Policy plus paid holidays Highly competitive compensation plan regularly calibrated against industry and location benchmarks 401(k) retirement plan with company-matching Employee Stock Ownership Plan (ESOP) – we're all company owners! Flexible spending accounts Employee assistance program (EAP) Short- and long-term disability insurance Life and accident insurance Tuition assistance/Training/Workforce improvement reimbursement per year Spot bonuses for exceptional performance Annual Employee Recognition Awards with bonuses Employee Referral Program Free centralized, self-directed Learning Manage",
+      "posted_at": "2026-11-14T10:36:53+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794652613",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:14.469813+00:00",
+      "first_seen_at": "2026-11-14T12:48:14.469813+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "hybrid",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 55,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.19,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_stripe_staff-software-engineer-code-forge": {
+      "fingerprint": "himalayas::hm_stripe_staff-software-engineer-code-forge",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_stripe_staff-software-engineer-code-forge",
+      "url": "https://himalayas.app/companies/stripe/jobs/staff-software-engineer-code-forge",
+      "source_job_url": "https://himalayas.app/companies/stripe/jobs/staff-software-engineer-code-forge",
+      "apply_url": "https://himalayas.app/companies/stripe/jobs/staff-software-engineer-code-forge",
+      "title": "Staff Software Engineer, Code Forge",
+      "company": "Stripe",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Software Engineer, Backend Engineer, Frontend Engineer, Developer Productivity Engineer\n\nWho we areAbout StripeStripe is a financial infrastructure platform for businesses.\n\nWho we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Developer Productivity organization works to make Stripe the most productive place of an engineer’s career. The Code Review team builds the tools and processes that help Stripe engineers review and ship code safely and efficiently. We treat engineers’ attention as a valuable resource, building tools that help them understand changes and focus on the decisions that need human judgment. Our goal is to build an AI review agent that outperforms human review at preventing problems after changes merge, while helping developers move quickly. We are also moving code review from GitHub to Orbit Diffs, Stripe ’s own review interface, and enabling Stripe ’s migration from legacy source control infrastructure to new systems, including infrastructure built at Stripe . What you’ll do As a Staff Software Engineer, you will take ownership of problems across the code review domain, set technical direction, and build alignment across Stripe . You will combine technical leadership with hands-on engineering to build the systems that determine which changes can be approved by agents and when human judgment is needed. Your decisions will influence both the pace and safety of changes across Stripe . You will work across user interfaces, backend services, source control integrations, and agent harnesses. Our team works primarily in Go, Ruby, and TypeScript, and you will use the technologies each problem requires. As AI capabilities evolve, you will experiment with new approaches and turn them into reliable, maintainable tools for developers. Responsibilities Set technical direction for code review, build alignment across Stripe , and mentor engineers as you lead complex projects from problem definition through delivery and adoption Build and improve agent harnesses that enable review agents to exercise judgment and safely approve pull requests Develop evaluations that compare agent and human review decisions, assess the safety of merged changes and the impact on developer velocity, and guide improvements to approval decisions Evaluate and apply advances in AI and agent orchestration to accelerate engineering delivery across Stripe while maintaining review quality, maintainability, reliability, and change safety Build and maintain Orbit Diffs and the surrounding code review tools, helping engineers understand changes and focus their attention where their judgment is most valuable Improve code ownership, intelligent reviewer assignment, stacked pull request workflows, and controls for change management Support Stripe ’s migration to new source control infrastructure by adapting code review workflows and integrations Partner with security, compliance, infrastructure, reliability, and language and runtime teams to improve how software changes are evaluated and approved across Stripe Who you are We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements BS or MS in Computer Science or a related field 10+ years of professional software engineering experience, including designing, building, and operating reliable production software across languages and system boundaries Experience owning a technical domain, setting technical direction, and leading complex projects from ambiguous problems through delivery Experience using data and user feedback to evaluate quality, understand user needs, and guide engineering decisions Experience building alignment across teams, explaining technical tradeoffs, and adapting your approach as technologies evolve Preferred qualifications Experience building agent harnesses, orchestrating agents, or designing evaluations for agent behavior Experience building developer productivity tools, especially code review or related workflows Experience with software change management and compliance, including designing, implementing, or maintaining controls Originally posted on Himalayas",
+      "posted_at": "2026-11-14T10:26:03+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794651963",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:16.466419+00:00",
+      "first_seen_at": "2026-11-14T12:48:16.466419+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 55,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.37,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_dresden-partners_graphic-designer": {
+      "fingerprint": "himalayas::hm_dresden-partners_graphic-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_dresden-partners_graphic-designer",
+      "url": "https://himalayas.app/companies/dresden-partners/jobs/graphic-designer",
+      "source_job_url": "https://himalayas.app/companies/dresden-partners/jobs/graphic-designer",
+      "apply_url": "https://himalayas.app/companies/dresden-partners/jobs/graphic-designer",
+      "title": "Graphic Designer",
+      "company": "Dresden Partners",
+      "location": "Mexico",
+      "work_location": "Mexico",
+      "description": "Categories: Design, Graphic Designer, Visual Designer, Brand Designer\n\nEnDresden Partnersconectamos el talento con empresas globales de primer nivel.\n\nEn Dresden Partners conectamos el talento con empresas globales de primer nivel. Somos un puente de oportunidad laboral especialistas en identificar, y vincular profesionales con empresas internacionales en México, LATAM y USA. Estamos en búsqueda de talento para la posición: Graphic Designer Experiencia: Más de 5 años de experiencia profesional en diseño gráfico. Más de 5 años de experiencia desarrollando materiales impresos y señalización para eventos. Dominio avanzado de Adobe Creative Cloud, especialmente: Adobe InDesign. Adobe Photoshop. Adobe Illustrator. Experiencia trabajando con Figma. Manejo de Microsoft Office: Word, PowerPoint, Excel y SharePoint. Manejo de Google Workspace: Docs, Sheets y Drive. Experiencia en preparación de archivos y gestión de procesos de impresión, desde el diseño hasta la producción final. Conocimiento de lineamientos de marca, tipografía, color, composición y sistemas de identidad visual. Experiencia en edición fotográfica, retoque y composición de imágenes. Experiencia creando gráficos multimedia y animaciones, incluyendo GIFs. Experiencia colaborando con clientes internacionales, especialmente de Estados Unidos y Europa. Responsabilidades: Diseñar materiales gráficos para campañas de marketing digital e impreso utilizando Adobe Creative Cloud. Crear contenido visual para redes sociales, páginas web, banners, presentaciones, anuncios digitales, gráficos animados, GIFs, logotipos e iconografía. Desarrollar materiales impresos como folletos, brochures, postales, catálogos, flyers, pósters, banners y materiales para eventos. Crear composiciones visuales, edición fotográfica y combinación de imágenes. Adaptar y actualizar materiales existentes de acuerdo con los lineamientos de marca. Garantizar la consistencia visual de la identidad corporativa en diferentes plataformas y formatos. Colaborar con equipos de Marketing, Ventas, Contenido y otras áreas para desarrollar soluciones creativas. Gestionar varios proyectos simultáneamente, cumpliendo con tiempos de entrega y prioridades. Preparar archivos finales para impresión y medios digitales. Coordinar procesos de producción con imprentas, clientes y proveedores externos. Participar en proyectos creativos de diferentes departamentos y contribuir con nuevas ideas y propuestas visuales. Idioma: Inglés avanzado conversacional (interactúa de manera efectiva con equipos internacionales) Zona de trabajo: Remoto Ofrecemos: Sueldo competitivo. Bonos : Puntualidad y asistencia. Prestaciones de ley: IMSS, aguinaldo, vacaciones. Beneficios superiores: seguro de vida, seguro de gastos funerarios, gastos médicos mayores, gastos médicos menores. Si cumples con el perfil, envía tu CV al correo señalado, mencionando expectativas económicas y en asunto el nombre de la vacante Para mayor información en: Originally posted on Himalayas",
+      "posted_at": "2026-11-14T10:24:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794651876",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:16.468846+00:00",
+      "first_seen_at": "2026-11-14T12:48:16.468846+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 81,
+      "match_reasons": [
+        "Title matches design role: 'graphic designer'",
+        "Skill: figma (+15)",
+        "Skill: photoshop (+8)",
+        "Skill: illustrator (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.4,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_mvr-digital_digital-marketing-project-manager": {
+      "fingerprint": "himalayas::hm_mvr-digital_digital-marketing-project-manager",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_mvr-digital_digital-marketing-project-manager",
+      "url": "https://himalayas.app/companies/mvr-digital/jobs/digital-marketing-project-manager",
+      "source_job_url": "https://himalayas.app/companies/mvr-digital/jobs/digital-marketing-project-manager",
+      "apply_url": "https://himalayas.app/companies/mvr-digital/jobs/digital-marketing-project-manager",
+      "title": "Digital Marketing Project Manager",
+      "company": "MVR Digital",
+      "location": "Canada",
+      "work_location": "Canada",
+      "description": "Categories: Operations, Marketing, Digital Marketing Project Manager, Project Manager, Marketing Project Managers, Digital Marketing Manager, Client Project Manager\n\nDigital Marketing Project Manager, Enterprise Client Account About MVR DigitalMVR Digital is a performance marketing agency recognized by Adweek as one of the Fastest Growing Agencies.\n\nDigital Marketing Project Manager, Enterprise Client Account About MVR Digital MVR Digital is a performance marketing agency recognized by Adweek as one of the Fastest Growing Agencies. We partner with emerging and scaling brands across automotive, luxury goods, skincare, and other high value categories to drive profitable growth through disciplined, cross channel marketing. The Role We are hiring a Digital Marketing Project Manager to own delivery on one dedicated enterprise client account. The account runs seven figure media budgets and draws on our media buyers, creative team, and email specialists. You will turn strategy into scopes, timelines, and task plans, keep every team aligned, and make sure work ships on time and on scope. You will work with the Client Success Manager, media buyers, creative team, and leadership. ClickUp is our operating system. You will run it for this account and help set the standard for the rest of the agency. What You Will Do Project ownership Own end to end delivery for one dedicated large client account across paid media, creative, and email Build and maintain project plans, dependencies, and milestones in ClickUp Plan team capacity and flag overload before it turns into a missed deadline Set QA checkpoints so work is reviewed before it reaches the client Identify risks early and adjust timelines or resourcing Cross functional coordination Coordinate media buyers, designers, and operations Run weekly status check ins, internal huddles, and delivery reviews Make sure every brief has clear requirements, owners, and deadlines Keep work moving through launches, Q4, and creative refreshes Client and internal communication Support the Client Success Manager with a tight, predictable execution cadence Tell the client and the team early when timelines or priorities shift Join client calls when delivery is on the agenda Document decisions, action items, and next steps in ClickUp Operational discipline Maintain clean ClickUp boards, statuses, templates, automations, and dashboards Standardize workflows and improve our processes over time Hold the team to our async communication and remote collaboration practices What You Need Required 4+ years in project management or agency operations Advanced ClickUp experience. You have built and maintained templates, automations, and dashboards, and you have run client delivery inside it. This is required. Experience managing delivery on large client accounts, with significant budgets, multiple stakeholders, and layered approvals Hands on experience managing projects across paid media, creative, and marketing teams Working knowledge of digital marketing workflows across Meta, Google, and email Comfort working remotely and asynchronously, with meaningful overlap with US business hours Based in Canada Preferred Agency experience DTC or ecommerce experience Familiarity with Meta Ads Manager, Google Ads, and Klaviyo Bachelor's degree in Marketing, Business, Communications, or a related field You bring structure to messy situations, write clearly, take responsibility for outcomes, and stay steady when priorities compete. Compensation and Benefits Performance and client based bonus opportunities Remote first role open to candidates based in Canada Wellness benefits including PTO and flexible Fridays Professional development support for courses, certifications, and skill building Why This Role You will have real ownership of delivery for a sophisticated client, direct influence on how MVR runs projects, and the trust to solve problems without waiting for permission. Salary: $6,500-$7,500 USD per month Originally posted on Himalayas",
+      "posted_at": "2026-11-14T12:20:39+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794658839",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T12:48:26.734439+00:00",
+      "first_seen_at": "2026-11-14T12:48:26.734439+00:00",
+      "last_checked_at": "2026-11-14T12:48:26.749030+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": 6500,
+      "salary_max": 7500,
+      "salary_currency": "USD",
+      "match_score": 61,
+      "match_reasons": [
+        "Title matches digital marketing role: 'digital marketing'",
+        "Skill: meta ads (+8)",
+        "Skill: google ads (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "marketing",
+      "age_hours": 0.46,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-14T12:50:18.554952+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-14T12:50:18.451393+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:51.969681+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:50.753224+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 38,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:50.716265+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:49.869167+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:49.318911+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:45.959611+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:43.917789+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:43.782041+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:42.438649+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:42.185206+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:42.146445+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:42.048187+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:42.017309+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 609,
+      "error": "",
+      "checked_at": "2026-11-14T12:49:01.277537+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:26.749011+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:10.171146+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:05.282368+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 149,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:05.179629+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:03.909566+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-14T12:48:03.820524+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -4502,8 +4939,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-14T04:23:29.173709+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:18.451235+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11735.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4512,8 +4949,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-14T04:23:27.567581+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:16.412652+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11734.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4522,8 +4959,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-14T04:23:25.190134+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11725.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:14.376666+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11734.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4532,8 +4969,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-14T04:23:23.077217+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11703.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:12.288464+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11712.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4542,8 +4979,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-14T04:23:21.090224+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11703.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:10.356709+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11712.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4552,8 +4989,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-14T04:23:19.084648+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11703.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:08.330574+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11711.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4562,8 +4999,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-14T04:23:16.955086+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11703.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:06.593771+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11711.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4572,8 +5009,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-14T04:23:15.023627+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11702.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:04.337237+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11711.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4582,8 +5019,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-14T04:23:12.929832+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11702.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:02.298542+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11711.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4592,8 +5029,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-14T04:23:11.088299+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11702.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:50:00.545407+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11710.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4602,8 +5039,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-14T04:23:09.056825+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11702.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:58.421864+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11710.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -4612,8 +5049,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-14T04:23:07.081875+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10174.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:56.452596+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10183.1h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4622,8 +5059,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-14T04:23:02.497920+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.969559+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.9h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4632,8 +5069,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-14T04:23:02.497768+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.969084+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.8h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4642,8 +5079,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-14T04:23:02.497611+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.968887+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.8h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4652,8 +5089,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-14T04:23:02.497452+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.968668+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.8h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4662,8 +5099,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-14T04:23:02.497295+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.968469+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4672,8 +5109,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-14T04:23:02.497132+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.968267+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20380.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -4682,8 +5119,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-14T04:23:02.496941+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13928.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:51.968036+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13936.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4692,8 +5129,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-14T04:23:01.199945+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 620.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559905+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 629.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4702,8 +5139,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-14T04:23:01.199858+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 524.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559767+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 533.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4712,8 +5149,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-14T04:23:01.199748+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 524.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559648+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 533.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4722,8 +5159,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-14T04:23:01.199658+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 452.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559532+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 461.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4732,8 +5169,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-14T04:23:01.199569+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 395.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559410+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 404.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4742,8 +5179,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-14T04:23:01.199477+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 390.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559291+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 399.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4752,8 +5189,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-14T04:23:01.199385+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 380.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559166+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 389.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4762,8 +5199,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-14T04:23:01.199290+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.559044+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 341.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4772,8 +5209,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-14T04:23:01.199195+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.558905+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 341.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4782,8 +5219,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-14T04:23:01.199077+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 308.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.558696+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 317.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4792,8 +5229,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-14T04:23:01.028887+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1069.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.385296+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1078.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4802,8 +5239,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-14T04:23:01.028786+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1069.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.385182+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1077.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4812,8 +5249,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-14T04:23:01.028685+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 916.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.385065+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 924.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4822,8 +5259,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-14T04:23:01.028598+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 916.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384948+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 924.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4832,8 +5269,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-14T04:23:01.028511+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 620.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384796+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 629.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4842,8 +5279,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-14T04:23:01.028423+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 587.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384676+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 595.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4852,8 +5289,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-14T04:23:01.028331+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 567.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384561+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 576.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4862,8 +5299,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-14T04:23:01.028242+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 448.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384443+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 457.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4872,8 +5309,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-14T04:23:01.028151+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 420.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384327+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 428.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4882,8 +5319,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-14T04:23:01.028061+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 365.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384212+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 374.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4892,8 +5329,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-14T04:23:01.027967+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 356.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.384087+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 365.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4902,8 +5339,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-14T04:23:01.027872+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 356.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.383970+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 365.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4912,8 +5349,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-14T04:23:01.027746+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 251.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.383826+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 259.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4922,8 +5359,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-14T04:23:01.027650+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 197.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.383708+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 206.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4932,8 +5369,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-14T04:23:01.027549+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 155.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.383587+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 163.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4942,58 +5379,58 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-14T04:23:01.027428+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 59.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T12:49:50.383426+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 67.8h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
-      "source_id": "wright-tree-service-files-six-warn-notices-for-california-closur",
-      "title": "Wright Tree Service Files Six WARN Notices for California Closures: 190 Workers, Effective the Same Day",
+      "source_id": "the-real-cost-of-hiring-developers-in-2026-full-time-or-augmenta",
+      "title": "The Real Cost Of Hiring Developers In 2026 – Full Time Or Augmentation?",
       "company": "",
-      "source_timestamp_raw": "Thu, 12 Nov 2026 16:46:23 +0000",
-      "posted_at": "2026-11-12T16:46:23+00:00",
-      "detected_at": "2026-11-14T04:23:00.855557+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 35.6h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Fri, 13 Nov 2026 06:45:16 +0000",
+      "posted_at": "2026-11-13T06:45:16+00:00",
+      "detected_at": "2026-11-14T12:49:50.168968+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 30.1h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
-      "source_id": "ellison-institute-files-88-worker-warn-notice-for-los-angeles-la",
-      "title": "Ellison Institute Files 88-Worker WARN Notice for Los Angeles Layoff",
+      "source_id": "the-2027-layoff-calendar-is-already-filling-up-2882-workers-sche",
+      "title": "The 2027 Layoff Calendar Is Already Filling Up: 2,882 Workers Scheduled",
       "company": "",
-      "source_timestamp_raw": "Thu, 12 Nov 2026 21:49:14 +0000",
-      "posted_at": "2026-11-12T21:49:14+00:00",
-      "detected_at": "2026-11-14T04:23:00.855462+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 30.6h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Fri, 13 Nov 2026 06:47:18 +0000",
+      "posted_at": "2026-11-13T06:47:18+00:00",
+      "detected_at": "2026-11-14T12:49:50.168830+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 30.0h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
-      "source_id": "the-warn-window-is-shrinking-reported-layoff-plans-down-8-in-two",
-      "title": "The WARN Window Is Shrinking: Reported Layoff Plans Down 8% in Two Weeks",
+      "source_id": "december-18-is-the-newest-week-on-the-warn-calendar-5003-workers",
+      "title": "December 18 Is the Newest Week on the WARN Calendar — 5,003 Workers Scheduled",
       "company": "",
-      "source_timestamp_raw": "Fri, 13 Nov 2026 03:57:12 +0000",
-      "posted_at": "2026-11-13T03:57:12+00:00",
-      "detected_at": "2026-11-14T04:23:00.855367+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 24.4h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Fri, 13 Nov 2026 07:58:05 +0000",
+      "posted_at": "2026-11-13T07:58:05+00:00",
+      "detected_at": "2026-11-14T12:49:50.168703+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 28.9h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8891698002",
-      "title": "Threat Research Engineer, Security Factory: Threat Research",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
-      "posted_at": "2026-11-11T09:10:18+00:00",
-      "detected_at": "2026-11-14T04:22:21.901299+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 67.2h ago (exceeds 24h limit)"
+      "source": "devto_hiring",
+      "source_id": "warn-act-and-layoffs-at-startups-why-most-startup-layoffs-come-w",
+      "title": "WARN Act and Layoffs",
+      "company": "Startups: Why Most Startup Layoffs Come With No Notice",
+      "source_timestamp_raw": "Fri, 13 Nov 2026 08:51:24 +0000",
+      "posted_at": "2026-11-13T08:51:24+00:00",
+      "detected_at": "2026-11-14T12:49:50.168573+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 28.0h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8784185002",
-      "title": "Technical Program Manager",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-09-16T00:25:42-04:00",
-      "posted_at": "2026-09-16T04:25:42+00:00",
-      "detected_at": "2026-11-14T04:22:21.901227+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1415.9h ago (exceeds 24h limit)"
+      "source": "devto_hiring",
+      "source_id": "the-two-heaviest-layoff-weeks-are-back-to-back-14552-workers-sch",
+      "title": "The Two Heaviest Layoff Weeks Are Back to Back: 14,552 Workers Scheduled",
+      "company": "",
+      "source_timestamp_raw": "Fri, 13 Nov 2026 11:46:43 +0000",
+      "posted_at": "2026-11-13T11:46:43+00:00",
+      "detected_at": "2026-11-14T12:49:50.168443+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 25.1h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -5018,7 +5455,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-14T04:23:01.404789+00:00",
+      "last_checked_at": "2026-11-14T12:49:50.753224+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -5070,7 +5507,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-14T04:23:01.404789+00:00",
+      "last_checked_at": "2026-11-14T12:49:50.753224+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -5200,7 +5637,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-14T04:23:29.271465+00:00",
+      "last_checked_at": "2026-11-14T12:50:18.554952+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -5226,7 +5663,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-14T04:23:02.498026+00:00",
+      "last_checked_at": "2026-11-14T12:49:51.969681+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -5239,7 +5676,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-14T04:23:29.173875+00:00",
+      "last_checked_at": "2026-11-14T12:50:18.451393+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
