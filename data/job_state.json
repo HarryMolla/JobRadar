@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T23:07:44.604643+00:00",
+  "last_updated": "2026-11-14T04:23:29.271872+00:00",
   "stats": {
-    "total_jobs": 44,
+    "total_jobs": 56,
     "total_notified": 0
   },
   "jobs": {
@@ -2025,9 +2025,742 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_mozilla_senior-software-engineer-os-integration-5113112657": {
+      "fingerprint": "himalayas::hm_mozilla_senior-software-engineer-os-integration-5113112657",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_mozilla_senior-software-engineer-os-integration-5113112657",
+      "url": "https://himalayas.app/companies/mozilla/jobs/senior-software-engineer-os-integration-5113112657",
+      "source_job_url": "https://himalayas.app/companies/mozilla/jobs/senior-software-engineer-os-integration-5113112657",
+      "apply_url": "https://himalayas.app/companies/mozilla/jobs/senior-software-engineer-os-integration-5113112657",
+      "title": "Senior Software Engineer, OS Integration",
+      "company": "Mozilla",
+      "location": "Spain",
+      "work_location": "Spain",
+      "description": "Categories: Developer, Software Engineer, Systems Software Engineer, Desktop Application Engineer, Platform Engineer\n\nWhy Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years.\n\nWhy Mozilla ? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About the OS Integration team: The OS Integration team ensures Firefox works well with the host operating system and environment. We’re a distributed team with expertise in Windows, macOS, and Linux-based operating systems. Our responsibilities include developing fixes and improvements for Firefox related to Windows, macOS, and Linux environments. This might include integration with a new OS feature or fixing an OS-specific user interface bug. Other responsibilities include native crash reporting, OS abstraction layers, sandboxing, hardening, updater, and enterprise DLP support. About the role: As a member of the OS Integration team, you’ll develop fixes, improvements, and new features for Firefox. In many cases work may be cross-platform or have a cross-platform component. This role will include maintenance and development of the installer and updater of Firefox. You’ll contribute to the team through code review and discussion. What you’ll do: Improve the quality of Firefox and other Mozilla products by debugging and fixing software defects, improving the browsing experience for hundreds of millions of users. Contribute to new features and improvements. Break down tasks and work with others to deliver solutions. Collaborate with experienced software engineers. Perform code reviews and provide technical direction. Work with a geographically-distributed development team. Interact with teams throughout the organization. What you’ll bring: 5+ years of overall software engineering experience Strong knowledge of C and C++ Experience with desktop application development on Windows, macOS, or Linux with C++. Knowledge of web technologies such as Javascript and HTML. Knowledge of secure coding practices and memory safety concerns. Strong problem-solving and debugging skills. Written and verbal communication skills with a collaborative mindset. Willingness to work effectively in a distributed team environment. Commitment to our values: Play to win Build for People first Engage Evidence over Ego Decide and Deliver Ship, learn and repeat Bonus Points for experience with: Installer and/or Updater development on any OS Windows internals like the BITS server or MSIX packages Open-source contributions or personal engineering projects What you’ll get: Generous performance-based bonus plans to all eligible employees - we share in our success as one team Rich medical, dental, and vision coverage Generous retirement contributions with 100% immediate vesting (regardless of whether you contribute) Quarterly all-company wellness days where everyone takes a pause together Country specific holidays plus a day off for your birthday One-time home office stipend Annual professional development budget Considerable paid parental leave Employee referral bonus program Other benefits (life/AD&D, disability, EAP, etc. - varies by country) About Mozilla Mozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla , you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online. Commitment to diversity, equity, inclusion, and belonging Mozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission.  We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, ge",
+      "posted_at": "2026-11-14T01:48:45+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794620925",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:32.934170+00:00",
+      "first_seen_at": "2026-11-14T04:21:32.934170+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": 58000,
+      "salary_max": 77000,
+      "salary_currency": "EUR",
+      "match_score": 67,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.55,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_ui-designer-ai-neobank-app": {
+      "fingerprint": "himalayas::hm_bjak_ui-designer-ai-neobank-app",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_ui-designer-ai-neobank-app",
+      "url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app",
+      "title": "UI Designer - AI Neobank App",
+      "company": "Bjak",
+      "location": "Portugal",
+      "work_location": "Portugal",
+      "description": "Categories: Design, UI Designer, UI UX Designer, Digital Banking Design, UI UX Design, UI Design, Financial UI Designer, UX UI Design\n\nAbout BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a UI Designer to craft intuitive, elegant and high-performing interfaces for BJAK's AI and financial products. This role is for someone who obsesses over visual quality, interaction details and usability. You'll work closely with product managers and engineers to design mobile-first experiences that make complex financial products feel simple, trustworthy and enjoyable to use. What You'll Own Design polished, user-centric interfaces for mobile and web products. Transform product requirements into wireframes, user flows, prototypes and high-fidelity UI. Build intuitive experiences across insurance, payments, claims, investments and other financial services. Maintain and evolve BJAK's design system to ensure consistency across products. Collaborate closely with product managers and engineers to deliver pixel-perfect implementation. Iterate designs using user feedback, analytics and usability testing. Ensure accessibility, responsiveness and visual consistency across different devices and platforms. Contribute to improving overall product usability, interaction patterns and visual language. What We're Looking For 2–5 years of experience designing digital products, with a strong focus on mobile applications. Strong portfolio demonstrating exceptional visual design, interaction design and UI craftsmanship. Advanced proficiency in Figma, prototyping and modern design workflows. Strong understanding of mobile-first design principles, platform guidelines (iOS & Android) and responsive layouts. Good understanding of UX principles, information architecture and user-centred design. Ability to simplify complex user journeys into intuitive interfaces. High attention to detail with strong visual hierarchy, typography and spacing. Portfolio is required. Applications without a portfolio will not be considered. Design Tools Figma FigJam Design Systems Interactive Prototyping Auto Layout & Components Design Tokens The Kind of Builder We Want Thinks in complete user journeys, not just beautiful screens. Obsesses over clarity, consistency and usability. Designs interfaces that reduce friction and build user trust. Works closely with engineers to ensure designs are implemented accurately. Moves quickly while maintaining a high standard of visual quality. Takes ownership of problems instead of waiting for detailed instructions. This Role Is Not For Designers who focus only on aesthetics without considering usability. People who copy trends without understanding user problems. Designers who struggle to collaborate with product and engineering teams. Individuals who require extensive direction before making design decisions. Candidates who cannot clearly explain the rationale behind their design choices or their individual contributions. Location This role is remote, but candidates must be based in Portugal . We are hiring specifically for this market, so applicants should already be based in Portugal . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:44:52+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794620692",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:34.921589+00:00",
+      "first_seen_at": "2026-11-14T04:21:34.921589+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.62,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_software-mind_8xs-software-engineer-go-mid": {
+      "fingerprint": "himalayas::hm_software-mind_8xs-software-engineer-go-mid",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_software-mind_8xs-software-engineer-go-mid",
+      "url": "https://himalayas.app/companies/software-mind/jobs/8xs-software-engineer-go-mid",
+      "source_job_url": "https://himalayas.app/companies/software-mind/jobs/8xs-software-engineer-go-mid",
+      "apply_url": "https://himalayas.app/companies/software-mind/jobs/8xs-software-engineer-go-mid",
+      "title": "[8XS] Software Engineer – Go (Mid)",
+      "company": "Software Mind",
+      "location": "Costa Rica",
+      "work_location": "Costa Rica",
+      "description": "Categories: Developer, Software Engineer, Backend Engineer, Go Developer, Platform Engineer, Cloud Software Engineer\n\nSoftware Mind is joining the client's engineering team to build a new plugin platform in Go, Kafka and Google Cloud, letting internal teams extend LiveOps through a strict plugin interface.\n\nSoftware Mind is joining the client's engineering team to build a new plugin platform in Go, Kafka and Google Cloud, letting internal teams extend LiveOps through a strict plugin interface. You will work in a small Scrum team alongside the client's technical lead. Build the platform's first plugin, a gacha / wheel-of-fortune reward mechanic. Implement configurable, auditable probability-based reward logic. Define plugin schemas that generate configuration and user interfaces. Run plugins safely within the platform's sandboxed environment. Publish and consume plugin events through Kafka. Feed platform gaps back to the platform engineers. Document the plugin as a reference implementation. 3+ years of software engineering, including production Go. Schema-driven development (JSON Schema, Protobuf or OpenAPI). TypeScript and React, ideally schema-generated UIs. Business-logic-heavy features with strong test coverage. REST/gRPC APIs and event-driven integration (Kafka). • Fluent English (B2+) Sandboxed runtimes such as WebAssembly or isolated workers. Game mechanics: gacha, loot tables, RNG and probability. Odds-disclosure and player-protection awareness. • Google Cloud, PostgreSQL and Redis. We are Software Mind , an awesome team of engineers who are ready to ramp up any top-notch company’s projects! Our aim? To always be one step ahead. Become part of a multicultural company in constant growth with an excellent work environment certified by Great Place To Work! Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:44:29+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794620669",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:34.923439+00:00",
+      "first_seen_at": "2026-11-14T04:21:34.923439+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 67,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.62,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_centene-corporation_senior-graphic-designer": {
+      "fingerprint": "himalayas::hm_centene-corporation_senior-graphic-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_centene-corporation_senior-graphic-designer",
+      "url": "https://himalayas.app/companies/centene-corporation/jobs/senior-graphic-designer",
+      "source_job_url": "https://himalayas.app/companies/centene-corporation/jobs/senior-graphic-designer",
+      "apply_url": "https://himalayas.app/companies/centene-corporation/jobs/senior-graphic-designer",
+      "title": "Senior Graphic Designer",
+      "company": "Centene Corporation",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, Graphic Designer, Senior Graphic Designer, Visual Designer, Brand Designer, Print Designer\n\nPosition Purpose: Responsible for the design and direction on print creative projects.\n\nPosition Purpose: Responsible for the design and direction on print creative projects. Lead and manage creative projects involving multiple members of the Marketing department. Key Details: This position is remote within the United States. Manage all aspects of design projects and lead team creative projects Provide vision, creative solutions and deliver high-quality designs for all assigned tasks Act as a consultant on best practices including maintaining brand standards Manage outsourced vendors to deliver projects that are within budget and on schedule Work cross-functionally with other partners within department and across the organization to deliver design solutions and assets Assists with website design projects For Corporate Marketing: Ingest creative briefs and other creative requests, interpret them and output beautiful, high-quality graphic design assets across multiple channels. Performs other duties as assigned Complies with all policies and standards Education/Experience: Bachelor’s degree in Graphic Design, Marketing, Communications or related field or equivalent experience. 8+ years of related experience in marketing or advertising. Must be proficient with Adobe Creative Suite, especially InDesign, Photoshop and Adobe Express. Other design tools like Canva, Figma or Fondue a plus. Agency experience a plus. Experience in marketing for health care or other highly regulated industry a plus.Pay Range: $56,200.00 - $101,000.00 per year At Centene, we connect people to the care they need to live healthier lives — and the work you do here makes that impact real every day. You’ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It’s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules.  Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time status.  Total compensation may also include additional forms of incentives. Benefits may be subject to program eligibility. Centene is an equal opportunity employer that is committed to diversity, and values the ways in which we are different. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristic protected by applicable law. Qualified applicants with arrest or conviction records will be considered in accordance with the LA County Ordinance and the California Fair Chance Act Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:31:06+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794619866",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:36.950293+00:00",
+      "first_seen_at": "2026-11-14T04:21:36.950293+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 56200,
+      "salary_max": 101000,
+      "salary_currency": "USD",
+      "match_score": 73,
+      "match_reasons": [
+        "Title matches design role: 'graphic designer'",
+        "Skill: figma (+15)",
+        "Skill: photoshop (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.85,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_kfc-global-careers_sr-software-engineer-ii": {
+      "fingerprint": "himalayas::hm_kfc-global-careers_sr-software-engineer-ii",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_kfc-global-careers_sr-software-engineer-ii",
+      "url": "https://himalayas.app/companies/kfc-global-careers/jobs/sr-software-engineer-ii",
+      "source_job_url": "https://himalayas.app/companies/kfc-global-careers/jobs/sr-software-engineer-ii",
+      "apply_url": "https://himalayas.app/companies/kfc-global-careers/jobs/sr-software-engineer-ii",
+      "title": "Sr. Software Engineer II",
+      "company": "KFC Global Careers",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Operations, Software Engineer, Backend Engineer, Platform Engineer, Systems Engineer, Senior C# .NET Software Engineer, Senior Java Software Engineer\n\nAbout the RoleWe are looking for a Senior Software Engineer to join our Developer Experience & Architecture team.\n\nAbout the Role We are looking for a Senior Software Engineer to join our Developer Experience & Architecture team. The team builds shared platforms, frameworks, tooling, and engineering standards that help product teams develop and operate services securely, reliably, and efficiently. In this role, you will be a senior individual contributor and technical leader working on foundational systems across the organization, including our federated GraphQL platform, gateways, shared libraries, developer tooling, authentication and authorization capabilities, and platform observability. Our Platform Graph is a key entry point to services supporting millions of customers worldwide as well as internal applications and business users. You will help evolve this platform as new products, markets, and technical requirements emerge. This is a high-leverage platform role: the goal is to solve common engineering problems once, at the platform layer, and provide paved roads that make secure, reliable, and maintainable solutions easier for teams to adopt. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:27:51+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794619671",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:36.964437+00:00",
+      "first_seen_at": "2026-11-14T04:21:36.964437+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 60,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: graphql (+5)"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.9,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_peraton_front-end-web-developer": {
+      "fingerprint": "himalayas::hm_peraton_front-end-web-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_peraton_front-end-web-developer",
+      "url": "https://himalayas.app/companies/peraton/jobs/front-end-web-developer",
+      "source_job_url": "https://himalayas.app/companies/peraton/jobs/front-end-web-developer",
+      "apply_url": "https://himalayas.app/companies/peraton/jobs/front-end-web-developer",
+      "title": "Front-End Web Developer",
+      "company": "Peraton",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Front End Developer, Web Developer, UI Developer, Frontend Engineer, JavaScript Developer, Frontend Web Development, Web Frontend Engineer\n\nResponsibilitiesPeraton is seeking a Front‑End Web Developer to join our growing team supporting mission‑critical applications for government customers.\n\nResponsibilities Peraton is seeking a Front‑End Web Developer to join our growing team supporting mission‑critical applications for government customers. In this role, you will design, build, and maintain intuitive, accessible, and highly performant user interfaces using modern JavaScript frameworks and U.S. Web Design System (USWDS) components. You will collaborate closely with data scientist, UX designers, and product owners to deliver user‑centered solutions. Responsibilities: Develop responsive, accessible front‑end applications using React , Node.js , and USWDS components Implement custom reusable UI components and front‑end architecture patterns that support scalability and maintainability Build modular interface components and client-side logic using modern JavaScript and patterns Integrate front‑end interfaces with RESTful APIs and back-end services Optimize build and bundling modern web projects using tools like Vite Support deployment and runtime behavior in containerized environments using Nginx for static hosting or reverse proxying Ensure compliance with accessibility standards (WCAG) and government usability guidelines. Troubleshoot UI defects, performance issues, and cross‑browser inconsistencies. Collaborate with DevOps, DataOps, and cloud engineers to support deployment and operational readiness. Qualifications Required Qualifications: 5 years with BS/BA; 3 years with MS/MA; 0 years with PhD or 9 years and High School diploma in lieu of degree Professional experience building front‑end applications using: React Node.js / Express U.S. Web Design System (USWDS) Vite (build tooling and front end bundling) Nginx (static site hosting, reverse proxy concepts, configuration) Strong understanding of HTML5, CSS3, modular CSS, responsive design, and JavaScript ES6+. Experience integrating front‑end components with API services. Experience working in Agile environments using Git‑based version control. Ability to work collaboratively in a distributed team environment. Ability to obtain and maintain a Public Trust clearance. US Citizenship is required. Desired Qualifications: Experience with Snowflake (queries, stored procedures, or SQL API concepts). Familiarity with AWS services (Lambda, API Gateway, S3, EKS, ECR, etc.). Experience using the AWS SDK within Node.js or front‑end applications. Database experience using SQL (PostgreSQL or similar). Knowledge of CI/CD pipelines and automated testing frameworks Peraton Overview Peraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy. As the world’s leading mission capability integrator and transformative enterprise IT provider, we deliver trusted, highly differentiated solutions and technologies to protect our nation and allies. Peraton operates at the critical nexus between traditional and nontraditional threats across all domains: land, sea, space, air, and cyberspace. The company serves as a valued partner to essential government agencies and supports every branch of the U.S. armed forces. Each day, our employees do the can’t be done by solving the most daunting challenges facing our customers. Visit peraton.com to learn how we’re keeping people around the world safe and secure. Target Salary Range $104,000 - $166,000. This represents the typical salary range for this position. Salary is determined by various factors, including but not limited to, the scope and responsibilities of the position, the individual’s experience, education, knowledge, skills, and competencies, as well as geographic location and business and contract considerations. Depending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay. EEO EEO: Equal opportunity employer, including disability and protected veterans, or other characteristics protected by law. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:27:32+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794619652",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:36.969028+00:00",
+      "first_seen_at": "2026-11-14T04:21:36.969028+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "not_sponsored",
+      "relocation_offered": false,
+      "visa_sponsorship": "unavailable",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": 104000,
+      "salary_max": 166000,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: design system (+12)",
+        "Skill: responsive design (+8)",
+        "Skill: accessibility (+8)",
+        "Skill: wcag (+10)",
+        "Skill: react (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.9,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_mobile-ui-designer": {
+      "fingerprint": "himalayas::hm_bjak_mobile-ui-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_mobile-ui-designer",
+      "url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer",
+      "title": "Mobile UI Designer",
+      "company": "Bjak",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, Mobile UI Designer, Mobile UX UI Designer, Mobile UI UX Designer, Mobile UI UX Design, Mobile UI Design, Mobile UX UI Design, Mobile App Designer\n\nAbout BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a Mobile UI Designer to create elegant, intuitive and high-performing mobile experiences for BJAK's AI Neobank and financial products. This role is for someone who loves designing mobile interfaces that feel effortless, responsive and visually refined. You'll work alongside engineers and product managers to create experiences used daily by millions of users. What You'll Own Design beautiful and intuitive interfaces for iOS and Android applications. Create wireframes, user flows, prototypes and production-ready UI. Design mobile experiences across insurance, payments, claims, investments and financial services. Build and maintain mobile design systems and reusable components. Work closely with developers to ensure pixel-perfect implementation. Optimize interfaces for usability, accessibility and platform guidelines. Iterate designs using analytics, usability findings and product feedback. Ensure consistency across different devices, screen sizes and operating systems. What We're Looking For 2+ years of experience designing mobile applications. Strong portfolio showcasing high-quality mobile UI work. Expert proficiency in Figma and interactive prototyping. Deep understanding of iOS Human Interface Guidelines and Android Material Design. Strong understanding of mobile usability, responsive layouts and interaction design. Excellent attention to typography, spacing, colour and visual hierarchy. Ability to simplify complex financial workflows into clean mobile experiences. Portfolio is required. Design Stack Figma FigJam Design Systems Auto Layout Interactive Prototyping iOS Human Interface Guidelines Material Design The Kind of Builder We Want Thinks mobile-first. Obsesses over visual polish and interaction quality. Notices small UI inconsistencies before users do. Cares about accessibility, responsiveness and performance. Collaborates closely with engineers to deliver high-quality products. Takes pride in shipping pixel-perfect interfaces. This Role Is Not For Designers whose experience is primarily marketing or branding. People who design without considering real user behaviour. Designers unfamiliar with mobile platform conventions. Individuals who struggle to collaborate with engineers. Candidates who cannot explain the rationale behind their design decisions. Location This role is remote, but candidates must be based in the US . We are hiring specifically for this market, so applicants should already be based in the US . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:26:06+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794619566",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:36.976987+00:00",
+      "first_seen_at": "2026-11-14T04:21:36.976987+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: branding (+8)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.93,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_android-software-engineer-4978463405": {
+      "fingerprint": "himalayas::hm_bjak_android-software-engineer-4978463405",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_android-software-engineer-4978463405",
+      "url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-4978463405",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-4978463405",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-4978463405",
+      "title": "Android Software Engineer",
+      "company": "Bjak",
+      "location": "Japan",
+      "work_location": "Japan",
+      "description": "Categories: Developer, Android Software Engineer, Android Engineer, Android Software Engineering, Mobile Android Engineer, Android Engineering, Software Engineer\n\nAbout BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for Android engineers to build the native Android experience for BJAK's Android Software Engineer. This role is for someone who cares about clean user flows, fast performance, product quality and shipping reliable mobile features used by real customers. What You'll Own Build and ship Android features using Kotlin. Create clean mobile flows for insurance, payments, claims, renewals and financial services. Work with product and design to simplify complex user journeys. Integrate backend APIs and ensure mobile flows are stable, secure and reliable. Improve app performance, crash rate, loading states, responsiveness and memory usage. Use analytics, user behaviour and production issues to improve the product. Build AI-assisted mobile experiences only where they genuinely improve the user journey. What We're Looking For 3+ years of Android development experience using Kotlin. Strong Android fundamentals and experience shipping production apps. Good knowledge of Jetpack, Coroutines, Flow and modern Android architecture. Strong sense of mobile UX, usability, edge cases and user flows. Experience integrating REST APIs and debugging production issues. Fast execution, high ownership and strong attention to product quality. App links, GitHub, screenshots or examples of shipped work are a strong advantage. Tech Stack Kotlin Jetpack Compose Android SDK Coroutines & Flow SQL / NoSQL TensorFlow Lite (on-device inference) The Kind of Builder We Want Thinks in user journeys, not just screens. Cares about making complex financial products feel simple. Moves fast without creating messy code. Notices UX, performance and reliability issues before users complain. Honest about what they personally built, what was team-owned and what impact they can or cannot claim. This Role Is Not For Engineers who only want fully defined tickets. Developers who build screens without caring about user experience. People who ignore crashes, edge cases, loading states or performance. Engineers who move slowly in a startup environment. People who exaggerate impact without explaining their actual contribution. Location This role is based in JAPAN . This is a hybrid role. You are expected to work from our JAPAN office at least 3 days per week. Language English is our main working language across global teams. Strong English communication is required. Interview Process Our process is designed to move fast: 1. Online assessment or practical task 2. Role-specific interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:25:50+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794619550",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:38.909483+00:00",
+      "first_seen_at": "2026-11-14T04:21:38.909483+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 49,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: rest api (+4)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.93,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_full-stack-software-engineer-ai-finance-agent-3486024976": {
+      "fingerprint": "himalayas::hm_bjak_full-stack-software-engineer-ai-finance-agent-3486024976",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_full-stack-software-engineer-ai-finance-agent-3486024976",
+      "url": "https://himalayas.app/companies/bjak/jobs/full-stack-software-engineer-ai-finance-agent-3486024976",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/full-stack-software-engineer-ai-finance-agent-3486024976",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/full-stack-software-engineer-ai-finance-agent-3486024976",
+      "title": "Full Stack Software Engineer - AI Finance Agent",
+      "company": "Bjak",
+      "location": "United Kingdom",
+      "work_location": "United Kingdom",
+      "description": "Categories: Developer, AI Full Stack Engineer, Full Stack AI Engineer, AI Full Stack Developer, Full Stack AI Developer, Full Stack AI Engineering, AI Native Fullstack Engineer, Software Engineer\n\nAbout BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for full stack engineers to build fast across BJAK's AI Finance Agent. This role is for product-minded engineers who can move across frontend, backend, internal tools and customer journeys to turn ideas into working products quickly. What You'll Own Build customer-facing and internal product features end to end. Develop web flows, backend APIs, admin tools, dashboards and operational systems. Support products across insurance, payments, savings, investing, travel and financial services. Work with product, design, mobile and operations teams to launch fast. Integrate APIs, handle data flows and improve production reliability. Use analytics, feedback and production issues to improve features after launch. Help build tools that reduce manual work and improve speed across the business. What We're Looking For 3+ years of full stack software engineering experience. Strong frontend and backend fundamentals. Experience with modern web frameworks, APIs, databases and production systems. Able to build useful products quickly without needing perfect specs. Good product sense, UX awareness and attention to detail. Comfortable debugging across the stack. Experience in fintech, insurtech, marketplace, consumer apps or high-volume platforms is a strong advantage. The Kind of Builder We Want Can turn rough requirements into working product. Thinks about user flow, backend logic and business process together. Moves fast while keeping systems maintainable. Takes ownership from build to launch to post-launch fixes. Clear about what they personally built and what was team-owned. This Role Is Not For Engineers who only want to work on one narrow layer. People who need complete specs before starting. Developers who ship UI without understanding backend or operations impact. Candidates who avoid production support. People who make vague claims without showing real shipped work. Location This role is based in UK . This is a hybrid role. You are expected to work from our UK office at least 3 days per week. Language English is our main working language across global teams. Strong English communication is required. Interview Process Our process is designed to move fast: 1. Online assessment or practical task 2. Technical interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:12:37+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794618757",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:38.914025+00:00",
+      "first_seen_at": "2026-11-14T04:21:38.914025+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 3.15,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_resilinc_senior-software-engineer-ew-ii": {
+      "fingerprint": "himalayas::hm_resilinc_senior-software-engineer-ew-ii",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_resilinc_senior-software-engineer-ew-ii",
+      "url": "https://himalayas.app/companies/resilinc/jobs/senior-software-engineer-ew-ii",
+      "source_job_url": "https://himalayas.app/companies/resilinc/jobs/senior-software-engineer-ew-ii",
+      "apply_url": "https://himalayas.app/companies/resilinc/jobs/senior-software-engineer-ew-ii",
+      "title": "Senior Software Engineer EW II",
+      "company": "Resilinc",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Data Science, Software Engineer, Backend Engineer, Data Engineer\n\nJoin the Future of Supply Chain Intelligence — Powered by Agentic AI At Resilinc, we’re pioneering intelligent, autonomous systems that redefine supply chain risk management.\n\nJoin the Future of Supply Chain Intelligence — Powered by Agentic AI At Resilinc , we’re pioneering intelligent, autonomous systems that redefine supply chain risk management. Our agentic AI helps global enterprises predict disruptions, assess impact, and act in real time — before operations are affected. Named a 2025 Gartner® Magic Quadrant™ Leader, we’re trusted by top companies in life sciences & pharma, aerospace & defense, high tech, and automotive to protect what matters most. Be part of a team that's redefining resilience on a global scale. But the real power behind Resilinc ? Our people. We’re a fully remote, mission-led team making sure life-saving products and critical goods get where they’re needed, fast. We offer the chance to do meaningful work in a collaborative, empowering culture—where you can be an agent of change. Join us to tackle critical global challenges through high-impact work that matters. Check out this blog to learn more about how we are impacting the world's most critical supply chains. Global Supply Chain Risks 2026: Act Faster | TEC Resilinc | Innovation with Purpose. Intelligence with Impact. Join the Future of Supply Chain Intelligence — Powered by Agentic AI At Resilinc , we’re not just solving supply chain problems — we’re pioneering the intelligent, autonomous systems that will define its future. Our cutting-edge Agentic AI enables global enterprises to predict disruptions, assess impact instantly, and take real-time action — before operations are even touched. Recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Supply Chain Risk Management, we are trusted by marquee clients across life sciences, aerospace, high tech, and automotive to protect what matters most — from factory floors to patient care. But the real power behind Resilinc ? Our people. We’re a fully remote, mission-led team making sure life-saving products and critical goods get where they’re needed, fast. We offer the chance to do meaningful work in a collaborative, empowering culture—where you can be an agent of change. Join us to tackle critical global challenges through high-impact work that matters. Resilinc | Innovation with Purpose. Intelligence with Impact. About The Role As a Senior Software Engineer, you will play a key role in designing, building, and delivering scalable backend services and distributed data platforms that power our multitenant B2B SaaS platform. This is an ownership-driven engineering role where you will be responsible for the end-toend delivery of features, platform modules, and engineering initiatives—from understanding product requirements and technical design to implementation,deployment, and production support. You'll collaborate closely with Tech Leads, Architects, Product Managers, QA, and other engineering teams to deliver reliable, scalable, and maintainable software. What You'll Do Own the end-to-end delivery of backend features, platform modules, and engineering initiatives from design through production. Design, develop, and maintain scalable backend services, distributed data pipelines, and ingestion frameworks that process data from multiple enterprise sources. Build and maintain production-grade Python web services and REST APIs using modern frameworks such as FastAPI, Flask, and Quart to support scalable backend applications and data ingestion services. Design and optimize distributed data processing pipelines using PySpark and SQL for large-scale data processing. Architect, build, and enhance scalable data ingestion frameworks that process structured and semi-structured data from enterprise APIs, databases, cloud storage, and multiple file formats. Drive improvements in platform scalability, reliability, observability, performance, and maintainability. Collaborate with Product Managers and Architects to translate business requirements into scalable technical solutions. Break down large engineering initiatives into deliverable work items and drive execution across the team. Perform code reviews, mentor junior engineers, and promote engineering best practices across the team. Troubleshoot complex production issues and lead root cause analysis to improve platform stability. Champion engineering excellence by adopting modern tools, AI-assisted development practices, and continuous improvement initiatives. What You Will Bring 4–6 years of experience in backend engineering or data engineering, preferably in a scalable B2B SaaS product environment. Strong programming skills in Python, with experience building scalable backend applications. Hands-on experience building distributed data processing pipelines using PySpark. Strong SQL skills, including complex query development, query optimization, and re",
+      "posted_at": "2026-11-14T01:09:18+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794618558",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:38.921646+00:00",
+      "first_seen_at": "2026-11-14T04:21:38.921646+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 49,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: rest api (+4)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 3.21,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_android-software-engineer-9710089954": {
+      "fingerprint": "himalayas::hm_bjak_android-software-engineer-9710089954",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_android-software-engineer-9710089954",
+      "url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-9710089954",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-9710089954",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/android-software-engineer-9710089954",
+      "title": "Android Software Engineer",
+      "company": "Bjak",
+      "location": "Vietnam",
+      "work_location": "Vietnam",
+      "description": "Categories: Developer, Android Software Engineer, Android Engineer, Android Software Engineering, Mobile Android Engineer, Android Engineering, Software Engineer, Developer\n\nAbout BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for Android engineers to build the native Android experience for BJAK's Android Software Engineer. This role is for someone who cares about clean user flows, fast performance, product quality and shipping reliable mobile features used by real customers. What You'll Own Build and ship Android features using Kotlin. Create clean mobile flows for insurance, payments, claims, renewals and financial services. Work with product and design to simplify complex user journeys. Integrate backend APIs and ensure mobile flows are stable, secure and reliable. Improve app performance, crash rate, loading states, responsiveness and memory usage. Use analytics, user behaviour and production issues to improve the product. Build AI-assisted mobile experiences only where they genuinely improve the user journey. What We're Looking For 3+ years of Android development experience using Kotlin. Strong Android fundamentals and experience shipping production apps. Good knowledge of Jetpack, Coroutines, Flow and modern Android architecture. Strong sense of mobile UX, usability, edge cases and user flows. Experience integrating REST APIs and debugging production issues. Fast execution, high ownership and strong attention to product quality. App links, GitHub, screenshots or examples of shipped work are a strong advantage. Tech Stack Kotlin Jetpack Compose Android SDK Coroutines & Flow SQL / NoSQL TensorFlow Lite (on-device inference) The Kind of Builder We Want Thinks in user journeys, not just screens. Cares about making complex financial products feel simple. Moves fast without creating messy code. Notices UX, performance and reliability issues before users complain. Honest about what they personally built, what was team-owned and what impact they can or cannot claim. This Role Is Not For Engineers who only want fully defined tickets. Developers who build screens without caring about user experience. People who ignore crashes, edge cases, loading states or performance. Engineers who move slowly in a startup environment. People who exaggerate impact without explaining their actual contribution. Location This role is remote, but candidates must be based in Vietnam . We are hiring specifically for this market, so applicants should already be based in Vietnam . Language English is our main working language across global teams. Strong English communication is required. Interview Process Our process is designed to move fast: 1. Online assessment or practical task 2. Role-specific interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:06:29+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794618389",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:40.911652+00:00",
+      "first_seen_at": "2026-11-14T04:21:40.911652+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 49,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: rest api (+4)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 3.26,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_software-engineer-ai-automation": {
+      "fingerprint": "himalayas::hm_bjak_software-engineer-ai-automation",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_software-engineer-ai-automation",
+      "url": "https://himalayas.app/companies/bjak/jobs/software-engineer-ai-automation",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/software-engineer-ai-automation",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/software-engineer-ai-automation",
+      "title": "Software Engineer, AI Automation",
+      "company": "Bjak",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, AI Automation Engineer, AI Automations Engineer, AI ML Automation Engineer, Software Automation Engineer, AI Workflow Automation Engineer, AI Automation Developer, Software Engineer\n\nAbout ActThere are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native.\n\nAbout Act There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. Role Build and maintain internal applications and automation systems for Recruiting, HR, Finance, Operations and other business functions Identify manual processes that can be automated and define technical solutions based on business requirements Develop AI-powered workflows using LLM APIs, agents and external tool integrations where appropriate Build backend services, APIs, databases and interfaces to support internal applications Integrate internal systems and third-party platforms to automate data processing, approvals and routine tasks Deploy, monitor and improve internal tools based on reliability, accuracy, usage and time saved Requirements 3+ years of software engineering experience in backend, full-stack or application development Able to translate business workflows and operational problems into practical software solutions Proficient in at least one backend or full-stack programming language, such as Python, TypeScript or JavaScript Able to design and build APIs, database-backed applications and integrations with third-party services Experience deploying and maintaining production systems, diagnosing failures and improving reliability Able to work directly with non-technical stakeholders to understand requirements, validate solutions and deliver measurable improvements Nice to Have Experience building AI applications using LLM APIs, agents or workflow orchestration frameworks Experience developing internal tools, business automation or enterprise integrations Familiarity with HR, recruiting, finance or operations systems Experience with workflow automation platforms such as n8n, Zapier or Make Originally posted on Himalayas",
+      "posted_at": "2026-11-14T01:05:47+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794618347",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-14T04:21:40.914872+00:00",
+      "first_seen_at": "2026-11-14T04:21:40.914872+00:00",
+      "last_checked_at": "2026-11-14T04:21:49.145167+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 63,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 3.27,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-14T04:23:29.271465+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-14T04:23:29.173875+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-14T04:23:02.498026+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:23:01.404789+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 38,
+      "error": "",
+      "checked_at": "2026-11-14T04:23:01.365133+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:23:00.133167+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:59.610264+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:56.386333+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:53.256359+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:53.133515+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:51.479079+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:51.064396+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:50.954656+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:50.831374+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:50.773992+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 608,
+      "error": "",
+      "checked_at": "2026-11-14T04:22:23.744857+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:49.145145+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:32.687276+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:28.157133+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 151,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:27.986530+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:26.713515+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-14T04:21:26.631813+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -3769,8 +4502,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-13T23:07:44.523389+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11721.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:29.173709+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11726.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3779,8 +4512,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-13T23:07:42.585152+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11720.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:27.567581+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11726.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3789,8 +4522,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-13T23:07:40.592020+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11720.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:25.190134+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11725.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3799,8 +4532,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-13T23:07:38.827406+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11698.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:23.077217+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11703.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3809,8 +4542,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-13T23:07:36.304618+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11698.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:21.090224+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11703.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3819,8 +4552,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-13T23:07:34.456261+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:19.084648+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11703.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3829,8 +4562,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-13T23:07:32.384775+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:16.955086+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11703.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3839,8 +4572,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-13T23:07:30.557393+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:15.023627+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3849,8 +4582,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-13T23:07:28.349224+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:12.929832+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3859,8 +4592,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-13T23:07:26.475923+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:11.088299+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3869,8 +4602,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-13T23:07:24.427986+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11697.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:09.056825+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11702.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -3879,8 +4612,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-13T23:07:22.439877+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10169.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:07.081875+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10174.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3889,8 +4622,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-13T23:07:18.048866+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497920+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3899,8 +4632,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-13T23:07:18.048669+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497768+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3909,8 +4642,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-13T23:07:18.048462+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497611+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3919,8 +4652,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-13T23:07:18.048261+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497452+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3929,8 +4662,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-13T23:07:18.048052+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497295+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3939,8 +4672,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-13T23:07:18.047839+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20367.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.497132+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20372.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -3949,8 +4682,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-13T23:07:18.047594+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13923.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:02.496941+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13928.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -3959,8 +4692,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-13T23:07:16.525607+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 615.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199945+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 620.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -3969,8 +4702,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-13T23:07:16.525486+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 519.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199858+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 524.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -3979,8 +4712,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-13T23:07:16.525379+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 519.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199748+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 524.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -3989,8 +4722,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-13T23:07:16.525266+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 447.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199658+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 452.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -3999,8 +4732,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-13T23:07:16.525159+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 390.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199569+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 395.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4009,8 +4742,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-13T23:07:16.525049+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 385.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199477+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 390.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4019,8 +4752,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-13T23:07:16.524934+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 375.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199385+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 380.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4029,8 +4762,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-13T23:07:16.524814+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 327.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199290+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4039,8 +4772,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-13T23:07:16.524684+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 327.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199195+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 332.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -4049,8 +4782,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-13T23:07:16.524474+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 303.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.199077+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 308.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4059,8 +4792,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-13T23:07:16.397425+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1064.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028887+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1069.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4069,8 +4802,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-13T23:07:16.397321+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1063.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028786+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1069.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4079,8 +4812,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-13T23:07:16.397213+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 911.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028685+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 916.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4089,8 +4822,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-13T23:07:16.397109+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 910.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028598+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 916.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4099,8 +4832,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-13T23:07:16.397005+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 615.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028511+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 620.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4109,8 +4842,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-13T23:07:16.396901+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 582.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028423+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 587.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4119,8 +4852,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-13T23:07:16.396795+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 562.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028331+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 567.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4129,8 +4862,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-13T23:07:16.396687+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 443.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028242+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 448.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4139,8 +4872,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-13T23:07:16.396564+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 415.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028151+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 420.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4149,8 +4882,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-13T23:07:16.396455+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 360.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.028061+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 365.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4159,8 +4892,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-13T23:07:16.396343+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 351.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027967+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 356.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4169,8 +4902,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-13T23:07:16.396232+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 351.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027872+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 356.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4179,8 +4912,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-13T23:07:16.396112+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 246.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027746+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 251.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4189,8 +4922,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-13T23:07:16.395992+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 192.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027650+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 197.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4199,8 +4932,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-13T23:07:16.395863+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 150.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027549+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 155.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -4209,8 +4942,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-13T23:07:16.395706+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 54.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:01.027428+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 59.4h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -4219,8 +4952,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 12 Nov 2026 16:46:23 +0000",
       "posted_at": "2026-11-12T16:46:23+00:00",
-      "detected_at": "2026-11-13T23:07:16.062771+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 30.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:00.855557+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 35.6h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -4229,38 +4962,38 @@
       "company": "",
       "source_timestamp_raw": "Thu, 12 Nov 2026 21:49:14 +0000",
       "posted_at": "2026-11-12T21:49:14+00:00",
-      "detected_at": "2026-11-13T23:07:16.062649+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 25.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-14T04:23:00.855462+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 30.6h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Principal-Systems-Analyst_2136534",
-      "title": "Principal Systems Analyst",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-13T23:07:15.377110+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "devto_hiring",
+      "source_id": "the-warn-window-is-shrinking-reported-layoff-plans-down-8-in-two",
+      "title": "The WARN Window Is Shrinking: Reported Layoff Plans Down 8% in Two Weeks",
+      "company": "",
+      "source_timestamp_raw": "Fri, 13 Nov 2026 03:57:12 +0000",
+      "posted_at": "2026-11-13T03:57:12+00:00",
+      "detected_at": "2026-11-14T04:23:00.855367+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 24.4h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Senior-Software-Engineer-Developer_2137724",
-      "title": "Senior Software Engineer/Developer",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 9 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-13T23:07:15.377076+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8891698002",
+      "title": "Threat Research Engineer, Security Factory: Threat Research",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
+      "posted_at": "2026-11-11T09:10:18+00:00",
+      "detected_at": "2026-11-14T04:22:21.901299+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 67.2h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Director--Data-Modeling_2137731",
-      "title": "Director, Data Modeling",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 9 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-13T23:07:15.377041+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8784185002",
+      "title": "Technical Program Manager",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-09-16T00:25:42-04:00",
+      "posted_at": "2026-09-16T04:25:42+00:00",
+      "detected_at": "2026-11-14T04:22:21.901227+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1415.9h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -4285,7 +5018,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-13T23:07:16.789849+00:00",
+      "last_checked_at": "2026-11-14T04:23:01.404789+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -4337,7 +5070,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-13T23:07:16.789849+00:00",
+      "last_checked_at": "2026-11-14T04:23:01.404789+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -4467,7 +5200,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-13T23:07:44.604204+00:00",
+      "last_checked_at": "2026-11-14T04:23:29.271465+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -4493,7 +5226,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-13T23:07:18.048983+00:00",
+      "last_checked_at": "2026-11-14T04:23:02.498026+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -4506,7 +5239,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-13T23:07:44.523538+00:00",
+      "last_checked_at": "2026-11-14T04:23:29.173875+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
