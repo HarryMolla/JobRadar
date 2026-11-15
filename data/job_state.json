@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T04:07:37.436394+00:00",
+  "last_updated": "2026-11-15T13:16:43.961112+00:00",
   "stats": {
-    "total_jobs": 72,
+    "total_jobs": 77,
     "total_notified": 0
   },
   "jobs": {
@@ -3381,9 +3381,413 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_medvidi_senior-staff-product-designer-core-track-8218013391": {
+      "fingerprint": "himalayas::hm_medvidi_senior-staff-product-designer-core-track-8218013391",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_medvidi_senior-staff-product-designer-core-track-8218013391",
+      "url": "https://himalayas.app/companies/medvidi/jobs/senior-staff-product-designer-core-track-8218013391",
+      "source_job_url": "https://himalayas.app/companies/medvidi/jobs/senior-staff-product-designer-core-track-8218013391",
+      "apply_url": "https://himalayas.app/companies/medvidi/jobs/senior-staff-product-designer-core-track-8218013391",
+      "title": "Senior/Staff Product Designer (Core track)",
+      "company": "MEDvidi",
+      "location": "Spain",
+      "work_location": "Spain",
+      "description": "Categories: Design, Product Designer, UX Designer\n\nDescriptionMEDvidi is an AI-powered mental healthcare clinic setting a new standard for safe, effective, and scalable psychiatric care in the United States.\n\nDescription MEDvidi is an AI-powered mental healthcare clinic setting a new standard for safe, effective, and scalable psychiatric care in the United States. We combine licensed providers with proprietary AI tools to deliver consistent, outcomes-driven treatment for conditions like ADHD, anxiety, depression, and more. MEDvidi ’s technology automates charting, follow-ups, and treatment planning, freeing providers to focus on patient care while improving efficiency and clinical quality. As a Senior Product Designer on our Patient Journey team, you’ll own the patient-facing flows that turn first-time visitors into patients who start and stay in treatment. Your design decisions show up directly in our conversion and retention numbers, not just in the mockups. You’ll be the dedicated designer for the Patient Journey squad, partnering daily with a product manager, frontend and backend engineers, QA, and a data analyst, and reporting to our Director of Product. You own patient-facing flows end to end, from early prototype through validation to a shipped, measurable result in a HIPAA-regulated, AI-first environment where both speed and clarity matter. Responsibilities Own patient-facing conversion flows end to end, from framing the problem through prototyping, validation, and shipped design. Design flows that clearly communicate MEDvidi ’s care model and move patients toward the next step, anticipating their real questions and objections. Partner closely with product and engineering to break “too hard / too long” down into shippable tests that launch in weeks. Dig into product analytics and user research yourself to tie every design decision to a concrete metric: conversion, activation, or retention. Use AI tools to prototype quickly, iterate with your PM, and validate ideas against real users before anything goes to build. This role is not for you if You need a detailed brief before starting work. Requirements here are gathered by you, not handed to you, there is no PM or BA writing specs for AI Track. You prefer managing people over hands-on design. This is an IC role with no direct reports; the impact comes from the quality of your own design decisions. You design exclusively in Figma and hand off static specs. Prototyping at MEDvidi happens in code on the real codebase using AI agents, comfort with a code editor is a daily requirement, not a nice-to-have. Requirements Senior-level product design experience (5+ years) with a strong track record of owning user-facing B2C conversion flows. Demonstrable conversion ownership: you can point to a specific flow where you owned a metric, know the before/after numbers, and can explain your own contribution versus seasonality or marketing. Outcome-driven: comfortable pulling your own data (Amplitude, GA, Metabase, or similar) and running or reading research, rather than waiting for hand-offs. Ownership mindset: you break engineering constraints down to the atoms, negotiate scope, and ship meaningful tests fast. AI as a working tool: fluent with at least one prototyping/AI tool (Lovable, v0, Bolt, Cursor, Claude, or similar) and clear-eyed about where AI should and shouldn’t be used. Fluent Russian and solid working English (B2+) Would be a plus Experience with regulated or healthcare/telehealth products (HIPAA, NIST). What we offer High-impact environment: A chance to contribute to a product-driven company in the medical tech space. Growth & compensation: Clear growth opportunities and a competitive compensation package. Remote-first: Fully remote long-term collaboration under a B2B model. Health & wellness: Health insurance after the probation period, plus sports & wellness compensation. Career development: Clear growth opportunities, including personalized English lessons via Preply. Time off: 19 paid vacation days annually, 4 additional wellness days each year, and paid sick leave for the first 5 working days. Culture: Thoughtful gifts for key life events and offline corporate events. Originally posted on Himalayas",
+      "posted_at": "2026-11-15T12:35:52+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794746152",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-15T13:14:49.240718+00:00",
+      "first_seen_at": "2026-11-15T13:14:49.240718+00:00",
+      "last_checked_at": "2026-11-15T13:15:03.501982+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 83,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: user research (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 0.65,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_mlabs_product-designer-5007721389": {
+      "fingerprint": "himalayas::hm_mlabs_product-designer-5007721389",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_mlabs_product-designer-5007721389",
+      "url": "https://himalayas.app/companies/mlabs/jobs/product-designer-5007721389",
+      "source_job_url": "https://himalayas.app/companies/mlabs/jobs/product-designer-5007721389",
+      "apply_url": "https://himalayas.app/companies/mlabs/jobs/product-designer-5007721389",
+      "title": "Product Designer",
+      "company": "MLabs",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, Product Designer, UX Designer, UI Designer, Interaction Designer, Product Design, Product Design Specialist, UX Product Design\n\nLocation: United States Remote | Part-TimeCompensation: Competitive CompensationOur client, a high-growth data and trend intelligence platform supporting top global consumer brands in beauty, wellness, and food & beverage, is seeking a talented Product Designer (Part-time, Contract) to shape the UX/UI of its core analytics dashboard and AI-powered product suite.\n\nLocation: United States Remote | Part-Time Compensation: Competitive Compensation Our client, a high-growth data and trend intelligence platform supporting top global consumer brands in beauty, wellness, and food & beverage, is seeking a talented Product Designer (Part-time, Contract) to shape the UX/UI of its core analytics dashboard and AI-powered product suite. As the platform evolves around cutting-edge LLM features—including AI assistants, automated report builders, and inline data summaries—this role will focus on turning complex, dense trend data into clear, actionable, and intuitive digital experiences for brand innovation, product marketing, and agency teams. This is a fully remote, part-time contract opportunity (~20 hours per week) . Candidates must be located in US Central Time (UTC−6) or US Eastern Time (UTC−5) and available during core collaboration hours ( 9:00 AM – 12:00 PM Eastern Time ). Key Responsibilities Product & Experience Ownership: Partner closely with the Frontend Lead and cross-functional team members from initial discovery to launch, determining product direction, feature specifications, and UX/UI deliverables (written proposals, user flows, wireframes, and full Figma specs). Problem Discovery & Solutions: Proactively identify user pain points through usage data, customer feedback, and research calls. Frame fuzzy problems into clear proposals and strategic design solutions without requiring micro-management. AI Feature & UX Design: Design seamless user experiences for generative AI capabilities (chat interfaces, automated reports, and inline summaries). Define visual and structural treatments for AI confidence levels, data attribution, loading states, error handling, and insight tone. Design System Stewardship: Own and elevate the Figma design system principles, collaborating with frontend engineering to align design assets with React component libraries for a unified single source of truth. AI Quality Evaluation: Assist in setting benchmarks for high-quality AI outputs and reviewing user feedback loops to continually improve LLM-driven features over time. Requirements Experience: 2+ years of hands-on product design experience with proven work shipped in production environments. Strategic Mindset: Strong product intuition with a focus on defining what to build and why , beyond visual design. Portfolio: A portfolio demonstrating strong problem-framing capabilities, including at least one case study starting from an unstructured or ambiguous problem. Domain Interest/Experience: Background in or enthusiasm for data-dense software, such as analytics platforms, dashboards, or reporting tools. Design Systems: Familiarity with contributing to and scaling component libraries and design systems in Figma. AI & Modern Workflow: Strong interest or hands-on experience with AI/LLM products and fluency in integrating AI tools into daily design workflows. Contractor & Remote Discipline: Proven ability to self-manage time, deliverables, and asynchronous communication in a remote, fast-paced environment. Technical/Surface Exclusions: Note that this role strictly focuses on product UX/UI in Figma and does not require writing production code, marketing/brand design, or API/infrastructure design. Nice to Have Previous experience as a founding or solo product designer. Experience designing AI/LLM features or evaluating generative output quality. Expertise in data visualization techniques. Exposure to consumer packaged goods (CPG), beauty, or market research industries. Benefits Competitive compensation package tailored to experience. Collaborative, high-impact environment with direct influence on core product direction. Opportunity to work closely alongside senior design leadership. Flexible starting timeline (target start date in January, with early onboarding available). ﻿ Interview Process Initial Video Screening: A brief introductory video conversation to discuss background, expectations, and role fit. Personality Assessment: An online assessment to evaluate working style and team dynamics. Design Leadership Interview: A 30-minute introductory chat with the Lead Designer. Screen-Recorded Case Study: A flexible, practical exercise (details currently being finalized) to demonstrate hands-on design methodology and execution. Final Interview: A concluding conversation with key stakeholders to review results and align on next steps. Due to the high volume of applications we anticipate, we regret t",
+      "posted_at": "2026-11-15T12:28:32+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794745712",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-15T13:14:51.236451+00:00",
+      "first_seen_at": "2026-11-15T13:14:51.236451+00:00",
+      "last_checked_at": "2026-11-15T13:15:03.501982+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: figma (+15)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: react (+12)",
+        "Skill: interaction design (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 0.78,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_mlabs_product-designer": {
+      "fingerprint": "himalayas::hm_mlabs_product-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_mlabs_product-designer",
+      "url": "https://himalayas.app/companies/mlabs/jobs/product-designer",
+      "source_job_url": "https://himalayas.app/companies/mlabs/jobs/product-designer",
+      "apply_url": "https://himalayas.app/companies/mlabs/jobs/product-designer",
+      "title": "Product Designer",
+      "company": "MLabs",
+      "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Austria (+66 more)",
+      "work_location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Austria (+66 more)",
+      "description": "Categories: Design, Product Designer, UX Designer, UI Designer, Interaction Designer, Product Design, Product Design Specialist, UX Product Design\n\nLocation: UK, central Europe, and Latin America Remote | Full-timeCompensation: Competitive CompensationOur client is seeking an experienced, full-time Product Designer to shape the core user experience of their trend intelligence platform.\n\nLocation: UK, central Europe, and Latin America Remote | Full-time Compensation: Competitive Compensation Our client is seeking an experienced, full-time Product Designer to shape the core user experience of their trend intelligence platform. In this role, the designer will play a key part in designing and evolving the platform’s primary dashboard—where brand innovation teams, product marketers, social media teams, and agencies explore trends, generate reports, and interact with LLM-powered features. As the platform rebuilds around LLM-driven capabilities, the successful candidate will be responsible for defining not just how features look, but how complex data and AI experiences should function. The primary focus is transforming dense, aggregated trend data into clear, intuitive, and actionable insights. This position joins a close-knit Frontend & UX team reporting directly to the Frontend Lead. The role is 100% remote and open to candidates based between US Central Time (UTC−6) and Central European Time (UTC+1). Candidates must be available during core collaboration hours of 9:00 AM–12:00 PM Eastern Standard Time (2:00 PM–5:00 PM UK / 3:00 PM–6:00 PM CET). Key Responsibilities End-to-End Product Design: Own features from initial framing to final launch, partnering closely with engineering leadership to deliver written proposals, user flows, prototypes, and Figma specifications. Problem Identification & Solution Design: Independently identify user pain points through customer calls, interviews, user feedback, and usage data to build compelling product proposals. AI & LLM Experience Design: Define user interactions for AI features (chat, automated reports, inline summaries), establish standards for insight attribution and uncertainty handling, and help refine the voice and structure of AI-generated content. Design System Management: Own the principles and Figma library for the design system, partnering with frontend engineers to align with the React component library and establish robust data visualization and AI UX patterns. UX Quality & Feedback Loops: Co-own product metrics, user feedback tracking, and quality evaluation rubrics for LLM outputs alongside the Frontend Lead. Note: This position focuses strictly on product/UI/UX design. It does not involve writing production code, managing brand/marketing assets, or overseeing back-end API integrations. Requirements Qualifications Experience: 3+ years of product design experience, ideally owning features end-to-end within a B2B or SaaS platform. Product Thinking: Strong strategic perspective with a proven ability to define what to build and why , backed by a portfolio demonstrating strong problem-framing abilities. Domain Focus: Experience designing data-heavy products, such as dashboards, analytics platforms, or reporting tools. Design Systems: Proven track record of working within and contributing to scalable design component libraries. Tools & AI Integration: High proficiency in Figma, with active integration of AI tools into day-to-day design workflows and a strong curiosity regarding LLM product experiences. Communication: Excellent written English skills, capable of producing clear proposals and documentation in an asynchronous remote environment. Schedule: Location within UTC−6 to UTC+1, with full availability during core collaboration hours (9:00 AM–12:00 PM EST). Preferred Qualifications (Nice to Have) Experience as the founding or primary designer on a product team. Hands-on experience building or evolving design systems adopted by engineering teams. Direct experience designing AI features or creating evaluation rubrics for LLM output quality. Expertise in advanced data visualization patterns. Familiarity with consumer goods, beauty, food & beverage, or marketing intelligence platforms. Capability to build rapid functional prototypes using AI-assisted tools to evaluate live outputs. Benefits Competitive compensation package tailored to experience. Collaborative, high-impact environment with direct influence on core product direction. Opportunity to work closely alongside senior design leadership. Flexible starting timeline (target start date in January, with early onboarding available). ﻿ Interview Process Initial Video Screening: A brief introductory video conversation to discuss background, expectations, and role fit. Personality Assessment: An online assessment to evaluate working style and team dynamics. Design Leadership Interview: A 30-minute introductory chat with the Lead Designer. Screen-Recorded Case Study: A flexible, practical exercise (details currentl",
+      "posted_at": "2026-11-15T12:28:18+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794745698",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-15T13:14:51.242783+00:00",
+      "first_seen_at": "2026-11-15T13:14:51.242783+00:00",
+      "last_checked_at": "2026-11-15T13:15:03.501982+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: figma (+15)",
+        "Skill: design system (+12)",
+        "Skill: component library (+8)",
+        "Skill: react (+12)",
+        "Skill: interaction design (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 0.78,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_virtuozzo_software-engineer-backend-focus": {
+      "fingerprint": "himalayas::hm_virtuozzo_software-engineer-backend-focus",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_virtuozzo_software-engineer-backend-focus",
+      "url": "https://himalayas.app/companies/virtuozzo/jobs/software-engineer-backend-focus",
+      "source_job_url": "https://himalayas.app/companies/virtuozzo/jobs/software-engineer-backend-focus",
+      "apply_url": "https://himalayas.app/companies/virtuozzo/jobs/software-engineer-backend-focus",
+      "title": "Software Engineer, Backend focus",
+      "company": "Virtuozzo",
+      "location": "Albania, Andorra, Austria, Belarus, Belgium (+47 more)",
+      "work_location": "Albania, Andorra, Austria, Belarus, Belgium (+47 more)",
+      "description": "Categories: Developer, Operations, Software Engineer, Backend Engineer, Systems Engineer, Infrastructure Software Engineer, Platform Engineer\n\nAbout VirtuozzoVirtuozzo is a provider of infrastructure software for AI and the cloud, helping cloud service providers, SaaS companies, and enterprises build and operate efficient, scalable infrastructure.\n\nAbout Virtuozzo Virtuozzo is a provider of infrastructure software for AI and the cloud, helping cloud service providers, SaaS companies, and enterprises build and operate efficient, scalable infrastructure. We combine an optimised operating system with orchestration, management, automation, and protection to deliver mainframe-like efficiency, performance, reliability, versatility, and security—while reducing overall cost and complexity. Our Virtuozzo Infrastructure System (V/IS) brings together compute, storage, and networking to support traditional applications, cloud-native workloads, and AI services. We help organisations modernise their infrastructure, make better use of their hardware, and bring new cloud- and GPU-powered services to market on their own infrastructure and under their own brand. Our technology serves more than 100,000 companies in over 100 countries. With deep engineering roots, we pioneered container-based virtualisation and continue to contribute to foundational open-source projects, including OpenVZ, the Linux kernel, Kubernetes, CRIU, KVM, and OpenStack. The Role Our team develops the V/IS and we are looking for Engineers to join our team. As a Software Engineer, you will play a key role in building new features, optimizing performance, and ensuring reliability in production environments. You will collaborate across the full stack of the product, from UI and REST APIs to cluster lifecycle management, virtualization, monitoring, and seamless product updates. Key Responsibilities Design and develop new features for V/IS. Develop and maintain automated tests to ensure high code quality. Improve and optimise existing functionality for performance and scalability. Provide support and maintenance for real customer environments. Skills & Abilities Strong proficiency in at least one programming language: Python, Golang, C/C++, or Rust. Deep understanding of Linux operating system architecture. Solid knowledge of networking concepts. Excellent problem-solving skills and ability to tackle complex challenges. Preferred Knowledge Experience with hypervisors and container technologies. Familiarity with distributed systems design and implementation. Background in system programming. Understanding of Windows, Linux, or FreeBSD kernel internals. Proficiency with automation and infrastructure tools such as Ansible, Bash scripting, and Terraform. Knowledge of Kubernetes orchestration. Experience with cloud platforms such as AWS, Azure, or Google Cloud. Web development skills (JavaScript, HTML). What We Offer Remote and flexible work from European locations. A collaborative engineering culture focused on deep technical challenges and real-world impact. A chance to influence the design and evolution of a global-scale cloud infrastructure platform. Professional development opportunities through training, certifications, and mentoring. Group private medical insurance / medical allowance. Employee/Contributors recognition programmes and incentives. Referral programme bonuses. Originally posted on Himalayas",
+      "posted_at": "2026-11-15T12:20:20+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794745220",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-15T13:14:53.243193+00:00",
+      "first_seen_at": "2026-11-15T13:14:53.243193+00:00",
+      "last_checked_at": "2026-11-15T13:15:03.501982+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 63,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: rest api (+4)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.91,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_getmagic_graphic-web-designer-freelance-remote": {
+      "fingerprint": "himalayas::hm_getmagic_graphic-web-designer-freelance-remote",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_getmagic_graphic-web-designer-freelance-remote",
+      "url": "https://himalayas.app/companies/getmagic/jobs/graphic-web-designer-freelance-remote",
+      "source_job_url": "https://himalayas.app/companies/getmagic/jobs/graphic-web-designer-freelance-remote",
+      "apply_url": "https://himalayas.app/companies/getmagic/jobs/graphic-web-designer-freelance-remote",
+      "title": "Graphic & Web Designer - Freelance, Remote",
+      "company": "Magic",
+      "location": "Philippines",
+      "work_location": "Philippines",
+      "description": "Categories: Design, Graphic Designer, Web Designer, Digital Designer, Visual Designer, Freelance Designer\n\nAbout the Client Our client is a Silicon Valley-based robotics company specializing in physical AI, offering AI-integrated robot dogs and humanoid robots to consumers, businesses, schools, and research institutions.\n\nAbout the Client Our client is a Silicon Valley-based robotics company specializing in physical AI, offering AI-integrated robot dogs and humanoid robots to consumers, businesses, schools, and research institutions. With sales and engineering offices in California and Nevada, they combine a large US-based inventory, local support, and a live showroom experience. They are a fast-growing, innovation-driven brand with an active presence across multiple social channels, and they are building out their marketing team to keep their social and email communications consistent and accurate. Why does this role exist? Our client needs a creative, detail-oriented Graphic  Web Designer to support the Marketing Manager with day-to-day marketing production. This person will turn briefs into polished visual and written assets, such as social graphics, email visuals, ads, and web pages, and keep the website and landing pages current in WordPress and WooCommerce. The goal is to give the Marketing Manager more production bandwidth, so the team can move campaigns forward faster and support more products without being overwhelmed. The Impact you’ll make Visual Asset Design Create social media graphics, banners, email visuals, ad creatives, and other campaign elements Work in Figma to create, update, and adapt graphics, banners, layouts, and marketing assets Create basic ad creatives and campaign visuals for product promotions, launches, and awareness campaigns Maintain brand consistency across visuals, messaging, website, and marketing materials Website  Landing Page Management Build, update, and maintain website pages and landing pages in WordPress and WooCommerce, including product pages and catalog updates Build responsive, mobile-friendly pages that look clean on all devices Test and QA pages before launch, checking layout, links, forms, and mobile responsiveness Content  Copy Production Draft, edit, or support marketing copy for articles, blogs, ads, social posts, landing pages, and product content Support social media content production, including post graphics, captions, short-form copy, and visual layouts Help organize and repurpose existing product content into social posts, campaign materials, and website content Email Marketing Support Create email graphics and promotional content Support campaign copy and email formatting Campaign Execution  Collaboration Collaborate with the Marketing Manager to turn campaign ideas and briefs into completed assets Manage multiple content requests and deadlines across several product lines and campaigns Take direction and deliver ready-to-review work with minimal hand-holding over time Skills, Knowledge and Expertise Required: Experience in content production, social media marketing, or creative marketing support, with a portfolio to show for it Hands-on experience with Figma Experience building or updating websites in WordPress and WooCommerce Ability to create clean, professional social media graphics, banners, ad visuals, and other digital marketing assets Experience building responsive, mobile-friendly web pages and landing pages Your superpowers are... Technical skills Figma for graphics, banners, and layouts WordPress and WooCommerce (pages, landing pages, product pages, catalog updates) Canva, Adobe Creative Suite, or similar design tools Basic copywriting for ads, captions, emails, articles, and campaign messaging Familiarity with marketing tools such as Shopify, Klaviyo, Mailchimp, HubSpot, Meta Business Suite, or Google Ads Page QA for layout, links, forms, and mobile responsiveness Soft skills and traits A strong eye for design and layout Sharp attention to detail in spelling, formatting, and brand consistency Comfort taking creative direction from a marketing manager Ability to juggle multiple requests and meet deadlines Understanding of advertising and how to create content that drives interest, engagement, and leads Curiosity about technology, robotics, and AI products WFH Set-Up: Computer with at least 8GB RAM, an Intel i5 core processor/AMD Ryzen 5 Processor and up. Internet speed of at least 40MBPS Headset with an extended mic that has noise cancellation and a webcam Back-up computer and internet connection Quiet, dedicated workspace at home You should apply if... You love turning an idea or brief into a polished design or page that’s ready to ship You enjoy both design and the web, moving between Figma and WordPress comfortably You’re detail-obsessed and notice the misaligned element, the typo, or the broken link before anyone else You thrive in a fast-moving environment with a high volume of campaigns and products You’re excited about technology,",
+      "posted_at": "2026-11-15T12:08:23+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794744503",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-15T13:14:55.223749+00:00",
+      "first_seen_at": "2026-11-15T13:14:55.223749+00:00",
+      "last_checked_at": "2026-11-15T13:15:03.501982+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": 7,
+      "salary_max": 7,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'web designer'",
+        "Skill: figma (+15)",
+        "Skill: wordpress (+8)",
+        "Skill: social media (+8)",
+        "Skill: google ads (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.11,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-15T13:16:43.960705+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:43.830595+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:17.308948+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:16.173900+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 38,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:16.115107+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 24,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:14.938076+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:12.628503+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:08.836709+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:06.735269+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:06.619576+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:05.350902+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:04.919973+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:04.803749+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:04.599824+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:16:04.512685+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 612,
+      "error": "",
+      "checked_at": "2026-11-15T13:15:38.124107+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-15T13:15:03.501961+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-15T13:14:46.950596+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:14:42.308266+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 157,
+      "error": "",
+      "checked_at": "2026-11-15T13:14:42.119386+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-15T13:14:40.932201+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-15T13:14:40.816201+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -5741,8 +6145,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-15T04:07:37.381229+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11750.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:43.830451+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11759.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5751,8 +6155,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-15T04:07:35.383038+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11749.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:41.830243+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11758.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5761,8 +6165,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-15T04:07:33.319936+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11749.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:39.812227+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11758.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5771,8 +6175,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-15T04:07:31.362236+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11727.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:37.777671+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11736.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5781,8 +6185,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-15T04:07:29.320625+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11727.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:35.789012+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11736.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5791,8 +6195,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-15T04:07:27.338353+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:33.836697+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11736.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5801,8 +6205,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-15T04:07:25.294710+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:31.821720+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11736.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5811,8 +6215,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-15T04:07:23.421767+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:29.855444+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11735.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5821,8 +6225,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-15T04:07:21.305875+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:27.745930+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11735.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5831,8 +6235,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-15T04:07:19.408416+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:25.793286+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11735.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5841,8 +6245,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-15T04:07:17.414538+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11726.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:23.870020+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11735.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -5851,8 +6255,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-15T04:07:15.488137+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10198.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:21.941535+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10207.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5861,8 +6265,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-15T04:07:11.030995+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.308829+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5871,8 +6275,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-15T04:07:11.030493+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.308368+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5881,8 +6285,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-15T04:07:11.030306+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.308172+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5891,8 +6295,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-15T04:07:11.030106+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.307953+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5901,8 +6305,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-15T04:07:11.029906+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.307747+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5911,8 +6315,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-15T04:07:11.029703+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20396.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.307532+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20405.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -5921,8 +6325,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-15T04:07:11.029460+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13952.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:17.307290+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13961.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5931,8 +6335,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-15T04:07:09.388345+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 644.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.717380+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 653.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5941,8 +6345,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-15T04:07:09.388227+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 548.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.717264+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 557.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5951,8 +6355,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-15T04:07:09.388107+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 548.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.717151+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 557.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5961,8 +6365,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-15T04:07:09.387984+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 476.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.717002+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 485.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5971,8 +6375,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-15T04:07:09.387863+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 419.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716892+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 428.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5981,8 +6385,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-15T04:07:09.387737+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 414.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716780+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 423.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -5991,8 +6395,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-15T04:07:09.387613+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 404.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716665+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 413.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6001,8 +6405,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-15T04:07:09.387462+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 356.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716548+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 365.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6011,8 +6415,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-15T04:07:09.387330+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 356.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716422+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 365.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6021,8 +6425,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-15T04:07:09.387176+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 332.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.716237+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 341.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6031,8 +6435,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-15T04:07:08.602739+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1093.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.513264+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1102.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6041,8 +6445,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-15T04:07:08.602622+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1092.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.513156+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1102.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6051,8 +6455,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-15T04:07:08.602487+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 940.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.513043+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 949.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6061,8 +6465,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-15T04:07:08.602370+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 939.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512925+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 949.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6071,8 +6475,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-15T04:07:08.602253+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 644.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512816+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 653.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6081,8 +6485,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-15T04:07:08.602138+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 611.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512709+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 620.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6091,8 +6495,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-15T04:07:08.602018+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 591.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512599+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 600.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6101,8 +6505,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-15T04:07:08.601901+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 472.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512488+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 481.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6111,8 +6515,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-15T04:07:08.601782+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 444.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512377+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 453.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6121,8 +6525,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-15T04:07:08.601665+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 389.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512265+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 398.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6131,8 +6535,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-15T04:07:08.601540+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 380.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.512145+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 389.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6141,8 +6545,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-15T04:07:08.601406+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 380.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.511997+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 389.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6151,8 +6555,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-15T04:07:08.601287+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 275.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.511876+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 284.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6161,8 +6565,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-15T04:07:08.601155+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 221.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.511753+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 230.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6171,8 +6575,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-15T04:07:08.601026+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 179.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.511623+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 188.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6181,18 +6585,28 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-15T04:07:08.600878+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 83.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-15T13:16:15.511454+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 92.3h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
-      "source_id": "how-to-verify-a-web3-or-ai-developers-past-work-claim-by-claim-5",
-      "title": "How to verify a Web3 or AI developer's past work, claim by claim",
+      "source_id": "job-portal-website-template-the-pages-and-features-you-need-25ih",
+      "title": "Job portal website template: the pages and features you need",
       "company": "",
-      "source_timestamp_raw": "Fri, 13 Nov 2026 17:16:08 +0000",
-      "posted_at": "2026-11-13T17:16:08+00:00",
-      "detected_at": "2026-11-15T04:07:08.460466+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 34.9h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Sat, 14 Nov 2026 08:02:32 +0000",
+      "posted_at": "2026-11-14T08:02:32+00:00",
+      "detected_at": "2026-11-15T13:16:15.304791+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 29.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "how-to-tell-if-a-tech-job-will-sponsor-your-visa-1ck",
+      "title": "How to tell if a tech job will sponsor your visa",
+      "company": "",
+      "source_timestamp_raw": "Sat, 14 Nov 2026 10:33:14 +0000",
+      "posted_at": "2026-11-14T10:33:14+00:00",
+      "detected_at": "2026-11-15T13:16:15.304678+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 26.7h ago (exceeds 24h limit)"
     },
     {
       "source": "workday",
@@ -6201,7 +6615,7 @@
       "company": "Fidelity",
       "source_timestamp_raw": "Posted 30+ Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-15T04:07:07.483068+00:00",
+      "detected_at": "2026-11-15T13:16:14.069327+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     },
     {
@@ -6209,9 +6623,9 @@
       "source_id": "wd_Senior-Software-Engineer-Developer_2137724",
       "title": "Senior Software Engineer/Developer",
       "company": "Fidelity",
-      "source_timestamp_raw": "Posted 10 Days Ago",
+      "source_timestamp_raw": "Posted 11 Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-15T04:07:07.483050+00:00",
+      "detected_at": "2026-11-15T13:16:14.069305+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     },
     {
@@ -6219,19 +6633,9 @@
       "source_id": "wd_Director--Data-Modeling_2137731",
       "title": "Director, Data Modeling",
       "company": "Fidelity",
-      "source_timestamp_raw": "Posted 10 Days Ago",
+      "source_timestamp_raw": "Posted 11 Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-15T04:07:07.483023+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
-    },
-    {
-      "source": "workday",
-      "source_id": "wd_Product-Analyst--Portfolio-Construction-Solutions_2135291-2",
-      "title": "Product Manager, Portfolio Construction Solutions",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 2 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-15T04:07:07.482960+00:00",
+      "detected_at": "2026-11-15T13:16:14.069272+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     }
   ],
@@ -6257,7 +6661,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-15T04:07:09.576425+00:00",
+      "last_checked_at": "2026-11-15T13:16:16.173900+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -6309,7 +6713,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-15T04:07:09.576425+00:00",
+      "last_checked_at": "2026-11-15T13:16:16.173900+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -6439,7 +6843,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-15T04:07:37.436058+00:00",
+      "last_checked_at": "2026-11-15T13:16:43.960705+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -6465,7 +6869,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-15T04:07:11.031105+00:00",
+      "last_checked_at": "2026-11-15T13:16:17.308948+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -6478,7 +6882,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-15T04:07:37.381363+00:00",
+      "last_checked_at": "2026-11-15T13:16:43.830595+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
