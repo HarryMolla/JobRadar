@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T22:23:13.855742+00:00",
+  "last_updated": "2026-11-16T04:07:07.823998+00:00",
   "stats": {
-    "total_jobs": 83,
+    "total_jobs": 86,
     "total_notified": 0
   },
   "jobs": {
@@ -3926,9 +3926,311 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_bask-health_frontend-engineer-new-grad": {
+      "fingerprint": "himalayas::hm_bask-health_frontend-engineer-new-grad",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bask-health_frontend-engineer-new-grad",
+      "url": "https://himalayas.app/companies/bask-health/jobs/frontend-engineer-new-grad",
+      "source_job_url": "https://himalayas.app/companies/bask-health/jobs/frontend-engineer-new-grad",
+      "apply_url": "https://himalayas.app/companies/bask-health/jobs/frontend-engineer-new-grad",
+      "title": "Frontend Engineer, New Grad",
+      "company": "Bask Health",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Frontend Engineer, Web Developer, Software Engineer\n\nAbout Bask HealthBask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses.\n\nAbout Bask Health Bask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses. Our platform brings together patient experiences, clinical workflows, pharmacy operations, and commerce tools in one place. We're an entrepreneurial, product-focused engineering team that values ownership, technical excellence, and building software that solves real problems. Engineers work closely with product teams and company leadership, take features from idea to production, and have a direct role in shaping the platform. Engineering at Bask is AI-first and builder-led. We use tools like Cursor and Claude Code throughout development while maintaining high standards for reliability, testing, and software quality.About the Role We're looking for a Frontend Engineer, New Grad to help build and improve the web applications that power Bask Health 's telehealth platform. This is an entry-level engineering opportunity designed for recent graduates and early-career developers who want to gain practical experience building production software. You'll work alongside experienced frontend engineers, product managers, and designers to develop features used by merchants, healthcare businesses, and internal teams. You'll contribute to responsive interfaces, reusable components, application workflows, and frontend functionality across different areas of Bask's platform. Your projects may involve merchant dashboards, patient-facing experiences, storefronts, administrative tools, and other web applications. You'll gain hands-on experience with modern frontend technologies such as React, Next.js, and TypeScript while learning how production applications are designed, developed, tested, and maintained. This is a software engineering position where you'll write real code, contribute to product features, participate in code reviews, and learn from experienced engineers. As your skills develop, you'll take on increasingly complex tasks and gain more ownership over your work. We're looking for someone with strong programming fundamentals, curiosity, attention to detail, and a genuine interest in building useful software. Professional experience isn't required, but you should be comfortable demonstrating your technical abilities through coursework, internships, personal projects, or other development experience. What You'll Do Build and maintain frontend features across Bask Health 's web applications. Work with experienced engineers to develop production-ready application functionality. Write frontend code using JavaScript, TypeScript, React, and Next.js. Develop reusable components for merchant-facing and internal applications. Implement responsive interfaces using HTML, CSS, and modern frontend technologies. Translate product requirements and design specifications into working software. Contribute to merchant dashboards, platform configuration tools, and patient-facing interfaces. Help build forms, navigation components, interactive controls, and application workflows. Connect frontend applications to backend APIs and services. Work with application state, asynchronous requests, and dynamic data. Assist with implementing input validation and error handling. Collaborate with designers to ensure interfaces are functional and visually consistent. Help improve existing features based on product feedback and engineering requirements. Investigate and resolve frontend bugs under the guidance of experienced engineers. Learn how to debug browser behavior, API requests, and application issues. Write clean, readable, and maintainable code. Develop unit tests and assist with frontend integration testing. Participate in code reviews and incorporate feedback into your work. Learn and follow established frontend architecture and coding standards. Help improve accessibility, usability, and responsive behavior. Assist with frontend performance improvements and application optimization. Collaborate with product managers to understand feature requirements and user needs. Contribute to technical documentation and reusable component guidelines. Use Git and established development workflows to manage code changes. Learn how features move through development, testing, deployment, and production. Use AI-assisted development tools while validating generated code and understanding implementation decisions. Gradually take ownership of frontend features from development through testing and release. Requirements Recent graduation from a computer science, software engineering, or related program, or equivalent technical experience through self-directed learning, bootcamps, or independent projects. Foundational know",
+      "posted_at": "2026-11-16T03:52:31+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794801151",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-16T04:04:53.732826+00:00",
+      "first_seen_at": "2026-11-16T04:04:53.732826+00:00",
+      "last_checked_at": "2026-11-16T04:05:10.394240+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: accessibility (+8)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Skill: next.js (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.21,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bask-health_junior-design-engineer": {
+      "fingerprint": "himalayas::hm_bask-health_junior-design-engineer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bask-health_junior-design-engineer",
+      "url": "https://himalayas.app/companies/bask-health/jobs/junior-design-engineer",
+      "source_job_url": "https://himalayas.app/companies/bask-health/jobs/junior-design-engineer",
+      "apply_url": "https://himalayas.app/companies/bask-health/jobs/junior-design-engineer",
+      "title": "Junior Design Engineer",
+      "company": "Bask Health",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Hardware Engineer, Frontend Engineer, Design Engineer, Front End Developer, UI Engineer, Web Developer\n\nAbout Bask HealthBask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses.\n\nAbout Bask Health Bask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses. Our platform brings together patient experiences, clinical workflows, pharmacy operations, and commerce tools in one place. We're an entrepreneurial, product-focused engineering team that values ownership, technical excellence, and building software that solves real problems. Engineers work closely with product teams and company leadership, take features from idea to production, and have a direct role in shaping the platform. Engineering at Bask is AI-first and builder-led. We use tools like Cursor and Claude Code throughout development while maintaining high standards for reliability, testing, and software quality. About the Role We're looking for a Junior Design Engineer to help build visually polished, intuitive, and responsive user interfaces across Bask Health 's platform. This role sits at the intersection of frontend development and product design. You'll work closely with experienced engineers, designers, and product managers to turn visual concepts into functional web experiences that look great and work reliably. You'll contribute to merchant dashboards, storefronts, patient-facing experiences, internal tools, and reusable interface components. Your work will involve implementing designs, refining layouts, building interactive elements, and improving the overall consistency and usability of our applications. This is an early-career engineering position for someone who enjoys both coding and design. You don't need years of professional experience, but you should have a solid understanding of frontend fundamentals, an eye for visual detail, and examples of interfaces you've built through projects, internships, or previous work. You'll receive guidance from experienced team members while gaining practical experience with modern frontend frameworks, design systems, accessibility, animations, and production development workflows. We're looking for someone who takes pride in the details, enjoys learning new techniques, and wants to grow into an engineer who can independently build high-quality digital experiences. What You'll Do Help build responsive and visually polished user interfaces across Bask Health 's platform. Translate Figma designs, wireframes, and visual concepts into working frontend components. Develop frontend functionality using React, Next.js, TypeScript, or comparable technologies. Implement responsive layouts using HTML, CSS, and modern styling techniques. Build reusable UI components for merchant-facing and internal applications. Assist with maintaining and expanding Bask's frontend design system. Work with designers to ensure accurate implementation of typography, spacing, colors, and layouts. Help develop interactive elements such as navigation menus, forms, modals, and dropdowns. Implement basic animations, hover effects, and interface transitions. Support the development of customizable storefront and website components. Contribute to merchant dashboards, platform configuration interfaces, and patient experiences. Help improve existing interfaces based on design feedback and usability findings. Ensure layouts function correctly across desktop, tablet, and mobile devices. Assist with identifying and fixing visual inconsistencies across applications. Collaborate with frontend engineers to integrate components into existing application architecture. Help connect frontend interfaces to APIs and application data. Develop accessible interfaces using appropriate semantic HTML and interaction patterns. Learn and apply frontend performance optimization techniques. Test components across browsers and screen sizes. Troubleshoot CSS, layout, and frontend interaction issues. Write clean, readable, and maintainable frontend code. Participate in code reviews and apply feedback from experienced engineers. Help document reusable components and frontend implementation patterns. Build prototypes to explore design ideas and interaction concepts. Collaborate with product managers and designers to understand user experience requirements. Use AI-assisted development tools while reviewing and validating generated code. Gradually take ownership of small frontend features from implementation through testing and deployment. Requirements Foundational experience with frontend development through employment, internships, academic projects, bootcamps, or independent work. Working knowledge of HTML, CSS, and JavaScript. Familiarity with TypeScript or willingness to develop proficiency. Basic experience with React or a com",
+      "posted_at": "2026-11-16T03:17:40+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794799060",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-16T04:04:59.736009+00:00",
+      "first_seen_at": "2026-11-16T04:04:59.736009+00:00",
+      "last_checked_at": "2026-11-16T04:05:10.394240+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "junior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Skill: figma (+15)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Skill: react (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 0.79,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "devto_hiring::whos-hiring-software-engineers-this-week-30-companies-straight-f": {
+      "fingerprint": "devto_hiring::whos-hiring-software-engineers-this-week-30-companies-straight-f",
+      "source": "devto_hiring",
+      "source_name": "RSS Job Feeds",
+      "source_id": "whos-hiring-software-engineers-this-week-30-companies-straight-f",
+      "url": "https://dev.to/arabinowe/whos-hiring-software-engineers-this-week-30-companies-straight-from-their-career-pages-mc7",
+      "source_job_url": "https://dev.to/arabinowe/whos-hiring-software-engineers-this-week-30-companies-straight-from-their-career-pages-mc7",
+      "apply_url": "",
+      "title": "Who's hiring software engineers this week: 30 companies, straight from their career pages",
+      "company": "",
+      "location": "Remote",
+      "work_location": "Remote",
+      "description": "<p>I track open roles on 4,400+ company career pages (the Greenhouse, Lever and Ashby boards that power most startup careers sites). Here's who is hiring software engineers right now, straight from the employers, so these are live postings, not stale job-board copies.</p>\n\n<h2>\n  \n  \n  US and remote (posted in the last 7 days)\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/clera\" rel=\"noopener noreferrer\">Clera</a></strong>: 8 matching roles (273 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/cursor\" rel=\"noopener noreferrer\">Cursor</a></strong>: 5 matching roles (98 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/clickhouse\" rel=\"noopener noreferrer\">Clickhouse</a></strong>: 4 matching roles (205 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/applied\" rel=\"noopener noreferrer\">Applied</a></strong>: 3 matching roles (325 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/apex-technology-inc\" rel=\"noopener noreferrer\">Apex Technology Inc</a></strong>: 2 matching roles (138 open in total)</li>\n</ul>\n\n<h2>\n  \n  \n  San Francisco Bay Area\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/crusoe\" rel=\"noopener noreferrer\">Crusoe</a></strong>: 11 matching roles (318 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/clera\" rel=\"noopener noreferrer\">Clera</a></strong>: 8 matching roles (273 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/commure\" rel=\"noopener noreferrer\">Commure</a></strong>: 5 matching roles (72 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/cursor\" rel=\"noopener noreferrer\">Cursor</a></strong>: 5 matching roles (98 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/hinge-health\" rel=\"noopener noreferrer\">Hinge Health</a></strong>: 4 matching roles (83 open in total)</li>\n</ul>\n\n<h2>\n  \n  \n  New York\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/mirage\" rel=\"noopener noreferrer\">Mirage</a></strong>: 5 matching roles (16 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/notion\" rel=\"noopener noreferrer\">Notion</a></strong>: 4 matching roles (165 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/cohere\" rel=\"noopener noreferrer\">Cohere</a></strong>: 3 matching roles (121 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/ramp\" rel=\"noopener noreferrer\">Ramp</a></strong>: 3 matching roles (179 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/clickhouse\" rel=\"noopener noreferrer\">Clickhouse</a></strong>: 2 matching roles (205 open in total)</li>\n</ul>\n\n<h2>\n  \n  \n  Seattle area\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/fluidstack\" rel=\"noopener noreferrer\">Fluidstack</a></strong>: 67 matching roles (251 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/baseten\" rel=\"noopener noreferrer\">Baseten</a></strong>: 22 matching roles (103 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/airwallex\" rel=\"noopener noreferrer\">Airwallex</a></strong>: 21 matching roles (483 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/docker\" rel=\"noopener noreferrer\">Docker</a></strong>: 12 matching roles (53 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/headway\" rel=\"noopener noreferrer\">Headway</a></strong>: 12 matching roles (92 open in total)</li>\n</ul>\n\n<h2>\n  \n  \n  Texas\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/base-power\" rel=\"noopener noreferrer\">Base Power</a></strong>: 28 matching roles (194 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/fab2\" rel=\"noopener noreferrer\">Fab2</a></strong>: 16 matching roles (59 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/fluidstack\" rel=\"noopener noreferrer\">Fluidstack</a></strong>: 11 matching roles (251 open in total)</li>\n<li>\n<strong><a href=\"https://boards.greenhouse.io/avride\" rel=\"noopener noreferrer\">Avride</a></strong>: 9 matching roles (45 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/saronic\" rel=\"noopener noreferrer\">Saronic</a></strong>: 8 matching roles (274 open in total)</li>\n</ul>\n\n<h2>\n  \n  \n  Colorado\n</h2>\n\n<ul>\n<li>\n<strong><a href=\"https://boards.greenhouse.io/andurilindustries\" rel=\"noopener noreferrer\">Anduril Industries</a></strong>: 37 matching roles (2594 open in total)</li>\n<li>\n<strong><a href=\"https://boards.greenhouse.io/gusto\" rel=\"noopener noreferrer\">Gusto, Inc.</a></strong>: 10 matching roles (75 open in total)</li>\n<li>\n<strong><a href=\"https://boards.greenhouse.io/judihealth\" rel=\"noopener noreferrer\">Judi Health</a></strong>: 10 matching roles (82 open in total)</li>\n<li>\n<strong><a href=\"https://jobs.ashbyhq.com/candidhealth\" rel=\"noopener noreferrer\">Candidhealth</a></strong>: 5 matching roles (30 open in total)</li>\n<li>\n<strong><a href=\"https://boards.greenhouse.io/bluestaq\" rel=\"noopener noreferrer\">Bluestaq US External</a></str",
+      "posted_at": "2026-11-16T03:47:34+00:00",
+      "updated_at": "2026-11-16T03:47:34+00:00",
+      "source_timestamp_raw": "Mon, 16 Nov 2026 03:47:34 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-16T04:06:38.536694+00:00",
+      "first_seen_at": "2026-11-16T04:06:38.536694+00:00",
+      "last_checked_at": "2026-11-16T04:06:40.120104+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.32,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-16T04:07:07.823629+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-16T04:07:07.763738+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:41.260158+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:40.195797+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 38,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:40.120083+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 24,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:38.056828+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:35.617981+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:34.365052+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:32.569162+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:32.462363+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:31.928787+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:31.724047+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:31.647949+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:31.547740+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:06:31.487617+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 612,
+      "error": "",
+      "checked_at": "2026-11-16T04:05:45.138869+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-16T04:05:10.394220+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-16T04:04:53.493162+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:04:49.116352+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 160,
+      "error": "",
+      "checked_at": "2026-11-16T04:04:49.005535+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-16T04:04:47.738871+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-16T04:04:47.677091+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -6594,8 +6896,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-15T22:23:13.590723+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11768.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:07:07.763578+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11774.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6604,8 +6906,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-15T22:23:11.326033+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11768.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:07:05.720767+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11773.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6614,8 +6916,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-15T22:23:09.393114+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11767.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:07:03.584467+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11773.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6624,8 +6926,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-15T22:23:07.326879+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11745.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:07:01.721172+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11751.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6634,8 +6936,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-15T22:23:05.426801+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11745.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:59.720920+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11751.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6644,8 +6946,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-15T22:23:03.467299+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11745.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:57.723725+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6654,8 +6956,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-15T22:23:01.321568+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11745.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:55.671660+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6664,8 +6966,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-15T22:23:01.012653+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11744.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:53.718821+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6674,8 +6976,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-15T22:22:53.742949+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11744.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:51.667062+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6684,8 +6986,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-15T22:22:51.812888+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11744.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:49.742215+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6694,8 +6996,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-15T22:22:49.850910+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11744.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:47.779413+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11750.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -6704,8 +7006,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-15T22:22:48.328693+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10216.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:46.200890+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10222.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6714,8 +7016,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-15T22:22:43.303973+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.260022+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6724,8 +7026,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-15T22:22:43.303495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.259758+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.1h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6734,8 +7036,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-15T22:22:43.303296+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.259199+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.1h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6744,8 +7046,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-15T22:22:43.303087+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.258931+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6754,8 +7056,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-15T22:22:43.302883+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.258664+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6764,8 +7066,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-15T22:22:43.302676+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20414.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.258396+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20420.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -6774,8 +7076,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-15T22:22:43.302430+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 13970.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:41.258084+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 13975.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6784,8 +7086,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-15T22:22:40.472495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 662.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.963662+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 668.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6794,8 +7096,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-15T22:22:40.472377+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 566.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.963507+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 572.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6804,8 +7106,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-15T22:22:40.472233+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 566.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.963345+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 572.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6814,8 +7116,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-15T22:22:40.472124+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 494.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.963169+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 500.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6824,8 +7126,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-15T22:22:40.472010+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 437.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.963012+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 443.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6834,8 +7136,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-15T22:22:40.471893+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 432.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.962854+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 438.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6844,8 +7146,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-15T22:22:40.471772+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 422.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.962696+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 428.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6854,8 +7156,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-15T22:22:40.471657+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 374.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.962536+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 380.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6864,8 +7166,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-15T22:22:40.471538+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 374.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.962367+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 380.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -6874,8 +7176,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-15T22:22:40.471380+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 350.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.962144+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 356.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6884,8 +7186,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-15T22:22:40.183935+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1111.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.811766+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1117.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6894,8 +7196,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-15T22:22:40.183825+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1111.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.811609+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1116.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6904,8 +7206,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-15T22:22:40.183713+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 958.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.811454+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 964.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6914,8 +7216,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-15T22:22:40.183604+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 958.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.811295+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 963.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6924,8 +7226,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-15T22:22:40.183496+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 662.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.811123+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 668.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6934,8 +7236,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-15T22:22:40.183389+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 629.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810969+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 635.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6944,8 +7246,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-15T22:22:40.183277+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 609.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810810+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 615.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6954,8 +7256,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-15T22:22:40.183160+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 490.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810661+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 496.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6964,8 +7266,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-15T22:22:40.183049+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 462.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810507+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 468.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6974,8 +7276,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-15T22:22:40.182938+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 407.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810352+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 413.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6984,8 +7286,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-15T22:22:40.182825+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 398.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810179+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 404.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -6994,8 +7296,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-15T22:22:40.182711+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 398.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.810023+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 404.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -7004,8 +7306,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-15T22:22:40.182594+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 293.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.809859+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 299.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -7014,8 +7316,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-15T22:22:40.182471+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 239.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.809693+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 245.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -7024,8 +7326,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-15T22:22:40.182340+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 197.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.809524+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 203.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -7034,18 +7336,38 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-15T22:22:40.182160+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 101.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-16T04:06:38.809327+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 107.1h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
-      "source_id": "warn-act-and-layoffs-in-construction-what-building-workers-shoul",
-      "title": "WARN Act and Layoffs in Construction: What Building Workers Should Know",
+      "source_id": "are-you-actively-looking-for-a-job-opportunity-nc1",
+      "title": "Are you actively looking for a job opportunity?",
       "company": "",
-      "source_timestamp_raw": "Sat, 14 Nov 2026 16:56:37 +0000",
-      "posted_at": "2026-11-14T16:56:37+00:00",
-      "detected_at": "2026-11-15T22:22:39.977963+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 29.4h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Sat, 14 Nov 2026 23:33:51 +0000",
+      "posted_at": "2026-11-14T23:33:51+00:00",
+      "detected_at": "2026-11-16T04:06:38.538647+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 28.5h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "december-20-is-the-newest-week-on-the-warn-calendar-2551-workers",
+      "title": "December 20 Is the Newest Week on the WARN Calendar — 2,551 Workers Scheduled",
+      "company": "",
+      "source_timestamp_raw": "Sun, 15 Nov 2026 02:49:52 +0000",
+      "posted_at": "2026-11-15T02:49:52+00:00",
+      "detected_at": "2026-11-16T04:06:38.538486+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 25.3h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "warn-act-and-layoffs-in-government-what-public-sector-workers-sh",
+      "title": "WARN Act and Layoffs in Government — What Public-Sector Workers Should Know",
+      "company": "",
+      "source_timestamp_raw": "Sun, 15 Nov 2026 03:11:21 +0000",
+      "posted_at": "2026-11-15T03:11:21+00:00",
+      "detected_at": "2026-11-16T04:06:38.538321+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 24.9h ago (exceeds 24h limit)"
     },
     {
       "source": "workday",
@@ -7054,7 +7376,7 @@
       "company": "Fidelity",
       "source_timestamp_raw": "Posted 30+ Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-15T22:22:38.801336+00:00",
+      "detected_at": "2026-11-16T04:06:37.107378+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     },
     {
@@ -7064,27 +7386,7 @@
       "company": "Fidelity",
       "source_timestamp_raw": "Posted 11 Days Ago",
       "posted_at": null,
-      "detected_at": "2026-11-15T22:22:38.801313+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
-    },
-    {
-      "source": "workday",
-      "source_id": "wd_Director--Data-Modeling_2137731",
-      "title": "Director, Data Modeling",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 11 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-15T22:22:38.801259+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
-    },
-    {
-      "source": "workday",
-      "source_id": "wd_Product-Analyst--Portfolio-Construction-Solutions_2135291-2",
-      "title": "Product Manager, Portfolio Construction Solutions",
-      "company": "Fidelity",
-      "source_timestamp_raw": "Posted 3 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-15T22:22:38.801204+00:00",
+      "detected_at": "2026-11-16T04:06:37.107335+00:00",
       "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     }
   ],
@@ -7110,7 +7412,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-15T22:22:40.917598+00:00",
+      "last_checked_at": "2026-11-16T04:06:40.195797+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -7162,7 +7464,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-15T22:22:40.917598+00:00",
+      "last_checked_at": "2026-11-16T04:06:40.195797+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -7292,7 +7594,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-15T22:23:13.855327+00:00",
+      "last_checked_at": "2026-11-16T04:07:07.823629+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -7318,7 +7620,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-15T22:22:43.304091+00:00",
+      "last_checked_at": "2026-11-16T04:06:41.260158+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -7331,7 +7633,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-15T22:23:13.590887+00:00",
+      "last_checked_at": "2026-11-16T04:07:07.763738+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
