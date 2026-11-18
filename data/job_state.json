@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T15:20:11.635743+00:00",
+  "last_updated": "2026-11-18T00:20:08.612947+00:00",
   "stats": {
-    "total_jobs": 101,
+    "total_jobs": 109,
     "total_notified": 0
   },
   "jobs": {
@@ -4801,9 +4801,550 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "weworkremotely::alveole-product-designer": {
+      "fingerprint": "weworkremotely::alveole-product-designer",
+      "source": "weworkremotely",
+      "source_name": "We Work Remotely",
+      "source_id": "alveole-product-designer",
+      "url": "https://weworkremotely.com/remote-jobs/alveole-product-designer",
+      "source_job_url": "https://weworkremotely.com/remote-jobs/alveole-product-designer",
+      "apply_url": "",
+      "title": "Product Designer",
+      "company": "Alveole",
+      "location": "Canada Only",
+      "work_location": "Canada Only",
+      "description": "<p>\n  <strong>Headquarters:</strong> Vancouver, British Columbia, Canada\n    <br /><strong>URL:</strong> <a href=\"https://www.alveole.com\">https://www.alveole.com</a>\n</p>\n\n<p><strong><em>About us 🐝</em></strong></p>\n<p>Alvéole is on a mission to connect people with nature in cities, one building at a time. As a <a href=\"https://www.alveole.buzz/blog/alveole-bcorp/\">certified B Corporation</a> since 2018, we believe business can be a force for good.<br /><br />We partner with the world’s leading real estate companies to turn sustainability into an experience that tenants can see, touch, and feel. Through rooftop beehives and educational biodiversity programs, we help our clients meet their environmental goals while engaging communities and strengthening their brands.<br /><br />You can find our work in (and on) thousands of properties across North America and Europe, driven by a belief that business and biodiversity can thrive together.<br /><br />Learn more at <a href=\"https://www.alveole.buzz/\">alveole.buzz</a></p>\n<hr />\n<h3><strong>✨ The Role</strong></h3>\n<p>We're looking for a <strong>Product Designer</strong> to join our Product team and lead the design of our two digital products: <strong>MyHive</strong>, our customer engagement platform, and <strong>Aura</strong>, our biodiversity data and insights platform.</p>\n<p>Until now, design has been handled by a mix of engineers, product team members, and an external designer. It's worked, but as our products grow, we need someone who can take full ownership of design, make decisions, and help us build better experiences for our users.</p>\n<p>You'll work closely with our Product Director and Engineering team, getting involved in everything from understanding user needs and improving existing features to designing new ones. We're a small team, so you'll have plenty of autonomy, a direct impact on both products, and the opportunity to shape how we approach design at Alvéole.</p>\n<h3><strong>📍 Key Responsibilities</strong></h3>\n<ul>\n<li><strong>Own end-to-end UX/UI design</strong> across MyHive and Aura, from understanding user needs and mapping flows to wireframes, high-fidelity designs, and implementation.</li>\n<li>Translate complex product requirements, customer feedback, and business needs into intuitive, user-friendly experiences.</li>\n<li>Collaborate closely with Product and Engineering to shape solutions, challenge assumptions, and make thoughtful design decisions.</li>\n<li>Build, maintain, and evolve a consistent design system across both products, improving usability and reducing design inconsistencies.</li>\n<li>Conduct or contribute to user research, customer interviews, and usability testing to validate ideas and continuously improve the experience.</li>\n<li>Design responsive experiences across desktop and mobile, balancing usability, accessibility, technical feasibility, and business priorities.</li>\n<li>Support occasional visual design needs, including customer-facing materials and product-related communications, while keeping product design as your main focus.</li>\n</ul>\n<h3><strong>🎯 You're the Ideal Fit If You Have</strong></h3>\n<p><strong>Must-Haves</strong></p>\n<ul>\n<li>Around <strong>3+ years of experience in Product Design, UX/UI Design, or a similar role</strong>.</li>\n<li>Experience designing <strong>B2B digital products</strong>, ideally SaaS platforms or web applications.</li>\n<li><strong>Hands-on experience designing for both desktop and mobile</strong>, with a strong understanding of responsive design principles.</li>\n<li>A strong portfolio showcasing your design process, problem-solving skills, and examples of products or features you've helped bring to life.</li>\n<li>Solid understanding of UX principles, user flows, information architecture, interaction design, and visual design.</li>\n<li>Ability to work independently, take ownership of design decisions, and collaborate effectively with engineers and product stakeholders.</li>\n<li>Strong communication skills, curiosity, and openness to feedback.</li>\n<li>Professional proficiency in English.</li>\n</ul>\n<p><strong>Nice-to-Haves</strong></p>\n<ul>\n<li>Experience designing data-heavy products, dashboards, or complex B2B workflows.</li>\n<li>Experience building or scaling a design system.</li>\n<li>Experience working in a startup or small product team where you've had significant autonomy.</li>\n<li>Interest in sustainability, biodiversity, or environmental technology.</li>\n</ul>\n<h3><strong>🌍 Location &amp; Work Setup</strong></h3>\n<p><strong>Location:</strong> Fully remote within Canada<br /><strong>Type of contract:</strong> Permanent, Full-time (40h/week)<br /><strong>Salary:</strong> 85,000–110,000 CAD annually</p>\n<h3><strong>🐝 What's in It for You?</strong></h3>\n<p>🌱 Join a mission-driven company creating meaningful environmental impact across North America and Europe.</p>\n<p>🎨 Take real ownership of product design across two growing digital platforms, with the freedom to influence h",
+      "posted_at": "2026-11-17T18:01:46+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:46 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:08.139502+00:00",
+      "first_seen_at": "2026-11-18T00:18:08.139502+00:00",
+      "last_checked_at": "2026-11-18T00:18:09.042083+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 100,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: responsive design (+8)",
+        "Skill: accessibility (+8)",
+        "Skill: user research (+10)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 6.27,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_asurion_sr-analyst-digital-marketing-analytics": {
+      "fingerprint": "himalayas::hm_asurion_sr-analyst-digital-marketing-analytics",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_asurion_sr-analyst-digital-marketing-analytics",
+      "url": "https://himalayas.app/companies/asurion/jobs/sr-analyst-digital-marketing-analytics",
+      "source_job_url": "https://himalayas.app/companies/asurion/jobs/sr-analyst-digital-marketing-analytics",
+      "apply_url": "https://himalayas.app/companies/asurion/jobs/sr-analyst-digital-marketing-analytics",
+      "title": "Sr Analyst, Digital Marketing Analytics",
+      "company": "Asurion",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Data Science, Marketing, Digital Marketing Analyst, Analytics Analyst, Data Analyst, Business Intelligence Analyst, Marketing Data Analyst\n\nTitle: Senior Analyst, Digital Marketing Analytics Location: Nashville, TN or Remote Overview: Asurion is seeking a curious, performance-driven Senior Analyst of Digital Marketing Analytics to join the team at our Nashville corporate office or remotely.\n\nTitle : Senior Analyst, Digital Marketing Analytics Location : Nashville, TN or Remote Overview: Asurion is seeking a curious, performance-driven Senior Analyst of Digital Marketing Analytics to join the team at our Nashville corporate office or remotely. This role sits in the marketing organization and will provide analytical/data support to digital growth initiatives led by the marketing and partner teams in a B2B2C sales model. You’ll own the analysis behind our digital marketing programs for some of our biggest partners: reading conversion funnels, spotting where they break, and recommending fixes across paid media, email, and web. You'll work on a technically sophisticated team and partner closely with stakeholders to turn data into clear, compelling narratives that drive decisions. Success in this role requires data analytics expertise, creative problem-solving, strong communication skills, an ownership mindset, and demonstrated experience working with cross-functional teams. Essential Duties and Responsibilities: Responsible for standard and ad-hoc reporting on performance of our digital marketing, organic, email, web properties and voice/chat channels Analyze digital conversion funnels, identify where they break, and recommend improvements to growth marketing, paid media, and email teams Support ad-hoc and exploratory analyses of key partner initiatives, tests, and emerging growth opportunities, helping to identify opportunities and provide data-driven recommendations Produce succinct reports highlighting results and key insights of digital programs using a combination of business intelligence tools (e.g., Power BI) and Excel Help define KPIs and develop requirements for measurement planning, tagging, sourcing digital data across platforms, including web analytics, DSPs, websites/apps, etc. Help evolve measurement and attribution approach, triangulating performance across client platform data and internal data sources Collaborate with cross-functional teams and partner teams to ensure we can define and effectively measure customer and business success to effect positive change Stay up to date with AI technology, effectively leveraging LLMs, automation, and alerting to improve productivity and enhance insights generation What You’ll Bring to The Team: 2-4 years of professional experience in marketing analytics, including digital funnel measurement and paid media performance BA/BS in data analytics, information systems, internet technologies, marketing, business, or a related field preferred; relevant data/analytics certifications and/or equivalent hands-on experience will also be considered. Strong problem-solving and decision-making abilities with excellent attention to detail Strong technical fluency in analytics tools and methods, primarily SQL, and experience with Python, R, or similar analytical tools. Experience working with Amazon data through platforms such as Amazon Ads or Amazon Seller Central strongly preferred Experience measuring digital funnel, cross channel attribution, and initiative performance via web analytics platforms (Google/Adobe Analytics), digital A/B testing experience preferred Experience working with subscription model performance analytics preferred Experience working with customer segmentation or audience data is a plus Why Asurion ? Simply put, Asurion helps people stay connected. We are a privately held company which enables us to focus on long term customer and client value. We provide over 290 million consumers around the world with simple, intuitive technology advice to help them get the most from their devices; support to fix their issues and connectivity crisis, and device protection to ensure they receive a replacement or repair. When a product is missing or simply doesn't work properly, Asurion ’s 17,000 employees are focused on solving the problem with people and processes operating 24 hours a day, seven days a week, speaking six languages, and working across any device, platform, or provider. By partnering with leading retailers, mobile carriers, and pay-tv providers, Asurion helps make customers lives a little easier and their technology a lot more amazing. Originally posted on Himalayas",
+      "posted_at": "2026-11-17T22:36:43+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794955003",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:13.673735+00:00",
+      "first_seen_at": "2026-11-18T00:18:13.673735+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 51,
+      "match_reasons": [
+        "Title matches digital marketing role: 'digital marketing'",
+        "Skill: a/b testing (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "marketing",
+      "age_hours": 1.7,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_novo-platform-inc_digital-marketing-lead": {
+      "fingerprint": "himalayas::hm_novo-platform-inc_digital-marketing-lead",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_novo-platform-inc_digital-marketing-lead",
+      "url": "https://himalayas.app/companies/novo-platform-inc/jobs/digital-marketing-lead",
+      "source_job_url": "https://himalayas.app/companies/novo-platform-inc/jobs/digital-marketing-lead",
+      "apply_url": "https://himalayas.app/companies/novo-platform-inc/jobs/digital-marketing-lead",
+      "title": "Digital Marketing Lead",
+      "company": "Novo Platform Inc.",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Marketing, Growth, Digital Marketing Lead, Digital Marketing Manager, Performance Marketing Manager, Growth Marketing Manager, Marketing Analytics Manager\n\n• Develop and implement digital strategies to drive customer acquisition (including content marketing, email marketing, channel strategies, etc) • Identify key metrics across the funnel and deliver actionable insights on marketing performance and contribution to pipeline • Develop a data-driven approach to prioritize, test, evaluate, and optimize marketing experiments to acquire new customers • Manage our marketing budget, including in-house and agency spend • Deployment of marketing automation technologies to support lead gen • Partner with individuals and teams across the company to assist in building and running campaigns • Oversee all continued optimization for website, funnel related activity, and all digital marketing efforts (e.\n\nDevelop and implement digital strategies to drive customer acquisition (including content marketing, email marketing, channel strategies, etc) Identify key metrics across the funnel and deliver actionable insights on marketing performance and contribution to pipeline Develop a data-driven approach to prioritize, test, evaluate, and optimize marketing experiments to acquire new customers Manage our marketing budget, including in-house and agency spend Deployment of marketing automation technologies to support lead gen Partner with individuals and teams across the company to assist in building and running campaigns Oversee all continued optimization for website, funnel related activity, and all digital marketing efforts (e.g. Adwords, retargeting) What we expect from you At least 4-6 years of experience with a wide range of marketing channels (e.g., paid search, social, SEO, content, affiliates) Strong quantitative and qualitative analytical skills; proficiency with Mixpanel, GA, SQL and other relevant tools Strong operating and leadership skills; equally comfortable being in the weeds and leading internal and external teams An excellent communicator; experience with media / PR is a plus Tools Performance marketing platform like Google Data Studio Events analytics software like Segment (or another events-based analytics tool) Marketing & product analytics like Mixpanel and Hotjar (or another events-based visualisation tool, like Amplitude) Email marketing like Customer.io, MailChimp, HubSpot The company is based in New York City, but due to COVID we are currently working remotely and will be remote until the second half of 2021. The company plans on re-centralizing in late 2021. All your information will be kept confidential according to EEO guidelines. We are a fast-growing, venture-backed startup that provides powerfully simple business banking. Since we launched, tens of thousands of small business owners, entrepreneurs, and freelancers have opened Novo business checking accounts securely and easily. We’re empowering our customers by delivering the most compelling banking experience possible so that they can spend more time running their businesses and less time managing their finances. Novo is powered by some of the brightest minds, from tech to financial services, and we’re all working toward one goal: changing the way businesses bank - everywhere. Originally posted on Himalayas",
+      "posted_at": "2026-11-17T22:30:39+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794954639",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:15.738511+00:00",
+      "first_seen_at": "2026-11-18T00:18:15.738511+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 55,
+      "match_reasons": [
+        "Title matches digital marketing role: 'digital marketing'",
+        "Skill: seo (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "marketing",
+      "age_hours": 1.8,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_te-connectivity_staff-r-d-product-engineer-software-engineer-remote-tx-us-rem": {
+      "fingerprint": "himalayas::hm_te-connectivity_staff-r-d-product-engineer-software-engineer-remote-tx-us-rem",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_te-connectivity_staff-r-d-product-engineer-software-engineer-remote-tx-us-rem",
+      "url": "https://himalayas.app/companies/te-connectivity/jobs/staff-r-d-product-engineer-software-engineer-remote-tx-us-remote",
+      "source_job_url": "https://himalayas.app/companies/te-connectivity/jobs/staff-r-d-product-engineer-software-engineer-remote-tx-us-remote",
+      "apply_url": "https://himalayas.app/companies/te-connectivity/jobs/staff-r-d-product-engineer-software-engineer-remote-tx-us-remote",
+      "title": "Staff R&D Product Engineer - Software Engineer (#Remote, TX, US, #Remote)",
+      "company": "TE Connectivity",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Operations, Embedded Software Engineer, Firmware Engineer, Software Engineer, Product Engineer, Systems Engineer\n\nAt TE, you will unleash your potential working with people from diverse backgrounds and industries to create a safer, sustainable and more connected world.\n\nAt TE, you will unleash your potential working with people from diverse backgrounds and industries to create a safer, sustainable and more connected world. Job Overview At TE Connectivity , we help build the technologies that keep the world connected. As a global leader in connectivity and sensor solutions, we partner with customers across industries to develop innovative products that power transportation, industrial, medical, energy, aerospace, and data infrastructure applications. The Digital Data Networks department is seeking an experienced Staff R&D Product Engineer to lead the development of embedded software, firmware, applications, and data platforms for next-generation intelligent power products. This role is responsible for designing and delivering software solutions that bring advanced monitoring, diagnostics, analytics, and device management capabilities to active power products used in AI, hyperscale data center, industrial, and other high-power applications. The ideal candidate combines deep expertise in embedded software and firmware development with strong knowledge of sensing technologies, power systems, data analytics, and connected device architectures. This individual will collaborate across multidisciplinary teams to transform product telemetry into actionable intelligence while enabling differentiated intelligent power solutions for customers worldwide. Role and Responsibilities Embedded Software & Active Device Development Design, develop, test, and maintain embedded software and firmware for microcontrollers, sensor ICs, and intelligent power devices. Develop device drivers, bootloaders, hardware abstraction layers (HALs), and real-time applications using bare-metal and RTOS architectures. Create tools and processes for device configuration, calibration, diagnostics, firmware updates, and secure lifecycle management. Lead software architecture, communication interface implementation, code reviews, and technical mentoring to deliver reliable and scalable solutions. Sensing, Monitoring & Diagnostics Develop real-time monitoring algorithms for electrical, thermal, and electromagnetic measurements in power products. Implement signal processing, calibration, fault detection, event logging, alarm handling, and diagnostic capabilities. Partner with cross-functional engineering teams to define sensing architectures and measurement requirements. Develop predictive monitoring solutions that improve reliability while balancing cost, manufacturability, and system constraints. Data Management & Analytics Design and develop data acquisition systems, databases, APIs, dashboards, and analytics platforms for product telemetry. Establish data models, traceability frameworks, retention strategies, and data quality standards across development and production environments. Create analytics solutions for performance trending, failure analysis, predictive maintenance, and continuous product improvement. Integrate monitoring platforms with edge, cloud, manufacturing, and enterprise systems while ensuring cybersecurity and data integrity. Test, Validation & Product Development Develop automated test and data acquisition software supporting product validation, characterization, and manufacturing testing. Integrate software with laboratory and manufacturing equipment, including power analyzers, oscilloscopes, electronic loads, and thermal chambers. Execute software verification and validation activities including unit, integration, regression, hardware-in-the-loop, and system testing. Support product development from concept through production launch by troubleshooting hardware-software interactions and validating performance. Customer & Cross-Functional Collaboration Work with customers and stakeholders to define technical requirements and intelligent power system solutions. Translate business and product needs into software specifications, architectures, interfaces, and development roadmaps. Collaborate with Electrical, Mechanical, Thermal, Manufacturing, Quality, Test, Product Management, and Customer Engineering teams. Support documentation, design reviews, product integration, deployment activities, issue resolution, and stakeholder communications. Education and Experience Bachelor’s or Master’s degree in Computer Engineering, Electrical Engineering, Computer Science, Software Engineering, or a related technical discipline. Minimum 8 years of experience developing embedded software, firmware, connected devices, monitoring systems, industrial software, or data-driven engineering applications. Proven experience leading software development projects from concept through production deployment and lifecycle support. Stro",
+      "posted_at": "2026-11-17T22:28:14+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794954494",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:17.652702+00:00",
+      "first_seen_at": "2026-11-18T00:18:17.652702+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 145300,
+      "salary_max": 217900,
+      "salary_currency": "USD",
+      "match_score": 55,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'"
+      ],
+      "match_category": "frontend",
+      "age_hours": 1.84,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_b-a-consulting_ux-ui-web-designer": {
+      "fingerprint": "himalayas::hm_b-a-consulting_ux-ui-web-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_b-a-consulting_ux-ui-web-designer",
+      "url": "https://himalayas.app/companies/b-a-consulting/jobs/ux-ui-web-designer",
+      "source_job_url": "https://himalayas.app/companies/b-a-consulting/jobs/ux-ui-web-designer",
+      "apply_url": "https://himalayas.app/companies/b-a-consulting/jobs/ux-ui-web-designer",
+      "title": "UX/UI & Web Designer",
+      "company": "B&A Consulting",
+      "location": "Italy",
+      "work_location": "Italy",
+      "description": "Categories: Design, UI UX Designer, Web Designer, Graphic Designer, Product Designer\n\nB&A Consulting è una Software House e Digital Company specializzata in soluzioni ICT, sviluppo software e consulenza tecnologica.\n\nB&A Consulting è una Software House e Digital Company specializzata in soluzioni ICT, sviluppo software e consulenza tecnologica. Per un progetto enterprise siamo alla ricerca di un/una UX/UI & Web Designer con solida esperienza nella progettazione di interfacce digitali, graphic design e sviluppo front-end. La persona selezionata seguirà il processo di progettazione dall’ideazione alla realizzazione dell’interfaccia, combinando sensibilità visiva, attenzione all’esperienza utente e competenze tecniche web. Attività Le principali attività riguarderanno: progettazione di interfacce digitali intuitive, funzionali e responsive; definizione della user experience e dei principali flussi di navigazione; realizzazione di wireframe, mockup e prototipi interattivi ; sviluppo di layout, asset grafici e contenuti visuali; applicazione e mantenimento della coerenza con la brand identity ; traduzione dei concept grafici in interfacce web tramite HTML, CSS e JavaScript ; collaborazione con i team di sviluppo nella fase di implementazione; miglioramento di usabilità, accessibilità e responsività delle interfacce; confronto con stakeholder e team di progetto per l’evoluzione dei prodotti digitali. Competenze tecniche Il/la candidato/a ideale possiede: Laurea in Informatica o discipline affini; esperienza consolidata nel Graphic Design e UX/UI Design ; esperienza pluriennale con Adobe Photoshop, Illustrator e InDesign ; solida esperienza con HTML5 e CSS3 per lo sviluppo e la personalizzazione di interfacce responsive; buona conoscenza di JavaScript per la gestione di interazioni ed elementi dinamici; esperienza nella progettazione di interfacce utente e user experience digitali ; capacità di realizzare wireframe, mockup e prototipi interattivi ; ottima conoscenza della lingua inglese, livello C1/C2 . Soft skills Completano il profilo: creatività e sensibilità visiva; attenzione al dettaglio; capacità di analisi e problem solving; autonomia operativa; proattività; flessibilità; capacità di lavorare in team; buone capacità comunicative; orientamento alla user experience. Modalità di lavoro Sedi di riferimento: Milano, Torino, Bologna, Roma, Genova, Trento Modalità: agile / prevalentemente da remoto Originally posted on Himalayas",
+      "posted_at": "2026-11-17T22:04:28+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794953068",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:19.705031+00:00",
+      "first_seen_at": "2026-11-18T00:18:19.705031+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ux/ui'",
+        "Skill: photoshop (+8)",
+        "Skill: illustrator (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.23,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_questronix-corporation_ui-ux-designer": {
+      "fingerprint": "himalayas::hm_questronix-corporation_ui-ux-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_questronix-corporation_ui-ux-designer",
+      "url": "https://himalayas.app/companies/questronix-corporation/jobs/ui-ux-designer",
+      "source_job_url": "https://himalayas.app/companies/questronix-corporation/jobs/ui-ux-designer",
+      "apply_url": "https://himalayas.app/companies/questronix-corporation/jobs/ui-ux-designer",
+      "title": "UI/UX Designer",
+      "company": "Questronix Corporation",
+      "location": "Philippines",
+      "work_location": "Philippines",
+      "description": "Categories: Design, UI UX Design, Product Design, UI Design, UX Design, Web Design, UI UX Designer, UI Designer\n\nResponsibilities• Gather and evaluate user requirements in collaboration with product managers and engineers • Illustrate design ideas using storyboards, process flows and sitemaps • Design graphic user interface elements, like menus, tabs and widgets • Build page navigation buttons and search fields • Develop UI mockups and prototypes that clearly illustrate how sites function and look like • Create original graphic designs (e.\n\nResponsibilities Gather and evaluate user requirements in collaboration with product managers and engineers Illustrate design ideas using storyboards, process flows and sitemaps Design graphic user interface elements, like menus, tabs and widgets Build page navigation buttons and search fields Develop UI mockups and prototypes that clearly illustrate how sites function and look like Create original graphic designs (e.g. images, sketches and tables) Prepare and present rough drafts to internal teams and key stakeholders Conduct layout adjustments based on user feedback Adhere to style standards on fonts, colors and images Update design systems Requirements Proven work experience as a UI/UX Designer or similar role Portfolio of design projects Knowledge of wireframe tools (ex: Figma/Adobe) Originally posted on Himalayas",
+      "posted_at": "2026-11-17T17:11:04+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794935464",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:24.139136+00:00",
+      "first_seen_at": "2026-11-18T00:18:24.139136+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui/ux'",
+        "Skill: figma (+15)",
+        "Skill: sketch (+10)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 7.12,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_wing-assistant_wordpress-developer": {
+      "fingerprint": "himalayas::hm_wing-assistant_wordpress-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_wing-assistant_wordpress-developer",
+      "url": "https://himalayas.app/companies/wing-assistant/jobs/wordpress-developer",
+      "source_job_url": "https://himalayas.app/companies/wing-assistant/jobs/wordpress-developer",
+      "apply_url": "https://himalayas.app/companies/wing-assistant/jobs/wordpress-developer",
+      "title": "WordPress Developer",
+      "company": "Wing Assistant",
+      "location": "Mexico",
+      "work_location": "Mexico",
+      "description": "Categories: Developer, WordPress Developer, Web Development, Front End Developer, Backend Engineer, Full Stack Developer, WordPress Development, Remote WordPress Developer\n\nPlease whitelist the domains \"\" and \"\" with your email provider to make sure you get our emails.\n\nPlease whitelist the domains \" \" and \" \" with your email provider to make sure you get our emails. Disclaimer: This is a generic job description for the position stated below. Actual tasks and tools will be discussed further when you reach the final interview stage. Please ensure you apply for the right job based on your location and experience. We prioritize people who can do this successfully! WordPress Developer (Remote) Wing is on the exciting mission of redefining the future of work for companies worldwide! We are looking to be the one-stop shop for companies that are looking to build world-class teams & place their operations on autopilot. And we’re looking for a WordPress Developer to start immediately! Duties and Responsibilities include but are not limited to: 1. Design and build responsive, user-friendly WordPress websites. 2. Develop custom WordPress themes and plugins. 3. Manage front-end and back-end website development. 4. Ensure high performance and availability, and manage all technical aspects of the CMS. 5. Collaborate with design and content teams to bring website concepts to life. 6. Conduct website performance tests and troubleshoot content issues. 7. Stay up-to-date with the latest trends in web development and WordPress. 8. Implement SEO best practices for site optimization. 9. Perform website maintenance and updates as needed. 10. Provide technical support and training to clients and staff. Qualifications: Proven experience as a WordPress Developer. Proficiency in front-end technologies, including HTML5, CSS3, JavaScript, and jQuery. Strong understanding of PHP back-end development. Experience with WordPress theme and plugin development. Familiarity with website architecture and navigation features. Knowledge of MySQL database management. Experience with version control systems (e.g., Git). Strong understanding of website performance, security, and optimization techniques. Ability to convert comprehensive layout and wireframes into working HTML pages. Excellent problem-solving skills and attention to detail. Strong communication skills and the ability to work well in a team environment. Schedule: US work hours (20-40 hours per week) Location: This is a remote job Please note: Only qualified candidates will be invited to take the assessment & scheduled for an interview. We have other vacancies that might interest your friends & colleagues. They can check us out at our Jobs Website. You may also refer your friends using our Affiliate Marketing Program and earn up to $30 if your referral is hired. Originally posted on Himalayas",
+      "posted_at": "2026-11-17T17:25:24+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1794936324",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:18:27.902425+00:00",
+      "first_seen_at": "2026-11-18T00:18:27.902425+00:00",
+      "last_checked_at": "2026-11-18T00:18:30.363895+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": 1140,
+      "salary_max": 1480,
+      "salary_currency": "USD",
+      "match_score": 90,
+      "match_reasons": [
+        "Title matches WordPress role: 'wordpress'",
+        "Skill: wireframe (+8)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Skill: wordpress (+8)"
+      ],
+      "match_category": "wordpress",
+      "age_hours": 6.89,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "devto_hiring::the-problem-of-rigid-experience-requirements-in-ai-driven-softwa": {
+      "fingerprint": "devto_hiring::the-problem-of-rigid-experience-requirements-in-ai-driven-softwa",
+      "source": "devto_hiring",
+      "source_name": "RSS Job Feeds",
+      "source_id": "the-problem-of-rigid-experience-requirements-in-ai-driven-softwa",
+      "url": "https://dev.to/kornilovconstru/the-problem-of-rigid-experience-requirements-in-ai-driven-software-engineering-and-how-to-replace-2338",
+      "source_job_url": "https://dev.to/kornilovconstru/the-problem-of-rigid-experience-requirements-in-ai-driven-software-engineering-and-how-to-replace-2338",
+      "apply_url": "",
+      "title": "The Problem of Rigid Experience Requirements in AI-Driven Software Engineering and How to Replace Them",
+      "company": "",
+      "location": "Remote",
+      "work_location": "Remote",
+      "description": "<h2>\n  \n  \n  The '5+ Years' Paradox: Why Rigid Requirements Are Failing Modern Tech\n</h2>\n\n<p>Scrolling through modern job boards feels less like engineering assessment and more like an exercise in archaeological dating. When a posting demands <strong>\"5+ years of experience with Technology X\"</strong> for a framework, API, or runtime that was publicly released only eighteen months prior, it exposes a catastrophic mechanical failure in how organizations filter human capability.</p>\n\n<p>This absurdity stems from a literalist automation loop. Automated Applicant Tracking Systems (ATS) operate on rigid string-matching algorithms. When a recruiter drops a lazy, copy-pasted template into the intake portal, the software executes a blunt token check: it searches the resume text for the exact substring paired with a numerical threshold. The system possesses zero semantic awareness. It cannot calculate that the underlying dependency graph, compiler optimization pipeline, and core paradigm of the technology shifted entirely six months after its initial release, making chronological tenure a negative indicator of adaptability.</p>\n\n<p>In the era of AI-assisted software engineering, this timeline-based filtering breaks down entirely at a workflow and cognitive level. Consider the fundamental shift in how code is produced and maintained:</p>\n\n<ul>\n<li>\n<strong>Syntax Generation vs. System Decoupling:</strong> Historically, software development was bottlenecked by manual typing speed, syntax memorization, and boilerplate scaffolding. AI code assistants now compress those mechanical writing tasks from days to seconds.</li>\n<li>\n<strong>The Cognitive Cost of Legacy Tenure:</strong> Spending five years manually writing boilerplate in an older paradigm trains an engineer's brain around high-friction workarounds that modern AI tools bypass entirely. Raw years spent typing syntax do not translate to architectural foresight; instead, they often leave cognitive scars—deeply ingrained mental models optimized for constraints that no longer exist.</li>\n</ul>\n\n<p>The structural risk of maintaining these arbitrary numerical filters is precise and severe. When a company enforces a chronological gate, it triggers a catastrophic filtering error: it rejects high-agency, rapidly adapting engineers who master novel toolchains through rigorous first-principles debugging, while admitting legacy practitioners whose primary credential is sheer longevity in a stagnant codebase. If a requirement mathematically exceeds the lifespan of the technology itself, the hiring funnel is no longer measuring competence; it is filtering for template compliance and historical inertia.</p>\n\n<h2>\n  \n  \n  The Legacy Blueprint: How HR and ATS Systems Codified Arbitrary Timelines\n</h2>\n\n<p>When a job description demands <strong>5+ years of experience with Technology X</strong>, it is rarely the result of a calibrated engineering assessment. Instead, it is the downstream artifact of a historical recruitment pipeline designed for mechanical scale rather than technical fidelity. To understand why these arbitrary timelines persist, we have to examine the mechanical failure points of how talent requirements are translated from engineering reality into HR filters.</p>\n\n<p>Decades ago, software engineering hiring scaled beyond the informal networks of engineering leads. To handle the volume, organizations imported industrial recruitment models, treating software development like manufacturing or mechanical trades where physical wear, muscle memory, and tool handling scaled linearly with tenure. In manual software paradigms, writing raw syntax required repetitive physical inputs and long exposure to boilerplate errors. HR departments and early recruiters operationalized this assumption into a simple proxy: <em>time spent inside an IDE equals operational competence</em>. This proxy was codified into rigid boolean filters within legacy Applicant Tracking Systems (ATS).</p>\n\n<p>The mechanical limitation of these ATS platforms is absolute. An ATS does not parse semantic engineering capability, architectural intuition, or first-principles debugging skill; it executes strict string matching and numerical threshold checks. If a candidate's resume contains fewer than sixty months associated with a specific framework or library string, the system drops the application from the queue before a human engineer ever reviews the codebase context. This creates a closed feedback loop: recruiters copy-paste legacy job description templates featuring chronological thresholds because those templates match the database fields required by the ATS query engine.</p>\n\n<p>This automated filter produces a catastrophic failure of logic when applied to modern technology stacks, resulting in the well-known chronological paradox where postings demand more years of experience than the target framework has actually existed. Mechanically, the system forces recruiters to filter for historical inertia rathe",
+      "posted_at": "2026-11-17T19:20:17+00:00",
+      "updated_at": "2026-11-17T19:20:17+00:00",
+      "source_timestamp_raw": "Tue, 17 Nov 2026 19:20:17 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-18T00:19:38.383369+00:00",
+      "first_seen_at": "2026-11-18T00:19:38.383369+00:00",
+      "last_checked_at": "2026-11-18T00:19:38.972208+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 4.99,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-18T00:20:08.612300+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-18T00:20:08.541645+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:41.684896+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:39.093093+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 40,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:38.972197+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:37.974928+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:37.866583+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:35.160999+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:33.011024+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.896089+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.479525+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.249534+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.215541+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.151689+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:32.125191+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 615,
+      "error": "",
+      "checked_at": "2026-11-18T00:19:05.171883+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:30.363876+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:13.517820+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:09.246885+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 152,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:09.042071+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:07.879902+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-18T00:18:07.827190+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -8085,8 +8626,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-17T15:20:11.511364+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11809.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:20:08.541505+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11818.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8095,8 +8636,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-17T15:20:09.465122+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11808.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:20:06.513889+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11817.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8105,8 +8646,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-17T15:20:07.546732+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11808.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:20:04.481780+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11817.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8115,8 +8656,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-17T15:20:05.444608+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11786.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:20:02.562672+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11795.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8125,8 +8666,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-17T15:20:03.508671+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11786.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:20:00.523852+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11795.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8135,8 +8676,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-17T15:20:01.447385+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11786.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:58.477754+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11795.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8145,8 +8686,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-17T15:19:59.426620+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11786.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:56.428596+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11795.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8155,8 +8696,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-17T15:19:57.505685+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11785.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:54.621479+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11794.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8165,8 +8706,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-17T15:19:55.425067+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11785.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:52.469014+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11794.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8175,8 +8716,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-17T15:19:53.471734+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11785.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:50.498424+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11794.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8185,8 +8726,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-17T15:19:51.602179+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11785.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:48.538207+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11794.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -8195,8 +8736,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-17T15:19:49.664195+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10257.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:46.611169+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10266.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8205,8 +8746,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-17T15:19:45.105627+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.684790+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8215,8 +8756,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-17T15:19:45.105291+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.684493+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8225,8 +8766,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-17T15:19:45.104980+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.684170+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8235,8 +8776,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-17T15:19:45.104670+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.683869+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8245,8 +8786,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-17T15:19:45.104320+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.683559+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8255,8 +8796,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-17T15:19:45.103991+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20455.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.683212+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20464.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -8265,8 +8806,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-17T15:19:45.103637+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14011.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:41.682871+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14020.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8275,8 +8816,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-17T15:19:43.554288+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 703.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.805857+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 712.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8285,8 +8826,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-17T15:19:43.554097+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 607.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.805666+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 616.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8295,8 +8836,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:21 +0000",
       "posted_at": "2026-10-23T07:31:21+00:00",
-      "detected_at": "2026-11-17T15:19:43.553903+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 607.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.805477+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 616.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8305,8 +8846,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-17T15:19:43.553711+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 535.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.805282+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 544.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8315,8 +8856,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-17T15:19:43.553505+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 478.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.805074+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 487.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8325,8 +8866,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-17T15:19:43.553285+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 473.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.804879+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 482.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8335,8 +8876,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 07:30:52 +0000",
       "posted_at": "2026-10-29T07:30:52+00:00",
-      "detected_at": "2026-11-17T15:19:43.553084+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 463.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.804683+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 472.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8345,8 +8886,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-17T15:19:43.552882+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 415.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.804483+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 424.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8355,8 +8896,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 31 Oct 2026 07:31:02 +0000",
       "posted_at": "2026-10-31T07:31:02+00:00",
-      "detected_at": "2026-11-17T15:19:43.552674+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 415.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.804235+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 424.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -8365,8 +8906,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-17T15:19:43.552391+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 391.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.804011+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 400.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8375,8 +8916,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 14:50:43 +0000",
       "posted_at": "2026-09-30T14:50:43+00:00",
-      "detected_at": "2026-11-17T15:19:43.101542+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1152.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.550480+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1161.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8385,8 +8926,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-17T15:19:43.101326+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1152.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.550290+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1161.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8395,8 +8936,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-17T15:19:43.101131+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 999.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.550087+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1008.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8405,8 +8946,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-17T15:19:43.100934+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 999.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.549902+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1008.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8415,8 +8956,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 19 Oct 2026 07:31:25 +0000",
       "posted_at": "2026-10-19T07:31:25+00:00",
-      "detected_at": "2026-11-17T15:19:43.100735+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 703.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.549717+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 712.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8425,8 +8966,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-17T15:19:43.100536+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 670.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.549529+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 679.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8435,8 +8976,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-17T15:19:43.100306+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 650.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.549340+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 659.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8445,8 +8986,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-17T15:19:43.100108+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 531.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.549134+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 540.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8455,8 +8996,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-17T15:19:43.099903+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 503.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.548949+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 512.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8465,8 +9006,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-17T15:19:43.099696+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 448.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.548764+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 457.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8475,8 +9016,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-17T15:19:43.099495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 439.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.548576+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 448.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8485,8 +9026,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-17T15:19:43.099277+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 439.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.548386+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 448.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8495,8 +9036,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-17T15:19:43.099074+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 334.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.548172+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 343.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8505,8 +9046,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-17T15:19:43.098874+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 280.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.547979+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 289.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8515,8 +9056,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-17T15:19:43.098664+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 238.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.547787+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 247.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -8525,8 +9066,18 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-17T15:19:43.098381+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 142.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:38.547591+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 151.3h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "the-2027-layoff-calendar-actually-covers-4950-workers-not-2882-2",
+      "title": "The 2027 Layoff Calendar Actually Covers 4,950 Workers, Not 2,882",
+      "company": "",
+      "source_timestamp_raw": "Mon, 16 Nov 2026 22:34:04 +0000",
+      "posted_at": "2026-11-16T22:34:04+00:00",
+      "detected_at": "2026-11-18T00:19:38.385715+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 25.8h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -8535,8 +9086,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
       "posted_at": "2026-11-11T09:10:18+00:00",
-      "detected_at": "2026-11-17T15:18:48.478540+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 150.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:03.466375+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 159.1h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -8545,8 +9096,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-09-16T00:25:42-04:00",
       "posted_at": "2026-09-16T04:25:42+00:00",
-      "detected_at": "2026-11-17T15:18:48.478349+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1498.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:03.466212+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1507.9h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -8555,8 +9106,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-09-03T20:35:55-04:00",
       "posted_at": "2026-09-04T00:35:55+00:00",
-      "detected_at": "2026-11-17T15:18:48.478185+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1790.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:03.466070+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1799.7h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -8565,18 +9116,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-10-05T15:24:21-04:00",
       "posted_at": "2026-10-05T19:24:21+00:00",
-      "detected_at": "2026-11-17T15:18:48.478012+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1027.9h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "greenhouse",
-      "source_id": "gh_8940804002",
-      "title": "Strategic Enterprise Account Executive (Sydney or Melbourne)",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-11-16T00:09:11-05:00",
-      "posted_at": "2026-11-16T05:09:11+00:00",
-      "detected_at": "2026-11-17T15:18:48.477841+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 34.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-18T00:19:03.465930+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1036.9h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -8601,7 +9142,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-17T15:19:43.940051+00:00",
+      "last_checked_at": "2026-11-18T00:19:39.093093+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -8653,7 +9194,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-17T15:19:43.940051+00:00",
+      "last_checked_at": "2026-11-18T00:19:39.093093+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -8783,7 +9324,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-17T15:20:11.635314+00:00",
+      "last_checked_at": "2026-11-18T00:20:08.612300+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -8809,7 +9350,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-17T15:19:45.105790+00:00",
+      "last_checked_at": "2026-11-18T00:19:41.684896+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -8822,7 +9363,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-17T15:20:11.511537+00:00",
+      "last_checked_at": "2026-11-18T00:20:08.541645+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
