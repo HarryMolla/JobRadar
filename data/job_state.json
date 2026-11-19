@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T23:47:13.268626+00:00",
+  "last_updated": "2026-11-19T05:21:34.807317+00:00",
   "stats": {
-    "total_jobs": 126,
+    "total_jobs": 132,
     "total_notified": 0
   },
   "jobs": {
@@ -6013,9 +6013,448 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_avalara_senior-software-engineer-java": {
+      "fingerprint": "himalayas::hm_avalara_senior-software-engineer-java",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_avalara_senior-software-engineer-java",
+      "url": "https://himalayas.app/companies/avalara/jobs/senior-software-engineer-java",
+      "source_job_url": "https://himalayas.app/companies/avalara/jobs/senior-software-engineer-java",
+      "apply_url": "https://himalayas.app/companies/avalara/jobs/senior-software-engineer-java",
+      "title": "Senior Software Engineer - Java",
+      "company": "Avalara",
+      "location": "Romania",
+      "work_location": "Romania",
+      "description": "Categories: Developer, Software Engineer, Backend Engineer, Java Developer, Distributed Systems Engineer, Platform Engineer\n\nWhat You’ll Do Avalara is accelerating delivery of AI-enabled capabilities across our compliance platform to improve customer experience, increase engineering velocity, and scale global operations efficiently.\n\nWhat You’ll Do Avalara is accelerating delivery of AI-enabled capabilities across our compliance platform to improve customer experience, increase engineering velocity, and scale global operations efficiently. As transaction volumes, product complexity, and AI-driven initiatives expand, we require senior engineers who can both deliver high-quality distributed systems and materially increase leverage through applied AI. This role exists to elevate platform reliability, accelerate AI-enabled product delivery, and raise engineering standards across a globally distributed team. The successful candidate will directly influence delivery speed, system resilience, and AI adoption within engineering workflows and product capabilities. How This Role Elevates Avalara This Senior Software Engineer will: Increase engineering velocity through structured AI-assisted development and automation. Improve platform reliability, observability, and scalability across distributed systems. Deliver AI-enabled product capabilities that improve customer efficiency and insight. Raise team performance standards through technical leadership, mentoring, and strong ownership. Contribute to a culture of Bar Raisers who improve talent density and execution quality. This role improves not only output, but how work gets done , embedding AI into development workflows and strengthening architectural discipline. What Your Responsibilities Will Be Responsibilities Deliver scalable, secure, and high-performing backend and frontend systems that support Avalara ’s global compliance platform. Increase development efficiency by embedding AI-assisted coding, testing, documentation, and architectural exploration into daily workflows. Contribute to AI-enabled product features that enhance automation, data processing, and customer-facing intelligence. Improve deployment frequency, code quality, and automated test coverage through CI/CD and engineering best practices. Reduce production incidents and improve system observability through thoughtful architecture and proactive monitoring. Lead technical design discussions and influence architectural decisions for complex distributed systems. Raise the performance of the team through mentoring, peer feedback, and high standards of ownership and accountability. Collaborate effectively with global engineering, product, and business stakeholders in English. 12-Month Success Signals Within the first 12 months, this engineer will: Deliver multiple production-ready features, including at least two AI-enabled capabilities that improve customer or operational outcomes. Increase engineering velocity through AI-assisted workflows and automation (measurable improvement in cycle time, test coverage, or deployment frequency). Reduce production defects or incidents through improved architecture and observability. Demonstrate Bar Raiser impact by mentoring engineers and elevating technical standards across the team. Contribute to improved system scalability and reliability supporting global transaction growth. What You'll Need to be Successful Required Qualifications Must have: Strong English communication skills (written and spoken) for global collaboration. 4 years of bachelor’s degree or master’s degree in computer science or equivalent Engineering. 5+ years of professional software engineering experience aligned to senior-level scope. Strong hands-on experience with Java building scalable APIs and services. Any additonal experience with Python or Node or .NET (C#) is desirable. Flexible to switch between Technology. Experience with AWS cloud environments. Experience with Infrastructure as Code (Terraform). Experience with CI/CD pipelines (e.g., GitLab). Experience with Docker and Kubernetes in production environments. Experience with relational and/or NoSQL databases. Strong knowledge of automated testing strategies. Demonstrated hands-on AI usage that improved measurable business or engineering outcomes. Nice to have: Strong experience with React (TypeScript) building maintainable frontend applications will have advantages. Experience designing and operating distributed systems and RESTful and/or GraphQL APIs. Preferred Experience Experience in SaaS or enterprise-scale platforms. Experience in compliance, financial systems, or regulated domains. Experience leading cross-team technical initiatives. Bar Raiser Expectations At Avalara , we hire only Bar Raisers , individuals who improve the average performance of the team. This engineer will: Hold high standards of ownership, quality, and accountability. Improve the performance of peers through coaching, sharing and example. Leave systems, proc",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:39.445302+00:00",
+      "first_seen_at": "2026-11-19T05:19:39.445302+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "hybrid",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 82,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: graphql (+5)"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_avalara_senior-ux-designer": {
+      "fingerprint": "himalayas::hm_avalara_senior-ux-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_avalara_senior-ux-designer",
+      "url": "https://himalayas.app/companies/avalara/jobs/senior-ux-designer",
+      "source_job_url": "https://himalayas.app/companies/avalara/jobs/senior-ux-designer",
+      "apply_url": "https://himalayas.app/companies/avalara/jobs/senior-ux-designer",
+      "title": "Senior UX Designer",
+      "company": "Avalara",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, UX Designer, Product Designer, Senior UX Designer\n\nWhat You'll Do As a Sr.  UX Designer at Avalara, you will help shape the user experience across our Buy Online Small Business suite, encompassing Lodging, Restaurants, and Ecommerce.\n\nWhat You'll Do As a Sr. UX Designer at Avalara , you will help shape the user experience across our Buy Online Small Business suite, encompassing Lodging, Restaurants, and Ecommerce. Avalara is an amazing place to build your career because we tackle complex, global compliance challenges and turn them into seamless, intuitive experiences that help businesses of all sizes thrive. In this role, you will collaborate closely with product managers, engineers, and fellow designers to craft user-friendly, impactful designs. You will apply user-centered design principles to solve real challenges, continuously raising the bar for quality and ease of use in our products. What Your Responsibilities Will Be Lead the design process from concept to delivery, including research, wireframing, prototyping, and visual design. Drive forward-thinking AI implementations to create experiences with extreme ease of use. Collaborate with cross-functional teams to define solutions that shape product direction, visuals, and the overall experience. Conduct user research and usability testing to iterate and refine designs based on user feedback and business requirements. Create comprehensive design documentation, including user flows, wireframes, mockups, and prototypes. Mentor junior designers, sharing best practices and encouraging a culture of continuous improvement. Stay up-to-date with industry trends, incorporating new techniques and tools into the design process. What You'll Need to be Successful 5+ years of experience in UX design, with a portfolio showcasing your design process and final deliverables. Proficiency with AI tooling to elevate design outcomes and product capabilities. Expert knowledge of product sales and customer onboarding UX. Proficiency in design tools such as Figma, Sketch, Adobe XD, or similar. Experience with user research methodologies and usability testing. Deep understanding of user-centered design principles and best practices. A Bachelor's or Master's degree in Design, Human-Computer Interaction, or a related field. Avalara is an AI-first Company AI is embedded in our workflows, decision-making, and products.  Success here requires embracing AI as an essential capability. You’ll bring experience using AI and AI-related technologies, ready to thrive here. You’ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers. You’ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too. How We'll Take Care of You Total Rewards In addition to a great compensation package, paid time off, and paid parental leave, many Avalara employees are eligible for bonuses. Health & Wellness Benefits vary by location but generally include private medical, life, and disability insurance. Inclusive culture and diversity Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total of 8 employee-run resource groups, each with senior leadership and exec sponsorship. What You Need To Know About Avalara We’re defining the relationship between tax and tech. We’ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we're a billion dollar business - and we’re not slowing down until we’ve achieved our mission - to be part of every transaction in the world. We’re bright, innovative, and disruptive, like the orange we love to wear. It captures our quirky spirit and optimistic mindset. It shows off the culture we’ve designed, that empowers our people to win. We’ve been different from day one. Join us, and your career will be too. We’re An Equal Opportunity Employer Supporting diversity and inclusion is a cornerstone of our company — we don’t want people to fit into our culture, but to enrich it. All qualified candidates will receive consideration for employment without regard to race, color, creed, religion, age, gender, national orientation, disability, sexual orientation, US Veteran status, or any other factor protected by law. If you require any reasonable adjustments during the recruitment process, please let us know. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:41.462142+00:00",
+      "first_seen_at": "2026-11-19T05:19:41.462142+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ux designer'",
+        "Skill: figma (+15)",
+        "Skill: sketch (+10)",
+        "Skill: adobe xd (+10)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_akamai-technologies_senior-software-engineer-akamai-inference-cloud-remote-po": {
+      "fingerprint": "himalayas::hm_akamai-technologies_senior-software-engineer-akamai-inference-cloud-remote-po",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_akamai-technologies_senior-software-engineer-akamai-inference-cloud-remote-po",
+      "url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-software-engineer-akamai-inference-cloud-remote-poland",
+      "source_job_url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-software-engineer-akamai-inference-cloud-remote-poland",
+      "apply_url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-software-engineer-akamai-inference-cloud-remote-poland",
+      "title": "Senior Software Engineer - Akamai Inference Cloud (Remote/Poland)",
+      "company": "Akamai Technologies",
+      "location": "Poland",
+      "work_location": "Poland",
+      "description": "Categories: Developer, Software Engineer, AI Infrastructure Engineer, Machine Learning Infrastructure Engineer, Cloud Systems Engineer\n\nAre you excited about building the systems that process and optimize AI inference requests at scale?\n\nAre you excited about building the systems that process and optimize AI inference requests at scale? Do you want to work hands-on with cutting-edge AI serving technologies and large language models? Join the Akamai Inference Cloud Team! The Akamai Inference Cloud team develops AI platforms for inference models and applications within Akamai's Cloud Technology Group. The Inference Execution & Runtimes team manages the inference engine, AI runtime frameworks, model serving infrastructure, and execution environment. Their work impacts latency, throughput, and efficiency of AI workloads across Akamai's extensive global infrastructure. Partner with the best As a Senior Software Engineer on the Inference Execution & Runtimes team, contribute to prompt processing, tokenization, and request handling pipelines. Collaborate with experienced engineers to transform user requests into optimized model inputs. This role offers significant exposure to AI inference systems and opportunities to gain expertise in a rapidly evolving infrastructure engineering field. As a Senior Software Engineer , you will be responsible for: Developing and maintaining prompt processing and tokenization pipelines that prepare inference requests for efficient model execution. Implementing request routing, scheduling, and batching logic that optimizes throughput and latency across concurrent inference workloads. Contributing to the integration of new model architectures and serving backends into the runtime framework. Writing well-tested, well-documented code and participating in code reviews to maintain high engineering standards across the inference stack. Supporting operational readiness through monitoring, debugging, and performance analysis of runtime components. Do what you love To be successful in this role you will: Have relevant experience and a Bachelor's degree or its equivalent in Computer Science or a related field. Demonstrate proficiency in Python and at least one systems programming language such as C++, Go, or Rust. Show understanding of natural language processing concepts including tokenization, encoding, and text processing pipelines. Have familiarity with AI inference, model serving, or LLM deployment including inference frameworks (TensorRT, vLLM, TorchServe, Triton). Demonstrate experience building high-throughput, low-latency data processing systems or services. Show familiarity with Linux systems, containerized environments, and profiling or debugging tools. Demonstrate a keen willingness to learn and grow within the AI inference and model serving field. About us At Akamai, we make life better for billions of people, trillions of times a day. Whether you're streaming live events, scrolling social media, watching your favorite series, or managing your savings, we're the engine behind the scenes. We provide the world's most distributed platform  from Cloud to Edge  to help the giants of the digital world work faster and stay more secure, making the internet a better experience for everyone. Our focus is simple: Cloud and Edge: Running apps closer to users for instant performance. Security : Neutralizing threats before they ever reach your data. Content Delivery : Scaling the world's biggest moments without a glitch. AI : Enabling our customers to build, secure, and scale AI apps on the world's most distributed cloud platform. At Akamai, we don't just support the internet; we power and protect it, because behind every great digital experience is a massive hidden challenge. And we're the ones who solve it. When millions of people hit play or pay, Akamai ensures it just works. Benefits at Akamai: We support your health, well-being, finances, and life beyond work. See our benefits. FlexBase adapts to your job's needs Akamai's FlexBase program is yet another way we show our commitment to providing employees with an exceptional workplace experience. It's not about telling employees where to work; it's about supporting employees to do their best work. We trust our incredible employees to work in ways that suit them best: at home, in an office, or a combination of both. Connect with us on social and see what life at Akamai is like! Originally posted on Himalayas",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:43.457278+00:00",
+      "first_seen_at": "2026-11-19T05:19:43.457278+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 53,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_akamai-technologies_principal-software-engineer-akamai-inference-cloud-remote": {
+      "fingerprint": "himalayas::hm_akamai-technologies_principal-software-engineer-akamai-inference-cloud-remote",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_akamai-technologies_principal-software-engineer-akamai-inference-cloud-remote",
+      "url": "https://himalayas.app/companies/akamai-technologies/jobs/principal-software-engineer-akamai-inference-cloud-remote-poland",
+      "source_job_url": "https://himalayas.app/companies/akamai-technologies/jobs/principal-software-engineer-akamai-inference-cloud-remote-poland",
+      "apply_url": "https://himalayas.app/companies/akamai-technologies/jobs/principal-software-engineer-akamai-inference-cloud-remote-poland",
+      "title": "Principal Software Engineer - Akamai Inference Cloud - Remote/Poland",
+      "company": "Akamai Technologies",
+      "location": "Poland",
+      "work_location": "Poland",
+      "description": "Categories: Developer, Software Engineer, Cloud Infrastructure Engineer, Platform Engineer, DevOps Engineer, Site Reliability Engineer\n\nDo you thrive on designing the infrastructure that cloud platforms run on?\n\nDo you thrive on designing the infrastructure that cloud platforms run on? Are you ready to set the technical direction for compute, storage, networking, and GPUs across regions and clouds? Join the Akamai Inference Cloud Team! We are the Akamai Inference team, within Akamai's Cloud Technology Group. We design, build, deploy, and operate the infrastructure foundation that Akamai Inference runs on: Kubernetes-based compute, storage, networking, and GPU capacity across regions and across clouds. The platform teams above us depend on that foundation to be reliable, performant, and cost-efficient. #AIC Partner with the best You will be senior technical voice for the team building and operating Akamai Inference's cloud infrastructure layer. You will own the architecture across Kubernetes compute, storage, networking, and GPU fleets. You will stay hands-on in design, code, and production. Set technical direction, make critical trade-off calls, and elevate the engineering team around you. As a Principal Software Engineer, you will be responsible for: Owning the architecture and technical direction of the infrastructure your team builds. Designing and hardening tenant isolation for dedicated inference infrastructure across compute, networking, storage, and GPUs. Contributing hands-on to design and code alongside the team, reviewing the work of others, and mentoring engineers. Setting engineering and operational standards, including code review, CI/CD, observability, and incident response, and leading the technical response to major incidents. Driving multi-region and multi-cloud infrastructure designs that meet availability, performance, scalability, security, and cost-efficiency targets. Partnering with engineering teams and product management on infrastructure scope and roadmap alignment. Do what you love To be successful in this role you will: Have relevant experience designing, building, and operating production cloud infrastructure. Bring deep Kubernetes expertise, including cluster lifecycle, scheduling, controllers and operators, and running clusters at scale. Have deep knowledge of cloud networking and storage, including container networking and load balancing. Have hands-on experience with GPU infrastructure, including provisioning, scheduling, and utilization. Demonstrate a track record of building multi-tenant platforms with robust tenant isolation and high availability at scale. Have deep knowledge of AI safety, responsible AI practices, and explainability frameworks. Critical Success Factor: The ability to make sound architectural decisions across compute, storage, networking, and GPUs, with tenant isolation at the center, and to bring the team along with them, is paramount for this role. About us At Akamai, we make life better for billions of people, trillions of times a day. Whether you're streaming live events, scrolling social media, watching your favorite series, or managing your savings, we're the engine behind the scenes. We provide the world's most distributed platform  from Cloud to Edge  to help the giants of the digital world work faster and stay more secure, making the internet a better experience for everyone. Our focus is simple: Cloud and Edge: Running apps closer to users for instant performance. Security : Neutralizing threats before they ever reach your data. Content Delivery : Scaling the world's biggest moments without a glitch. AI : Enabling our customers to build, secure, and scale AI apps on the world's most distributed cloud platform. At Akamai, we don't just support the internet; we power and protect it, because behind every great digital experience is a massive hidden challenge. And we're the ones who solve it. When millions of people hit play or pay, Akamai ensures it just works. Benefits at Akamai: We support your health, well-being, finances, and life beyond work. See our benefits. FlexBase adapts to your job's needs Akamai's FlexBase program is yet another way we show our commitment to providing employees with an exceptional workplace experience. It's not about telling employees where to work; it's about supporting employees to do their best work. We trust our incredible employees to work in ways that suit them best: at home, in an office, or a combination of both. Connect with us on social and see what life at Akamai is like! Originally posted on Himalayas",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:43.461013+00:00",
+      "first_seen_at": "2026-11-19T05:19:43.461013+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 53,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_pfizer_staff-software-engineer-ai-backend-services": {
+      "fingerprint": "himalayas::hm_pfizer_staff-software-engineer-ai-backend-services",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_pfizer_staff-software-engineer-ai-backend-services",
+      "url": "https://himalayas.app/companies/pfizer/jobs/staff-software-engineer-ai-backend-services",
+      "source_job_url": "https://himalayas.app/companies/pfizer/jobs/staff-software-engineer-ai-backend-services",
+      "apply_url": "https://himalayas.app/companies/pfizer/jobs/staff-software-engineer-ai-backend-services",
+      "title": "Staff Software Engineer (AI Backend Services)",
+      "company": "Pfizer",
+      "location": "Belgium, France",
+      "work_location": "Belgium, France",
+      "description": "Categories: Developer, Data Science, Software Engineer, Backend Engineer, AI Engineer, Python Engineer\n\nROLE DESCRIPTION The AI Backend Python Engineer (Staff) will provide technical leadership and define the architecture for backend systems that power the next generation of generative AI applications and large language model (LLM) integrations.\n\nROLE DESCRIPTION The AI Backend Python Engineer (Staff) will provide technical leadership and define the architecture for backend systems that power the next generation of generative AI applications and large language model (LLM) integrations. This role focuses on driving strategic technical direction, designing platform-level solutions using Python, FastAPI, and AWS, and influencing engineering practices across the organization. KEY RESPONSIBILITIES Define technical strategy and architecture for Python-based AI backend platforms (on FastAPI) that support LLM integration, generative AI pipelines, and AI agent orchestration Architect scalable, reliable, and secure systems on AWS infrastructure (Lambda, EKS) that serve as the foundation for multiple teams Drive technical decisions that impact organization-wide engineering practices and platform capabilities Design and champion AI system observability using LangChain, Langfuse, and litellm Establish engineering standards for monitoring, logging, observability, and operational excellence across AI backend services Lead cross-functional initiatives to optimize performance, security, and scalability of large-scale AI applications Mentor and technically guide engineers at all levels, elevating team capabilities through code reviews, architecture reviews, and technical leadership Identify technical debt, performance bottlenecks, and architectural limitations; drive long-term solutions Collaborate with engineering leadership, product, and other stakeholders to align technical strategy with business objectives Influence technology choices, design patterns, and best practices across the AI Software & Operations department Represent the team in organization-wide technical discussions and drive adoption of innovative solutions BASIC QUALIFICATIONS 7+ years of professional software engineering experience with extensive backend and distributed systems expertise Deep expert-level proficiency in Python for building large-scale production systems Comprehensive understanding of LLMs, generative AI architectures, and AI infrastructure (LangChain, litellm, Langfuse, OpenAI/Anthropic APIs) Proven track record of architecting and delivering complex, scalable platforms on AWS Expert knowledge of microservices architecture, distributed systems design, and event-driven architectures Demonstrated experience with containerization, orchestration (Docker/Kubernetes), and cloud-native patterns Strong history of technical leadership, mentoring engineers, and driving organizational impact Bachelor's or Master's degree in Computer Science, Engineering, or related field, or equivalent practical experience Excellent strategic thinking and ability to balance short-term delivery with long-term architectural vision PREFERRED QUALIFICATIONS Extensive experience designing and building platform-level infrastructure for AI/ML workloads at scale Deep expertise in FastAPI, asynchronous Python, and high-performance backend systems Proven track record of architecting event-driven and real-time systems for AI applications Experience influencing engineering culture, establishing best practices, and driving technical standards Strong background in MLOps, model deployment strategies, and AI system reliability Expertise with infrastructure-as-code, CI/CD automation, and platform engineering Experience working with product and business stakeholders to translate requirements into technical strategy History of leading cross-functional technical initiatives with measurable organizational impact Published technical work, open-source contributions, or recognized expertise in AI backend systems Exceptional communication and influence skills across all levels of the organization Work location assignment : Remote This role is posted in multiple locations. If you are applying for the role in an secondary job posting location where pay transparency regulations apply, your Talent Advisor will share the local pay information with you during the first interview. Pfizer is an equal opportunity employer and complies with all applicable equal employment opportunity legislation in each jurisdiction in which it operates. Égalité des chances & Emploi Nous croyons que des équipes diversifiées et inclusives sont essentielles à la réussite d'une entreprise. En tant qu'employeur, Pfizer s'engage à valoriser la diversité et l’inclusion sous toutes ses formes. Cette diversité se reflète également à travers les patients et les communautés que nous servons. Ensemble, continuons à bâtir une culture qui encourage, soutient et responsabilise nos employés. Handicap & Inclusion Notre mission est de",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:47.454798+00:00",
+      "first_seen_at": "2026-11-19T05:19:47.454798+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_jpm-unternehmensgruppe_senior-manager-of-software-engineering-java-distribute": {
+      "fingerprint": "himalayas::hm_jpm-unternehmensgruppe_senior-manager-of-software-engineering-java-distribute",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_jpm-unternehmensgruppe_senior-manager-of-software-engineering-java-distribute",
+      "url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/senior-manager-of-software-engineering-java-distributed-platforms-ai-agenti",
+      "source_job_url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/senior-manager-of-software-engineering-java-distributed-platforms-ai-agenti",
+      "apply_url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/senior-manager-of-software-engineering-java-distributed-platforms-ai-agenti",
+      "title": "Senior Manager of Software Engineering – Java, Distributed Platforms & AI/Agenti",
+      "company": "JPM Unternehmensgruppe",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Product, Software Engineering Manager, Engineering Manager, Technical Program Manager\n\nJoin us to shape the future of financial technology through impactful leadership and technical guidance.\n\nJoin us to shape the future of financial technology through impactful leadership and technical guidance. Advance your career by mentoring teams and influencing innovative solutions. As a Senior Manager of Software Engineering at JPMorgan Chase within the Infrastructure Platforms, you serve in a leadership role by providing technical coaching and advisory for multiple technical teams, as well as anticipate the needs and potential dependencies of other functions within the firm.  As an expert in your field, your insights influence budget and technical considerations to advance operational efficiencies and functionalities. Job responsibilities Provide direction, oversight, and coaching for entry-level to mid-level software engineers delivering basic to moderately complex work, while fostering a culture of opportunity and respect. Own accountability for key decisions impacting resources, budget, tactical operations, and process implementation; provide input to leadership on budget, approach, and technical considerations to improve efficiency and functionality. Advocate and drive adoption of firmwide SDLC frameworks, tools, and practices, ensuring consistent execution and continuous improvement across teams. Ensure effective collaboration across teams and stakeholders, aligning priorities, expectations, and delivery outcomes. Identify, mitigate, and escalate risks/issues as needed to successfully execute a defined book of work. Set and scale operating practices for enterprise-authorized AI-assisted engineering and SDLC/TLM automation across multiple teams—establishing measurable expectations (e.g., throughput, defect reduction, reliability) and enforcing validation, security, resiliency, and reuse of proven patterns. Apply SDLC toolchain expertise (including enterprise-authorized AI-assisted development and automation) to drive efficiency and capacity-unlock initiatives, prioritizing reuse of existing firm technology assets. Lead technical design and delivery of modern Java-based platforms and self-service solutions—partnering with SRE to embed observability, reliability, resiliency, automation, and controls; guiding API design, workflow orchestration (including agentic solutions), production readiness, and solutions spanning file/block/object storage and data-transfer technologies. Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to drive efficiency and support capacity unlock initiatives across teams, prioritizing reuse of existing firm technology assets. Sets and scales operating practices for enterprise-authorized AI-assisted engineering and SDLC/TLM automation across multiple teams to improve delivery speed, quality, and operational outcomes; establishes measurable expectations (e.g., throughput, defect reduction, reliability) and ensures consistent validation, security, resiliency, and reuse of proven patterns. Required qualifications, capabilities, and skills Formal training or certification on software engineering concepts and 5+ years applied experience . In addition, 2 + years of experience leading technologists to manage and solve complex technical items within your domain of expertise Minimum of 10 years of experience leading software teams Hands-on expertise in Java and related enterprise frameworks, including Spring and Spring Boot, with experience designing and supporting RESTful APIs and distributed services. Ability to guide and coach teams to achieve strategic goals Practical experience delivering system design, application development, testing, and operational stability Experience leading multi-team adoption of enterprise-authorized AI-assisted development and delivery tools, including defining governance/ways of working (human-in-the-loop validation, quality gates), measuring outcomes, and ensuring secure handling of sensitive inputs/outputs. Strong understanding of responsible AI use in engineering workflows, including data sensitivity considerations, resiliency/security implications, and control expectations; ability to coach managers/leads and influence leaders on safe scaling patterns. Experience with hiring, developing, and recognizing talent Preferred qualifications, capabilities, and skills Experience building and operating AI-assisted engineering workflows & AIOps Hands-on experience delivering LLM-enabled features (e.g., natural-language query, guided troubleshooting, intelligent self-service) including: RAGs & agentic workflows Experience building cloud native solutions such as AWS Originally posted on Himalayas",
+      "posted_at": "2026-11-19T04:27:36+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795062456",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T05:19:47.455630+00:00",
+      "first_seen_at": "2026-11-19T05:19:47.455630+00:00",
+      "last_checked_at": "2026-11-19T05:19:55.690258+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 0.87,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-19T05:21:34.806915+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:34.727804+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:08.256256+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:05.972819+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 34,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:05.930198+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:04.430576+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:04.266589+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:21:00.833879+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:58.485324+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:58.401264+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:57.718539+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:57.432286+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:57.379248+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:57.280318+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:57.203821+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 615,
+      "error": "",
+      "checked_at": "2026-11-19T05:20:30.325007+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:55.690234+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:39.288211+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:35.084391+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 105,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:34.867917+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:34.064926+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-19T05:19:33.993202+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -9361,160 +9800,6 @@
       "jobs_found": 39,
       "error": "",
       "checked_at": "2026-11-10T22:45:15.682508+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-10T22:45:14.072182+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:45:11.443834+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:45:09.939742+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:49.627507+00:00"
-    },
-    {
-      "source": "dynamitejobs",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:49.488297+00:00"
-    },
-    {
-      "source": "wellfound",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:49.002807+00:00"
-    },
-    {
-      "source": "workable",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:48.425173+00:00"
-    },
-    {
-      "source": "smartrecruiters",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:48.290013+00:00"
-    },
-    {
-      "source": "ashby",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:48.100702+00:00"
-    },
-    {
-      "source": "lever",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:44:47.996393+00:00"
-    },
-    {
-      "source": "greenhouse",
-      "success": true,
-      "jobs_found": 611,
-      "error": "",
-      "checked_at": "2026-11-10T22:43:09.400594+00:00"
-    },
-    {
-      "source": "workingnomads",
-      "success": true,
-      "jobs_found": 1,
-      "error": "",
-      "checked_at": "2026-11-10T22:42:06.457136+00:00"
-    },
-    {
-      "source": "jobicy",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:42:01.870628+00:00"
-    },
-    {
-      "source": "weworkremotely",
-      "success": true,
-      "jobs_found": 130,
-      "error": "",
-      "checked_at": "2026-11-10T22:42:01.723749+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:42:00.475021+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 99,
-      "error": "",
-      "checked_at": "2026-11-10T22:42:00.290477+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:53.839885+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 39,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:53.818532+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:52.280813+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:49.480549+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:45.379749+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T19:26:25.176936+00:00"
     }
   ],
   "recent_exclusions": [
@@ -9525,8 +9810,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-18T23:47:12.987510+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:34.727655+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11847.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9535,8 +9820,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-18T23:47:10.986941+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11841.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:32.707975+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11847.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9545,8 +9830,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-18T23:47:08.848330+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11841.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:30.706476+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11846.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9555,8 +9840,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-18T23:47:07.057817+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11819.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:28.646500+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11824.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9565,8 +9850,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-18T23:47:04.874568+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11818.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:26.645374+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11824.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9575,8 +9860,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-18T23:47:02.872537+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11818.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:24.720638+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11824.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9585,8 +9870,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-18T23:47:00.913448+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11818.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:22.704561+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11824.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9595,8 +9880,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-18T23:46:58.944519+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11818.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:20.743258+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11823.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9605,8 +9890,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-18T23:46:56.820120+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11818.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:18.619895+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11823.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9615,8 +9900,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-18T23:46:54.946342+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11817.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:16.788478+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11823.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9625,8 +9910,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-18T23:46:53.068322+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11817.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:14.768596+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11823.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9635,8 +9920,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-18T23:46:51.285656+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10290.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:12.568707+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10295.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9645,8 +9930,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-18T23:46:46.504021+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.256130+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9655,8 +9940,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-18T23:46:46.503709+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.255923+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9665,8 +9950,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-18T23:46:46.503376+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.255731+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9675,8 +9960,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-18T23:46:46.503066+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.255533+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9685,8 +9970,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-18T23:46:46.502747+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.255325+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9695,8 +9980,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-18T23:46:46.502408+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20487.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.255102+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20493.2h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9705,8 +9990,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-18T23:46:46.502039+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14043.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:08.254847+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14049.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -9715,8 +10000,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-18T23:46:44.386055+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 640.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:05.622267+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 645.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -9725,8 +10010,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-18T23:46:44.385862+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 568.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:05.622142+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 573.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -9735,8 +10020,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-18T23:46:44.385667+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 511.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:05.621997+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 516.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -9745,8 +10030,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-18T23:46:44.385459+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 506.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:05.621870+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 511.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -9755,8 +10040,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-18T23:46:44.385191+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 424.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:05.621716+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 429.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9765,8 +10050,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-18T23:46:44.107950+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1184.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.905310+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1190.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9775,8 +10060,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-18T23:46:44.107761+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1031.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.905194+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1037.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9785,8 +10070,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-18T23:46:44.107569+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1031.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.905054+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1037.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9795,8 +10080,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-18T23:46:44.107351+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 702.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904943+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 708.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9805,8 +10090,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-18T23:46:44.107162+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 682.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904836+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 688.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9815,8 +10100,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-18T23:46:44.106971+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 564.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904726+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 569.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9825,8 +10110,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-18T23:46:44.106782+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 535.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904616+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 541.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9835,8 +10120,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-18T23:46:44.106592+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 481.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904504+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 486.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9845,8 +10130,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-18T23:46:44.106367+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 472.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904393+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 477.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9855,8 +10140,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-18T23:46:44.106172+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 366.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904278+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 372.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9865,8 +10150,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-18T23:46:44.105978+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 313.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904156+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 318.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9875,8 +10160,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-18T23:46:44.105777+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 270.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.904012+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 276.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9885,8 +10170,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-18T23:46:44.105574+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 174.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.903895+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 180.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -9895,18 +10180,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:48 +0000",
       "posted_at": "2026-11-17T18:01:48+00:00",
-      "detected_at": "2026-11-18T23:46:44.105323+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 29.7h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "devto_hiring",
-      "source_id": "cv-screening-and-the-eu-ai-act-a-builders-checklist-for-keeping-",
-      "title": "CV screening and the EU AI Act: a builder's checklist for keeping the decision human",
-      "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 08:35:02 +0000",
-      "posted_at": "2026-11-17T08:35:02+00:00",
-      "detected_at": "2026-11-18T23:46:43.877172+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 39.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.903778+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 35.3h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9915,8 +10190,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 12:28:37 +0000",
       "posted_at": "2026-11-17T12:28:37+00:00",
-      "detected_at": "2026-11-18T23:46:43.876972+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 35.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723718+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 40.9h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9925,8 +10200,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 13:54:06 +0000",
       "posted_at": "2026-11-17T13:54:06+00:00",
-      "detected_at": "2026-11-18T23:46:43.876771+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 33.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723605+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 39.4h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9935,8 +10210,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 14:18:31 +0000",
       "posted_at": "2026-11-17T14:18:31+00:00",
-      "detected_at": "2026-11-18T23:46:43.876570+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 33.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723490+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 39.0h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9945,8 +10220,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 16:08:13 +0000",
       "posted_at": "2026-11-17T16:08:13+00:00",
-      "detected_at": "2026-11-18T23:46:43.876344+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 31.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723370+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 37.2h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9955,8 +10230,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 16:54:34 +0000",
       "posted_at": "2026-11-17T16:54:34+00:00",
-      "detected_at": "2026-11-18T23:46:43.876133+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 30.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723248+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 36.4h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -9965,8 +10240,18 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 19:20:17 +0000",
       "posted_at": "2026-11-17T19:20:17+00:00",
-      "detected_at": "2026-11-18T23:46:43.875924+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 28.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:21:04.723103+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 34.0h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "devto_hiring",
+      "source_id": "december-23-is-the-newest-week-on-the-warn-layoff-calendar-1773-",
+      "title": "December 23 Is the Newest Week on the WARN Layoff Calendar — 1,773 Workers Scheduled",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 02:51:22 +0000",
+      "posted_at": "2026-11-18T02:51:22+00:00",
+      "detected_at": "2026-11-19T05:21:04.722959+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 26.5h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -9975,18 +10260,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
       "posted_at": "2026-11-11T09:10:18+00:00",
-      "detected_at": "2026-11-18T23:45:56.599792+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 182.6h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "greenhouse",
-      "source_id": "gh_8784185002",
-      "title": "Technical Program Manager",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-09-16T00:25:42-04:00",
-      "posted_at": "2026-09-16T04:25:42+00:00",
-      "detected_at": "2026-11-18T23:45:56.599647+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1531.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:20:28.473613+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 188.2h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -9995,8 +10270,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-09-03T20:35:55-04:00",
       "posted_at": "2026-09-04T00:35:55+00:00",
-      "detected_at": "2026-11-18T23:45:56.599502+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1823.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:20:28.473537+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1828.7h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -10005,8 +10280,8 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-10-05T15:24:21-04:00",
       "posted_at": "2026-10-05T19:24:21+00:00",
-      "detected_at": "2026-11-18T23:45:56.599337+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1060.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:20:28.473460+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1065.9h ago (exceeds 24h limit)"
     },
     {
       "source": "greenhouse",
@@ -10015,8 +10290,18 @@
       "company": "GitLab",
       "source_timestamp_raw": "2026-11-16T00:09:11-05:00",
       "posted_at": "2026-11-16T05:09:11+00:00",
-      "detected_at": "2026-11-18T23:45:56.599190+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 66.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T05:20:28.473383+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 72.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8936156002",
+      "title": "Strategic Account Executive - Spain ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-11T10:20:53-05:00",
+      "posted_at": "2026-11-11T15:20:53+00:00",
+      "detected_at": "2026-11-19T05:20:28.473307+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 182.0h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -10041,7 +10326,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-18T23:46:45.298598+00:00",
+      "last_checked_at": "2026-11-19T05:21:05.972819+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -10093,7 +10378,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-18T23:46:45.298598+00:00",
+      "last_checked_at": "2026-11-19T05:21:05.972819+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -10223,7 +10508,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-18T23:47:13.268045+00:00",
+      "last_checked_at": "2026-11-19T05:21:34.806915+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -10249,7 +10534,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-18T23:46:46.504156+00:00",
+      "last_checked_at": "2026-11-19T05:21:08.256256+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -10262,7 +10547,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-18T23:47:12.987683+00:00",
+      "last_checked_at": "2026-11-19T05:21:34.727804+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
