@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T05:21:34.807317+00:00",
+  "last_updated": "2026-11-19T15:01:38.318335+00:00",
   "stats": {
-    "total_jobs": 132,
+    "total_jobs": 143,
     "total_notified": 0
   },
   "jobs": {
@@ -6298,9 +6298,696 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "weworkremotely::netlify-staff-software-engineer-interfaces": {
+      "fingerprint": "weworkremotely::netlify-staff-software-engineer-interfaces",
+      "source": "weworkremotely",
+      "source_name": "We Work Remotely",
+      "source_id": "netlify-staff-software-engineer-interfaces",
+      "url": "https://weworkremotely.com/remote-jobs/netlify-staff-software-engineer-interfaces",
+      "source_job_url": "https://weworkremotely.com/remote-jobs/netlify-staff-software-engineer-interfaces",
+      "apply_url": "",
+      "title": "Staff Software Engineer (Interfaces)",
+      "company": "Netlify",
+      "location": "Anywhere in the World",
+      "work_location": "Anywhere in the World",
+      "description": "<p>\n  <strong>Headquarters:</strong> Remote\n</p>\n\n<p><strong>About the Team</strong></p>\n<p>As a Staff Software Engineer at Netlify, you'll join a collaborative team that values continuous learning, mutual support, and shared growth. Together, we create tools that help developers build faster, more intuitively, and with greater impact. Our Experience team owns the core product experience at Netlify, which is every way a human or an agent interacts with the platform, from our React-based web application to CLI, MCP, SDK, and API. If users interact with it directly, it's likely ours. We're reimagining how developers experience web development by thoughtfully integrating AI into our workflows - not as a novelty, but as a practical tool that enhances how we build the web.</p>\n<p>With our team, you'll help set technical direction for our product area, mentor a highly senior team of engineers, and shape user experiences that serve millions of developers. You'll work closely with Product, Design, and engineering leadership, and partner with teams across the organization to build, iterate, and scale meaningful solutions. You'll have the autonomy to guide what we build and how, and the influence to bring others along with you, all while staying hands-on in the codebase.</p>\n<p>We're looking for thoughtful engineers who enjoy owning problems end to end, collaborating across disciplines, and solving complex technical challenges for products that millions of developers rely on every day. AI is a foundational part of how we build, so we value engineers who are excited to thoughtfully incorporate AI-assisted workflows while continuing to apply strong engineering fundamentals. We believe the best engineering happens when talented people are trusted to solve difficult problems together, share what they're learning, and create space for different perspectives to shape better solutions.&nbsp; With our team, you'll have real ownership from day one - not a tiny slice of a massive codebase. Engineers here are trusted to make decisions, shape technical direction, and move quickly while collaborating closely with Product and Design.</p>\n<p><strong>What You'll Do</strong></p>\n<ul>\n<li>Use your deep expertise in full-stack development (TypeScript, JavaScript, Go, and React) to ship reliable, scalable, performant code across our product suite, and set the patterns that others on the team and across the org follow.&nbsp;</li>\n<li>Own the technical direction for our product area, including the web app, CLI, MCP, SDK, API, and docs, by defining architecture and roadmap alongside your manager, Product, and Design, and make tradeoffs explicit so decisions are easy to understand and revisit</li>\n<li>Lead large, ambiguous projects that span multiple teams from conception to delivery, such as our application rewrite and upcoming CLI rework, writing RFCs, driving alignment, and managing risk and timelines</li>\n<li>Design and evolve user-facing features and product APIs for both humans and agents, recognizing that the best interface isn’t always a React application. Build them to scale to millions of developers worldwide, with a clear view of reliability, performance, and long-term maintainability.</li>\n<li>Make thoughtful product and interface decisions on your own with the overall customer experience top of mind</li>\n<li>Set the bar for engineering practices - testing, documentation, observability, and performance optimization - and lead how the team pragmatically uses AI tools, sharing what works and what doesn't</li>\n<li>Turn ambiguity into clear plans, guiding both early-stage prototypes and production-ready applications that directly impact user experience and business metrics</li>\n<li>Mentor and grow engineers through code reviews, design reviews, pairing, and sponsorship, raising the technical level of the whole team</li>\n<li>Practice proactive async communication and create visibility across projects by documenting your workflows and decision-making clearly</li>\n<li>Participate in on-call rotations, lead incident follow-up, and drive continuous improvement efforts that reduce technical debt and prevent recurring problems</li>\n<li>Collaborate with cross-functional teams and engineering leadership to shape user flows that enhance the developer experience across our platform, and contribute to hiring and team growth</li>\n</ul>\n<p><strong>What You'll Bring</strong></p>\n<ul>\n<li>Deep expertise in TypeScript and JavaScript, with a long track record of designing, shipping, and maintaining production-quality software in modern full-stack environments</li>\n<li>A history of building interfaces developers use directly, such as web apps, CLIs, APIs, SDKs, or other dev tools, and a strong sense of what works well for developers (and, by extension, agents)</li>\n<li>Passion for building strong user-facing experiences, including working with React and modern frontend architecture and making architectural decisions that hold up as products and teams ",
+      "posted_at": "2026-11-19T06:00:58+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "Thu, 19 Nov 2026 06:00:58 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:21.485518+00:00",
+      "first_seen_at": "2026-11-19T14:59:21.485518+00:00",
+      "last_checked_at": "2026-11-19T14:59:22.093011+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 95,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 8.97,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "weworkremotely::circleci-senior-software-engineer-query": {
+      "fingerprint": "weworkremotely::circleci-senior-software-engineer-query",
+      "source": "weworkremotely",
+      "source_name": "We Work Remotely",
+      "source_id": "circleci-senior-software-engineer-query",
+      "url": "https://weworkremotely.com/remote-jobs/circleci-senior-software-engineer-query",
+      "source_job_url": "https://weworkremotely.com/remote-jobs/circleci-senior-software-engineer-query",
+      "apply_url": "",
+      "title": "Senior Software Engineer, Query",
+      "company": "CircleCI",
+      "location": "Anywhere in the World",
+      "work_location": "Anywhere in the World",
+      "description": "<p>\n  <strong>Headquarters:</strong> Canada (Remote), United States (Remote), United Kingdom (Remote) Mexico City, Mexico - Hybrid\n</p>\n\n\n<h3>About CircleCI Engineering</h3>\n<p>CI/CD has been solved. Now it's being reinvented. AI agents don't just run pipelines. They write code, trigger builds, interpret failures, and propose fixes. The interfaces that developers use to understand and trust that work don't exist yet. We're building them.</p>\n<p>At CircleCI, our guiding principles aren't posters on a wall. We learn fast: we run experiments, accept failure, and scale what works. We think like the customer: every decision connects back to the developer sitting in front of a failing build at 2 am. We own the outcome: not just our slice of it, but the whole thing. If that's how you already work, you'll fit here.</p>\n<h3>About the Query Team</h3>\n<p>Every pipeline, job, and test that runs on CircleCI generates data, and that history is one of our biggest advantages in an agentic software delivery lifecycle. Flaky test detection, test insights, pipeline search, and agents that reason about why a build failed all depend on fast, reliable access to it.</p>\n<p>The Query team owns the system that makes this possible. We pull product data out of the transactional services that create it and store it in datastores built for historical and analytical workloads. We serve it through domain-level APIs to CircleCI's product teams and to customers through our public API. Our goal is to make storing data \"fire and forget\" for every other team, and querying it fast and dependable at a scale that keeps growing.</p>\n<h3>What You'll Do</h3>\n<ul>\n<li><strong>Build AI-natively.</strong> AI is how we work. It's not a productivity layer on top of engineering, but the default starting point for how problems get approached and solved.</li>\n<li><strong>Shape how we store data at scale.</strong> Own and harden our ClickHouse-based storage layer. Design schemas for known and emerging access patterns, and tune ingestion and query performance to support production-scale data.</li>\n<li><strong>Build the pipelines that move our data.</strong> Design and own ingestion from event streams and durable workflows built on Temporal. Data should arrive reliably, stay queryable while it's in transit, and never slow down the critical path of the services that produce it.</li>\n<li><strong>Serve data to the product and to customers.</strong> Evolve our platform into the default path for historical queries. Make getting historical data easy, not a bottleneck. Teams should be able to get what they need quickly and with minimal hand-holding, while Query keeps enough visibility into how the data is used to optimize ingestion and reads across every consumer. Build in the indexing, caching, and tiered storage required to keep it performant.</li>\n<li><strong>Set technical direction.</strong> When the problem is complex or the answer isn't obvious, you lead the design discussion, write up the architecture decision, and make the call. You help decide which data domain we migrate next and how.</li>\n<li><strong>Champion observability.</strong> Use Honeycomb, Datadog, and Rollbar to understand ingestion lag, query latency, and data correctness. For a data platform, operational data drives stability, not just incident response.</li>\n<li><strong>Keep things moving.</strong> You take ambiguous data problems from design to production quickly, and you help the people around you move faster too.</li>\n</ul>\n<p>You don't just patch problems, you ask why they happened. You'll fix the immediate issue, then solve the underlying team practice, process, or system that let it through.</p>\n<h3>What You'll Bring</h3>\n<ul>\n<li><strong>AI-native engineering practices.</strong> You use AI tools daily and can speak to what you've built, where they changed your approach, and where they fall short.</li>\n<li><strong>Hands-on data experience.</strong> You've built or owned data-intensive systems such as ingestion pipelines, event-driven architectures, or analytical and time-series datastores. You understand the tradeoffs between transactional and analytical storage, and you've designed schemas and tuned queries for high-volume workloads. Experience with ClickHouse or another columnar database is a strong plus.</li>\n<li><strong>Backend depth in Go.</strong> You're strong in Go, or strong in a comparable language and eager to work in Go: interface design, data modeling, service integration, and concurrency. Familiarity with React and TypeScript is a plus, since you'll occasionally work on the product surfaces that display this data.</li>\n<li><strong>Distributed systems judgment.</strong> You understand delivery guarantees, idempotency, backpressure, and failure recovery. You know when to rely on a framework's reliability guarantees rather than building your own.</li>\n<li><strong>Technical leadership.</strong> You've led the design of complex systems and made tradeoffs deliberately. You leave ",
+      "posted_at": "2026-11-19T06:01:49+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "Thu, 19 Nov 2026 06:01:49 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:22.087057+00:00",
+      "first_seen_at": "2026-11-19T14:59:22.087057+00:00",
+      "last_checked_at": "2026-11-19T14:59:22.093011+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 87,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 8.96,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "weworkremotely::dremio-staff-software-engineer-query-planner-reflections": {
+      "fingerprint": "weworkremotely::dremio-staff-software-engineer-query-planner-reflections",
+      "source": "weworkremotely",
+      "source_name": "We Work Remotely",
+      "source_id": "dremio-staff-software-engineer-query-planner-reflections",
+      "url": "https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-query-planner-reflections",
+      "source_job_url": "https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-query-planner-reflections",
+      "apply_url": "",
+      "title": "Staff Software Engineer - Query Planner & Reflections",
+      "company": "Dremio",
+      "location": "Anywhere in the World",
+      "work_location": "Anywhere in the World",
+      "description": "<p>\n  <strong>Headquarters:</strong> Portugal - Remote\n</p>\n\n<div class=\"content-intro\"><h2><strong>Be Part of Building the Future</strong></h2>\n<p>Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&amp;P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio provides an open lakehouse architecture enabling the fastest time to insight and platform flexibility at a fraction of the cost.&nbsp; Learn more at&nbsp;<a class=\"c-link\" href=\"http://www.dremio.com/\">www.dremio.com.</a></p></div><p><strong>About the role</strong></p>\n<p>Dremio's Query Planner &amp; Reflections (QPR) team owns the SQL planner and optimizer — built on Apache Calcite — and the reflections substitution engine that transparently rewrites queries to hit pre-computed materializations instead of raw source data. As a Staff Software Engineer, you'll set technical direction for this system: driving ambiguous, cross-team initiatives, raising the bar through design and code review, and helping other engineers.</p>\n<p><strong>What you'll be doing</strong></p>\n<ul>\n<li>Set architecture and technical direction for the Query Planner and Reflections team spanning next-generation features across OSS, Enterprise, and Cloud editions.</li>\n<li>Own design, implementation, and delivery of complex initiatives that cross team boundaries (Query Execution, Catalog, Datalake).</li>\n<li>Work deeply with Apache Calcite and Apache Iceberg, including driving contributions upstream where it benefits Dremio.</li>\n<li>Diagnose the hardest correctness and performance issues in query planning and reflection matching using query profiles, telemetry, and production data.</li>\n<li>Use AI-assisted development tools for code comprehension, debugging, test generation, documentation, and incident analysis, and apply engineering judgment to validate AI-generated code through review, testing, and benchmarking.</li>\n<li>Design architectures that run correctly across deployment models and public clouds.</li>\n<li>Participate in design and code reviews and set technical standards for the team.</li>\n<li>Partner with Product on multi-quarter roadmap decisions and with Support and field teams on the highest-impact customer issues.</li>\n</ul>\n<p><strong>What we're looking for</strong></p>\n<ul>\n<li>B.S./M.S/Equivalent in Computer Science or a related technical field or equivalent experience</li>\n<li>8-10+ years of experience developing production-level software.</li>\n<li>Fluency in Java/C++ is a plus.</li>\n<li>Deep understanding of query planning and optimization: cost-based optimizers, rule-based rewriting, ideally hands-on with Apache Calcite or a similar framework.</li>\n<li>Strong database fundamentals: SQL, performance, schema design.</li>\n<li>Track record of driving system-level architecture decisions and leading complex, cross-team initiatives.</li>\n<li>Setting technical direction for the team or major component.</li>\n<li>Ability to evaluate tradeoffs and make sound decisions when working with unfamiliar or AI-assisted implementations.</li>\n<li>Ability to navigate ambiguous, cross-org problems independently; strong communication skills.</li>\n<li>Understanding of distributed file systems such as S3, ADLS, or HDFS; AWS, Azure, or GCP experience is a plus.</li>\n</ul>\n<p><strong>Bonus points if you have</strong></p>\n<ul>\n<li>Experience with distributed query engines.</li>\n<li>Hands-on experience in query processing or optimization, materialized view matching, distributed systems, concurrency control, code generation, Apache Arrow, caching, or disk spilling.</li>\n<li>Contributions to Apache Calcite, Apache Iceberg, or similar open-source planner projects.</li>\n</ul><div class=\"content-conclusion\"><h3><strong>What we value&nbsp;</strong></h3>\n<p><span>At Dremio, we hold ourselves to high standards when it comes to People, Thinking, and Action. Our Gnarlies (that's what we call our employees) communicate with clarity, drive accountability, and are respectful towards each other. We confront brutal facts and focus on results while operating with a sense of urgency and building a \"flywheel\". People who like to jump in and drive momentum will thrive in our #GnarlyLife.</span></p>\n<p><em><span>Dremio is an equal opportunity employer supporting workforce diversity. We do not discriminate on the basis of race, religion, color, national origin, gender identity, sexual orientation, age, marital status, protected veteran status, disability status, or any other unlawful factor.</span></em></p>\n<p><em><span>Dremio is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request accommodation due to",
+      "posted_at": "2026-11-19T06:01:14+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "Thu, 19 Nov 2026 06:01:14 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:22.087296+00:00",
+      "first_seen_at": "2026-11-19T14:59:22.087296+00:00",
+      "last_checked_at": "2026-11-19T14:59:22.093011+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 65,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 8.97,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_jpm-unternehmensgruppe_lead-software-engineer-platform-engineering-distribute": {
+      "fingerprint": "himalayas::hm_jpm-unternehmensgruppe_lead-software-engineer-platform-engineering-distribute",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_jpm-unternehmensgruppe_lead-software-engineer-platform-engineering-distribute",
+      "url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/lead-software-engineer-platform-engineering-distributed-systems-resiliency",
+      "source_job_url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/lead-software-engineer-platform-engineering-distributed-systems-resiliency",
+      "apply_url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/lead-software-engineer-platform-engineering-distributed-systems-resiliency",
+      "title": "Lead Software Engineer – Platform Engineering, Distributed Systems & Resiliency",
+      "company": "JPM Unternehmensgruppe",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Software Engineer, Platform Engineer, Cloud Engineer, Site Reliability Engineer, Distributed Systems Engineer\n\nBuild the engineering foundations that thousands of developers rely on every day.\n\nBuild the engineering foundations that thousands of developers rely on every day. Shape a modern platform with strong automation, resilience, and measurable reliability, leveraging your expertise in infrastructure and distributed systems. As a Lead Software Engineer at JPMorganChase within the Chief Technology Office team, you will design, build, and operate enterprise Source Code Management services, such as GitLab. You will create secure, scalable platform capabilities that reduce manual effort through automation and self-service. You will own service health end-to-end, from architecture and implementation to safe change, resilience, and continuous improvement. You will partner across engineering, cloud, security, and infrastructure teams to deliver dependable developer experiences, with a focus on building for resiliency and operating at scale. Job responsibilities Lead architecture and implementation of Source Code Management platform capabilities, translating developer and service needs into durable software and infrastructure solutions Build and maintain automation, APIs, deployment tooling, and self-service workflows for provisioning, configuration, upgrades, patching, recovery, and decommissioning Write and review production-quality code in Python, Java, or Go, applying secure coding, testing, and maintainability practices Design Amazon Web Services architectures across compute, networking, identity, databases, storage, and encryption using services and patterns appropriate to each environment Implement Infrastructure as Code with Terraform and establish repeatable, reviewable, and compliant platform changes Define and use service-level indicators and objectives for availability, latency, errors, capacity, and recovery, and build actionable observability with metrics, logs, traces, and alerts Plan capacity and performance using workload evidence, scaling characteristics, dependency limits, and headroom, and run load and resilience tests in non-production environments Design and validate high-availability and disaster-recovery capabilities, including backup and restore, regional recovery, failover and failback, and documented recovery objectives Lead incident response for supported services, drive technical diagnosis and mitigation, and deliver blameless reviews with tracked engineering actions that reduce recurrence Engineer for resiliency and scale, architecting solutions that operate reliably under high load and complex conditions Drives team adoption of enterprise-authorized AI-assisted engineering practices within the work environment to improve code quality, delivery speed, and operational outcomes (e.g., AI-assisted code review/refactoring, test strategy acceleration, incident/root-cause analysis support), while establishing consistent validation standards (secure coding, peer review, automated testing) and promoting reuse of effective patterns across the team. Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Required qualifications, capabilities and skills Formal training or certification on software engineering concepts and 5+ years applied experience Hands on experience in designing, building, and operating production services or developer platforms Proficiency in at least one of Python, Java, or Go with experience building automation and service code supported in production Experience designing distributed systems and cloud platforms for availability, resilience, performance, and controlled failure Hands-on experience with Amazon Web Services services across compute, networking, identity and access management, databases, object storage, and key management Experience with relational databases, including PostgreSQL, covering performance, replication, schema migrations, backup and restore, and capacity planning Experience with container platforms, including Kubernetes and Amazon Elastic Kubernetes Service or Amazon Elastic Container Service with AWS Fargate Demonstrated experience leading effective use of approved AI-assisted software development tools (e.g., for coding, code review, test acceleration, troubleshooting) with the ability to set team expectations for validating AI outputs for correctness, performance, and security. Strong understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; experience coaching engineers on safe, compliant adoption within delivery practices Practical experience with Terraform, including reusable modules, state management, review practices, and deployme",
+      "posted_at": "2026-11-19T13:04:24+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795093464",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:27.212850+00:00",
+      "first_seen_at": "2026-11-19T14:59:27.212850+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 1.92,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_aida-recruitment_ux-ui-designer": {
+      "fingerprint": "himalayas::hm_aida-recruitment_ux-ui-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_aida-recruitment_ux-ui-designer",
+      "url": "https://himalayas.app/companies/aida-recruitment/jobs/ux-ui-designer",
+      "source_job_url": "https://himalayas.app/companies/aida-recruitment/jobs/ux-ui-designer",
+      "apply_url": "https://himalayas.app/companies/aida-recruitment/jobs/ux-ui-designer",
+      "title": "UX/ UI designer",
+      "company": "AIDA Recruitment",
+      "location": "Denmark, Estonia, Faroe Islands, Finland, Guernsey (+11 more)",
+      "work_location": "Denmark, Estonia, Faroe Islands, Finland, Guernsey (+11 more)",
+      "description": "Categories: Design, UI UX Designer, Product Designer, UX Designer, UI Designer, Interaction Designer\n\nWe are looking for a Senior UX/UI Designer to join the AFC System Management Unit within the Financial Crime Risk Management Department.\n\nWe are looking for a Senior UX/UI Designer to join the AFC System Management Unit within the Financial Crime Risk Management Department. The engagement will support the development of a new Investigation Platform , contributing to the successful delivery of the Migration project's objectives and timelines. The consultant will be responsible for driving user-centered design activities across the full product lifecycle, from research and discovery through design, prototyping, validation, and usability testing. The UX/UI Designer will work closely with business stakeholders, product teams, and technical teams to create intuitive, scalable, and high-quality user experiences, ensuring that the platform effectively supports investigation and operational processes within the Anti-Financial Crime domain. Start Date: ASAP Contract End Date: 15-05-2027 Seniority: Senior ﻿B2B 35-40eur/h gross Required Skills: 5+ years of professional UX/UI design experience Experience owning and delivering complex, high-impact product features end-to-end Deep understanding of user-centered design principles, methodologies, and best practices Experience leading the full design lifecycle from discovery and research through implementation User research and requirements gathering Concept development and interaction design High-fidelity UI design Prototyping Design validation and usability testing Ability to translate user insights into actionable design improvements Strong proficiency with Figma Experience with Lokalise Experience using design-related plugins and AI-powered design tools Experience contributing to and maintaining design systems Experience working with component libraries Understanding of web technologies and modern development processes Understanding of technical constraints and implementation considerations Strong communication and stakeholder collaboration skills Experience working within cross-functional agile teams Continuous learning mindset and awareness of emerging UX/UI trends, tools, and technologies Fluent English (spoken and written) Nice to Have Skills: Experience in the Anti-Financial Crime (AFC) domain and/or banking Geographic Location: Baltics Preferred Working Location/Time Zone: Baltics / European time zones / Remote Originally posted on Himalayas",
+      "posted_at": "2026-11-19T13:02:38+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795093358",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:27.218075+00:00",
+      "first_seen_at": "2026-11-19T14:59:27.218075+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "senior",
+      "salary_min": 35,
+      "salary_max": 40,
+      "salary_currency": "EUR",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: design system (+12)",
+        "Skill: user research (+10)",
+        "Skill: usability testing (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.95,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_akamai-technologies_senior-ii-software-engineer-canada": {
+      "fingerprint": "himalayas::hm_akamai-technologies_senior-ii-software-engineer-canada",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_akamai-technologies_senior-ii-software-engineer-canada",
+      "url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-ii-software-engineer-canada",
+      "source_job_url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-ii-software-engineer-canada",
+      "apply_url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-ii-software-engineer-canada",
+      "title": "Senior II Software Engineer - Canada",
+      "company": "Akamai Technologies",
+      "location": "Canada",
+      "work_location": "Canada",
+      "description": "Categories: Developer, Software Engineer, Backend Engineer, API Engineer\n\nAre you passionate about building high-throughput, low-latency REST APIs that power critical platform infrastructure?\n\nAre you passionate about building high-throughput, low-latency REST APIs that power critical platform infrastructure? Do you thrive on leading architectural decisions and mentoring engineers to elevate technical standards? Join our world-class enterprise security team Akamai empowers developers and organizations globally by providing resilient, high-performing backend infrastructure. Our API Team builds scalable platform services that enable internal partner teams to deploy robust applications seamlessly. Develop and contribute to full product life-cycle In this role, you will lead the architecture, design, and implementation of high-performance backend systems. You will collaborate across engineering teams to establish API standards, improve system performance, and drive fault-tolerant system design. Your responsibilities as a Senior II Software Engineer will include the following: Architecting, building, and evolving scalable, low-latency REST APIs and service layers using Python and Flask Designing robust schemas and optimizing database queries using SQLAlchemy to maintain high system availability Leading technical design reviews, establishing engineering best practices, and mentoring junior and mid-level engineers Implementing robust authentication, rate limiting, and observability across distributed backend services Designing fault-tolerant backend services that fail gracefully under load using circuit breakers and defensive validation Collaborating with cross-functional teams to define clear API contracts, architecture patterns, and integration workflows Do what you love To be successful in this role you will: Have 10+ years of relevant experience and a Bachelor's degree Have experience with core backend development using Python, Flask, SQLAlchemy, and relational databases Demonstrate deep expertise in RESTful architecture, HTTP protocols, API versioning, and security best practices Possess solid proficiency in Git workflows, CI/CD pipelines, cloud platforms, and containerization technologies Have understanding of distributed systems, event-driven architectures, automated testing, and observability tooling Be knowledgeable in AI tooling, agentic workflows, transformer architectures, and background processing systems About us At Akamai, we make life better for billions of people, trillions of times a day. Whether you're streaming live events, scrolling social media, watching your favorite series, or managing your savings, we're the engine behind the scenes. We provide the world's most distributed platform from Cloud to Edge to help the giants of the digital world work faster and stay more secure, making the internet a better experience for everyone. Our focus is simple: Cloud and Edge: Running apps closer to users for instant performance. Security : Neutralizing threats before they ever reach your data. Content Delivery : Scaling the world's biggest moments without a glitch. AI : Enabling our customers to build, secure, and scale AI apps on the world's most distributed cloud platform. At Akamai, we don't just support the internet; we power and protect it, because behind every great digital experience is a massive hidden challenge. And we're the ones who solve it. When millions of people hit play or pay, Akamai ensures it just works. Benefits at Akamai: We support your health, well-being, finances, and life beyond work. See our benefits. FlexBase adapts to your job's needs Akamai's FlexBase program is yet another way we show our commitment to providing employees with an exceptional workplace experience. It's not about telling employees where to work; it's about supporting employees to do their best work. We trust our incredible employees to work in ways that suit them best: at home, in an office, or a combination of both. Connect with us on social and see what life at Akamai is like! Compensation Akamai is committed to fair and equitable compensation practices. The base salary for this position ranges from 120,400 - 216,600 CAD/year; a candidate’s salary is determined by various factors including, but not limited to, relevant work experience, skills, certifications. The compensation package may also include incentive compensation opportunities in the form of annual bonus or incentives, equity awards and an Employee Stock Purchase Plan (ESPP). Akamai provides industry-leading benefits including healthcare, RRSP, company holidays, vacation (in the form of PTO), sick time, family friendly benefits including employee assistance program including a focus on mental and financial wellness; Eligibility requirements apply. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T12:59:42+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795093182",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:29.220428+00:00",
+      "first_seen_at": "2026-11-19T14:59:29.220428+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 120400,
+      "salary_max": 216600,
+      "salary_currency": "CAD",
+      "match_score": 57,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: rest api (+4)",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.0,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_fingerprint_design-engineer": {
+      "fingerprint": "himalayas::hm_fingerprint_design-engineer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_fingerprint_design-engineer",
+      "url": "https://himalayas.app/companies/fingerprint/jobs/design-engineer",
+      "source_job_url": "https://himalayas.app/companies/fingerprint/jobs/design-engineer",
+      "apply_url": "https://himalayas.app/companies/fingerprint/jobs/design-engineer",
+      "title": "Design Engineer",
+      "company": "Fingerprint",
+      "location": "Afghanistan, Albania, Algeria, Andorra, Angola (+144 more)",
+      "work_location": "Afghanistan, Albania, Algeria, Andorra, Angola (+144 more)",
+      "description": "Categories: Hardware Engineer, Developer, Design, Design Engineer, Frontend Engineer, Product Designer, Web Designer\n\nFingerprint empowers enterprises to detect and stop online fraud with the world’s most accurate device intelligence.\n\nFingerprint empowers enterprises to detect and stop online fraud with the world’s most accurate device intelligence.  We lead our industry with bleeding-edge identification capabilities and work on turning new ideas and discoveries in the fraud detection space into reality. Our customers range from innovative startups to leading enterprise companies, including Plaid, Dropbox, and Booking.com. Fingerprint is a globally dispersed, 100% remote company. We were named on on the 2026 Forbes Best Startup Employers list and ranked #803 on the 2026 Inc. 5000 list of America’s fastest-growing private companies. We have raised $77M and are backed by Craft Ventures (Tesla, Facebook, Airbnb ), Nexus Venture Partners ( Postman, Apollo.io,MinIO, Druva) and Uncorrelated Ventures ( Redis, Rollbar,  Gradle). Location Preference: Remote, US and EMEA preferred but not required About The Role: We’re looking for a Design Engineer to own how Fingerprint looks, feels, and works on the web. You’ll design and build fingerprint.com, communicating our vision of a fraud-free internet and showcasing Fingerprint ’s device intelligence platform through clear, compelling experiences for developers and the teams evaluating our product. We’ve formed a dedicated website engineering pod to raise the website to the level of the best product sites on the internet, and you’ll join it as the person who owns the overall look and feel. You’ll work alongside the pod’s design engineers and engineers, plus partners across Design, Marketing, and Growth, taking projects from early concepts through production. You’ll move between design tools like Figma and the browser, explore new visual directions, and build interactions that help people understand what Fingerprint can do. This role leans toward design. We’re looking for exceptional taste and craft, paired with the engineering skills to implement your own designs directly in the browser with speed and attention to detail. You care about typography and layout as much as clean code and a performant, accessible experience. You’re naturally curious, you start things without waiting for a ticket, and you’re excited to use AI to explore designs rapidly. You’ll be given near-unlimited tokens to go crazy. You’ll help shape the website’s design system, propose improvements, and see your work through to launch and beyond. Responsibilities: Own the look and feel of fingerprint.com, designing and building core website experiences, including our homepage, product pages, pricing, and navigation, from initial exploration through responsive implementation and launch. Turn technical product concepts into clear visual explanations and interactive demos that help developers understand and evaluate Fingerprint . Refine typography, composition, motion, and interaction details to make the website feel distinctive and cohesive across devices. Build and maintain reusable components, design tokens, and page patterns that connect our visual language to production code and help the team ship faster. Build accessible, mobile-friendly, performant experiences that follow web best practices, working with the website pod on maintainable code, page speed, and consistent behavior across browsers. Collaborate with Marketing and Growth on product launches and website experiments, turning clear objectives into design concepts and production code. Carry work through review, testing, and release, then use feedback and website data to improve usability and conversion. Take initiative: contribute ideas proactively, share prototypes early, and make thoughtful tradeoffs between creative ambition, implementation effort, and delivery. Find creative ways to use AI to ship high-quality work at speeds not possible with human-only input, such as machine-readable design specs, skills or internal tools, and evolve those workflows as the tools change. Qualifications: 6–10 years of related working experience designing and building for the web, with a track record of owning projects end to end as a hands-on individual contributor. An active portfolio website and/or GitHub/social profile showing websites or interactive experiences that demonstrate exceptional design taste and production frontend development. We want to understand what you personally designed and built. Strong visual and interaction design fundamentals, including typography, hierarchy, spacing, composition, and responsive layouts. Strong HTML, CSS, JavaScript, and TypeScript skills, with experience building production websites using React and modern web frameworks like Astro. Hands-on experience with canvas animations and shaders, and comfort prototyping motion and interactions directly in the browser. Fluency in Figma and a habit of exploring ideas both in Fi",
+      "posted_at": "2026-11-19T12:40:50+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795092050",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:31.224728+00:00",
+      "first_seen_at": "2026-11-19T14:59:31.224728+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 103000,
+      "salary_max": 180000,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: design system (+12)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.32,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_cribl_staff-software-engineer-search-core": {
+      "fingerprint": "himalayas::hm_cribl_staff-software-engineer-search-core",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_cribl_staff-software-engineer-search-core",
+      "url": "https://himalayas.app/companies/cribl/jobs/staff-software-engineer-search-core",
+      "source_job_url": "https://himalayas.app/companies/cribl/jobs/staff-software-engineer-search-core",
+      "apply_url": "https://himalayas.app/companies/cribl/jobs/staff-software-engineer-search-core",
+      "title": "Staff Software Engineer, Search Core",
+      "company": "Cribl",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Data Science, Operations, Software Engineer, Backend Engineer, Search Engineer, Data Platform Engineer, Systems Engineer\n\nJoin the company that’s building the telemetry infrastructure for the AI era.\n\nJoin the company that’s building the telemetry infrastructure for the AI era. At Cribl , we partner with IT and Security teams at many of the world’s biggest enterprises, including half of the Fortune 100, to bridge the gap between AI ambition and infrastructure reality. As the AI Platform for Telemetry, we give customers the choice, control, and flexibility to manage and analyze telemetry for both humans and agents, so they can build what’s next. We’re one of the fastest‑growing private companies and a leading player in a massive, fast‑moving market. With a global workforce, we’re remote‑first and grounded in a simple idea: software is a people business. Cribl is the place where curious, collaborative people can do their best work, grow fast, and bring their full selves to the herd. Why You'll Love This Role Cribl Search powers high-speed investigations for security and IT teams at some of the world's largest enterprises. Whether data lives in Lakehouse Engines or is spread across Federated sources, Search unifies ingest, storage, and analysis into a single experience — no tool-hopping, no complex orchestration. Teams collect once, search anywhere, and investigate with no blind spots. Now add agentic AI to the picture. AI-driven workloads are exploding, autonomous agents are firing queries alongside human analysts, and the volume and complexity of concurrent searches is growing fast. The query engine at the heart of Cribl Search needs to be faster, more concurrent, and more resilient than ever — and that's where you come in. Cribl is looking for a backend-focused Staff Software Engineer to join a remote-first, diverse, inclusive, cross-functional team of software developers focused on making search stupid fast. You will play a central role in evolving the query engine at the heart of Cribl Search – breaking through concurrency ceilings, optimizing query dispatching and execution, and tuning performance for workloads ranging from interactive analyst investigations to AI agents firing thousands of concurrent queries. This is an ideal role for anyone who is passionate about making Search blazing fast at a massive scale. On top of it all, you will have fun! Cribl strives to be a great place to work for everyone. As An Active Member Of Our Team, You Will … Contribute to technical direction, bringing strong, loosely held, opinions to shape how Cribl Search evolves as a platform for multiple products Own high-impact changes to large-scale systems, increasing performance and concurrency for both human and AI-driven agentic workloads ​​Build and support a strong foundation for Cribl Search as a whole, collaborating across various teams and divisions Champion improvements to performance, reliability, and operability Drive clarity across multiple stakeholders and ambiguous requirements, communicating tradeoffs and risks of competing priorities Partner with leadership to translate organizational needs from across the business into actionable plans on our roadmap Lead projects end-to-end – from ideation, scoping and design through implementation, testing, deployment, and production support Mentor and coach engineers through design reviews, code reviews, and pairing Write clean, maintainable, and testable code with an eye toward observability and resilience Share on-call responsibilities as part of a team that embraces service ownership Help define and refine the software development practices that make our team effective – everybody’s feedback helps shape our process We are a remote-first company and work happens across many time-zones – this position will require stand-by, on-call, or off-hours duties If You've Got - We Want It Strong experience designing and operating multiple-petabyte-scale data systems, including object and distributed storage Experience building search, query, and/or analytic systems working with structured and unstructured data Deep understanding of how search tools work – indexing, inverted indices, query parsing, and execution (think Lucene/Solr, Elasticsearch) Experience working on high-performance, data-intensive applications where concurrency, throughput, and latency matter Familiarity with compilers, ASTs, and query language internals Polyglot engineer – C++ experience is highly desirable Ability to problem-solve from first principles and maintain focus on overarching objectives Demonstrated ability to lead projects through ambiguity, driving technical decisions across team boundaries Experience working in a fast paced, dynamic environment where priorities shift quickly Excellent communication skills, both verbal and written – able to explain complex technical topics to stakeholders in remote, distributed environments Experience mentoring engineers and raising the techni",
+      "posted_at": "2026-11-19T12:36:26+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795091786",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:31.245555+00:00",
+      "first_seen_at": "2026-11-19T14:59:31.245555+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 205000,
+      "salary_max": 240000,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.39,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_mozilla_staff-software-engineer-os-integration": {
+      "fingerprint": "himalayas::hm_mozilla_staff-software-engineer-os-integration",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_mozilla_staff-software-engineer-os-integration",
+      "url": "https://himalayas.app/companies/mozilla/jobs/staff-software-engineer-os-integration",
+      "source_job_url": "https://himalayas.app/companies/mozilla/jobs/staff-software-engineer-os-integration",
+      "apply_url": "https://himalayas.app/companies/mozilla/jobs/staff-software-engineer-os-integration",
+      "title": "Staff Software Engineer, OS Integration",
+      "company": "Mozilla",
+      "location": "United Kingdom",
+      "work_location": "United Kingdom",
+      "description": "Categories: Developer, Software Engineer, OS Integration Engineer, Desktop Application Engineer, Windows Engineer\n\nWhy Mozilla?  Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years.\n\nWhy Mozilla ? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About the OS Integration team: The OS Integration team ensures Firefox works well with the host operating system and environment. We’re a distributed team with expertise in Windows, macOS, and Linux-based operating systems. Our responsibilities include developing fixes and improvements for Firefox related to Windows, macOS, and Linux environments. This might include integration with a new OS feature or fixing an OS-specific user interface bug. Other responsibilities include native crash reporting, OS abstraction layers, sandboxing, hardening, installer, updater, device APIs, and enterprise DLP support. About the role: As a member of the OS Integration team, you’ll develop fixes, improvements, and new features for Firefox. The role will lean on your Windows expertise, but projects may have a cross-platform component. This role will include development of features for Firefox in enterprise environments especially implementation of Data Loss Prevention (DLP) features. As a Staff Software Engineer, you’re a clear communicator and expert in your domain, ready to work on multi-month projects. You’ll contribute to the team through code review, mentoring, and discussion. What you’ll do: Improve the quality of Firefox and other Mozilla products by debugging and fixing software defects, improving the browsing experience for hundreds of millions of users. Lead projects that improve the stability, security, and performance of Firefox. Collaborate with experienced software engineers. Perform code reviews and provide technical direction. Work with a geographically-distributed development team. Interact with teams throughout the organization. What you’ll bring: 7+ years of overall software engineering experience. Experience with desktop application development on Windows with C++. Advanced knowledge of C and C++ and a solid understanding of assembly language such as x64, x86, or arm64. Knowledge of web technologies such as Javascript, HTML, and CSS. Knowledge of secure coding practices and memory safety concerns. Strong problem-solving and debugging skills. Written and verbal communication skills with a collaborative mindset. Willingness to work effectively in a distributed team environment. Commitment to our values: Welcoming differences Being relationship-minded Practicing responsible participation Having grit Bonus Points for experience with: Enterprise DLP development or deployment Open-source contributions or personal engineering projects What you’ll get: Generous performance-based bonus plans to all eligible employees - we share in our success as one team Generous retirement contributions with 100% immediate vesting (regardless of whether you contribute) Quarterly all-company wellness days where everyone takes a pause together Country specific holidays plus a day off for your birthday One-time home office stipend Annual professional development budget Considerable paid parental leave Employee referral bonus program Other benefits (life/AD&D, disability, EAP, etc. - varies by country) About Mozilla Mozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla , you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online. Commitment to diversity, equity, inclusion, and belonging Mozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission.  We encourage applications from everyone, including members of all equi",
+      "posted_at": "2026-11-19T12:34:57+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795091697",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:33.253829+00:00",
+      "first_seen_at": "2026-11-19T14:59:33.253829+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 81000,
+      "salary_max": 108000,
+      "salary_currency": "GBP",
+      "match_score": 73,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.41,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_ge-aerospace_software-engineer-m-f-d": {
+      "fingerprint": "himalayas::hm_ge-aerospace_software-engineer-m-f-d",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_ge-aerospace_software-engineer-m-f-d",
+      "url": "https://himalayas.app/companies/ge-aerospace/jobs/software-engineer-m-f-d",
+      "source_job_url": "https://himalayas.app/companies/ge-aerospace/jobs/software-engineer-m-f-d",
+      "apply_url": "https://himalayas.app/companies/ge-aerospace/jobs/software-engineer-m-f-d",
+      "title": "Software Engineer (m/f/d)",
+      "company": "GE Aerospace",
+      "location": "Germany",
+      "work_location": "Germany",
+      "description": "Categories: Developer, Data Science, Software Engineer, Full Stack Developer, Backend Engineer, Front End Developer, Data Engineer, Software Engineer II\n\nJob Description Summary We are seeking a versatile software engineer with experience across full-stack development, technical architecture, and data engineering to help deliver scalable, secure, and modern digital solutions.\n\nJob Description Summary We are seeking a versatile software engineer with experience across full-stack development, technical architecture, and data engineering to help deliver scalable, secure, and modern digital solutions. In this role, you will work closely with system engineers, data engineers, AI/ML specialists, frontend developers, and platform teams to build and enhance shared platforms, data pipelines, and intelligent applications that align with enterprise architecture and business priorities. This role is ideal for someone who is comfortable moving across application development, cloud-native design, and data workflows, while contributing to secure and compliant engineering practices.This role is home-based, preferably located in Germany, and requires occasional travel as needed for business and team collaboration. Job Description Key Responsibilities Design, build, and maintain end-to-end software and data solutions across cloud and distributed environments. Collaborate with cross-functional teams to deliver solutions aligned with enterprise architecture, shared platforms, and product priorities. Contribute to technical architecture decisions, including scalability, security, maintainability, and performance trade-offs. Develop and optimize data pipelines, integrations, APIs, and application services. Support AWS-based application, data, and AI/ML workloads, including orchestration, monitoring, and security. Integrate AI/ML capabilities into products and business workflows, including model deployment, inference pipelines, and monitoring. Partner with DevOps teams to improve CI/CD, automation, observability, and operational resilience. Write clean, secure, and maintainable code across frontend, backend, and data layers. Troubleshoot production issues, identify root causes, and implement durable fixes. Support security, compliance, and governance requirements, including standards such as NIST, GDPR, and SOX where applicable. Stay current on emerging technologies and contribute ideas that improve products, platforms, and engineering practices. Required Qualifications Bachelor’s degree in Computer Science or a STEM field. Relevant working experience in software engineering, data engineering, or related technical roles. Experience with cloud platforms, preferably AWS. Experience with frontend technologies such as JavaScript, HTML5, CSS, and frameworks such as Angular or React. Experience with backend development using technologies such as Python, Java, and related frameworks. Experience designing or supporting data pipelines, ETL/ELT processes, and integrations. Familiarity with CI/CD, automated testing, containerization, and cloud-native tools such as Git, Docker, Kubernetes, Gradle, or Maven. Understanding of secure engineering practices and compliance considerations in enterprise environments. Preferred Qualification s Experience with AI/ML deployment, integration, or monitoring. Experience with API orchestration, MCP-based integrations, or connected system architectures. Knowledge of technical data domains and enterprise data architecture. Supply chain domain experience. Ability to work effectively across teams, communicate clearly, and adapt to changing priorities. We are an Equal Opportunity Employer and make employment decisions without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status, or any other characteristic protected by law. We are committed to creating an inclusive environment where everyone is respected, valued, and able to contribute fully. Additional Information Relocation Assistance Provided: No -  This is a remote position Originally posted on Himalayas",
+      "posted_at": "2026-11-19T12:28:09+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795091289",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:33.257590+00:00",
+      "first_seen_at": "2026-11-19T14:59:33.257590+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 2.53,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_servicenow_sr-staff-systems-design-engineer": {
+      "fingerprint": "himalayas::hm_servicenow_sr-staff-systems-design-engineer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_servicenow_sr-staff-systems-design-engineer",
+      "url": "https://himalayas.app/companies/servicenow/jobs/sr-staff-systems-design-engineer",
+      "source_job_url": "https://himalayas.app/companies/servicenow/jobs/sr-staff-systems-design-engineer",
+      "apply_url": "https://himalayas.app/companies/servicenow/jobs/sr-staff-systems-design-engineer",
+      "title": "Sr Staff Systems Design Engineer",
+      "company": "ServiceNow",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Operations, Developer, Systems Design Engineering, Systems Engineer, DevOps Engineer, Site Reliability Engineer, Cloud Infrastructure Engineer\n\nWhat you get to do in this role: • Contribute to Configuration Management and Infrastructure as Code for ServiceNow’s global private cloud.\n\nWhat you get to do in this role: Contribute to Configuration Management and Infrastructure as Code for ServiceNow ’s global private cloud. Develop tools in Python, bash, and JavaScript to replace manual work and improve customer maintenance experience. Drive enhancements and bugfixes for large scale automation projects such as patching, provisioning, and kickstart domains. Design and implement procedure to accomplish maintenances where automation and tooling cannot; drive resolution of root causes with internal team members. Prepare new ServiceNow products and services for production readiness with design review, feedback to engineering teams, training, and testing. Use broad knowledge and experience of systems administration and networking fundamentals to proactively prevent and address incidents while constantly improving documentation. Participate in escalations and Root Cause Analysis of issues in both US Federal and global Commercial infrastructures. Troubleshoot database backup and restore failures as well as perform database migrations. Support operation of a wide variety of infrastructure services including Machine Learning and Prediction, Cloudera Big Data clusters, Kafka and RabbitMQ messaging, database encryption, E-Mail infrastructure at scale, DNS, Puppet, Elasticsearch, F5 BigIP, and more. To be successful in this role you have: Experience in leveraging or critically thinking about how to integrate AI into work processes, choices, or problem-solving. This may include using AI-powered tools, automating workflows, reviewing AI-driven insights, or exploring AI’s potential impact on the function or industry. A strong background in systems administration and engineering, understanding of the components of a cloud infrastructure including hardware platforms, OS, applications, databases, networks, web and application servers. Prior experience in Site Reliability Engineering/DevOps and managing large-scale server infrastructure at a cloud computing or MSP setting is highly desirable. Strong Linux expertise is a must. Capability to obtain a favorable US Public Trust Position Solid experience with Linux (RedHat and/or CentOS) Working level knowledge of one: Perl, Python, JavaScript Familiarity with MySQL, Oracle, MariaDB, or similar technologies; proficiency preferred Strong experience with service troubleshooting in a production environment covering web front-end, Systems, Databases and Networks. Familiarity with Networking Technologies such as routing, switching and load balancing. F5 and NGINX experience is ideal. Experience with performance and availability monitoring, analysis, and configuration management platforms (e.g. Nagios/Icinga, Cacti, Ansible, Puppet, cfengine, chef, Splunk, Logstash) is desirable. Understanding of ITIL v3 framework and how it applies to incident, problem and change. Candidate must have good communication skills and work well in a collaborative team environment. JV20 For positions in this location, we offer a base pay of $148,900 - $260,600 , plus equity (when applicable), variable/incentive compensation and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the base pay shown is a guideline, and individual total compensation will vary based on factors such as qualifications, skill level, competencies, and work location. We also offer health plans, including flexible spending accounts, a 401(k) Plan with company match, ESPP, matching donations, a flexible time away plan and family leave programs. Compensation is based on the geographic location in which the role is located and is subject to change based on work location. Work Personas We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. Learn more here. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service. Equal Opportunity Employer ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, age, disability, gender identity,  veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements. Accommodations We strive to create an accessible and inclusive experience for all",
+      "posted_at": "2026-11-19T12:27:10+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795091230",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-19T14:59:35.224926+00:00",
+      "first_seen_at": "2026-11-19T14:59:35.224926+00:00",
+      "last_checked_at": "2026-11-19T14:59:43.840905+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 148900,
+      "salary_max": 260600,
+      "salary_currency": "USD",
+      "match_score": 64,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Skill: aria (+6)",
+        "Skill: javascript (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.54,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-19T15:01:38.317854+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:38.166368+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:11.132782+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:09.959005+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 35,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:09.923462+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 20,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:08.157455+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:06.345691+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:01:02.741169+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:59.343378+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:59.226621+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:58.696496+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:58.098359+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:58.040549+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:57.881691+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:57.827156+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 617,
+      "error": "",
+      "checked_at": "2026-11-19T15:00:18.547175+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:43.840883+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:26.791499+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:22.323268+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 112,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:22.092994+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:20.957584+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 97,
+      "error": "",
+      "checked_at": "2026-11-19T14:59:20.827594+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -9646,160 +10333,6 @@
       "jobs_found": 130,
       "error": "",
       "checked_at": "2026-11-11T13:19:37.639427+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T13:19:36.649504+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 99,
-      "error": "",
-      "checked_at": "2026-11-11T13:19:36.534579+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:41.323845+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 39,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:41.304261+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:38.393747+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:35.699228+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:34.537526+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:15.329613+00:00"
-    },
-    {
-      "source": "dynamitejobs",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:15.238624+00:00"
-    },
-    {
-      "source": "wellfound",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:14.615466+00:00"
-    },
-    {
-      "source": "workable",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:14.350388+00:00"
-    },
-    {
-      "source": "smartrecruiters",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:14.280466+00:00"
-    },
-    {
-      "source": "ashby",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:14.203361+00:00"
-    },
-    {
-      "source": "lever",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T04:01:14.172416+00:00"
-    },
-    {
-      "source": "greenhouse",
-      "success": true,
-      "jobs_found": 609,
-      "error": "",
-      "checked_at": "2026-11-11T03:59:42.603786+00:00"
-    },
-    {
-      "source": "workingnomads",
-      "success": true,
-      "jobs_found": 1,
-      "error": "",
-      "checked_at": "2026-11-11T03:58:40.145748+00:00"
-    },
-    {
-      "source": "jobicy",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T03:58:35.663311+00:00"
-    },
-    {
-      "source": "weworkremotely",
-      "success": true,
-      "jobs_found": 130,
-      "error": "",
-      "checked_at": "2026-11-11T03:58:35.543574+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T03:58:34.310100+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 99,
-      "error": "",
-      "checked_at": "2026-11-11T03:58:34.202979+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-10T22:45:15.695864+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 39,
-      "error": "",
-      "checked_at": "2026-11-10T22:45:15.682508+00:00"
     }
   ],
   "recent_exclusions": [
@@ -9810,8 +10343,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-19T05:21:34.727655+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11847.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:38.166215+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11857.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9820,8 +10353,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-19T05:21:32.707975+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11847.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:36.252377+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11856.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9830,8 +10363,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-19T05:21:30.706476+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11846.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:34.125334+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11856.6h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9840,8 +10373,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-19T05:21:28.646500+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11824.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:32.056523+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11834.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9850,8 +10383,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-19T05:21:26.645374+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11824.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:30.051506+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11834.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9860,8 +10393,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-19T05:21:24.720638+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11824.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:28.177524+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9870,8 +10403,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-19T05:21:22.704561+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11824.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:25.988416+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9880,8 +10413,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-19T05:21:20.743258+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11823.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:24.134909+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.4h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9890,8 +10423,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-19T05:21:18.619895+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11823.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:21.975182+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9900,8 +10433,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-19T05:21:16.788478+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11823.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:20.150190+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9910,8 +10443,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-19T05:21:14.768596+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11823.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:18.459985+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11833.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -9920,8 +10453,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-19T05:21:12.568707+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10295.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:16.428526+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10305.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9930,8 +10463,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-19T05:21:08.256130+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.132659+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20503.1h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9940,8 +10473,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-19T05:21:08.255923+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.132196+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20503.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9950,8 +10483,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-19T05:21:08.255731+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.131998+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20503.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9960,8 +10493,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-19T05:21:08.255533+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.131787+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20503.0h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9970,8 +10503,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-19T05:21:08.255325+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.131579+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20502.9h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9980,8 +10513,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-19T05:21:08.255102+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20493.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.131357+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20502.9h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -9990,8 +10523,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-19T05:21:08.254847+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14049.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:11.131117+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14058.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -10000,8 +10533,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-19T05:21:05.622267+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 645.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.645597+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 655.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -10010,8 +10543,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-19T05:21:05.622142+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 573.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.645487+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 583.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -10020,8 +10553,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-19T05:21:05.621997+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 516.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.645369+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 526.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -10030,8 +10563,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-19T05:21:05.621870+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 511.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.645248+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 521.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -10040,8 +10573,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-19T05:21:05.621716+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 429.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.645121+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 439.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10050,8 +10583,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-19T05:21:04.905310+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1190.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.467342+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1199.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10060,8 +10593,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-19T05:21:04.905194+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1037.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.467237+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1046.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10070,8 +10603,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-19T05:21:04.905054+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1037.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.467133+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1046.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10080,8 +10613,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 20 Oct 2026 17:02:28 +0000",
       "posted_at": "2026-10-20T17:02:28+00:00",
-      "detected_at": "2026-11-19T05:21:04.904943+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 708.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.467024+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 718.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10090,8 +10623,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-19T05:21:04.904836+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 688.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466903+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 698.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10100,8 +10633,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-19T05:21:04.904726+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 569.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466795+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 579.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10110,8 +10643,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-19T05:21:04.904616+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 541.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466682+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 551.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10120,8 +10653,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-19T05:21:04.904504+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 486.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466569+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 496.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10130,8 +10663,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-19T05:21:04.904393+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 477.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466458+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 487.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10140,8 +10673,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-19T05:21:04.904278+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 372.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466349+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 382.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10150,8 +10683,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-19T05:21:04.904156+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 318.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466238+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 328.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10160,8 +10693,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-19T05:21:04.904012+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 276.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466128+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 286.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10170,8 +10703,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-19T05:21:04.903895+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 180.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.466007+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 190.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -10180,58 +10713,38 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:48 +0000",
       "posted_at": "2026-11-17T18:01:48+00:00",
-      "detected_at": "2026-11-19T05:21:04.903778+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 35.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:09.465862+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 45.0h ago (exceeds 24h limit)"
     },
     {
-      "source": "devto_hiring",
-      "source_id": "how-to-hire-dedicated-web-developers-in-india-2026-guide-30j1",
-      "title": "How to Hire Dedicated Web Developers in India (2026 Guide)",
+      "source": "wwr_design",
+      "source_id": "lightbox-animation-senior-sets-props-concept-artist",
+      "title": "Lightbox Animation: Senior Sets&Props Concept Artist",
       "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 12:28:37 +0000",
-      "posted_at": "2026-11-17T12:28:37+00:00",
-      "detected_at": "2026-11-19T05:21:04.723718+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.9h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:38 +0000",
+      "posted_at": "2026-11-18T11:31:38+00:00",
+      "detected_at": "2026-11-19T15:01:09.465740+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 27.5h ago (exceeds 24h limit)"
     },
     {
-      "source": "devto_hiring",
-      "source_id": "should-i-hire-a-freelancer-an-agency-or-an-in-house-developer-to",
-      "title": "Should I hire a freelancer, an agency, or an in-house developer to build my AI agent?",
+      "source": "wwr_design",
+      "source_id": "lightbox-animation-senior-sets-props-surface-artist",
+      "title": "Lightbox Animation: Senior Sets&Props Surface Artist",
       "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 13:54:06 +0000",
-      "posted_at": "2026-11-17T13:54:06+00:00",
-      "detected_at": "2026-11-19T05:21:04.723605+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 39.4h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:41 +0000",
+      "posted_at": "2026-11-18T11:31:41+00:00",
+      "detected_at": "2026-11-19T15:01:09.465611+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 27.5h ago (exceeds 24h limit)"
     },
     {
-      "source": "devto_hiring",
-      "source_id": "reference-calls-for-engineering-hires-ask-about-the-work-not-the",
-      "title": "Reference calls for engineering hires: ask about the work, not the person",
+      "source": "wwr_design",
+      "source_id": "shirvano-graphic-design-intern-remote",
+      "title": "SHIRVANO: Graphic Design Intern (Remote)",
       "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 14:18:31 +0000",
-      "posted_at": "2026-11-17T14:18:31+00:00",
-      "detected_at": "2026-11-19T05:21:04.723490+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 39.0h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "devto_hiring",
-      "source_id": "my-ai-written-code-detector-judged-python-with-a-javascript-mode",
-      "title": "My AI-written code detector judged Python with a JavaScript model: lessons from building one for interviews",
-      "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 16:08:13 +0000",
-      "posted_at": "2026-11-17T16:08:13+00:00",
-      "detected_at": "2026-11-19T05:21:04.723370+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 37.2h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "devto_hiring",
-      "source_id": "what-does-an-ai-engineer-do-a-working-definition-and-what-to-loo",
-      "title": "What does an AI engineer do? A working definition, and what to look for when hiring one",
-      "company": "",
-      "source_timestamp_raw": "Tue, 17 Nov 2026 16:54:34 +0000",
-      "posted_at": "2026-11-17T16:54:34+00:00",
-      "detected_at": "2026-11-19T05:21:04.723248+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 36.4h ago (exceeds 24h limit)"
+      "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:43 +0000",
+      "posted_at": "2026-11-18T11:31:43+00:00",
+      "detected_at": "2026-11-19T15:01:09.465458+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 27.5h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -10240,8 +10753,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 19:20:17 +0000",
       "posted_at": "2026-11-17T19:20:17+00:00",
-      "detected_at": "2026-11-19T05:21:04.723103+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 34.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:08.728831+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 43.7h ago (exceeds 24h limit)"
     },
     {
       "source": "devto_hiring",
@@ -10250,58 +10763,78 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 02:51:22 +0000",
       "posted_at": "2026-11-18T02:51:22+00:00",
-      "detected_at": "2026-11-19T05:21:04.722959+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 26.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-19T15:01:08.728719+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 36.2h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8891698002",
-      "title": "Threat Research Engineer, Security Factory: Threat Research",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
-      "posted_at": "2026-11-11T09:10:18+00:00",
-      "detected_at": "2026-11-19T05:20:28.473613+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 188.2h ago (exceeds 24h limit)"
+      "source": "devto_hiring",
+      "source_id": "massachusetts-has-no-mini-warn-law-federal-warn-is-the-only-noti",
+      "title": "Massachusetts Has No Mini-WARN Law — Federal WARN Is the Only Notice Workers Get",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 09:01:03 +0000",
+      "posted_at": "2026-11-18T09:01:03+00:00",
+      "detected_at": "2026-11-19T15:01:08.728605+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 30.0h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8753664002",
-      "title": "Talent Brand Manager",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-09-03T20:35:55-04:00",
-      "posted_at": "2026-09-04T00:35:55+00:00",
-      "detected_at": "2026-11-19T05:20:28.473537+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1828.7h ago (exceeds 24h limit)"
+      "source": "devto_hiring",
+      "source_id": "how-to-hire-a-web-scraping-specialist-for-custom-data-collection",
+      "title": "How to Hire a Web Scraping Specialist for Custom Data Collection",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 13:24:25 +0000",
+      "posted_at": "2026-11-18T13:24:25+00:00",
+      "detected_at": "2026-11-19T15:01:08.728487+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 25.6h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8859063002",
-      "title": "Support Engineer, U.S. Government Support (SHIFT)",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-10-05T15:24:21-04:00",
-      "posted_at": "2026-10-05T19:24:21+00:00",
-      "detected_at": "2026-11-19T05:20:28.473460+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1065.9h ago (exceeds 24h limit)"
+      "source": "devto_hiring",
+      "source_id": "we-hid-instructions-in-cvs-claude-wasnt-fooled-but-it-changed-it",
+      "title": "We hid instructions in CVs. Claude wasn't fooled, but it changed its decisions anyway",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 14:28:03 +0000",
+      "posted_at": "2026-11-18T14:28:03+00:00",
+      "detected_at": "2026-11-19T15:01:08.728362+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 24.6h ago (exceeds 24h limit)"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8940804002",
-      "title": "Strategic Enterprise Account Executive (Sydney or Melbourne)",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-11-16T00:09:11-05:00",
-      "posted_at": "2026-11-16T05:09:11+00:00",
-      "detected_at": "2026-11-19T05:20:28.473383+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 72.2h ago (exceeds 24h limit)"
+      "source": "workday",
+      "source_id": "wd_XMLNAME-2027-Intern---Business-Development-Representative--Adobe-Sales-Academy-_R173132",
+      "title": "2027 Intern - Business Development Representative (Adobe Sales Academy)",
+      "company": "Adobe",
+      "source_timestamp_raw": "Posted 14 Days Ago",
+      "posted_at": null,
+      "detected_at": "2026-11-19T15:01:07.202776+00:00",
+      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     },
     {
-      "source": "greenhouse",
-      "source_id": "gh_8936156002",
-      "title": "Strategic Account Executive - Spain ",
-      "company": "GitLab",
-      "source_timestamp_raw": "2026-11-11T10:20:53-05:00",
-      "posted_at": "2026-11-11T15:20:53+00:00",
-      "detected_at": "2026-11-19T05:20:28.473307+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 182.0h ago (exceeds 24h limit)"
+      "source": "workday",
+      "source_id": "wd_Engineering-Manager--Site-Reliability---Developer-Experience_R173423-1",
+      "title": "Engineering Manager, Site Reliability & Developer Experience",
+      "company": "Adobe",
+      "source_timestamp_raw": "Posted 10 Days Ago",
+      "posted_at": null,
+      "detected_at": "2026-11-19T15:01:07.202755+00:00",
+      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+    },
+    {
+      "source": "workday",
+      "source_id": "wd_Manager--Coprporate-Development--M-A-Integration-_R171630",
+      "title": "Manager, Corporate Development (M&A Integration)",
+      "company": "Adobe",
+      "source_timestamp_raw": "Posted 7 Days Ago",
+      "posted_at": null,
+      "detected_at": "2026-11-19T15:01:07.202736+00:00",
+      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+    },
+    {
+      "source": "workday",
+      "source_id": "wd_XMLNAME-2027-MBA-Intern---Corporate-Development_R172745",
+      "title": "2027 MBA Intern - Corporate Development",
+      "company": "Adobe",
+      "source_timestamp_raw": "Posted 24 Days Ago",
+      "posted_at": null,
+      "detected_at": "2026-11-19T15:01:07.202716+00:00",
+      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
     }
   ],
   "uae_sources": [
@@ -10326,7 +10859,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-19T05:21:05.972819+00:00",
+      "last_checked_at": "2026-11-19T15:01:09.959005+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -10378,7 +10911,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-19T05:21:05.972819+00:00",
+      "last_checked_at": "2026-11-19T15:01:09.959005+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -10508,7 +11041,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-19T05:21:34.806915+00:00",
+      "last_checked_at": "2026-11-19T15:01:38.317854+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -10534,7 +11067,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-19T05:21:08.256256+00:00",
+      "last_checked_at": "2026-11-19T15:01:11.132782+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -10547,7 +11080,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-19T05:21:34.727804+00:00",
+      "last_checked_at": "2026-11-19T15:01:38.166368+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
