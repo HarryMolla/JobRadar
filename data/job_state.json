@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T00:07:55.313992+00:00",
+  "last_updated": "2026-11-20T14:43:34.989245+00:00",
   "stats": {
-    "total_jobs": 186,
+    "total_jobs": 199,
     "total_notified": 0
   },
   "jobs": {
@@ -8939,9 +8939,806 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_lanteris-space-llc_principal-simulations-software-engineer": {
+      "fingerprint": "himalayas::hm_lanteris-space-llc_principal-simulations-software-engineer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_lanteris-space-llc_principal-simulations-software-engineer",
+      "url": "https://himalayas.app/companies/lanteris-space-llc/jobs/principal-simulations-software-engineer",
+      "source_job_url": "https://himalayas.app/companies/lanteris-space-llc/jobs/principal-simulations-software-engineer",
+      "apply_url": "https://himalayas.app/companies/lanteris-space-llc/jobs/principal-simulations-software-engineer",
+      "title": "Principal Simulations Software Engineer",
+      "company": "Lanteris Space LLC",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Principal Software Engineer, Simulation Software Engineering, Software Architect, Aerospace Software Engineer, Real Time Systems Engineer\n\nPlease review the job details below.  Intuitive Machines - West (formerly Lanteris Space Systems) is currently seeking a Principal Software Engineer to join our Simulations team in San Jose, CA, or a US remote location.\n\nPlease review the job details below. Intuitive Machines - West (formerly Lanteris Space Systems) is currently seeking a Principal Software Engineer to join our Simulations team in San Jose, CA, or a US remote location. In this role, you will provide technical leadership in designing and implementing software for spacecraft simulators used by internal and external customers, while shaping the technical direction of our simulation architecture and mentoring engineering staff across the organization. Responsibilities Technical Leadership & Strategy Define and drive the technical vision and architecture for spacecraft simulation systems across multiple programs and projects Lead the evaluation and adoption of new simulation technologies, frameworks, and methodologies to advance organizational capabilities Serve as the subject matter expert on simulation architecture, distributed systems, and real-time modeling for the organization Identify and resolve complex technical issues that span multiple subsystems and require evaluation of intangible factors and trade-offs Create and maintain formal networks with key technical decision-makers across engineering disciplines, program management, and customer organizations Technical Execution Design and implement sophisticated models of spacecraft components and/or subsystems for all-software spacecraft simulators, addressing significant and unique technical challenges Read, interpret, and provide authoritative guidance on spacecraft hardware specifications, Interface Control Documents (ICDs), and technical documentation Architect and enhance complex simulation codebases, making critical decisions on system architecture, design patterns, and long-term maintainability Champion satellite and software industry best practices and drive their adoption across simulation projects Establish standards and best practices for CI/CD pipelines, automated testing frameworks, and software quality Leadership & Influence Mentor and provide technical guidance to engineers at all levels, from entry-level through senior staff Lead technical design reviews and serve as the authoritative voice on simulation architecture decisions Coordinate activities across multiple engineering teams to ensure coherent system designs and successful integration Represent the organization externally as a technical spokesperson at customer meetings, industry conferences, and technical forums Contribute to business development by providing technical expertise for proposals and customer engagements Drive innovation in simulation methodologies and contribute to the company's technical roadmap Collaboration & Communication Communicate cross-functionally with software, systems, hardware, and program management to ensure alignment on technical objectives Lead customer-facing design reviews and technical discussions with senior stakeholders Exercise independent judgment in determining methods, techniques, and evaluation criteria for solving complex simulation challenges Build and maintain formal networks involving coordination among multiple engineering groups Minimum Requirements Education & Experience Must be a U.S. citizen or permanent resident Requires a minimum of 15 years of related professional software development experience with a Bachelor's degree in Computer Engineering, Computer Science, Mathematics, Physics, Aerospace Engineering, or related disciplines OR 10 years with a Master's degree OR 8 years with a PhD OR equivalent experience (four additional years of experience may be substituted for a degree) 10+ years of demonstrated expertise in simulation of spacecraft or other complex physical systems Proven track record of technical leadership on multiple significant programs or projects Technical Expertise Expert-level proficiency in reading, interpreting, and providing guidance on technical documentation (hardware specifications, ICDs, datasheets, system architecture documents) Deep expertise in software architecture for complex, real-time simulation systems Expert proficiency with Linux development environments Extensive experience with CI/CD pipelines, automated testing frameworks, and software quality practices at organizational scale Authoritative knowledge in the following: Developing large-scale software systems in C++ and Python (expert-level C++ required) Architecting and debugging complex distributed systems Software development life cycle best practices and process improvement Agile methodologies and technical leadership within Agile teams Modern software engineering tools and practices Leadership & Communication Demonstr",
+      "posted_at": "2026-11-20T12:52:56+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795179176",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:47.603299+00:00",
+      "first_seen_at": "2026-11-20T14:41:47.603299+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 146000,
+      "salary_max": 280000,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 1.82,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_appmysite_lead-front-end-developer-react-js": {
+      "fingerprint": "himalayas::hm_appmysite_lead-front-end-developer-react-js",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_appmysite_lead-front-end-developer-react-js",
+      "url": "https://himalayas.app/companies/appmysite/jobs/lead-front-end-developer-react-js",
+      "source_job_url": "https://himalayas.app/companies/appmysite/jobs/lead-front-end-developer-react-js",
+      "apply_url": "https://himalayas.app/companies/appmysite/jobs/lead-front-end-developer-react-js",
+      "title": "Lead Front-End Developer - React.js",
+      "company": "AppMySite",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Lead Frontend Developer, Front End Developer, React Developer, Frontend Engineer, Web Developer, Frontend Lead Developer, Lead React Developer\n\nThis is a remote position.  Job Role:We are seeking a Lead Front-End Developer-React.\n\nThis is a remote position. Job Role: We are seeking a Lead Front-End Developer-React.jswho will play a pivotal role in spearheading our frontend development initiatives. This remote position requires an individual with expertise in frontend technologies such as HTML, CSS, and JavaScript, along with strong leadership skills. As the Lead Frontend Developer, you will be responsible for leading frontend development efforts, ensuring optimal user experience, and driving innovation in frontend architecture. Project Role: Lead Front-End Developer-React.js Work Experience: 8+ years Work Location: Remote Must-Have Skills: React.js, JavaScript, HTML, CSS and strong leadership skills. Roles and Responsibilities: Lead the development and maintenance of highly-responsive web-based user interfaces. Architect flexible and well-structured frontend solutions to meet product requirements. Create visualizations to effectively represent large datasets. Understand and incorporate user interactions into frontend designs. Collaborate closely with UI/UX teams and backend developers to integrate frontend and backend components seamlessly. Demonstrate proficiency in UI component development and implementation. Provide technical guidance and mentorship to frontend developers, fostering their growth and development within the team. Technical Profile: Proficient in React.js with a strong understanding of frontend development principles. Extensive knowledge of HTML, CSS, and JavaScript concepts, with a focus on modern frontend frameworks and libraries. Experience using version control systems like GIT and Bitbucket for code management and collaboration. Stay updated with emerging trends and technologies in frontend development to drive innovation and maintain relevance. Desired Candidate Profile: Good communication skills Good, positive attitude Good debugging and problem-solving skills Good IQ Lots of common sense Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:23:39+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795109019",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.833570+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.833570+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.31,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_novocall_frontend-developer": {
+      "fingerprint": "himalayas::hm_novocall_frontend-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_novocall_frontend-developer",
+      "url": "https://himalayas.app/companies/novocall/jobs/frontend-developer",
+      "source_job_url": "https://himalayas.app/companies/novocall/jobs/frontend-developer",
+      "apply_url": "https://himalayas.app/companies/novocall/jobs/frontend-developer",
+      "title": "Frontend Developer",
+      "company": "Novocall",
+      "location": "Indonesia",
+      "work_location": "Indonesia",
+      "description": "Categories: Developer, Frontend Development, Frontend Engineer, Web Development, UI Engineering, React Developer, Front End Developer, Frontend React Developer\n\nWhat is this role about?  We are looking for a passionate Front-End Engineers to share our mission and reach toward our vision of seamless sales conversations.\n\nWhat is this role about? We are looking for a passionate Front-End Engineers to share our mission and reach toward our vision of seamless sales conversations. Your main responsibilities: Designing, developing, and testing UI for our web application Build reusable code and libraries for future use Accurately translate user and business needs into functional frontend code Communicating with the CTO and rest of team (devs, designers and PMs) What you'll get Career Progression - We're growing fast and we need team leaders. Remote Work - We're a remote-first company, work from the comfort of your home Young and Vibrant Team - We're a bunch of fun, casual group (who actually deliver performance), you'll fit right in :) You should join us if... You want to contribute heavily to a company and see actual results Joining a rocketship company with fast month-on-month growth You find professional and personal growth a priority in your career You enjoy working remotely and flexible working hours You are AMBITIOUS and want to innovate on how businesses communicate Application process We will move through the following steps to qualify you and if you meet our expectations, we will extend an offer to you: Submission of CV and Portfolio Pre-qualification Test Interview Tell us about yourself and your front-end experiences What are your goals and how we can align them with Novocall 's Pair programming code review session SHOW YOUR PORTFOLIO We believe strongly that a front-end developer's portfolio speaks volumes about his/her capabilities. Show, don’t tell. Drop us a link to your website/portfolio and we’ll take a look. If you do not have a website yet, feel free to wrap up your project in a ZIP file labelled FirstNameLastName.zip. Our requirements: We're looking for someone who is fully invested in building frontend experiences. You love React, JS frameworks and the like. You care deeply about interactions whether that's animated hover states, scroll-based experiences, or pixel perfect execution. 2 years in in a front-end development Experience with React.js (hooks, reducers, es2016) and modern JavaScript frameworks (next, nuxt, etc) Experience with front end languages (HTML, CSS, modern CSS, JavaScript) Experience with git version control tools (GitHub) Experience with frontend project management (SCRUM, agile, etc) Experience with frontend testing tools and frameworks (Jest, etc) Proficient in English is a must Bonus: Experience working in SaaS or technology companies is preferred Experience with CSS animations, optimisation a plus What is Novocall ? Novocall is a inbound sales automation startup. We help businesses that sells high-value products to increase their sales conversions by reducing response time. To date, we have over 2,000 businesses across 42 countries , and got featured on Product Hunt thrice. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T18:00:09+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795111209",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.834609+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.834609+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 20.7,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_photon_front-end-developer": {
+      "fingerprint": "himalayas::hm_photon_front-end-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_photon_front-end-developer",
+      "url": "https://himalayas.app/companies/photon/jobs/front-end-developer",
+      "source_job_url": "https://himalayas.app/companies/photon/jobs/front-end-developer",
+      "apply_url": "https://himalayas.app/companies/photon/jobs/front-end-developer",
+      "title": "Front End Developer",
+      "company": "Photon",
+      "location": "Mexico",
+      "work_location": "Mexico",
+      "description": "Categories: Developer, Front End Developer, Frontend Engineer, Web Developer, Mobile Application Developer, Angular Developer, Frontend Development, Frontend Web Development\n\nRequirements: • 10+ years of professional experience in frontend development.\n\nRequirements: 10+ years of professional experience in frontend development. Strong proficiency in Angular and experience with Ionic framework. Proven track record of building and deploying high-performance mobile and web applications. Solid understanding of frontend architecture, design patterns, and best practices. Experience with performance optimization, monitoring, and debugging. Ability to write clean, maintainable, and testable code. Excellent problem-solving and analytical skills. Strong communication and collaboration skills. Experience that outweighs technology knowledge. Meaning, more experience in general development, and less exposure to our specific technology is more desirable than someone who has memorized our tech, but has no practical experience. Must be an owner of the projects assigned. Must be able to bring ideas to the table and challenge the status quo. Must be able to simplify and optimize. Preferred Qualifications: Experience with mobile app development using Ionic framework. Familiarity with backend technologies and RESTful APIs. Knowledge of CI/CD pipelines and automated testing. Experience with cloud platforms (e.g., AWS, Azure, GCP). Experience with Metrics and monitoring tools. All your information will be kept confidential according to EEO guidelines. One of the largest and fastest growing digital agencies in the world. We work with 40% of the Fortune 100 on their digital initiatives and are known for our ability to integrate strategic consulting, creative design, and technology at scale. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:08:01+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795108081",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.836619+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.836619+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 45,
+      "match_reasons": [
+        "Title matches frontend role: 'front end'",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.57,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_ethereum-community-fund_front-end-developer": {
+      "fingerprint": "himalayas::hm_ethereum-community-fund_front-end-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_ethereum-community-fund_front-end-developer",
+      "url": "https://himalayas.app/companies/ethereum-community-fund/jobs/front-end-developer",
+      "source_job_url": "https://himalayas.app/companies/ethereum-community-fund/jobs/front-end-developer",
+      "apply_url": "https://himalayas.app/companies/ethereum-community-fund/jobs/front-end-developer",
+      "title": "Front-end Developer",
+      "company": "Ethereum Community Fund",
+      "location": "Switzerland",
+      "work_location": "Switzerland",
+      "description": "Categories: Developer, Frontend Development, Web3 Development, React, TypeScript Development, Front End Developer, Frontend React Developer, UI Frontend Developer\n\nRole: Front-End Developer Remote | Full-time We are looking for a talented Front-End Engineer to build and maintain cutting-edge Web3 applications that empower users within our ecosystem.\n\nRole: Front-End Developer Remote | Full-time We are looking for a talented Front-End Engineer to build and maintain cutting-edge Web3 applications that empower users within our ecosystem. You will collaborate closely with cross-functional teams to create highly interactive and seamless user interfaces that align with our product vision and business objectives. Responsibilities Develop pixel-perfect and UX-optimized Web3 applications using TypeScript and Next.js. Collaborate with product and engineering teams to define, prioritize, and implement features that meet both user and business needs. Ensure components are functional, intuitive, performant, and mobile-responsive. Maintain high-quality code standards, including efficient documentation and testing. Requirements 2+ years of experience in frontend engineering, with a strong command of TypeScript and React. Solid experience working in Web3, with proficiency in Web3 libraries such as ethers.js, wagmi, and viem. Experience in building and maintaining production-grade SDKs, APIs, or systems at scale. A passion for creating elegant, user-friendly, and performant interfaces that empower users in the Web3 space. Personal Highly self-motivated/self-driven Insatiably hungry to learn and grow Fluent in English Highly reliable/Ability to meet deadlines ahead of time Focus on solutions mentality! Comfortable with an adaptive fast-paced startup environment. Ability to work in a diverse multi-disciplinary team. Sense of humour is a plus! What we offer: Work with some of the most experienced people in the space from the team and across the best minds and projects in the ecosystem. You’ll never be bored but don’t burn out. Staying healthy and taking the time to relax and enjoy quality time away from work when needed. Play games, chill out, live long and prosper 🖖. We’ll acknowledge your contribution with competitive compensation. About Zuzalu.City: We are building an easy-to-use interface that serves as a collective operation system that connects users to decentralised, open-sourced and autonomous applications that are empowered with privacy choices for a community when it comes to coordination, contribution and collaboration. This is an opportunity to join a community-driven public goods project. We are focused on building and maintaining an MVP team with sustainable development in mind. As part of our approach, we plan to offer stable work bounties and encourage community governance to ensure alignment with our mission and goals. About Ethereum Community Fund : We are an early-stage project currently building the Alpha, with a mission of creating an inclusive destination bwhere users can publish, discover, contribute, share and fund blockchain development projects focusing on Web3 technology. lnformation about projects and interests in projects are focused into a unified, open and user-friendly platform and all information is curated and governed by the platform community. You will be working with a competent, fun and inclusive team based across different time zones, from different backgrounds and nationalities, dedicated to the development and growth of the community platform and Web3 tech. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:07:53+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795108073",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.837372+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.837372+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: next.js (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.57,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_iesf-ag_mid-senior-front-end-developer-react": {
+      "fingerprint": "himalayas::hm_iesf-ag_mid-senior-front-end-developer-react",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_iesf-ag_mid-senior-front-end-developer-react",
+      "url": "https://himalayas.app/companies/iesf-ag/jobs/mid-senior-front-end-developer-react",
+      "source_job_url": "https://himalayas.app/companies/iesf-ag/jobs/mid-senior-front-end-developer-react",
+      "apply_url": "https://himalayas.app/companies/iesf-ag/jobs/mid-senior-front-end-developer-react",
+      "title": "Mid-Senior Front-End Developer (React)",
+      "company": "IESF AG",
+      "location": "Ukraine",
+      "work_location": "Ukraine",
+      "description": "Categories: Developer, Front End Developer, Frontend Engineer, React Developer, Web Developer, Software Engineer, Senior Frontend React Developer, Mid Level Frontend Engineer (React)\n\nThe Role: You are going to be responsible for the design and implementation of the Micro frontends architecture, bringing the responsiveness, efficiency, scalability, robustness and security of the system up to the next level.\n\nThe Role: You are going to be responsible for the design and implementation of the Micro frontends architecture, bringing the responsiveness, efficiency, scalability, robustness and security of the system up to the next level. Main Tasks: ● Building of the new features; Developing and testing new user-facing features; ● Write highly scalable, reusable, and testable code; ● Optimize applications for maximum speed and performance; ● Collaborate with other team members; ● Maintain a pulse on emerging technologies and discover hidden opportunities in the environment; ● Participate in software quality assurance activities: write automated tests, participate in code review. Your Profile: Strong JavaScript knowledge with at least 4 years of experience; •    Experience with React; •    Familiarity with TypeScript; Will be a plus if you are familiar with Micro Frontend Architecture and Back-end part as well; •    Ability to integrate best practices and oversee technical solutions; •    Deep understanding of development principles and paradigms, architectural concepts, patterns, and approaches; •    Passion for agile development methodologies (Scrum, Kanban Lean) and engineering practices (continuous integration, continuous delivery, test-driven development); •    English level — Upper-Intermediate Personal Characteristics: Strongly motivated and sets demanding standards for personal excellence; •    Autonomous self-starter and highly driven, able to lead large teams and initiatives with limited oversight; •    Effective collaborator with other team members; •    Independent thinker, inquisitive, eager to improve and learn; •    Confident being part of a small team that is building a business; •    You communicate rapidly, openly, inclusively and efficiently; •    Structured thought process and clear communication. Benefits & Perks: •    Highly competitive salary •    Potential for equity participation 25 days holiday plus Bank Holidays •     Work from home •    Ability to influence project technologies; •    Exceptional team of experienced and motivated individuals from a range of industries. Our client is a UK based FinTech company with an innovative own product – active and successful finance intelligence platform, advising high-wealth people on wealth management, assets and financial balance. The company is enhancing its own team and is looking to hire a skilled remote working Mid-Senior Front-End Engineer to join the successful team and to contribute to the further progress. Company Tech Stack: •    React Styled Components •    Typescript •    MobX, Redux/Redux-Saga •    Webpack + micro front-ends •     GraphQL •    JenkinsX Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:08:01+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795108081",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.838225+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.838225+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Skill: graphql (+5)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.57,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_treehouse-strategy-and-communica_senior-frontend-developer-react-uber-develop": {
+      "fingerprint": "himalayas::hm_treehouse-strategy-and-communica_senior-frontend-developer-react-uber-develop",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_treehouse-strategy-and-communica_senior-frontend-developer-react-uber-develop",
+      "url": "https://himalayas.app/companies/treehouse-strategy-and-communications/jobs/senior-frontend-developer-react-uber-developer",
+      "source_job_url": "https://himalayas.app/companies/treehouse-strategy-and-communications/jobs/senior-frontend-developer-react-uber-developer",
+      "apply_url": "https://himalayas.app/companies/treehouse-strategy-and-communications/jobs/senior-frontend-developer-react-uber-developer",
+      "title": "Senior Frontend Developer (React) / Uber Developer",
+      "company": "Treehouse Strategy and Communications",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Frontend Development, React Developer, Web Development, Software Engineer, Frontend Engineer, Senior Frontend React Developer, Senior Front End Developer\n\nWe are looking for a strong Senior Front End Engineer who has strong experience with React.\n\nWe are looking for a strong Senior Front End Engineer who has strong experience with React. You will be a key member of our small frontend development team making important technical decisions. If you love to code, like to build APIs, and enjoy working on unique challenges within a collaborative team of developers to build meaningful products, then please apply. If you have experience with Scrum and can lead a small group of developers, that is a HUGE bonus. If you are a ‘uber developer’,  you will move to the front of the line. Essentially,  ‘uber developer' is a jack of all trades who can do a little bit of everything. In addition to being a developer, this person is also a software architect and can help with some high level software design decisions. We also need the uber developer to do code review, provide some technical guidance to the junior developers, to help do some mentoring, support, and maybe a bit of training. Frameworks and Languages •    JavaScript •    React Redux •    Node Work with design and other teams to develop new customer-facing features and maintain existing ones. •    Create libraries, components and tools to ensure maximum performance with a top-notch user experience. •    Improve development experience to delight your teammates. •    Think like a product owner: what will delight users? What are the acceptable risks? •    Help colleagues review and test code •    What you will do: o Build and maintain frontend architecture •    o Collaborate with backend engineering, product, and design teams to write, test, and deploy code •    o Create new and innovative features for our users •    o Optimize pages for maximum speed •    o Solve problems creatively and efficiently •    Steer architectural discussions and build consensus among team members •    Help drive best practices, collaboration, and process improvements •    Diagnose and fix bugs and performance bottlenecks •    Maintain code and write automated tests to ensure the product is of the highest quality •    Mentor and coach fellow teammates What You’ll Need •    Significant production React or React Native experience on a medium to large scale application •    Demonstrated experience mentoring other engineers and setting team best practices •    Ability to write clean and well-tested TypeScript code •    Passion for doing the right things, collaborating, and team building •    Excellent verbal and written communication skills Are you able to work the hours of Mon-Fri, 9 AM to 6 PM, Eastern Standard Time? Are you able and willing to work outside of traditional local hours, if need be? What is your level of English proficiency? What is your level of English proficiency in the CEFR scale or equivalent? On a scale of 1-10, with 10 being expert, could you rate yourself on a) React, b) JavaScript, and c) RestFUL API? How familiar are you with Scrum? All your information will be kept confidential according to EEO guidelines. Treehouse Strategy is a management consulting company that specializes in helping language companies around the world grow and get to the next level. We work with language companies on sales strategies, marketing plans, marketing initiatives execution (rebranding strategy, website redesign, social media management, SEO, etc.), technology advisory, and merger & acquisition advisory and brokerage. We have clients in Greece, France, UK, Argentina, Spain, the US, and Taiwan. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T18:19:06+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795112346",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.838938+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.838938+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: branding (+8)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Skill: seo (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 20.38,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_ipsator_frontend-developer": {
+      "fingerprint": "himalayas::hm_ipsator_frontend-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_ipsator_frontend-developer",
+      "url": "https://himalayas.app/companies/ipsator/jobs/frontend-developer",
+      "source_job_url": "https://himalayas.app/companies/ipsator/jobs/frontend-developer",
+      "apply_url": "https://himalayas.app/companies/ipsator/jobs/frontend-developer",
+      "title": "Frontend Developer",
+      "company": "Ipsator",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Front End Developer, Frontend Engineer, UI Developer, Web Developer, React Developer, Frontend React Developer, UI Frontend Developer\n\nCategory: Computer Location: • Design, develop and implement frontend in react/angular • Coordinate with internal teams to understand user requirements and provide technical solutions.\n\nCategory: Computer Location: Design, develop and implement frontend in react/angular Coordinate with internal teams to understand user requirements and provide technical solutions. Collaborate with other developers and non-technical teams Perform maintenance on existing web applications Performance optimisation Writing reusable, testable, and efficient code Requirements 2-5 years of experience in frontend development using react/angular. Experience with RESTful API integrations Knowledge of API testing tools like RestClient, Postman, etc. Strong working knowledge of front-end technologies, such as JavaScript, HTML5, and CSS3. Working knowledge of front-end optimisation and performance techniques Experience building Responsive websites for web, tablet, and mobile devices. Experience with version control like SVN/Git Benefits Join us to work on a software platform of national importance and contribute to Solving4Bharat. We are the technology team behind Details Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:14:30+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795108470",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.840310+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.840310+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.46,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_tarini-consulting_senior-frontend-developer": {
+      "fingerprint": "himalayas::hm_tarini-consulting_senior-frontend-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_tarini-consulting_senior-frontend-developer",
+      "url": "https://himalayas.app/companies/tarini-consulting/jobs/senior-frontend-developer",
+      "source_job_url": "https://himalayas.app/companies/tarini-consulting/jobs/senior-frontend-developer",
+      "apply_url": "https://himalayas.app/companies/tarini-consulting/jobs/senior-frontend-developer",
+      "title": "Senior Frontend Developer",
+      "company": "Tarini Consulting",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Senior Front End Developer, Front End Developer, Frontend Engineer, Web Developer, Senior Frontend Development, Senior Frontend React Developer, Senior Frontend Engineering\n\nThis is a remote position.  Location: Remote(India Based Only) Salary: 10-14 LPA Job Description We’re seeking an experienced Senior Frontend Developer to join our team and take a lead role in enhancing our exciting projects.\n\nThis is a remote position. Location: Remote(India Based Only) Salary: 10-14 LPA Job Description We’re seeking an experienced Senior Frontend Developer to join our team and take a lead role in enhancing our exciting projects. You’ll collaborate with cross-functional teams to design, develop, and deliver high-quality frontend solutions that meet client expectations. This role offers the opportunity to showcase your technical expertise, mentor junior developers, and drive the success of our development initiatives. Responsibilities Design, develop, and maintain the frontend of our projects using HTML, CSS, and JavaScript. Work closely with designers, backend developers, and project managers to ensure seamless integration of frontend and backend systems. Provide technical leadership by mentoring junior developers and promoting best practices in code quality and development processes. Conduct code reviews and contribute to improving our development workflows. Stay current with emerging frontend technologies and trends to keep our solutions cutting-edge. Requirements 5+ years of hands-on experience in frontend development. Strong proficiency in HTML, CSS, and JavaScript. Proven expertise with modern frontend frameworks such as React, Angular, or Vue.js. Solid understanding of web development principles, including accessibility, performance optimization, and security. Excellent communication, teamwork, and problem-solving skills. Familiarity with Zoho Creator and Laravel is a plus, but not mandatory. Benefits Competitive salary range of 10-14 LPA. Opportunities for career growth and skill development. A collaborative, dynamic, and supportive work environment. Remote and Flexible work timings to support work-life balance. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:04:40+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795107880",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.841530+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.841530+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "INR",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: accessibility (+8)",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.62,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_captain-fresh_sde-iii-frontend-mobile": {
+      "fingerprint": "himalayas::hm_captain-fresh_sde-iii-frontend-mobile",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_captain-fresh_sde-iii-frontend-mobile",
+      "url": "https://himalayas.app/companies/captain-fresh/jobs/sde-iii-frontend-mobile",
+      "source_job_url": "https://himalayas.app/companies/captain-fresh/jobs/sde-iii-frontend-mobile",
+      "apply_url": "https://himalayas.app/companies/captain-fresh/jobs/sde-iii-frontend-mobile",
+      "title": "SDE-III Frontend, Mobile",
+      "company": "Captain Fresh",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Software Engineer, Frontend Engineer, Mobile Engineer, Mobile Application Developer, Mobile Frontend Developer, Mobile UI Engineer, Frontend Mobile Development\n\nAs a Software Engineer you have: • 4+ years of experience in the art of writing code and solving problems in complex frontend projects • Excellent command in Data Structures and Algorithms.\n\nAs a Software Engineer you have: 4+ years of experience in the art of writing code and solving problems in complex frontend projects Excellent command in Data Structures and Algorithms. BTech, MTech in Computer Science or related technical discipline (or equivalent) Strong desire to solving complex and interesting real-world problems Go-getter attitude that reflects in energy and intent behind assigned tasks As a Software Engineer you know your things around: Extensive and expert programming experience in at least one general programming language & ability to write maintainable, scalable, unit-tested code At least one of React Native or Flutter and related ecosystem At least one of native Android or iOS development GraphQL and other modern JS ecosystems Common design patterns and anti-patterns Javascript Frontend performance issues Excellent coding skills – should be able to convert the design into code Incremental changes to architecture: impact analysis of the same Performance tuning and improvements in large scale frontend codebases Mentoring young minds and foster team spirit, break down execution into phases India has one of the largest consumer markets in the world for fish and seafood. Yet, the industry is extremely traditional, depriving businesses of consistent, reliable and trustworthy sources.  CaptainFresh is re-imagining the future of fresh fish and seafood using cutting edge technology solutions. Some of our key initiatives are Full Service Stack for Retailers & Suppliers ML Driven Supply Demand Matching AI driven Standardizing Quality Optimal Material Flow Digital Footprint You may read more about our Tech initiatives at Culture At CaptainFresh, we go above and beyond to ensure that you give your best at work, every day! And one of the things we do is build the ideal environment for you. We empower people and trust them to do the right thing. Here, you own your work from start to finish, right from day one. Being enthusiastic about tech is a big part of being at CaptainFresh. If you enjoy developing technology that has an impact on millions, ideating with some of the best minds in the country and executing on your dreams with purpose and speed, join us! Challenges Building for Scale, Rapid Iterative Development, and Customer-centric Product Thinking at each step defines every day for a developer at CaptainFresh.  While we are quick to adopt the latest in Engineering, we care utmost for security, stability, and automation. Apply if you want to experience the best combination of passionate application development and product-driven thinking. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:03:51+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795107831",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.843046+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.843046+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 70,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: graphql (+5)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.64,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_recruitgo_front-end-developer": {
+      "fingerprint": "himalayas::hm_recruitgo_front-end-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_recruitgo_front-end-developer",
+      "url": "https://himalayas.app/companies/recruitgo/jobs/front-end-developer",
+      "source_job_url": "https://himalayas.app/companies/recruitgo/jobs/front-end-developer",
+      "apply_url": "https://himalayas.app/companies/recruitgo/jobs/front-end-developer",
+      "title": "Front-end Developer",
+      "company": "RecruitGo",
+      "location": "Philippines",
+      "work_location": "Philippines",
+      "description": "Categories: Developer, Front End Developer, React Developer, Web Developer, UI Developer, Frontend React Developer, Frontend Development, UI Frontend Developer\n\nAbout Us: RecruitGo is a leading Employer of Record (EOR) company specializing in bridging top talent in emerging markets with global clients.\n\nAbout Us: RecruitGo is a leading Employer of Record (EOR) company specializing in bridging top talent in emerging markets with global clients. Our services enable businesses to hire, manage, and pay employees internationally with ease. We are committed to providing seamless and efficient solutions to our clients and fostering a dynamic and inclusive work environment for our team. Position Overview We are looking for a Front-End Developer with strong hands-on experience in React to build and maintain responsive, high-quality web applications. The ideal candidate has at least 2 years of practical React development experience, familiarity with Next.js App Router, and a solid foundation in JavaScript/TypeScript, Tailwind CSS, and Git workflows. The role involves developing reusable UI components, integrating frontend applications with backend APIs, troubleshooting issues, and collaborating with the development team to deliver reliable and scalable digital solutions. Responsibilities Develop and maintain responsive web applications using React, Next.js App Router, and TypeScript. Build reusable, component-based user interfaces that align with design specifications and application requirements. Implement responsive layouts and styling using Tailwind CSS. Integrate REST APIs into frontend applications, including handling authentication, query parameters, loading states, and error responses. Review API documentation and Postman collections to understand API contracts and implement corresponding frontend functionality. Collaborate with backend developers and other team members to ensure seamless integration between frontend and backend systems. Use Git for version control, including branching, pull requests, and code review workflows. Troubleshoot and resolve frontend bugs, compatibility issues, and performance concerns. Participate in code reviews and incorporate feedback to maintain code quality, consistency, and maintainability. Support the development of new applications and features, including greenfield projects. Maintain clear technical documentation and follow established development standards. Perform other related tasks as assigned by the immediate superior or authorized company representatives. Qualifications Minimum of 2 years of hands-on professional experience developing applications with React . Practical experience with Next.js, specifically the App Router . Strong fundamentals in JavaScript and TypeScript. Hands-on experience using Tailwind CSS to style and build responsive interfaces. Comfortable working with Git, including branching, pull requests, and code review processes. Understanding of component-based development and the ability to build reusable UI components. Familiarity with REST API integration, including authentication, query parameters, loading states, and error handling. Ability to read API documentation, including Postman collections, and implement frontend features according to defined API contracts. Good understanding of responsive design, frontend debugging, and maintainable coding practices. Strong attention to detail and the ability to translate design specifications into functional user interfaces. Good communication and collaboration skills when working with other developers and stakeholders. Nice to have: Experience with AWS Amplify. Exposure to deploying or hosting frontend applications using cloud-based services. Experience working on greenfield applications or projects. Technical Requirements Priority Must-have skills React — minimum 2 years of hands-on professional experience. Next.js — specifically the App Router. JavaScript and TypeScript fundamentals. Tailwind CSS. Git branching, pull requests, and code review workflows. Learnable skills REST API integration and authentication handling. Reading API documentation and Postman collections. Component-based thinking and reusable UI development Why RecruitGo ? RecruitGo seamlessly links world-class business partners with top-tier global talent in emerging markets. Secure legal employment through our Employer of Record services and embark on a journey to unparalleled professional opportunities. Work Set-up: WFH/ Remote; Full time Salary Range: 50,000 to 60,000 Php Diverse Challenges: Each day offers fresh opportunities and unique challenges that keep your work engaging and rewarding. Team Collaboration: Join forces with a supportive team, where your insights and contributions are valued. Inclusivity: Be part of an inclusive and diverse workplace that values your contributions. Work with the internal team to ensure timely delivery of services to clients and ensure that client expectations are met. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:24:10+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795109050",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.844504+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.844504+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "PHP",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: responsive design (+8)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Skill: next.js (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.3,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_lamdax_senior-frontend-developer": {
+      "fingerprint": "himalayas::hm_lamdax_senior-frontend-developer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_lamdax_senior-frontend-developer",
+      "url": "https://himalayas.app/companies/lamdax/jobs/senior-frontend-developer",
+      "source_job_url": "https://himalayas.app/companies/lamdax/jobs/senior-frontend-developer",
+      "apply_url": "https://himalayas.app/companies/lamdax/jobs/senior-frontend-developer",
+      "title": "Senior Frontend Developer",
+      "company": "Lamdax",
+      "location": "Egypt",
+      "work_location": "Egypt",
+      "description": "Categories: Developer, Senior Front End Developer, Frontend Engineer, Front End Developer, Web Developer, UI Engineer, Senior Frontend Development, Senior Frontend React Developer\n\nAbout Us We develop smart, sustainable, and scalable digital solutions that help organizations simplify and manage business processes efficiently and effectively, transform data into decisions, and unlock new opportunities for growth and innovation.\n\nAbout Us We develop smart, sustainable, and scalable digital solutions that help organizations simplify and manage business processes efficiently and effectively, transform data into decisions, and unlock new opportunities for growth and innovation. Website: www.lamdax.sa Role Overview: As a Senior Frontend Developer at Lamdax , you will be responsible for designing, developing, and maintaining high-quality user interfaces for our web applications. You will collaborate with UX/UI designers, backend developers, and product managers to deliver performant and scalable frontend solutions that provide excellent user experiences. Your expertise will help drive innovation and ensure our products meet demanding technical and business requirements. Responsibilities Develop and maintain responsive, user-friendly web applications using modern frontend technologies such as React. Collaborate closely with designers and backend developers to implement robust and scalable features. Optimize application performance, ensuring fast load times and smooth interactions. Write clean, maintainable, and well-documented code following best practices and coding standards. Participate in code reviews, sprint planning, and agile development processes. Mentor junior frontend developers and contribute to continuous improvement of the team’s skills and processes. Stay current with emerging frontend technologies, trends, and industry best practices. Requirements 5+ years of professional experience in frontend development with a strong portfolio. Expertise in JavaScript and modern frontend frameworks/libraries such as React, Angular, or Vue.js. Proficiency in React. Solid understanding of HTML5, CSS3, and responsive design principles. Experience with RESTful APIs and integrating frontend applications with backend services. Familiarity with version control systems like Git and agile methodologies. Strong problem-solving skills, attention to detail, and ability to work collaboratively in a team. Excellent communication skills and a proactive mindset. Originally posted on Himalayas",
+      "posted_at": "2026-11-19T17:03:51+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795107831",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.845694+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.845694+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'frontend'",
+        "Skill: responsive design (+8)",
+        "Skill: react (+12)",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.64,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_inco-network_senior-front-end-engineer-6366042380": {
+      "fingerprint": "himalayas::hm_inco-network_senior-front-end-engineer-6366042380",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_inco-network_senior-front-end-engineer-6366042380",
+      "url": "https://himalayas.app/companies/inco-network/jobs/senior-front-end-engineer-6366042380",
+      "source_job_url": "https://himalayas.app/companies/inco-network/jobs/senior-front-end-engineer-6366042380",
+      "apply_url": "https://himalayas.app/companies/inco-network/jobs/senior-front-end-engineer-6366042380",
+      "title": "Senior Front-End Engineer",
+      "company": "Inco Network",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Frontend Engineer, Front End Developer, Web3 Front End Engineer, Blockchain Developer, Web Developer, Senior Frontend Engineering, Front End Software Engineer\n\nSenior Frontend Engineer About Inco Inco is building the confidentiality layer for blockchains through encryption technologies.\n\nSenior Frontend Engineer About Inco Inco is building the confidentiality layer for blockchains through encryption technologies. We’re building the next generation of secure, scalable, and privacy-enhancing solutions for Web3, enabling fintech, payments, and blockchain applications to have the same confidentiality and capabilities users expect from Web2. Who You Are We’re looking for a senior frontend engineer who has built production-grade Web3 user experiences and understands the unique complexity of blockchain applications. You have strong frontend fundamentals, but you also understand that Web3 frontend engineering is not just about building interfaces. It requires safely fetching and interpreting onchain data, integrating wallets, handling signatures, managing client-side state, and designing user flows where security and correctness matter. You should be comfortable building polished, reliable UIs while also thinking deeply about how users interact with wallets, sign messages, grant permissions, manage session keys, and execute intent-based flows. You understand the security risks of asking users to sign transactions or messages, and you care about making those flows clear, safe, and difficult to misuse. We’re looking for someone senior who can own frontend architecture end-to-end, raise engineering standards, and mentor more junior engineers. You should be the type of person who can turn ambiguous product requirements into secure, elegant, production-ready user experiences. This role is remote / hybrid / based in Bangalore (preferred). Responsibilities Frontend Architecture & Development Design, build, and maintain production-grade frontend applications using modern frontend technologies. Own frontend features end-to-end, from product requirements and UX flows to implementation, testing, and deployment. Build responsive, performant, and reliable user interfaces for Web3 products. Create reusable frontend components, patterns, and architecture that allow the team to move quickly without sacrificing quality. Work closely with product, design, backend, and protocol teams to translate complex Web3 flows into intuitive user experiences. Web3 Product & Wallet Integration Build frontend experiences that integrate with wallets, smart contracts, indexers, RPC providers, and blockchain data sources. Implement flows involving transaction signing, message signing, intent signing, session keys, delegated permissions, and account abstraction. Design user experiences around balances, transaction history, onchain transactions, permissions, and Web3 payment flows. Understand how to fetch, cache, reconcile, and display onchain and offchain data safely and accurately. Handle edge cases common in Web3 applications, including pending transactions, reorgs, failed RPC calls, wallet disconnects, chain switching, stale balances, and inconsistent indexer data. Security & Correctness Ensure frontend flows are secure by default, especially when users are asked to sign messages, authorize intents, or store session keys locally. Apply best practices for client-side key management, session key storage, permission scoping, signature domain separation, and phishing-resistant UX. Work with the team to identify and prevent risks around malicious signatures, replay attacks, unsafe approvals, incorrect transaction previews, and confusing wallet prompts. Treat frontend correctness as critical infrastructure, especially when user funds or private information are involved. Leadership & Mentorship Lead technical design discussions and help define frontend architecture, standards, and best practices. Review code and mentor junior engineers on frontend quality, Web3 security, testing, and production readiness. Improve engineering velocity by building strong abstractions, documentation, and internal tooling. Take ownership of frontend quality across performance, reliability, security, accessibility, and maintainability. Required Experience 5+ years of frontend engineering experience, with strong production experience building complex applications. Strong expertise in TypeScript, React, and modern frontend development. Experience building Web3, crypto, wallet, DeFi, payments, or blockchain-related frontend products. Strong understanding of wallet integrations, transaction flows, message signing, and onchain data fetching. Experience working with libraries and tools such as viem, wagmi, ethers.js, WalletConnect, RainbowKit, or similar. Strong understanding of frontend state management, API integration, caching, and real-time data updates. Ability to reason carefully about security-sensitive frontend flows involving user funds, permissions, ",
+      "posted_at": "2026-11-19T17:04:16+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795107856",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-20T14:41:59.846826+00:00",
+      "first_seen_at": "2026-11-20T14:41:59.846826+00:00",
+      "last_checked_at": "2026-11-20T14:42:04.399810+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 75,
+      "match_reasons": [
+        "Title matches frontend role: 'front-end'",
+        "Skill: accessibility (+8)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 21.63,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-20T14:43:34.988782+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:34.874682+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:34.543516+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:32.823258+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 42,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:32.720571+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:31.123447+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:30.801977+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:27.424979+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:25.043586+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.994339+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.569805+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.339764+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.296596+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.188813+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:43:24.151125+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 621,
+      "error": "",
+      "checked_at": "2026-11-20T14:42:39.132731+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 179,
+      "error": "",
+      "checked_at": "2026-11-20T14:42:04.399786+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-20T14:41:47.316289+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:41:42.444071+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 134,
+      "error": "",
+      "checked_at": "2026-11-20T14:41:42.127378+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-20T14:41:40.847873+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 98,
+      "error": "",
+      "checked_at": "2026-11-20T14:41:40.776780+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -12287,283 +13084,9 @@
       "jobs_found": 619,
       "error": "",
       "checked_at": "2026-11-12T05:10:11.457870+00:00"
-    },
-    {
-      "source": "himalayas",
-      "success": true,
-      "jobs_found": 180,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:36.884618+00:00"
-    },
-    {
-      "source": "workingnomads",
-      "success": true,
-      "jobs_found": 1,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:20.479083+00:00"
-    },
-    {
-      "source": "jobicy",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:16.247653+00:00"
-    },
-    {
-      "source": "weworkremotely",
-      "success": true,
-      "jobs_found": 138,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:16.087776+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:11.655491+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 98,
-      "error": "",
-      "checked_at": "2026-11-12T05:09:11.549658+00:00"
-    },
-    {
-      "source": "hays_uae",
-      "success": false,
-      "jobs_found": 0,
-      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
-      "checked_at": "2026-11-11T23:56:43.378814+00:00"
-    },
-    {
-      "source": "prism_digital",
-      "success": true,
-      "jobs_found": 12,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:43.272879+00:00"
-    },
-    {
-      "source": "sawatech",
-      "success": true,
-      "jobs_found": 7,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:16.469281+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:15.258792+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 40,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:15.193718+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:14.110523+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:11.675540+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:08.197689+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:05.114487+00:00"
-    },
-    {
-      "source": "dynamitejobs",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:05.015923+00:00"
-    },
-    {
-      "source": "wellfound",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:04.521618+00:00"
-    },
-    {
-      "source": "workable",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:04.083728+00:00"
-    },
-    {
-      "source": "smartrecruiters",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:03.975024+00:00"
-    },
-    {
-      "source": "ashby",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:03.848146+00:00"
-    },
-    {
-      "source": "lever",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-11T23:56:03.777638+00:00"
-    },
-    {
-      "source": "greenhouse",
-      "success": true,
-      "jobs_found": 618,
-      "error": "",
-      "checked_at": "2026-11-11T23:55:28.255828+00:00"
     }
   ],
   "recent_exclusions": [
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6873b595c806e580e285fdae",
-      "title": "Front End Development",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
-      "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-20T00:07:55.156273+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11866.6h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6873c1a2934aeb1281444d26",
-      "title": "Graphic Designer",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
-      "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-20T00:07:53.167861+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11865.7h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6873c28e934aeb1281444d2c",
-      "title": "Mobile Application Development",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
-      "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-20T00:07:51.135513+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11865.7h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6874fb7a268c2c569208b1bc",
-      "title": "Project Manager (Remote /Local)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
-      "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-20T00:07:49.114190+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11843.4h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6874fdab244bb176c6460ceb",
-      "title": "Laravel Developer (Remote / Local)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
-      "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-20T00:07:47.201952+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11843.2h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_687503232bdaa11dc90c7d31",
-      "title": "UI UX Designer (Remote)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
-      "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-20T00:07:45.290372+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.9h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_687503ccefca2945dd719f60",
-      "title": "Business Development Specialist",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
-      "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-20T00:07:43.478361+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.8h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_6875084355ff36e1c8957f05",
-      "title": "Full Stack Developer",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
-      "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-20T00:07:41.132059+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.5h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_68750a2b3918ee4f51c0ea66",
-      "title": "Bilingual Content Creators (Local)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
-      "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-20T00:07:39.132726+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.4h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_68750bd33ae1b7c8ee9496c0",
-      "title": "Sr SEO Executive (Remote)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
-      "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-20T00:07:37.231447+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.2h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_68750c935e3d9ec3a11bdca1",
-      "title": "English Content Writer (Remote)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
-      "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-20T00:07:35.272311+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11842.2h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "prism_digital",
-      "source_id": "pr_68c8f90b5a0f32f035bf815a",
-      "title": "Digital Marketing Trainee (Internship)",
-      "company": "Prism Digital",
-      "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
-      "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-20T00:07:33.313425+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10314.4h ago (exceeds 24h limit)"
-    },
     {
       "source": "sawatech",
       "source_id": "sw_wordpress-developer",
@@ -12571,8 +13094,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-20T00:07:28.423562+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.543384+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.8h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12581,8 +13104,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-20T00:07:28.423312+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.543200+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12591,8 +13114,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-20T00:07:28.423064+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.543008+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12601,8 +13124,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-20T00:07:28.422811+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.542797+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12611,8 +13134,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-20T00:07:28.422528+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.542593+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12621,8 +13144,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-20T00:07:28.422255+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20512.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.542389+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20526.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -12631,8 +13154,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-20T00:07:28.421947+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14068.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:34.542160+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14082.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -12641,8 +13164,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-20T00:07:26.832520+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 664.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.459751+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 679.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -12651,8 +13174,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-20T00:07:26.832368+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 592.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.459626+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 607.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -12661,8 +13184,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-20T00:07:26.832205+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 535.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.459503+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 549.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -12671,8 +13194,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-20T00:07:26.832054+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 530.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.459380+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 545.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -12681,8 +13204,18 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-20T00:07:26.831885+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 448.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.459260+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 463.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "wwr_frontend",
+      "source_id": "netlify-staff-software-engineer-interfaces",
+      "title": "Netlify: Staff Software Engineer (Interfaces)",
+      "company": "",
+      "source_timestamp_raw": "Thu, 19 Nov 2026 06:00:58 +0000",
+      "posted_at": "2026-11-19T06:00:58+00:00",
+      "detected_at": "2026-11-20T14:43:32.459140+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 32.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12691,8 +13224,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-20T00:07:25.952172+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1208.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.229289+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1223.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12701,8 +13234,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-20T00:07:25.952033+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1056.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.229173+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1070.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12711,8 +13244,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-20T00:07:25.951897+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1055.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.229055+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1070.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12721,8 +13254,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-20T00:07:25.951757+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 707.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228919+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 721.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12731,8 +13264,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-20T00:07:25.951613+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 588.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228802+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 602.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12741,8 +13274,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-20T00:07:25.951465+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 560.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228687+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 574.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12751,8 +13284,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-20T00:07:25.951330+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 505.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228570+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 520.0h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12761,8 +13294,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-20T00:07:25.951195+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 496.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228449+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 511.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12771,8 +13304,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-20T00:07:25.951056+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 391.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228332+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 405.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12781,8 +13314,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-20T00:07:25.950914+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 337.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228213+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 352.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12791,8 +13324,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-20T00:07:25.950771+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 295.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.228092+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 309.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12801,8 +13334,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-20T00:07:25.950622+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 199.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.227948+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 213.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12811,8 +13344,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:48 +0000",
       "posted_at": "2026-11-17T18:01:48+00:00",
-      "detected_at": "2026-11-20T00:07:25.950465+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 54.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.227825+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 68.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12821,8 +13354,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:38 +0000",
       "posted_at": "2026-11-18T11:31:38+00:00",
-      "detected_at": "2026-11-20T00:07:25.950319+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 36.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.227702+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 51.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12831,8 +13364,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:41 +0000",
       "posted_at": "2026-11-18T11:31:41+00:00",
-      "detected_at": "2026-11-20T00:07:25.950175+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 36.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.227581+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 51.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -12841,108 +13374,218 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:43 +0000",
       "posted_at": "2026-11-18T11:31:43+00:00",
-      "detected_at": "2026-11-20T00:07:25.950026+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 36.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-20T14:43:32.227459+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 51.2h ago (exceeds 24h limit)"
     },
     {
-      "source": "devto_hiring",
-      "source_id": "8-engineering-hiring-tips-that-actually-work-a82",
-      "title": "8 Engineering Hiring Tips That Actually Work",
-      "company": "",
-      "source_timestamp_raw": "Wed, 18 Nov 2026 23:23:34 +0000",
-      "posted_at": "2026-11-18T23:23:34+00:00",
-      "detected_at": "2026-11-20T00:07:25.696546+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 24.7h ago (exceeds 24h limit)"
+      "source": "greenhouse",
+      "source_id": "gh_8891698002",
+      "title": "Threat Research Engineer, Security Factory: Threat Research",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-11T04:10:18-05:00",
+      "posted_at": "2026-11-11T09:10:18+00:00",
+      "detected_at": "2026-11-20T14:42:37.266257+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 221.5h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_XMLNAME-2027-Intern---Business-Development-Representative--Adobe-Sales-Academy-_R173439",
-      "title": "2027 Intern - Business Development Representative (Adobe Sales Academy)",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted Today",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290609+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8753664002",
+      "title": "Talent Brand Manager",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-09-03T20:35:55-04:00",
+      "posted_at": "2026-09-04T00:35:55+00:00",
+      "detected_at": "2026-11-20T14:42:37.266164+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1862.1h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Engineering-Manager--Site-Reliability---Developer-Experience_R173423-1",
-      "title": "Engineering Manager, Site Reliability & Developer Experience",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 10 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290559+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8859063002",
+      "title": "Support Engineer, U.S. Government Support (SHIFT)",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-05T15:24:21-04:00",
+      "posted_at": "2026-10-05T19:24:21+00:00",
+      "detected_at": "2026-11-20T14:42:37.266070+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1099.3h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Manager--Coprporate-Development--M-A-Integration-_R171630",
-      "title": "Manager, Corporate Development (M&A Integration)",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 7 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290533+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8940804002",
+      "title": "Strategic Enterprise Account Executive (Sydney or Melbourne)",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-16T00:09:11-05:00",
+      "posted_at": "2026-11-16T05:09:11+00:00",
+      "detected_at": "2026-11-20T14:42:37.265960+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 105.6h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_XMLNAME-2027-MBA-Intern---Corporate-Development_R172745",
-      "title": "2027 MBA Intern - Corporate Development",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 24 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290508+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8936156002",
+      "title": "Strategic Account Executive - Spain ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-11T10:20:53-05:00",
+      "posted_at": "2026-11-11T15:20:53+00:00",
+      "detected_at": "2026-11-20T14:42:37.265871+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 215.4h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Machine-Learning-Engineer-50_R165421",
-      "title": "Senior Software Development Engineer 5",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290483+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8936142002",
+      "title": "Strategic Account Executive - Spain",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-11T10:14:21-05:00",
+      "posted_at": "2026-11-11T15:14:21+00:00",
+      "detected_at": "2026-11-20T14:42:37.265781+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 215.5h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Software-Developer-Engineer_R164352",
-      "title": "Software Developer Engineer 3/4",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290457+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8887399002",
+      "title": "Strategic Account Executive - Singapore",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-08T23:23:58-05:00",
+      "posted_at": "2026-11-09T04:23:58+00:00",
+      "detected_at": "2026-11-20T14:42:37.265672+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 274.3h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Senior-Software-Development-Engineer-5_R171007",
-      "title": "Senior Software Development Engineer 5",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290431+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8706202002",
+      "title": "Strategic Account Executive - Seattle ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-08-17T13:42:34-04:00",
+      "posted_at": "2026-08-17T17:42:34+00:00",
+      "detected_at": "2026-11-20T14:42:37.265585+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 2277.0h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Senior-Software-Development-Engineer-5_R170928",
-      "title": "Senior Software Development Engineer 5",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 30+ Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290406+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8691382002",
+      "title": "Strategic Account Executive - San Francisco",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-09-23T15:14:40-04:00",
+      "posted_at": "2026-09-23T19:14:40+00:00",
+      "detected_at": "2026-11-20T14:42:37.265499+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1387.5h ago (exceeds 24h limit)"
     },
     {
-      "source": "workday",
-      "source_id": "wd_Senior-Product-Designer--AI-powered-Experiences--Adobe-Experience-Platform-_R173026-1",
-      "title": "Senior Product Designer, AI-powered Experiences (Adobe Experience Platform)",
-      "company": "Adobe",
-      "source_timestamp_raw": "Posted 20 Days Ago",
-      "posted_at": null,
-      "detected_at": "2026-11-20T00:07:24.290379+00:00",
-      "exclusion_reason": "Excluded by age filter: missing or unreliable original posting date"
+      "source": "greenhouse",
+      "source_id": "gh_8858197002",
+      "title": "Strategic Account Executive, Northeast",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-18T21:32:46-04:00",
+      "posted_at": "2026-10-19T01:32:46+00:00",
+      "detected_at": "2026-11-20T14:42:37.265320+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 781.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8637995002",
+      "title": "Strategic Account Executive - MENA",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-07-22T05:52:22-04:00",
+      "posted_at": "2026-07-22T09:52:22+00:00",
+      "detected_at": "2026-11-20T14:42:37.265230+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 2908.8h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8887401002",
+      "title": "Strategic Account Executive - India ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-28T03:53:09-04:00",
+      "posted_at": "2026-10-28T07:53:09+00:00",
+      "detected_at": "2026-11-20T14:42:37.265142+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 558.8h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8868220002",
+      "title": "Strategic Account Executive, France",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-06T07:10:43-04:00",
+      "posted_at": "2026-10-06T11:10:43+00:00",
+      "detected_at": "2026-11-20T14:42:37.265049+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1083.5h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8897529002",
+      "title": "Strategic Account Executive, Financial Services - US East ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-23T12:08:24-04:00",
+      "posted_at": "2026-10-23T16:08:24+00:00",
+      "detected_at": "2026-11-20T14:42:37.264943+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 670.6h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8897543002",
+      "title": "Strategic Account Executive, Financial Services - US Central   ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-18T16:10:44-05:00",
+      "posted_at": "2026-11-18T21:10:44+00:00",
+      "detected_at": "2026-11-20T14:42:37.264854+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 41.5h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8877428002",
+      "title": "Strategic Account Executive, Financial Services - Brazil",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-16T20:38:41-04:00",
+      "posted_at": "2026-10-17T00:38:41+00:00",
+      "detected_at": "2026-11-20T14:42:37.264763+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 830.1h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8877434002",
+      "title": "Strategic Account Executive - Brazil",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-16T19:33:28-04:00",
+      "posted_at": "2026-10-16T23:33:28+00:00",
+      "detected_at": "2026-11-20T14:42:37.264672+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 831.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8895523002",
+      "title": "Strategic Account Executive - AI, San Francisco   ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-23T12:57:41-04:00",
+      "posted_at": "2026-10-23T16:57:41+00:00",
+      "detected_at": "2026-11-20T14:42:37.264581+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 669.7h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8860106002",
+      "title": "Strategic Account Executive",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-02T13:47:21-04:00",
+      "posted_at": "2026-10-02T17:47:21+00:00",
+      "detected_at": "2026-11-20T14:42:37.264493+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1172.9h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8922693002",
+      "title": "Staff Technical Writer ",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-11-16T17:28:52-05:00",
+      "posted_at": "2026-11-16T22:28:52+00:00",
+      "detected_at": "2026-11-20T14:42:37.264405+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 88.2h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "greenhouse",
+      "source_id": "gh_8860196002",
+      "title": "Staff Solutions Architect, AI Subject Matter Expert",
+      "company": "GitLab",
+      "source_timestamp_raw": "2026-10-16T13:04:28-04:00",
+      "posted_at": "2026-10-16T17:04:28+00:00",
+      "detected_at": "2026-11-20T14:42:37.264315+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 837.6h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -12967,7 +13610,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-20T00:07:27.287709+00:00",
+      "last_checked_at": "2026-11-20T14:43:32.823258+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -13019,7 +13662,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-20T00:07:27.287709+00:00",
+      "last_checked_at": "2026-11-20T14:43:32.823258+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -13149,7 +13792,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-20T00:07:55.313035+00:00",
+      "last_checked_at": "2026-11-20T14:43:34.988782+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -13175,7 +13818,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-20T00:07:28.423721+00:00",
+      "last_checked_at": "2026-11-20T14:43:34.543516+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -13188,9 +13831,9 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-20T00:07:55.156440+00:00",
+      "last_checked_at": "2026-11-20T14:43:34.874682+00:00",
       "last_success": true,
-      "last_jobs_found": 12,
+      "last_jobs_found": 0,
       "last_error": ""
     }
   ]
