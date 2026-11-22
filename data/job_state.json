@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T22:41:29.402876+00:00",
+  "last_updated": "2026-11-22T04:25:53.922446+00:00",
   "stats": {
-    "total_jobs": 223,
+    "total_jobs": 232,
     "total_notified": 0
   },
   "jobs": {
@@ -10736,9 +10736,615 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "himalayas::hm_higharc_ux-designer-6727713959": {
+      "fingerprint": "himalayas::hm_higharc_ux-designer-6727713959",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_higharc_ux-designer-6727713959",
+      "url": "https://himalayas.app/companies/higharc/jobs/ux-designer-6727713959",
+      "source_job_url": "https://himalayas.app/companies/higharc/jobs/ux-designer-6727713959",
+      "apply_url": "https://himalayas.app/companies/higharc/jobs/ux-designer-6727713959",
+      "title": "UX Designer",
+      "company": "Higharc",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, UX Designer, UI UX Designer, UX Design, Product Designer, UX, Junior UX Designer\n\nAbout Us Higharc is a VC-backed startup that is changing how new homes are designed and built.\n\nAbout Us Higharc is a VC-backed startup that is changing how new homes are designed and built. Join a founding team who’ve shipped products for Autodesk, Electronic Arts, Nike, and Apple. We have raised over $175M with support from top-notch venture capital firms and more than 18 strategic investors: industry leaders in construction, building products manufacturing, and distribution. Higharc is seeking an accomplished UX Designer to join our growing Product org. In this role, you'll define and craft end-to-end experiences that simplify the complex—and make home design and construction more accessible, efficient, and human. What You'll Do You’ll work alongside a multidisciplinary team of engineers, architects, and 3D visualization experts to design tools that serve builders, buyers, and everyone involved in bringing homes to life. Your work will have a lasting, real-world impact and play a critical role in shaping the future of the homebuilding industry. Expect to: Design End-to-End Experiences: Lead the UX and UI design of web-based tools across Higharc ’s platform. Simplify the Complex: Translate detailed workflows into clear, human-centered experiences. Collaborate Cross-Functionally: Work closely with product managers and engineers to ensure cohesive product thinking. Partner closely with homebuilders, suppliers, contractors, and buyers to understand their needs and pain points. Own Design Process: Develop user flows, journey maps, wireframes, prototypes, and high-fidelity visuals to articulate design intent. Influence Product Strategy: Bring a strong, user-focused design perspective to product decisions. Validate with Data: Leverage both qualitative and quantitative user insights to inform and iterate on designs. Champion Design Systems: Contribute to and evolve our design system to ensure consistency and scalability. About You You’re a product-minded designer who thrives on solving complex problems and crafting user-centered solutions. You’re passionate about improving how people design and live in their homes—and energized by the opportunity to make a meaningful dent in an outdated industry. You have: 7+ years of experience designing web-based software A track record of shipping high-quality, thoughtful product experiences in complex domains A strong portfolio that showcases your process, thinking, and ability to simplify complexity Deep user empathy and a clear, confident communication style—especially when working with cross-functional teams A systems-thinking mindset with the ability to balance detail with big-picture product vision Experience in defining and delivering net-new experiences, not just iterating on existing patterns Comfort articulating trade-offs, managing ambiguity, and driving toward clarity in fast-moving environments A major plus if you also bring: A background or passion in architecture, construction tech, or home design Familiarity with 3D tools or environments (e.g., Revit, Rhino, SketchUp, Unity, Three.js) Experience contributing to or evolving a design system Working at Higharc Remote work and travel: Our company is entirely remote, and has been since we were founded in 2018. Remote work means more time with family, less time commuting, and the flexibility to blend work and life. We value in-person collaboration and asynchronous deep-work time, which is why we schedule regular team meet-ups in our hubs across the US and, depending on the role, prioritize hiring in those hubs. If your role requires frequent travel beyond pre-scheduled team meet ups, we will represent that to the best of our ability as early as possible in the interview process. Compensation and benefits: Higharc offers competitive salaries with significant equity, in a fast-growing, well-funded company. We provide comprehensive medical, dental, and vision coverage, with flexible PTO, and meaningful maternity/paternity leave to all U.S based employees that are full-time. You'll also have access to other big-company benefits such like short and long-term disability plans and a 401K. We also provide a stipend to create the ideal home office and support ongoing L&D. Please note: we are seeing an uptick of fraudulent recruiting activity claiming to be associated with Higharc . All communication and outreach from our in-house team will come from an @higharc.com email address. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T03:18:58+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795317538",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:47.099541+00:00",
+      "first_seen_at": "2026-11-22T04:23:47.099541+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "junior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches design role: 'ux designer'",
+        "Skill: sketch (+10)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.08,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_noct_video-content-creator-intern": {
+      "fingerprint": "himalayas::hm_noct_video-content-creator-intern",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_noct_video-content-creator-intern",
+      "url": "https://himalayas.app/companies/noct/jobs/video-content-creator-intern",
+      "source_job_url": "https://himalayas.app/companies/noct/jobs/video-content-creator-intern",
+      "apply_url": "https://himalayas.app/companies/noct/jobs/video-content-creator-intern",
+      "title": "Video Content Creator Intern",
+      "company": "NOCT",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Content Creator, Video Content Creator, Video Editor, Content Creator\n\nCategory: Technology Location: Remote/Panchgani Maharashtra India Do you constantly save reels because of an interesting transition, clever hook, or editing style?\n\nCategory: Technology Location: Remote/Panchgani Maharashtra India Do you constantly save reels because of an interesting transition, clever hook, or editing style? Are you someone who enjoys spotting content trends and figuring out how to turn them into fresh video ideas? If planning, shooting, editing, and experimenting with short-form content excites you, this role could be for you. Apply to NOCT to work on creating mobile-first video content , exploring different content themes, formats, editing styles, and trends to create videos that are engaging, relevant, and easy for people to make their own. Requirements The job requirements: Planning, scripting, and shooting engaging short-form video content inspired by current trends, formats, and audience behaviour.​ Exploring a versatile range of content themes and visual styles to create templates suited to different industries, themes and audiences. Crafting compelling narratives through pacing, timing, motion and sound transitions, and visual storytelling. Collaborating with team leads and co-creators to develop concepts, exchange creative inputs, and bring unique video ideas to life. Organizing project files, footage, assets, and edit workflows to ensure smooth execution and timely delivery. Taking initiative to experiment with creative formats, visual hooks, transitions, editing techniques, and storytelling approaches/ techniques that make people want to click and keep watching. Keeping up with emerging video trends, editing styles, creator formats, music-led content, and platform behaviours to continually bring fresh ideas into the work. What you need to bring to the table : Students, creators, filmmakers, video editors, content creators, and freshers with a strong interest in short-form video and digital content can apply. A portfolio, showreel, social media page, personal projects, freelance work, or any body of work that demonstrates your ability to conceptualise and create engaging video content. Academic qualifications are secondary. We evaluate applications primarily on the quality of your work and creative potential. Confident and comfortable being in front of the camera, bringing ideas to life through engaging on-screen presence. Stay updated with social media trends, actively studying formats, styles, and emerging content patterns. Strong understanding of content ideation, cinematography, framing, and lighting. Own a good-quality camera and essential filming equipment to create high-quality visual content. Experiment with different content styles & formats to keep audiences engaged. Curiosity and an experimental mindset. You should enjoy trying new formats, testing ideas, and finding interesting ways to turn simple footage into engaging content. Details Originally posted on Himalayas",
+      "posted_at": "2026-11-22T03:15:55+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795317355",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:47.109529+00:00",
+      "first_seen_at": "2026-11-22T04:23:47.109529+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Intern",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 53,
+      "match_reasons": [
+        "Title matches digital marketing role: 'content creator'",
+        "Skill: social media (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "marketing",
+      "age_hours": 1.14,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_product-designer-ui-ux-3174526518": {
+      "fingerprint": "himalayas::hm_bjak_product-designer-ui-ux-3174526518",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_product-designer-ui-ux-3174526518",
+      "url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3174526518",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3174526518",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3174526518",
+      "title": "Product Designer (UI/UX)",
+      "company": "Bjak",
+      "location": "China",
+      "work_location": "China",
+      "description": "Categories: Design, Product Designer, Product Design (UX UI), UI UX Designer, UX UI Product Design, UX Designer, UX Product Design, Design\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a Product Designer to shape intuitive, high-quality product experiences across BJAK's financial products. This role is for someone who enjoys solving product problems through thoughtful interface design. You'll work closely with product managers and engineers to simplify complex financial workflows into experiences that feel fast, intuitive and trustworthy. What You'll Own Design end-to-end product experiences from concept to production. Transform product requirements into user flows, wireframes, prototypes and polished interfaces. Design intuitive experiences across insurance, payments, claims, investments and other financial products. Build and maintain scalable design systems and reusable UI components. Collaborate closely with engineers to ensure designs are implemented accurately. Improve usability through rapid iteration using product data and user feedback. Maintain consistency across mobile and web experiences. Continuously refine interactions, accessibility and overall product quality. What We're Looking For 3+ years of experience designing digital products. Strong portfolio demonstrating product thinking and excellent visual design. Advanced proficiency in Figma and interactive prototyping. Strong understanding of design systems, component libraries and responsive design. Strong understanding of information architecture and user flows. Excellent visual design skills including typography, spacing, layout and interaction design. Ability to simplify complex workflows into intuitive experiences. Portfolio is required. Design Stack Figma FigJam Design Systems Interactive Prototyping Auto Layout Component Libraries The Kind of Builder We Want Thinks about solving customer problems, not just designing screens. Balances business goals with user experience. Obsesses over clarity, simplicity and consistency. Works collaboratively with engineers and product teams. Takes ownership from idea through launch. Continuously improves products using real user insights. This Role Is Not For Designers who only focus on visuals without considering usability. People who require fully detailed specifications before contributing. Designers who struggle to explain design decisions. Individuals who don't enjoy fast-moving startup environments. Candidates who exaggerate ownership or cannot explain what they personally designed. Location This role is remote, but candidates must be based in China . We are hiring specifically for this market, so applicants should already be based in China . Language English is our primary working language across global teams. Strong English communication is required. Interview Process Portfolio Review Practical Design Task (if applicable) Role-specific Interview CEO / Final Interview For strong candidates, we aim to complete the process and make an offer within one week. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T03:14:45+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795317285",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:47.123137+00:00",
+      "first_seen_at": "2026-11-22T04:23:47.123137+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui/ux'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: responsive design (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.16,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_capcade_lead-product-designer": {
+      "fingerprint": "himalayas::hm_capcade_lead-product-designer",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_capcade_lead-product-designer",
+      "url": "https://himalayas.app/companies/capcade/jobs/lead-product-designer",
+      "source_job_url": "https://himalayas.app/companies/capcade/jobs/lead-product-designer",
+      "apply_url": "https://himalayas.app/companies/capcade/jobs/lead-product-designer",
+      "title": "Lead Product Designer",
+      "company": "Capcade",
+      "location": "Netherlands, South Africa",
+      "work_location": "Netherlands, South Africa",
+      "description": "Categories: Design, Product Designer, UX Designer, UX Researcher, Design Systems Designer\n\nLead Product Designer Full-time · Remote-friendly (Amsterdam, Cape Town) ABOUT CAPCADE Capcade is building the collaboration infrastructure for private markets.\n\nLead Product Designer Full-time · Remote-friendly (Amsterdam, Cape Town) ABOUT CAPCADE Capcade is building the collaboration infrastructure for private markets. Fund managers, investors, and the service providers around them run their most important work across scattered tools and email threads. That work covers fundraising, due diligence, investor onboarding, post-close reporting, and structured-product programmes. We replace all of it with one secure, structured environment where people, documents, data, and tasks live in the same place. We run the operational side of private funds: the entities, documents, workflows and reporting that sit between a fund manager, their administrator and their investors. The people using Capcade aren’t there to enjoy software. They are there to close something, prove something or answer to someone. Design here is about making consequential work clear, fast and hard to get wrong. Many of the best names in global finance already use the platform, including hundreds of the Fortune 500. We are a team of around 50 people across seven jurisdictions. That’s small enough that your work shows up the week you ship it. ABOUT THE ROLE We are turning investor (LP) reporting into a product of its own, and we’re building a set of fund management products around it. We want a lead designer to own that area. You will lead design for LP reporting from start to finish. You will shape what the product is together with product management, not only how it looks. As new fund management products arrive, such as fundraising and investor onboarding, you will make sure they work as one experience rather than as separate tools. You will report to our Head of Design. You’ll work closely with our product designer, who leads design on our other products. This is a hands-on lead role. You will be in the work every day: prototyping, testing and shipping. You will also help shape how design works as the team grows. WHAT YOU WILL DO Own LP reporting design from start to finish. Run discovery, prototyping and testing with fund managers and investors, and stay involved through to what ships. Connect the fund management products. Bring the same approach to fundraising, investor onboarding and the products that follow, so users experience them as one product. Prototype in code. We build proposed changes as working prototypes behind feature flags rather than static mock-ups, and we test them with real users before they’re built. You’ll use AI tools like Claude Code daily to do this. Run your own research. Plan and moderate usability sessions with internal users, clients and design partners. Write up what you find as evidence the team can act on. Get design in early. Work alongside product and engineering from the start of scoping, and make the case for the user before the work is decided. Write it down. Turn decisions into design-system patterns and specs so the next team doesn’t have to make them again. Help build the team. Mentor designers, run critique sessions, and help shape how design works as we grow. HOW WE WILL MEASURE SUCCESS This is what good looks like in your first 90 days: An LP reporting prototype tested with at least three fund managers. The main user flows in your area mapped and walked through, with the friction in each one recorded. Design involved in scoping LP reporting from the start. WHAT WE ARE LOOKING FOR 7+ years designing complex, data-heavy B2B products, ideally reporting, dashboards or analytics. Experience owning a product’s design from start to finish, including shaping what gets built, not only the interface. Comfort prototyping in code (for example React, Next.js or Tailwind), or a clear track record of picking up tools like these quickly. Hands-on research experience: you’ve planned, run and synthesised your own usability testing. Confidence holding a design position with product and engineering, backed by evidence. Clear writing. You document your decisions as a matter of course. NICE TO HAVE Experience in fund administration, private markets, fintech, or another regulated, document-heavy area. You can learn the domain here. Design-system experience, such as tokens, component libraries or Storybook. Experience mentoring or leading other designers. WHAT WE OFFER A base salary benchmarked to your location and in line with the market for this level of seniority. An annual equity grant that vests over four years. This is real ownership in a company still small enough for your work to move its value. Ownership of a product area that is being built now, with a real say in what it becomes. 25 days of paid holiday, remote-friendly working, and the latest modern tools. Honest, regular feedback, and great colleagues who are good at their j",
+      "posted_at": "2026-11-22T03:01:23+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795316483",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:51.121137+00:00",
+      "first_seen_at": "2026-11-22T04:23:51.121137+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 95,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: prototyping (+8)",
+        "Skill: design system (+12)",
+        "Skill: react (+12)",
+        "Skill: next.js (+10)",
+        "Skill: tailwind (+8)"
+      ],
+      "match_category": "design",
+      "age_hours": 1.38,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_ui-designer-ai-neobank-app-9485871381": {
+      "fingerprint": "himalayas::hm_bjak_ui-designer-ai-neobank-app-9485871381",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_ui-designer-ai-neobank-app-9485871381",
+      "url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9485871381",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9485871381",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9485871381",
+      "title": "UI Designer - AI Neobank App",
+      "company": "Bjak",
+      "location": "China",
+      "work_location": "China",
+      "description": "Categories: Design, AI UX UI Designer, UI Designer, UI UX Designer, Digital Banking Design, AI Interface Design, UI UX Design, UI Design\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a UI Designer to craft intuitive, elegant and high-performing interfaces for BJAK's AI and financial products. This role is for someone who obsesses over visual quality, interaction details and usability. You'll work closely with product managers and engineers to design mobile-first experiences that make complex financial products feel simple, trustworthy and enjoyable to use. What You'll Own Design polished, user-centric interfaces for mobile and web products. Transform product requirements into wireframes, user flows, prototypes and high-fidelity UI. Build intuitive experiences across insurance, payments, claims, investments and other financial services. Maintain and evolve BJAK's design system to ensure consistency across products. Collaborate closely with product managers and engineers to deliver pixel-perfect implementation. Iterate designs using user feedback, analytics and usability testing. Ensure accessibility, responsiveness and visual consistency across different devices and platforms. Contribute to improving overall product usability, interaction patterns and visual language. What We're Looking For 2–5 years of experience designing digital products, with a strong focus on mobile applications. Strong portfolio demonstrating exceptional visual design, interaction design and UI craftsmanship. Advanced proficiency in Figma, prototyping and modern design workflows. Strong understanding of mobile-first design principles, platform guidelines (iOS & Android) and responsive layouts. Good understanding of UX principles, information architecture and user-centred design. Ability to simplify complex user journeys into intuitive interfaces. High attention to detail with strong visual hierarchy, typography and spacing. Portfolio is required. Applications without a portfolio will not be considered. Design Tools Figma FigJam Design Systems Interactive Prototyping Auto Layout & Components Design Tokens The Kind of Builder We Want Thinks in complete user journeys, not just beautiful screens. Obsesses over clarity, consistency and usability. Designs interfaces that reduce friction and build user trust. Works closely with engineers to ensure designs are implemented accurately. Moves quickly while maintaining a high standard of visual quality. Takes ownership of problems instead of waiting for detailed instructions. This Role Is Not For Designers who focus only on aesthetics without considering usability. People who copy trends without understanding user problems. Designers who struggle to collaborate with product and engineering teams. Individuals who require extensive direction before making design decisions. Candidates who cannot clearly explain the rationale behind their design choices or their individual contributions. Location This role is remote, but candidates must be based in Hong Kong . We are hiring specifically for this market, so applicants should already be based in Hong Kong . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T02:52:09+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795315929",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:53.094830+00:00",
+      "first_seen_at": "2026-11-22T04:23:53.094830+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.53,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_ui-designer-ai-neobank-app-9017439779": {
+      "fingerprint": "himalayas::hm_bjak_ui-designer-ai-neobank-app-9017439779",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_ui-designer-ai-neobank-app-9017439779",
+      "url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9017439779",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9017439779",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-9017439779",
+      "title": "UI Designer - AI Neobank App",
+      "company": "Bjak",
+      "location": "Singapore",
+      "work_location": "Singapore",
+      "description": "Categories: Design, AI UX UI Designer, UI Designer, UI UX Designer, Digital Banking Design, AI UX Design, AI Interface Design, UI UX Design\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a UI Designer to craft intuitive, elegant and high-performing interfaces for BJAK's AI and financial products. This role is for someone who obsesses over visual quality, interaction details and usability. You'll work closely with product managers and engineers to design mobile-first experiences that make complex financial products feel simple, trustworthy and enjoyable to use. What You'll Own Design polished, user-centric interfaces for mobile and web products. Transform product requirements into wireframes, user flows, prototypes and high-fidelity UI. Build intuitive experiences across insurance, payments, claims, investments and other financial services. Maintain and evolve BJAK's design system to ensure consistency across products. Collaborate closely with product managers and engineers to deliver pixel-perfect implementation. Iterate designs using user feedback, analytics and usability testing. Ensure accessibility, responsiveness and visual consistency across different devices and platforms. Contribute to improving overall product usability, interaction patterns and visual language. What We're Looking For 2–5 years of experience designing digital products, with a strong focus on mobile applications. Strong portfolio demonstrating exceptional visual design, interaction design and UI craftsmanship. Advanced proficiency in Figma, prototyping and modern design workflows. Strong understanding of mobile-first design principles, platform guidelines (iOS & Android) and responsive layouts. Good understanding of UX principles, information architecture and user-centred design. Ability to simplify complex user journeys into intuitive interfaces. High attention to detail with strong visual hierarchy, typography and spacing. Portfolio is required. Applications without a portfolio will not be considered. Design Tools Figma FigJam Design Systems Interactive Prototyping Auto Layout & Components Design Tokens The Kind of Builder We Want Thinks in complete user journeys, not just beautiful screens. Obsesses over clarity, consistency and usability. Designs interfaces that reduce friction and build user trust. Works closely with engineers to ensure designs are implemented accurately. Moves quickly while maintaining a high standard of visual quality. Takes ownership of problems instead of waiting for detailed instructions. This Role Is Not For Designers who focus only on aesthetics without considering usability. People who copy trends without understanding user problems. Designers who struggle to collaborate with product and engineering teams. Individuals who require extensive direction before making design decisions. Candidates who cannot clearly explain the rationale behind their design choices or their individual contributions. Location This role is remote, but candidates must be based in Singapore . We are hiring specifically for this market, so applicants should already be based in Singapore . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T02:50:15+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795315815",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:53.108266+00:00",
+      "first_seen_at": "2026-11-22T04:23:53.108266+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.56,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_product-designer-ui-ux-3088395401": {
+      "fingerprint": "himalayas::hm_bjak_product-designer-ui-ux-3088395401",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_product-designer-ui-ux-3088395401",
+      "url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3088395401",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3088395401",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/product-designer-ui-ux-3088395401",
+      "title": "Product Designer (UI/UX)",
+      "company": "Bjak",
+      "location": "Philippines",
+      "work_location": "Philippines",
+      "description": "Categories: Design, Product Designer, Product Design (UX UI), UI UX Designer, UX UI Product Design, UX Designer, UX Product Design, Design\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a Product Designer to shape intuitive, high-quality product experiences across BJAK's financial products. This role is for someone who enjoys solving product problems through thoughtful interface design. You'll work closely with product managers and engineers to simplify complex financial workflows into experiences that feel fast, intuitive and trustworthy. What You'll Own Design end-to-end product experiences from concept to production. Transform product requirements into user flows, wireframes, prototypes and polished interfaces. Design intuitive experiences across insurance, payments, claims, investments and other financial products. Build and maintain scalable design systems and reusable UI components. Collaborate closely with engineers to ensure designs are implemented accurately. Improve usability through rapid iteration using product data and user feedback. Maintain consistency across mobile and web experiences. Continuously refine interactions, accessibility and overall product quality. What We're Looking For 3+ years of experience designing digital products. Strong portfolio demonstrating product thinking and excellent visual design. Advanced proficiency in Figma and interactive prototyping. Strong understanding of design systems, component libraries and responsive design. Strong understanding of information architecture and user flows. Excellent visual design skills including typography, spacing, layout and interaction design. Ability to simplify complex workflows into intuitive experiences. Portfolio is required. Design Stack Figma FigJam Design Systems Interactive Prototyping Auto Layout Component Libraries The Kind of Builder We Want Thinks about solving customer problems, not just designing screens. Balances business goals with user experience. Obsesses over clarity, simplicity and consistency. Works collaboratively with engineers and product teams. Takes ownership from idea through launch. Continuously improves products using real user insights. This Role Is Not For Designers who only focus on visuals without considering usability. People who require fully detailed specifications before contributing. Designers who struggle to explain design decisions. Individuals who don't enjoy fast-moving startup environments. Candidates who exaggerate ownership or cannot explain what they personally designed. Location This role is remote, but candidates must be based in Phlippines . We are hiring specifically for this market, so applicants should already be based in Philippines . Language English is our primary working language across global teams. Strong English communication is required. Interview Process Portfolio Review Practical Design Task (if applicable) Role-specific Interview CEO / Final Interview For strong candidates, we aim to complete the process and make an offer within one week. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T02:49:03+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795315743",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:53.112123+00:00",
+      "first_seen_at": "2026-11-22T04:23:53.112123+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui/ux'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: responsive design (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.58,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_mobile-ui-designer-8576872411": {
+      "fingerprint": "himalayas::hm_bjak_mobile-ui-designer-8576872411",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_mobile-ui-designer-8576872411",
+      "url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer-8576872411",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer-8576872411",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/mobile-ui-designer-8576872411",
+      "title": "Mobile UI Designer",
+      "company": "Bjak",
+      "location": "Singapore",
+      "work_location": "Singapore",
+      "description": "Categories: Design, Mobile UI Designer, Mobile UX UI Designer, Mobile UI UX Designer, Mobile UI UX Design, Mobile UI Design, Mobile UX UI Design, Mobile App Designer\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a Mobile UI Designer to create elegant, intuitive and high-performing mobile experiences for BJAK's AI Neobank and financial products. This role is for someone who loves designing mobile interfaces that feel effortless, responsive and visually refined. You'll work alongside engineers and product managers to create experiences used daily by millions of users. What You'll Own Design beautiful and intuitive interfaces for iOS and Android applications. Create wireframes, user flows, prototypes and production-ready UI. Design mobile experiences across insurance, payments, claims, investments and financial services. Build and maintain mobile design systems and reusable components. Work closely with developers to ensure pixel-perfect implementation. Optimize interfaces for usability, accessibility and platform guidelines. Iterate designs using analytics, usability findings and product feedback. Ensure consistency across different devices, screen sizes and operating systems. What We're Looking For 2+ years of experience designing mobile applications. Strong portfolio showcasing high-quality mobile UI work. Expert proficiency in Figma and interactive prototyping. Deep understanding of iOS Human Interface Guidelines and Android Material Design. Strong understanding of mobile usability, responsive layouts and interaction design. Excellent attention to typography, spacing, colour and visual hierarchy. Ability to simplify complex financial workflows into clean mobile experiences. Portfolio is required. Design Stack Figma FigJam Design Systems Auto Layout Interactive Prototyping iOS Human Interface Guidelines Material Design The Kind of Builder We Want Thinks mobile-first. Obsesses over visual polish and interaction quality. Notices small UI inconsistencies before users do. Cares about accessibility, responsiveness and performance. Collaborates closely with engineers to deliver high-quality products. Takes pride in shipping pixel-perfect interfaces. This Role Is Not For Designers whose experience is primarily marketing or branding. People who design without considering real user behaviour. Designers unfamiliar with mobile platform conventions. Individuals who struggle to collaborate with engineers. Candidates who cannot explain the rationale behind their design decisions. Location This role is remote, but candidates must be based in Singapore . We are hiring specifically for this market, so applicants should already be based in Singapore . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T02:47:06+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795315626",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:53.122408+00:00",
+      "first_seen_at": "2026-11-22T04:23:53.122408+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: branding (+8)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.62,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_bjak_ui-designer-ai-neobank-app-8254492196": {
+      "fingerprint": "himalayas::hm_bjak_ui-designer-ai-neobank-app-8254492196",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_bjak_ui-designer-ai-neobank-app-8254492196",
+      "url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-8254492196",
+      "source_job_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-8254492196",
+      "apply_url": "https://himalayas.app/companies/bjak/jobs/ui-designer-ai-neobank-app-8254492196",
+      "title": "UI Designer - AI Neobank App",
+      "company": "Bjak",
+      "location": "Australia",
+      "work_location": "Australia",
+      "description": "Categories: Design, UI Designer, UI UX Designer, Digital Banking Design, UI UX Design, UI Design, Financial UI Designer, UX UI Design\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.\n\nAbout BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a UI Designer to craft intuitive, elegant and high-performing interfaces for BJAK's AI and financial products. This role is for someone who obsesses over visual quality, interaction details and usability. You'll work closely with product managers and engineers to design mobile-first experiences that make complex financial products feel simple, trustworthy and enjoyable to use. What You'll Own Design polished, user-centric interfaces for mobile and web products. Transform product requirements into wireframes, user flows, prototypes and high-fidelity UI. Build intuitive experiences across insurance, payments, claims, investments and other financial services. Maintain and evolve BJAK's design system to ensure consistency across products. Collaborate closely with product managers and engineers to deliver pixel-perfect implementation. Iterate designs using user feedback, analytics and usability testing. Ensure accessibility, responsiveness and visual consistency across different devices and platforms. Contribute to improving overall product usability, interaction patterns and visual language. What We're Looking For 2–5 years of experience designing digital products, with a strong focus on mobile applications. Strong portfolio demonstrating exceptional visual design, interaction design and UI craftsmanship. Advanced proficiency in Figma, prototyping and modern design workflows. Strong understanding of mobile-first design principles, platform guidelines (iOS & Android) and responsive layouts. Good understanding of UX principles, information architecture and user-centred design. Ability to simplify complex user journeys into intuitive interfaces. High attention to detail with strong visual hierarchy, typography and spacing. Portfolio is required. Applications without a portfolio will not be considered. Design Tools Figma FigJam Design Systems Interactive Prototyping Auto Layout & Components Design Tokens The Kind of Builder We Want Thinks in complete user journeys, not just beautiful screens. Obsesses over clarity, consistency and usability. Designs interfaces that reduce friction and build user trust. Works closely with engineers to ensure designs are implemented accurately. Moves quickly while maintaining a high standard of visual quality. Takes ownership of problems instead of waiting for detailed instructions. This Role Is Not For Designers who focus only on aesthetics without considering usability. People who copy trends without understanding user problems. Designers who struggle to collaborate with product and engineering teams. Individuals who require extensive direction before making design decisions. Candidates who cannot clearly explain the rationale behind their design choices or their individual contributions. Location This role is remote, but candidates must be based in Australia . We are hiring specifically for this market, so applicants should already be based in Australia . Language English is our primary working language across our global teams. Strong English communication skills are required. Interview Process Our process is designed to move fast: Portfolio review Practical design task (if applicable) Role-specific interview CEO / Final interview For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments promptly will be prioritized. Originally posted on Himalayas",
+      "posted_at": "2026-11-22T02:37:04+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795315024",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-22T04:23:55.163572+00:00",
+      "first_seen_at": "2026-11-22T04:23:55.163572+00:00",
+      "last_checked_at": "2026-11-22T04:24:03.403044+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'ui designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: wireframe (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.78,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-22T04:25:53.921906+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:53.801941+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:27.154112+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:24.813435+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 52,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:24.664773+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:23.087521+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:22.812868+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:18.627113+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:15.665095+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:15.565808+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:14.706393+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:14.384357+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:14.308765+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:14.163748+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:25:14.118135+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 620,
+      "error": "",
+      "checked_at": "2026-11-22T04:24:38.281854+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-22T04:24:03.403020+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-22T04:23:46.864875+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:23:42.076955+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 189,
+      "error": "",
+      "checked_at": "2026-11-22T04:23:41.642120+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-22T04:23:39.554411+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 100,
+      "error": "",
+      "checked_at": "2026-11-22T04:23:39.453328+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -14084,160 +14690,6 @@
       "jobs_found": 608,
       "error": "",
       "checked_at": "2026-11-13T23:06:26.192821+00:00"
-    },
-    {
-      "source": "himalayas",
-      "success": true,
-      "jobs_found": 180,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:51.616732+00:00"
-    },
-    {
-      "source": "workingnomads",
-      "success": true,
-      "jobs_found": 1,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:35.054200+00:00"
-    },
-    {
-      "source": "jobicy",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:30.859278+00:00"
-    },
-    {
-      "source": "weworkremotely",
-      "success": true,
-      "jobs_found": 152,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:30.616519+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:29.565315+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 98,
-      "error": "",
-      "checked_at": "2026-11-13T23:05:29.473676+00:00"
-    },
-    {
-      "source": "hays_uae",
-      "success": false,
-      "jobs_found": 0,
-      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
-      "checked_at": "2026-11-13T13:44:55.992700+00:00"
-    },
-    {
-      "source": "prism_digital",
-      "success": true,
-      "jobs_found": 12,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:55.924671+00:00"
-    },
-    {
-      "source": "sawatech",
-      "success": true,
-      "jobs_found": 7,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:29.047796+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:28.137554+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 38,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:28.051678+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:27.107776+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:24.483428+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:21.911766+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:19.947640+00:00"
-    },
-    {
-      "source": "dynamitejobs",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:19.843029+00:00"
-    },
-    {
-      "source": "wellfound",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:19.181852+00:00"
-    },
-    {
-      "source": "workable",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:18.940486+00:00"
-    },
-    {
-      "source": "smartrecruiters",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:18.900366+00:00"
-    },
-    {
-      "source": "ashby",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:18.833103+00:00"
-    },
-    {
-      "source": "lever",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-13T13:44:18.812086+00:00"
-    },
-    {
-      "source": "greenhouse",
-      "success": true,
-      "jobs_found": 616,
-      "error": "",
-      "checked_at": "2026-11-13T13:43:47.519296+00:00"
     }
   ],
   "recent_exclusions": [
@@ -14248,8 +14700,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-21T22:41:29.258720+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11913.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:53.801761+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11918.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14258,8 +14710,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-21T22:41:27.178624+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11912.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:51.675569+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11918.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14268,8 +14720,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-21T22:41:25.079359+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11912.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:49.747894+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11918.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14278,8 +14730,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-21T22:41:23.319367+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11890.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:47.660692+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11895.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14288,8 +14740,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-21T22:41:21.236859+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11889.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:45.735558+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11895.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14298,8 +14750,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-21T22:41:19.167342+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11889.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:43.656209+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11895.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14308,8 +14760,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-21T22:41:17.078240+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11889.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:41.622733+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11895.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14318,8 +14770,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-21T22:41:15.234263+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11889.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:39.856868+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11894.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14328,8 +14780,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-21T22:41:13.082924+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11888.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:37.929942+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11894.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14338,8 +14790,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-21T22:41:11.281366+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11888.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:36.003177+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11894.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14348,8 +14800,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-21T22:41:09.208699+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11888.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:33.832291+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11894.5h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -14358,8 +14810,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-21T22:41:07.324504+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10361.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:32.022836+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10366.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14368,8 +14820,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-21T22:41:02.016217+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.153949+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14378,8 +14830,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-21T22:41:02.015915+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.153615+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14388,8 +14840,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-21T22:41:02.015598+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.153307+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14398,8 +14850,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-21T22:41:02.015285+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.152996+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.4h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14408,8 +14860,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-21T22:41:02.014977+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.152656+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14418,8 +14870,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-21T22:41:02.014645+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20558.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.152335+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20564.3h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -14428,8 +14880,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-21T22:41:02.014314+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14114.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:27.151993+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14120.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14438,8 +14890,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 23 Oct 2026 07:31:20 +0000",
       "posted_at": "2026-10-23T07:31:20+00:00",
-      "detected_at": "2026-11-21T22:40:57.731659+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 711.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.427890+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 716.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14448,8 +14900,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
       "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-21T22:40:57.731469+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 639.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.427668+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 644.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14458,8 +14910,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-21T22:40:57.731277+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 581.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.427469+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 587.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14468,8 +14920,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-21T22:40:57.731086+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 495.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.427274+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 500.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14478,8 +14930,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 19 Nov 2026 06:00:58 +0000",
       "posted_at": "2026-11-19T06:00:58+00:00",
-      "detected_at": "2026-11-21T22:40:57.730872+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 64.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.427063+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 70.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14488,8 +14940,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:00:43 +0000",
       "posted_at": "2026-11-20T06:00:43+00:00",
-      "detected_at": "2026-11-21T22:40:57.730680+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.426857+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14498,8 +14950,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:00:50 +0000",
       "posted_at": "2026-11-20T06:00:50+00:00",
-      "detected_at": "2026-11-21T22:40:57.730487+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.426633+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14508,8 +14960,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:01:10 +0000",
       "posted_at": "2026-11-20T06:01:10+00:00",
-      "detected_at": "2026-11-21T22:40:57.730294+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.426431+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14518,8 +14970,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:01:19 +0000",
       "posted_at": "2026-11-20T06:01:19+00:00",
-      "detected_at": "2026-11-21T22:40:57.730090+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.426225+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14528,8 +14980,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 18:32:19 +0000",
       "posted_at": "2026-11-20T18:32:19+00:00",
-      "detected_at": "2026-11-21T22:40:57.729845+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 28.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.426012+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 33.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -14538,8 +14990,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 18:32:29 +0000",
       "posted_at": "2026-11-20T18:32:29+00:00",
-      "detected_at": "2026-11-21T22:40:57.729641+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 28.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:24.425745+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 33.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14548,8 +15000,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-21T22:40:57.482495+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1255.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.866942+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1261.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14558,8 +15010,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-21T22:40:57.482306+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1102.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.866685+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1108.3h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14568,8 +15020,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-21T22:40:57.482118+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1102.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.866485+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1108.2h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14578,8 +15030,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-21T22:40:57.481926+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 753.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.866278+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 759.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14588,8 +15040,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
       "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-21T22:40:57.481719+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 634.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.866077+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 640.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14598,8 +15050,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 27 Oct 2026 16:03:32 +0000",
       "posted_at": "2026-10-27T16:03:32+00:00",
-      "detected_at": "2026-11-21T22:40:57.481531+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 606.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.865868+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 612.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14608,8 +15060,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 29 Oct 2026 22:42:13 +0000",
       "posted_at": "2026-10-29T22:42:13+00:00",
-      "detected_at": "2026-11-21T22:40:57.481337+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 552.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.865629+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 557.7h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14618,8 +15070,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-21T22:40:57.481152+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 543.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.865440+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 548.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14628,8 +15080,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 03 Nov 2026 17:00:21 +0000",
       "posted_at": "2026-11-03T17:00:21+00:00",
-      "detected_at": "2026-11-21T22:40:57.480961+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 437.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.865246+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 443.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14638,8 +15090,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-21T22:40:57.480754+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 384.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.865049+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 389.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14648,8 +15100,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-21T22:40:57.480570+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 341.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.864840+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 347.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14658,8 +15110,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-21T22:40:57.480383+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 245.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.864600+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 251.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14668,8 +15120,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:48 +0000",
       "posted_at": "2026-11-17T18:01:48+00:00",
-      "detected_at": "2026-11-21T22:40:57.480198+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 100.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.864392+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 106.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14678,8 +15130,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:38 +0000",
       "posted_at": "2026-11-18T11:31:38+00:00",
-      "detected_at": "2026-11-21T22:40:57.480010+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 83.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.864195+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 88.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14688,8 +15140,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:41 +0000",
       "posted_at": "2026-11-18T11:31:41+00:00",
-      "detected_at": "2026-11-21T22:40:57.479804+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 83.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.863994+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 88.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14698,8 +15150,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:43 +0000",
       "posted_at": "2026-11-18T11:31:43+00:00",
-      "detected_at": "2026-11-21T22:40:57.479618+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 83.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.863751+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 88.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14708,8 +15160,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 19 Nov 2026 18:30:55 +0000",
       "posted_at": "2026-11-19T18:30:55+00:00",
-      "detected_at": "2026-11-21T22:40:57.479430+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 52.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.863561+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 57.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14718,8 +15170,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 19 Nov 2026 18:31:26 +0000",
       "posted_at": "2026-11-19T18:31:26+00:00",
-      "detected_at": "2026-11-21T22:40:57.479245+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 52.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.863370+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 57.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14728,8 +15180,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 19 Nov 2026 18:31:40 +0000",
       "posted_at": "2026-11-19T18:31:40+00:00",
-      "detected_at": "2026-11-21T22:40:57.479057+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 52.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.863176+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 57.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -14738,8 +15190,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:01:06 +0000",
       "posted_at": "2026-11-20T06:01:06+00:00",
-      "detected_at": "2026-11-21T22:40:57.478830+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 40.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-22T04:25:23.862976+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.4h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -14764,7 +15216,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-21T22:40:58.746819+00:00",
+      "last_checked_at": "2026-11-22T04:25:24.813435+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -14816,7 +15268,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-21T22:40:58.746819+00:00",
+      "last_checked_at": "2026-11-22T04:25:24.813435+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -14946,7 +15398,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-21T22:41:29.402479+00:00",
+      "last_checked_at": "2026-11-22T04:25:53.921906+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -14972,7 +15424,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-21T22:41:02.016347+00:00",
+      "last_checked_at": "2026-11-22T04:25:27.154112+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -14985,7 +15437,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-21T22:41:29.258872+00:00",
+      "last_checked_at": "2026-11-22T04:25:53.801941+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
