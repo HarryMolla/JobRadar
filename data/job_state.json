@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T01:49:34.694826+00:00",
+  "last_updated": "2026-11-25T16:37:05.232901+00:00",
   "stats": {
-    "total_jobs": 281,
+    "total_jobs": 290,
     "total_notified": 0
   },
   "jobs": {
@@ -13531,9 +13531,600 @@
       "exclusion_reason": "",
       "notified": false,
       "application_status": "new"
+    },
+    "weworkremotely::customer-io-senior-software-engineer-backend": {
+      "fingerprint": "weworkremotely::customer-io-senior-software-engineer-backend",
+      "source": "weworkremotely",
+      "source_name": "We Work Remotely",
+      "source_id": "customer-io-senior-software-engineer-backend",
+      "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-software-engineer-backend",
+      "source_job_url": "https://weworkremotely.com/remote-jobs/customer-io-senior-software-engineer-backend",
+      "apply_url": "",
+      "title": "Senior Software Engineer, Backend",
+      "company": "Customer.io",
+      "location": "Anywhere in the World",
+      "work_location": "Anywhere in the World",
+      "description": "<p>\n  <strong>Headquarters:</strong> Americas Remote\n</p>\n\n<p>&nbsp;</p>\n<p>Hi, I’m Paul, VP of Engineering at <a href=\"http://customer.io/\">Customer.io</a>. We’re looking for experienced backend engineers who care deeply about reliability, performance, and scalability. You’ll design, build, and evolve the systems that power communication at massive scale - while helping us push the boundaries of what great engineering can look like.</p>\n<h3>About&nbsp;<a href=\"http://customer.io\">Customer.io</a></h3>\n<p>Over 9,000 companies - from scrappy startups to global brands - use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive.&nbsp;</p>\n<p>We help teams send smarter, more relevant messages using real-time behavioral data. Under the hood: Go, React, Ember and AI help us ship fast and scale with confidence.</p>\n<h3>What We Value</h3>\n<p><strong>Ownership</strong><strong><br /></strong>You own problems end to end. You move fast, act like an owner, and thrive in ambiguity. You've led complex projects before, whether officially or not, and you're ready to do it again.</p>\n<p><strong>Engineers with product taste</strong></p>\n<p>You think like a user, not just an engineer.&nbsp; You care how your systems power real customer value - and how to make them better.</p>\n<p><strong>A healthy skepticism for “the way things are done.”</strong></p>\n<p>You bring rigor and creativity. Best practices matter - but never more than forward motion.</p>\n<h3>What You’ll Do</h3>\n<ul>\n<li>Design and build distributed systems in Go that help customers send timely, relevant messages at scale</li>\n<li>Collaborate across teams to debug issues and deliver reliable solutions</li>\n<li>Own problems end to end - from architecture and schema design to testing, deployment, and monitoring</li>\n<li>Participate in an on-call rotation as required, supporting the reliability of the systems you build</li>\n<li>Share knowledge and raise the bar through sharing your progress publicly with short videos, thoughtful writing, and mentorship</li>\n<li>Use AI agents to make multi-file changes by scoping the work, writing the prompt, and verifying the output</li>\n</ul>\n<h3>What we're looking for</h3>\n<ul>\n<li>7+ years of experience building scalable, distributed systems in Go (or similar statically typed languages)</li>\n<li>Comfort working in cloud-native environments (AWS, GCP)</li>\n<li>Familiarity with relational databases (we use MySQL) and an understanding of performance tradeoffs</li>\n<li>Experience with observability tooling and operating production systems</li>\n<li>A bias for action over perfection, and pride in owning technical decisions</li>\n</ul>\n<h3>Compensation &amp; Benefits</h3>\n<p>We believe in transparency. Starting salary for this role is $150,000 - $200,000 USD (or equivalent in local currency) depending on experience and subject to market rate adjustment. In addition to base salary, this role includes an equity grant in the form of stock options, so you share in the success you help build.</p>\n<p>We know our people are what make us great, and we’re committed to taking great care of them. Our inclusive benefits package supports your well-being and growth, including <strong>100% coverage of medical, dental, vision, mental health, and supplemental insurance premiums for you and your family</strong>. We also offer <strong>16 weeks paid parental leave</strong>, <strong>unlimited PTO</strong>, stipends for remote work and wellness, a professional development budget, and more.</p>\n<p><a href=\"https://customer.io/careers#:~:text=our%20collective%20success.-,BENEFITS,-Our%C2%A0\">See full benefits here →</a></p>\n<h3>Our Process</h3>\n<p>No gotchas, no trick questions - just a clear, human process designed to help both of us make an informed decision.</p>\n<ul>\n<li>Application - We review everyone with care. Tell us why you're interested.</li>\n<li>Recruiter Call (30 mins) - Let’s chat about what you’re looking for and how we work.</li>\n<li>Hiring Manager Interview (60 mins) - Talk with one of our hiring managers about your working style and a project you've owned end-to-end, plus a short AI-assisted coding exercise.</li>\n<li>Technical Interview (60 mins) - A collaborative system design conversation focused on scaling challenges.</li>\n<li>Take-Home Assignment - Complete a short, realistic task similar to what you’d work on here.</li>\n<li>Assignment Review Call (60 mins) - Walk us through your work and discuss tradeoffs, priorities, and how you’d iterate.</li>\n</ul>\n<p>All final candidates will be asked to complete a background check and employment verifications as part of our pre-employment process.</p>\n<p>Customer.io recognizes the stifling impact of systemic injustice on diverse communities. We commit to using our influence to increase inclusion and equity within the tech industry. We strive to build an inclusive team culture, implement",
+      "posted_at": "2026-11-25T06:02:50+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "Wed, 25 Nov 2026 06:02:50 +0000",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:01.536491+00:00",
+      "first_seen_at": "2026-11-25T16:35:01.536491+00:00",
+      "last_checked_at": "2026-11-25T16:35:01.547601+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: react (+12)",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 10.54,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_medvidi_senior-product-designer-ai-track-8047274968": {
+      "fingerprint": "himalayas::hm_medvidi_senior-product-designer-ai-track-8047274968",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_medvidi_senior-product-designer-ai-track-8047274968",
+      "url": "https://himalayas.app/companies/medvidi/jobs/senior-product-designer-ai-track-8047274968",
+      "source_job_url": "https://himalayas.app/companies/medvidi/jobs/senior-product-designer-ai-track-8047274968",
+      "apply_url": "https://himalayas.app/companies/medvidi/jobs/senior-product-designer-ai-track-8047274968",
+      "title": "Senior Product Designer (AI Track)",
+      "company": "MEDvidi",
+      "location": "Serbia",
+      "work_location": "Serbia",
+      "description": "Categories: Design, Product Designer, UX Designer, Interaction Designer, UI Designer\n\nDescription MEDvidi is an AI-powered mental healthcare platform setting a new standard for safe, effective, and scalable psychiatric care in the United States.\n\nDescription MEDvidi is an AI-powered mental healthcare platform setting a new standard for safe, effective, and scalable psychiatric care in the United States. We combine licensed providers with proprietary AI tools to deliver consistent, outcomes-driven treatment for conditions like ADHD, anxiety, depression, and more. MEDvidi 's technology automates charting, follow-ups, and treatment planning, freeing providers to focus on patient care while improving efficiency and clinical quality. As Staff Product Designer , you will own the end-to-end design of MEDvidi 's AI Track, the core line of AI-powered clinical tools where providers interact with model outputs in a regulated healthcare environment. Your design decisions directly shape how clinicians review, accept, and correct AI-generated notes, treatment plans, and recommendations, impacting both provider efficiency and patient outcomes. You will work closely with product managers and engineers, reporting to the Director of Product. This is a senior IC role with no direct reports: you drive product design from problem definition through delivery, gather requirements independently, and bring solutions to release. Your scope includes provider-facing tools (Chart Review, AI Scribe, AI Receptionist), patient portal, and internal operational systems, all web-based. Why this role Zero-to-one in AI-first environment. You will shape new interaction patterns for agentic AI features: Chart Review, AI Scribe, AI Receptionist, where design quality directly affects clinical decisions. Prototype in real code, not Figma mockups. Prototyping happens in Claude Code and Cursor on the actual codebase with production components. Your prototypes go straight to engineering without redrawing. Co-own a design system built for humans and AI agents. You will evolve reusable components, tokens, and documentation that are readable by both your teammates and code-generation agents, a rare opportunity to define what design systems look like in an AI-native workflow. Responsibilities Own product design in your areas of the AI Track end-to-end: from defining the problem with the product manager, through user analysis, to working with engineers on the solution and accepting the build. Design and iterate on human-AI interaction patterns : interfaces where providers verify, accept, edit, or reject model output and bring those patterns to a state where other teams can reuse them. Ensure quality of design decisions: validate solutions with users when needed, perform design acceptance with engineering, analyze post-release results, and feed learnings back into the product. Contribute to the design system within product initiatives: turn your solutions into reusable components in Storybook with tokens, naming, and documentation that are usable by both designers and AI code-generation agents. Gather requirements independently: go to providers, medical operations, and product managers, identify problems, and bring back a proposal. There is no standing PM brief in AI Track, you shape the brief. Accelerate design delivery using AI tools: build functional prototypes in Claude Code or Cursor on the real codebase with production components; prototypes go to engineering without redrawing. This role is not for you if You need a detailed brief before starting work. Requirements here are gathered by you, not handed to you, there is no PM or BA writing specs for AI Track. You prefer managing people over hands-on design. This is an IC role with no direct reports; the impact comes from the quality of your own design decisions. You design exclusively in Figma and hand off static specs. Prototyping at MEDvidi happens in code on the real codebase using AI agents, comfort with a code editor is a daily requirement, not a nice-to-have. Requirements 6+ years in product design, with a focus on complex work interfaces: EHR, admin panels, CRM, operational tools, or other systems where specialists perform their core work. Demonstrable experience designing human-AI interaction: interfaces where users verify, accept, edit, or reject model output. Building a 0-to-1 agentic product is ideal; experience with review-and-approval interfaces for automated decisions also qualifies. Hands-on prototyping in code using AI agents (Claude Code, Cursor, or equivalent) on an existing component library or codebase, not just design tools. Track record of contributing to a design system within product work: shipping reusable components, tokens, and documentation as part of feature delivery, not as a standalone project. Proven ability to gather requirements independently, finding problems, talking to users and stakeholders, and driving a solution to release without waiting for a mandated brief. Adv",
+      "posted_at": "2026-11-25T15:06:30+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795619190",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:06.927893+00:00",
+      "first_seen_at": "2026-11-25T16:35:06.927893+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: design system (+12)",
+        "Skill: component library (+8)",
+        "Skill: storybook (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 1.48,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_concentrix_sr-web-developer-react-integrations": {
+      "fingerprint": "himalayas::hm_concentrix_sr-web-developer-react-integrations",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_concentrix_sr-web-developer-react-integrations",
+      "url": "https://himalayas.app/companies/concentrix/jobs/sr-web-developer-react-integrations",
+      "source_job_url": "https://himalayas.app/companies/concentrix/jobs/sr-web-developer-react-integrations",
+      "apply_url": "https://himalayas.app/companies/concentrix/jobs/sr-web-developer-react-integrations",
+      "title": "Sr. Web Developer – React & Integrations",
+      "company": "Concentrix",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Developer, Web Developer, Front End Developer, React Developer, Frontend Engineer\n\nJob Title: Sr.  Web Developer – React & IntegrationsJob Description We're Concentrix.\n\nJob Title: Sr. Web Developer – React & Integrations Job Description We're Concentrix . The intelligent transformation partner. Solution-focused. Tech-powered. Intelligence-fueled. The global technology and services leader that powers the world’s best brands, today and into the future. We’re solution-focused, tech-powered, intelligence-fueled. With unique data and insights, deep industry expertise, and advanced technology solutions, we’re the intelligent transformation partner that powers a world that works, helping companies become refreshingly simple to work, interact, and transact with. We shape new game-changing careers in over 70 countries, attracting the best talent. The Concentrix Technical Products and Services team is the driving force behind Concentrix ’s transformation, data, and technology services. We integrate world-class digital engineering, creativity, and a deep understanding of human behavior to find and unlock value through tech-powered and intelligence-fueled experiences. We combine human-centered design, powerful data, and strong tech to accelerate transformation at scale. You will be surrounded by the best in the world providing market leading technology and insights to modernize and simplify the customer experience. Within our professional services team, you will deliver strategic consulting, design, advisory services, market research, and contact center analytics that deliver insights to improve outcomes and value for our clients. Hence achieving our vision. Our game-changers around the world have devoted their careers to ensuring every relationship is exceptional. And we’re proud to be recognized with awards such as \"World's Best Workplaces,\" “Best Companies for Career Growth,” and “Best Company Culture,” year after year. Join us and be part of this journey towards greater opportunities and brighter futures. Title: Sr. Web Developer – React & Integrations Location: Remote in USA We are seeking a skilled, hands-on Web Developer / Frontend Developer with strong expertise in React.js, TypeScript, JavaScript, and modern web development technologies to build, enhance, and maintain responsive, scalable, and high-performing web applications. In this role, you will translate business requirements and UI/UX designs into seamless digital experiences while integrating frontend applications with backend services and third-party platforms. You will work closely with the Lead Web Developer, backend developers, product teams, and stakeholders to deliver reliable, accessible, and engaging web applications within restaurant technology ecosystems. Responsibilities Develop, maintain, and enhance responsive web applications and user interfaces using React.js, TypeScript, and JavaScript. Build reusable, modular, and maintainable UI components aligned to established frontend architecture and coding standards. Develop multiple pages, application features, and user experiences based on business requirements, functional specifications, and UI/UX designs. Implement modern React development practices, including component-based architecture, hooks, state management, routing, and reusable design patterns. Integrate frontend applications with REST APIs, backend services, and third-party platforms. Support integrations across restaurant technology ecosystems, including online ordering platforms, POS systems, payment providers, loyalty and rewards platforms, customer identity and authentication solutions, location services, push notifications, promotions and offers, analytics, and customer engagement platforms. Implement asynchronous requests, API integrations, data handling, error handling, loading states, and validation states. Translate UI/UX designs and wireframes into responsive, accessible, and consistent web interfaces. Ensure cross-browser and cross-device compatibility across desktop, tablet, and mobile environments. Optimize application performance, page load speed, rendering efficiency, and overall user experience. Follow SEO best practices, accessibility standards, and modern web development guidelines. Write clean, efficient, reusable, and well-documented code to support consistency and long-term maintainability. Troubleshoot, debug, and resolve frontend defects, integration issues, and application performance challenges. Participate in code reviews, incorporate feedback, and follow development standards and technical guidelines established by the Lead Web Developer. Develop and maintain unit tests and participate in frontend testing and quality assurance activities. Collaborate with backend developers to understand API contracts, data structures, business logic, and integration requirements. Support application deployments, CI/CD processes, release activities, and post-deployment validation. Monitor and troubleshoot applic",
+      "posted_at": "2026-11-25T14:41:58+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795617718",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:08.940599+00:00",
+      "first_seen_at": "2026-11-25T16:35:08.940599+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "lead",
+      "salary_min": 92250,
+      "salary_max": 120000,
+      "salary_currency": "USD",
+      "match_score": 80,
+      "match_reasons": [
+        "Title matches frontend role: 'web developer'",
+        "Skill: wireframe (+8)",
+        "Skill: accessibility (+8)",
+        "Skill: react (+12)",
+        "Skill: typescript (+10)",
+        "Skill: javascript (+8)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 1.89,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_samsara_sr-software-engineer-i-7736299361": {
+      "fingerprint": "himalayas::hm_samsara_sr-software-engineer-i-7736299361",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_samsara_sr-software-engineer-i-7736299361",
+      "url": "https://himalayas.app/companies/samsara/jobs/sr-software-engineer-i-7736299361",
+      "source_job_url": "https://himalayas.app/companies/samsara/jobs/sr-software-engineer-i-7736299361",
+      "apply_url": "https://himalayas.app/companies/samsara/jobs/sr-software-engineer-i-7736299361",
+      "title": "Sr. Software Engineer I",
+      "company": "Samsara",
+      "location": "Canada",
+      "work_location": "Canada",
+      "description": "Categories: Developer, Data Science, Software Engineer, Backend Engineer, Full Stack Engineer, AI Engineer\n\nWho we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations.\n\nWho we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara , we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term. About the role: The Safety Triage & Insights team builds data-driven safety experiences that surface actionable insights, engage drivers directly, and help fleets focus resources where they matter most. We develop the systems, APIs, and customer-facing products that power safety event review, supervisor workflows, driver analytics, and AI-driven experiences across Samsara ’s Safety organization. The team is deeply invested in AI, LLMs, and emerging agentic technologies, both in the products we build and in how we engineer them, enabling rapid iteration and highly personalized, insight-driven user experiences. As a Sr. Software Engineer I on the team, you will lead the design and evolution of systems that sit at the intersection of real-time data processing, AI-powered insights, and customer-facing product experiences. You’ll partner closely with Product, Design, ML, and platform teams to build scalable services, intelligent workflows, and next-generation AI capabilities that help organizations move beyond reactive incident review toward proactive, data-informed safety management. This is a remote position open to candidates residing in Canada. You should apply if: You want to impact the industries that run our world: The software, firmware, and hardware you build will result in real-world impact – helping to keep the lights on, get food into grocery stores, and most importantly, ensure workers return home safely. You want to build for scale: With over 2.3 million IoT devices deployed to our global customers, you will work on a range of new and mature technologies driving scalable innovation for customers across industries driving the world's physical operations. You are a life-long learner: We have ambitious goals. Every Samsarian has a growth mindset as we work with a wide range of technologies, challenges, and customers that push us to learn on the go. You believe customers are more than a number: Samsara engineers enjoy a rare closeness to the end user and you will have the opportunity to participate in customer interviews, collaborate with customer success and product managers, and use metrics to ensure our work is translating into better customer outcomes. You are a team player: Working on our Samsara Engineering teams requires a mix of independent effort and collaboration. Motivated by our mission, we’re all racing toward our connected operations vision, and we intend to win – together. In this role, you will: Own the end-to-end development of customer-facing products and platform capabilities, from design and implementation to rollout and operational excellence. Ship new product experiences quickly, validate with customers, and iterate toward scalable, high-impact solutions. Build AI-powered workflows and experiences using modern LLM and agentic technologies, including evaluations, feedback loops, and human-in-the-loop systems. Collaborate across Engineering, Product, Design, ML, and platform teams to deliver cohesive experiences across web, mobile, APIs, and downstream integrations. Lead complex technical initiatives by resolving ambiguity, driving architectural decisions, and raising the quality and scalability of the systems you own. Champion, role model, and embed Samsara ’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices Minimum requirements for the role: 4+ years of experience building, shipping, and operating scalable and reliable customer-facing production systems. Experience developing",
+      "posted_at": "2026-11-25T14:39:53+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795617593",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:10.931946+00:00",
+      "first_seen_at": "2026-11-25T16:35:10.931946+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": 126225,
+      "salary_max": 163350,
+      "salary_currency": "CAD",
+      "match_score": 63,
+      "match_reasons": [
+        "Title matches frontend role: 'software engineer'",
+        "Skill: aria (+6)",
+        "Skill: react (+12)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "frontend",
+      "age_hours": 1.93,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_colablosangeles_full-stack-developer-shopify-php-wordpress": {
+      "fingerprint": "himalayas::hm_colablosangeles_full-stack-developer-shopify-php-wordpress",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_colablosangeles_full-stack-developer-shopify-php-wordpress",
+      "url": "https://himalayas.app/companies/colablosangeles/jobs/full-stack-developer-shopify-php-wordpress",
+      "source_job_url": "https://himalayas.app/companies/colablosangeles/jobs/full-stack-developer-shopify-php-wordpress",
+      "apply_url": "https://himalayas.app/companies/colablosangeles/jobs/full-stack-developer-shopify-php-wordpress",
+      "title": "Full Stack Developer – Shopify, PHP & WordPress",
+      "company": "Colab",
+      "location": "India",
+      "work_location": "India",
+      "description": "Categories: Developer, Full Stack Developer, Web Developer, Shopify Developer, WordPress Developer, PHP Developer\n\nExperience: More than 4 years Location: India – Remote Job Description We are seeking an experienced Full Stack Developer with strong expertise in Shopify, PHP, and WordPress.\n\nExperience: More than 4 years Location: India – Remote Job Description We are seeking an experienced Full Stack Developer with strong expertise in Shopify, PHP, and WordPress. The ideal candidate must have worked with digital marketing agencies and delivered development solutions for US-based clients. Key Responsibilities Develop and maintain websites and web applications. Build and customize Shopify stores, themes, and functionalities. Develop custom WordPress themes, plugins, and integrations. Handle frontend and backend development. Integrate third-party APIs and payment gateways. Optimize website performance, responsiveness, and security. Troubleshoot technical issues and maintain existing projects. Requirements More than 4 years of full-stack development experience. Previous digital marketing agency experience is mandatory. Proven experience handling US-based clients. Strong expertise in Shopify, PHP, and WordPress. Proficiency in HTML, CSS, JavaScript, and MySQL. Experience with REST APIs and third-party integrations. Strong understanding of responsive web development. Originally posted on Himalayas",
+      "posted_at": "2026-11-25T14:34:51+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795617291",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:10.940766+00:00",
+      "first_seen_at": "2026-11-25T16:35:10.940766+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "match_score": 77,
+      "match_reasons": [
+        "Title matches WordPress role: 'wordpress'",
+        "Skill: javascript (+8)",
+        "Skill: html (+6)",
+        "Skill: css (+6)",
+        "Skill: wordpress (+8)",
+        "Skill: rest api (+4)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "wordpress",
+      "age_hours": 2.01,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_micro1_optomechanical-design-engineer-precision-cnc-parts": {
+      "fingerprint": "himalayas::hm_micro1_optomechanical-design-engineer-precision-cnc-parts",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_micro1_optomechanical-design-engineer-precision-cnc-parts",
+      "url": "https://himalayas.app/companies/micro1/jobs/optomechanical-design-engineer-precision-cnc-parts",
+      "source_job_url": "https://himalayas.app/companies/micro1/jobs/optomechanical-design-engineer-precision-cnc-parts",
+      "apply_url": "https://himalayas.app/companies/micro1/jobs/optomechanical-design-engineer-precision-cnc-parts",
+      "title": "Optomechanical Design Engineer — Precision CNC Parts",
+      "company": "micro1",
+      "location": "Worldwide",
+      "work_location": "Worldwide",
+      "description": "Categories: Hardware Engineer, Opto Mechanical Designer, Mechanical Design Engineer, CNC Machining Engineer, Machining Engineer, Design Engineer, Mechanical Engineer\n\nRole Title: Optomechanical Design Engineer — Precision CNC Parts (Remote) Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineers micro1 is engaging senior optomechanical and mechanical design engineers to create original CAD part packages for a client project in precision optics and optomechanics.\n\nRole Title: Optomechanical Design Engineer — Precision CNC Parts (Remote) Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineers micro1 is engaging senior optomechanical and mechanical design engineers to create original CAD part packages for a client project in precision optics and optomechanics. Your engineering judgment is what matters here — no prior AI experience required. Each package is a new part you design from scratch: a difficult, high-value CNC part with a specific machining challenge, backed by a drawing with full GD&T, a design rationale, and a production scenario you justify from experience. Every part is independently reviewed by three other engineers, and you'll review others' work as well. What you'll do Design original parts in parametric CAD, delivered as native files plus STEP. Produce the technical drawing: dimensions, tolerances, GD&T and datums, material and condition, finish, revision, drawing standard. Write the design context: intended function, interfaces, operating conditions, the machining challenge, and your material and process rationale. Build the production scenario: estimated unit cost and drivers, CNC cycle and setup hours, assumed volume, sourcing difficulty and lead time — with the engineering basis for each estimate. Peer review other engineers' packages against technical quality, production realism, and engineering value, with part-specific evidence for every score. Revise your own packages against review findings. What we're looking for 5+ years of production engineering experience with comparable CNC parts, materials and processes in precision optics or optomechanics. Technical decision authority: you owned or approved critical design choices — drawing, tolerance or material approval, production release, or enforcing engineering quality standards. Design leads, principal and staff engineers, and technical authorities are the profile. Experience at OEMs or specialist suppliers whose engineering standards you can reproduce. Strong GD&T and tolerancing judgment, including cost and inspection implications. Access to parametric CAD software (SolidWorks, NX, CATIA, Creo or similar) and the ability to deliver native files plus STEP. Industry experience, not academic. Important: originality and IP Every design must be your own original work. You cannot use designs owned by a current or former employer or customer, and you cannot substitute public or purchased CAD. All deliverables become the client's property. If you're currently employed, check your employment agreement regarding outside work and invention assignment before applying. How the selection process works Apply and complete the screening questions Complete the AI interview for this role — it's how your expertise gets in front of the client Profile review, including evidence of comparable parts and decisions owned Onboarding — our Talent Ops team will get you set up Originally posted on Himalayas",
+      "posted_at": "2026-11-25T14:21:00+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795616460",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:12.929297+00:00",
+      "first_seen_at": "2026-11-25T16:35:12.929297+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": 90,
+      "salary_max": 155,
+      "salary_currency": "USD",
+      "match_score": 70,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.24,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_micro1_mechanical-design-engineer-semiconductor-vacuum-hardware": {
+      "fingerprint": "himalayas::hm_micro1_mechanical-design-engineer-semiconductor-vacuum-hardware",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_micro1_mechanical-design-engineer-semiconductor-vacuum-hardware",
+      "url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-semiconductor-vacuum-hardware",
+      "source_job_url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-semiconductor-vacuum-hardware",
+      "apply_url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-semiconductor-vacuum-hardware",
+      "title": "Mechanical Design Engineer — Semiconductor & Vacuum Hardware",
+      "company": "micro1",
+      "location": "Worldwide",
+      "work_location": "Worldwide",
+      "description": "Categories: Hardware Engineer, Mechanical CAD and Simulation Engineer, Design Engineer, Mechanical Engineer, Mechanical Design Engineer, Hardware Package Design Engineer, Semiconductor Equipment Engineer, Mechanical Designer\n\nRole Title: Mechanical Design Engineer — Semiconductor & Vacuum Hardware Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineers micro1 is engaging senior mechanical design engineers to create original CAD part packages for a client project in semiconductor and vacuum hardware.\n\nRole Title: Mechanical Design Engineer — Semiconductor & Vacuum Hardware Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineers micro1 is engaging senior mechanical design engineers to create original CAD part packages for a client project in semiconductor and vacuum hardware. Your engineering judgment is what matters here — no prior AI experience required. Each package is a new part you design from scratch: a difficult, high-value CNC part with a specific machining challenge, backed by a drawing with full GD&T, a design rationale, and a production scenario you justify from experience. Every part is independently reviewed by three other engineers, and you'll review others' work as well. What you'll do Design original parts in parametric CAD, delivered as native files plus STEP. Produce the technical drawing: dimensions, tolerances, GD&T and datums, material and condition, finish, revision, drawing standard. Write the design context: intended function, interfaces, operating conditions, the machining challenge, and your material and process rationale. Build the production scenario: estimated unit cost and drivers, CNC cycle and setup hours, assumed volume, sourcing difficulty and lead time — with the engineering basis for each estimate. Peer review other engineers' packages against technical quality, production realism, and engineering value, with part-specific evidence for every score. Revise your own packages against review findings. What we're looking for 5+ years of production engineering experience with comparable CNC parts, materials and processes in semiconductor or vacuum hardware. Technical decision authority: you owned or approved critical design choices — drawing, tolerance or material approval, production release, or enforcing engineering quality standards. Design leads, principal and staff engineers, and technical authorities are the profile. Experience at OEMs or specialist suppliers whose engineering standards you can reproduce. Strong GD&T and tolerancing judgment, including cost and inspection implications. Access to parametric CAD software (SolidWorks, NX, CATIA, Creo or similar) and the ability to deliver native files plus STEP. Industry experience, not academic. Important: originality and IP Every design must be your own original work. You cannot use designs owned by a current or former employer or customer, and you cannot substitute public or purchased CAD. All deliverables become the client's property. If you're currently employed, check your employment agreement regarding outside work and invention assignment before applying. How the selection process works Apply and complete the screening questions Complete the AI interview for this role — it's how your expertise gets in front of the client Profile review, including evidence of comparable parts and decisions owned Onboarding — our Talent Ops team will get you set up Originally posted on Himalayas",
+      "posted_at": "2026-11-25T14:20:55+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795616455",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:12.929947+00:00",
+      "first_seen_at": "2026-11-25T16:35:12.929947+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": 90,
+      "salary_max": 155,
+      "salary_currency": "USD",
+      "match_score": 70,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.24,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_micro1_mechanical-design-engineer-robotics-cnc-parts": {
+      "fingerprint": "himalayas::hm_micro1_mechanical-design-engineer-robotics-cnc-parts",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_micro1_mechanical-design-engineer-robotics-cnc-parts",
+      "url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-robotics-cnc-parts",
+      "source_job_url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-robotics-cnc-parts",
+      "apply_url": "https://himalayas.app/companies/micro1/jobs/mechanical-design-engineer-robotics-cnc-parts",
+      "title": "Mechanical Design Engineer — Robotics CNC Parts",
+      "company": "micro1",
+      "location": "Worldwide",
+      "work_location": "Worldwide",
+      "description": "Categories: Hardware Engineer, Mechanical Product Engineer, Mechanical Design Engineering, Robotics Engineer, Mechatronics Engineer, Machining Engineer, Design Engineer, Mechanical Design Engineer\n\nRole Title: Mechanical Design Engineer — Robotics CNC Parts (Remote) Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineer micro1 is engaging senior mechanical design engineers to create original CAD part packages for a client project in robotics.\n\nRole Title: Mechanical Design Engineer — Robotics CNC Parts (Remote) Role Type: Contractor Location: Fully remote Opportunity Snapshot Pay: $90 -$155/hour Duration: Initial phase of 20 part packages; production phase to follow Location: Fully remote, no geographic restrictions You'll need: 5+ years designing CNC-machined production parts, technical decision authority, and access to parametric CAD software Your tasks: Author original CAD part packages, and peer review packages from other engineer micro1 is engaging senior mechanical design engineers to create original CAD part packages for a client project in robotics. Your engineering judgment is what matters here — no prior AI experience required. Each package is a new part you design from scratch: a difficult, high-value CNC part with a specific machining challenge, backed by a drawing with full GD&T, a design rationale, and a production scenario you justify from experience. Every part is independently reviewed by three other engineers, and you'll review others' work as well. What you'll do Design original parts in parametric CAD, delivered as native files plus STEP. Produce the technical drawing: dimensions, tolerances, GD&T and datums, material and condition, finish, revision, drawing standard. Write the design context: intended function, interfaces, operating conditions, the machining challenge, and your material and process rationale. Build the production scenario: estimated unit cost and drivers, CNC cycle and setup hours, assumed volume, sourcing difficulty and lead time — with the engineering basis for each estimate. Peer review other engineers' packages against technical quality, production realism, and engineering value, with part-specific evidence for every score. Revise your own packages against review findings. What we're looking for 5+ years of production engineering experience with comparable CNC parts, materials and processes in robotics. Technical decision authority: you owned or approved critical design choices — drawing, tolerance or material approval, production release, or enforcing engineering quality standards. Design leads, principal and staff engineers, and technical authorities are the profile. Experience at OEMs or specialist suppliers whose engineering standards you can reproduce. Strong GD&T and tolerancing judgment, including cost and inspection implications. Access to parametric CAD software (SolidWorks, NX, CATIA, Creo or similar) and the ability to deliver native files plus STEP. Industry experience, not academic. Important: originality and IP Every design must be your own original work. You cannot use designs owned by a current or former employer or customer, and you cannot substitute public or purchased CAD. All deliverables become the client's property. If you're currently employed, check your employment agreement regarding outside work and invention assignment before applying. How the selection process works Apply and complete the screening questions Complete the AI interview for this role — it's how your expertise gets in front of the client Profile review, including evidence of comparable parts and decisions owned Onboarding — our Talent Ops team will get you set up Originally posted on Himalayas",
+      "posted_at": "2026-11-25T14:20:52+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795616452",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:12.930587+00:00",
+      "first_seen_at": "2026-11-25T16:35:12.930587+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_worldwide",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Contractor",
+      "seniority": "",
+      "salary_min": 90,
+      "salary_max": 155,
+      "salary_currency": "USD",
+      "match_score": 70,
+      "match_reasons": [
+        "Title matches design role: 'design engineer'",
+        "Remote worldwide — eligible from Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.24,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
+    },
+    "himalayas::hm_upstart_senior-product-designer-growth": {
+      "fingerprint": "himalayas::hm_upstart_senior-product-designer-growth",
+      "source": "himalayas",
+      "source_name": "Himalayas",
+      "source_id": "hm_upstart_senior-product-designer-growth",
+      "url": "https://himalayas.app/companies/upstart/jobs/senior-product-designer-growth",
+      "source_job_url": "https://himalayas.app/companies/upstart/jobs/senior-product-designer-growth",
+      "apply_url": "https://himalayas.app/companies/upstart/jobs/senior-product-designer-growth",
+      "title": "Senior Product Designer, Growth",
+      "company": "Upstart",
+      "location": "United States",
+      "work_location": "United States",
+      "description": "Categories: Design, Product Designer, Growth Product Designer, UX Designer\n\nAbout Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans.\n\nAbout Upstart At Upstart , we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, and advanced AI to reshape access to credit, helping millions move forward financially with clarity and confidence. As the leading AI lending marketplace, we partner with banks and credit unions to expand access to affordable credit through technology that’s both radically intelligent and deeply human. Our platform runs over one million predictions per borrower using more than 3,000 signals, powering smarter, fairer decisions for millions of customers. But the numbers only hint at the impact. Every idea, every voice, and every contribution moves us closer to a world where credit never stands between people and their financial progress. We’re proudly digital-first, giving most Upstart ers the flexibility to do their best work from wherever they thrive, alongside teammates across 80+ cities in the US and Canada. Digital-first doesn’t mean distant. We’re intentional about in-person connection through team onsites, planning sessions, and moments that spark creativity and trust. And whether you choose to work primarily from home or collaborate in-person from one of our offices in Columbus, Austin, the Bay Area, or New York City, you’ll have the support to work in the way that works best for you. If you’re energized by tackling meaningful problems, excited to innovate with purpose, and motivated by work that truly matters, we’d love to hear from you. The Team: Upstart 's Lending Experience design team crafts the borrower experience from the moment someone selects \"Check My Rate\" through application and verification to a funded loan. Our team's goal is to build a frictionless user experience that adds clarity, builds trust, and makes borrowing faster and more effortless. Working closely with cross-functional partners, we design and ship experiments that drive product-led growth. As a Senior Product Designer at Upstart , you will deliver new features and improve existing experiences across the borrower journey with a focus on growth, defining how borrowers apply, verify, and compare their loan options. You will define the funding experience, drive experimentation, and work hand in hand with product, data, and engineering to turn model outputs into choices people understand and can act on, helping each borrower reach their financial goals. How you’ll make an impact Design product features end to end across the borrower journey, on mobile and responsive web Define product-led growth experiments with product and engineering, defining hypotheses, designing A/B tests, and iterating on qualitative and quantitative data to drive measurable outcomes Design how rates, amounts, terms, and loan products are presented so the best option for each borrower's context is clear Ensure our solutions are user-centered by drawing on research and borrower insights, running usability studies, and partnering with the UXR team Use AI tools across your workflow to explore directions, prototype, and test sooner, applying judgment to raise quality, not only speed Share work early and often, present design rationale to product and business leaders, and keep experiences accessible, compliant, and consistent with the shared design system Minimum Qualifications 5+ years of experience in product design, shipping customer-facing digital products Experience using data to identify design opportunities, measure performance, shape experiments, and iterate on designs based on results Expertise in modern design tools, including Figma, user research platforms, and AI-powered prototyping tools A portfolio showing end-to-end work on mobile and responsive web, from initial concept to measurable outcome Preferred Qualifications Experience on financial products, especially lending or other regulated consumer products Experience in consumer engagement, growth, and funnel optimization, including onboarding and conversion flows Experience designing AI or ML-driven experiences such as personalization, recommendations, or explainable model outputs Experience on multi-phase, long-term initiatives, or on multi-product and marketplace experiences Ability to translate research, borrower needs, and product data into design decisions, and to present rationale to leaders while advocating for borrowers within business and technology constraints Experience in a collaborative, fast-paced agile environment, and knowledge of accessibility standards (WCAG) Position location This role is available in the following locations: Remote Time zone requirements The team operates on the East/West coast time zones. Travel requirements As a digital first company, the majority of your ",
+      "posted_at": "2026-11-25T14:17:17+00:00",
+      "updated_at": null,
+      "source_timestamp_raw": "1795616237",
+      "timestamp_reliable": true,
+      "is_repost": false,
+      "detected_at": "2026-11-25T16:35:12.932601+00:00",
+      "first_seen_at": "2026-11-25T16:35:12.932601+00:00",
+      "last_checked_at": "2026-11-25T16:35:23.140300+00:00",
+      "remote_type": "remote_restricted",
+      "remote_countries": [],
+      "sponsorship": "unknown",
+      "relocation_offered": false,
+      "visa_sponsorship": "not_confirmed",
+      "relocation_support": "not_confirmed",
+      "flight_covered": "not_confirmed",
+      "accommodation_covered": "not_confirmed",
+      "employment_type": "Full Time",
+      "seniority": "senior",
+      "salary_min": 162100,
+      "salary_max": 224500,
+      "salary_currency": "USD",
+      "match_score": 85,
+      "match_reasons": [
+        "Title matches design role: 'product designer'",
+        "Skill: figma (+15)",
+        "Skill: prototyping (+8)",
+        "Skill: design system (+12)",
+        "Skill: accessibility (+8)",
+        "Skill: wcag (+10)",
+        "Remote restricted — may not include Ethiopia"
+      ],
+      "match_category": "design",
+      "age_hours": 2.3,
+      "age_filter_passed": true,
+      "exclusion_reason": "",
+      "notified": false,
+      "application_status": "new"
     }
   },
   "source_runs": [
+    {
+      "source": "hays_uae",
+      "success": false,
+      "jobs_found": 0,
+      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
+      "checked_at": "2026-11-25T16:37:05.232521+00:00"
+    },
+    {
+      "source": "prism_digital",
+      "success": true,
+      "jobs_found": 12,
+      "error": "",
+      "checked_at": "2026-11-25T16:37:05.127844+00:00"
+    },
+    {
+      "source": "sawatech",
+      "success": true,
+      "jobs_found": 7,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:38.462624+00:00"
+    },
+    {
+      "source": "email_alerts",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:37.360795+00:00"
+    },
+    {
+      "source": "rss_feeds",
+      "success": true,
+      "jobs_found": 66,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:37.327385+00:00"
+    },
+    {
+      "source": "workday",
+      "success": true,
+      "jobs_found": 20,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:36.258195+00:00"
+    },
+    {
+      "source": "personio",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:34.234410+00:00"
+    },
+    {
+      "source": "recruitee",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:30.566334+00:00"
+    },
+    {
+      "source": "ycombinator",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:26.858535+00:00"
+    },
+    {
+      "source": "dynamitejobs",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:26.702803+00:00"
+    },
+    {
+      "source": "wellfound",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:25.598432+00:00"
+    },
+    {
+      "source": "workable",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:25.203496+00:00"
+    },
+    {
+      "source": "smartrecruiters",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:25.079080+00:00"
+    },
+    {
+      "source": "ashby",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:24.882078+00:00"
+    },
+    {
+      "source": "lever",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:36:24.769598+00:00"
+    },
+    {
+      "source": "greenhouse",
+      "success": true,
+      "jobs_found": 623,
+      "error": "",
+      "checked_at": "2026-11-25T16:35:57.780668+00:00"
+    },
+    {
+      "source": "himalayas",
+      "success": true,
+      "jobs_found": 180,
+      "error": "",
+      "checked_at": "2026-11-25T16:35:23.140282+00:00"
+    },
+    {
+      "source": "workingnomads",
+      "success": true,
+      "jobs_found": 1,
+      "error": "",
+      "checked_at": "2026-11-25T16:35:06.626486+00:00"
+    },
+    {
+      "source": "jobicy",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:35:01.876328+00:00"
+    },
+    {
+      "source": "weworkremotely",
+      "success": true,
+      "jobs_found": 258,
+      "error": "",
+      "checked_at": "2026-11-25T16:35:01.547587+00:00"
+    },
+    {
+      "source": "remotive",
+      "success": true,
+      "jobs_found": 0,
+      "error": "",
+      "checked_at": "2026-11-25T16:34:59.971783+00:00"
+    },
+    {
+      "source": "remoteok",
+      "success": true,
+      "jobs_found": 100,
+      "error": "",
+      "checked_at": "2026-11-25T16:34:59.844560+00:00"
+    },
     {
       "source": "hays_uae",
       "success": false,
@@ -16879,160 +17470,6 @@
       "jobs_found": 612,
       "error": "",
       "checked_at": "2026-11-16T14:27:09.596053+00:00"
-    },
-    {
-      "source": "himalayas",
-      "success": true,
-      "jobs_found": 178,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:34.775998+00:00"
-    },
-    {
-      "source": "workingnomads",
-      "success": true,
-      "jobs_found": 1,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:17.651652+00:00"
-    },
-    {
-      "source": "jobicy",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:13.341980+00:00"
-    },
-    {
-      "source": "weworkremotely",
-      "success": true,
-      "jobs_found": 158,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:13.182872+00:00"
-    },
-    {
-      "source": "remotive",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:11.816071+00:00"
-    },
-    {
-      "source": "remoteok",
-      "success": true,
-      "jobs_found": 97,
-      "error": "",
-      "checked_at": "2026-11-16T14:26:11.727949+00:00"
-    },
-    {
-      "source": "hays_uae",
-      "success": false,
-      "jobs_found": 0,
-      "error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search",
-      "checked_at": "2026-11-16T04:07:07.823629+00:00"
-    },
-    {
-      "source": "prism_digital",
-      "success": true,
-      "jobs_found": 12,
-      "error": "",
-      "checked_at": "2026-11-16T04:07:07.763738+00:00"
-    },
-    {
-      "source": "sawatech",
-      "success": true,
-      "jobs_found": 7,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:41.260158+00:00"
-    },
-    {
-      "source": "email_alerts",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:40.195797+00:00"
-    },
-    {
-      "source": "rss_feeds",
-      "success": true,
-      "jobs_found": 38,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:40.120083+00:00"
-    },
-    {
-      "source": "workday",
-      "success": true,
-      "jobs_found": 24,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:38.056828+00:00"
-    },
-    {
-      "source": "personio",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:35.617981+00:00"
-    },
-    {
-      "source": "recruitee",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:34.365052+00:00"
-    },
-    {
-      "source": "ycombinator",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:32.569162+00:00"
-    },
-    {
-      "source": "dynamitejobs",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:32.462363+00:00"
-    },
-    {
-      "source": "wellfound",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:31.928787+00:00"
-    },
-    {
-      "source": "workable",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:31.724047+00:00"
-    },
-    {
-      "source": "smartrecruiters",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:31.647949+00:00"
-    },
-    {
-      "source": "ashby",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:31.547740+00:00"
-    },
-    {
-      "source": "lever",
-      "success": true,
-      "jobs_found": 0,
-      "error": "",
-      "checked_at": "2026-11-16T04:06:31.487617+00:00"
-    },
-    {
-      "source": "greenhouse",
-      "success": true,
-      "jobs_found": 612,
-      "error": "",
-      "checked_at": "2026-11-16T04:05:45.138869+00:00"
     }
   ],
   "recent_exclusions": [
@@ -17043,8 +17480,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T13:33:09.579Z",
       "posted_at": "2025-07-13T13:33:09.579000+00:00",
-      "detected_at": "2026-11-25T01:49:34.575839+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11988.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:37:05.127714+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 12003.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17053,8 +17490,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:24:34.456Z",
       "posted_at": "2025-07-13T14:24:34.456000+00:00",
-      "detected_at": "2026-11-25T01:49:32.594918+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11987.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:37:03.062882+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 12002.2h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17063,8 +17500,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-13T14:28:30.976Z",
       "posted_at": "2025-07-13T14:28:30.976000+00:00",
-      "detected_at": "2026-11-25T01:49:30.533717+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11987.4h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:37:01.113200+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 12002.1h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17073,8 +17510,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:43:38.360Z",
       "posted_at": "2025-07-14T12:43:38.360000+00:00",
-      "detected_at": "2026-11-25T01:49:28.440915+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11965.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:59.070395+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11979.9h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17083,8 +17520,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T12:52:59.737Z",
       "posted_at": "2025-07-14T12:52:59.737000+00:00",
-      "detected_at": "2026-11-25T01:49:26.574511+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11964.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:57.105991+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11979.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17093,8 +17530,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:16:19.904Z",
       "posted_at": "2025-07-14T13:16:19.904000+00:00",
-      "detected_at": "2026-11-25T01:49:24.546029+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11964.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:55.547185+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11979.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17103,8 +17540,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:19:08.728Z",
       "posted_at": "2025-07-14T13:19:08.728000+00:00",
-      "detected_at": "2026-11-25T01:49:22.566902+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11964.5h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:53.041942+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11979.3h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17113,8 +17550,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:38:12.008Z",
       "posted_at": "2025-07-14T13:38:12.008000+00:00",
-      "detected_at": "2026-11-25T01:49:20.444700+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11964.2h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:51.078574+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11979.0h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17123,8 +17560,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:46:19.605Z",
       "posted_at": "2025-07-14T13:46:19.605000+00:00",
-      "detected_at": "2026-11-25T01:49:18.418760+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11964.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:49.041107+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11978.8h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17133,8 +17570,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:53:23.456Z",
       "posted_at": "2025-07-14T13:53:23.456000+00:00",
-      "detected_at": "2026-11-25T01:49:16.497967+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11963.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:47.079934+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11978.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17143,8 +17580,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-07-14T13:56:35.352Z",
       "posted_at": "2025-07-14T13:56:35.352000+00:00",
-      "detected_at": "2026-11-25T01:49:14.677198+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 11963.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:45.104438+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 11978.7h ago (exceeds 24h limit)"
     },
     {
       "source": "prism_digital",
@@ -17153,8 +17590,8 @@
       "company": "Prism Digital",
       "source_timestamp_raw": "2025-09-16T05:43:39.124Z",
       "posted_at": "2025-09-16T05:43:39.124000+00:00",
-      "detected_at": "2026-11-25T01:49:13.073115+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 10436.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:43.309109+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 10450.9h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17163,8 +17600,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 07:56:08 +0000",
       "posted_at": "2024-07-18T07:56:08+00:00",
-      "detected_at": "2026-11-25T01:49:08.142284+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.9h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.462552+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.7h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17173,8 +17610,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:01:01 +0000",
       "posted_at": "2024-07-18T08:01:01+00:00",
-      "detected_at": "2026-11-25T01:49:08.141985+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.462386+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17183,8 +17620,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:02:25 +0000",
       "posted_at": "2024-07-18T08:02:25+00:00",
-      "detected_at": "2026-11-25T01:49:08.141677+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.461539+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.6h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17193,8 +17630,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:03:54 +0000",
       "posted_at": "2024-07-18T08:03:54+00:00",
-      "detected_at": "2026-11-25T01:49:08.141367+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.461388+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17203,8 +17640,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:05:16 +0000",
       "posted_at": "2024-07-18T08:05:16+00:00",
-      "detected_at": "2026-11-25T01:49:08.141035+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.461231+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17213,8 +17650,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Thu, 18 Jul 2024 08:07:16 +0000",
       "posted_at": "2024-07-18T08:07:16+00:00",
-      "detected_at": "2026-11-25T01:49:08.140715+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 20633.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.461069+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 20648.5h ago (exceeds 24h limit)"
     },
     {
       "source": "sawatech",
@@ -17223,18 +17660,8 @@
       "company": "SawaTech",
       "source_timestamp_raw": "Sat, 12 Apr 2025 20:10:05 +0000",
       "posted_at": "2025-04-12T20:10:05+00:00",
-      "detected_at": "2026-11-25T01:49:08.140371+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 14189.7h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "wwr_frontend",
-      "source_id": "reddit-frontend-engineer-ads",
-      "title": "Reddit: Frontend Engineer, Ads",
-      "company": "",
-      "source_timestamp_raw": "Mon, 26 Oct 2026 07:31:27 +0000",
-      "posted_at": "2026-10-26T07:31:27+00:00",
-      "detected_at": "2026-11-25T01:49:06.730118+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 714.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:38.460887+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 14204.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17243,8 +17670,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 16:49:37 +0000",
       "posted_at": "2026-10-28T16:49:37+00:00",
-      "detected_at": "2026-11-25T01:49:06.729928+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 657.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103669+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 671.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17253,8 +17680,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 28 Oct 2026 21:42:43 +0000",
       "posted_at": "2026-10-28T21:42:43+00:00",
-      "detected_at": "2026-11-25T01:49:06.729738+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 652.1h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103559+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 666.9h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17263,8 +17690,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 01 Nov 2026 07:31:04 +0000",
       "posted_at": "2026-11-01T07:31:04+00:00",
-      "detected_at": "2026-11-25T01:49:06.729548+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 570.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103467+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 585.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17273,8 +17700,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 19 Nov 2026 06:00:58 +0000",
       "posted_at": "2026-11-19T06:00:58+00:00",
-      "detected_at": "2026-11-25T01:49:06.729348+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 139.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103374+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 154.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17283,8 +17710,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:00:43 +0000",
       "posted_at": "2026-11-20T06:00:43+00:00",
-      "detected_at": "2026-11-25T01:49:06.729145+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 115.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103283+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 130.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17293,8 +17720,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 06:00:50 +0000",
       "posted_at": "2026-11-20T06:00:50+00:00",
-      "detected_at": "2026-11-25T01:49:06.728954+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 115.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103190+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 130.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17303,8 +17730,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 18:32:19 +0000",
       "posted_at": "2026-11-20T18:32:19+00:00",
-      "detected_at": "2026-11-25T01:49:06.728764+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 103.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103097+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 118.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17313,8 +17740,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 20 Nov 2026 18:32:29 +0000",
       "posted_at": "2026-11-20T18:32:29+00:00",
-      "detected_at": "2026-11-25T01:49:06.728573+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 103.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.103003+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 118.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17323,8 +17750,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 21 Nov 2026 06:03:00 +0000",
       "posted_at": "2026-11-21T06:03:00+00:00",
-      "detected_at": "2026-11-25T01:49:06.728376+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 91.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102910+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 106.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17333,8 +17760,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 06:02:29 +0000",
       "posted_at": "2026-11-22T06:02:29+00:00",
-      "detected_at": "2026-11-25T01:49:06.728166+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 67.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102817+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 82.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17343,8 +17770,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 06:02:33 +0000",
       "posted_at": "2026-11-22T06:02:33+00:00",
-      "detected_at": "2026-11-25T01:49:06.727974+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 67.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102727+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 82.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17353,8 +17780,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 18:31:25 +0000",
       "posted_at": "2026-11-22T18:31:25+00:00",
-      "detected_at": "2026-11-25T01:49:06.727780+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 55.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102615+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 70.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17363,8 +17790,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 18:31:25 +0000",
       "posted_at": "2026-11-22T18:31:25+00:00",
-      "detected_at": "2026-11-25T01:49:06.727586+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 55.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102526+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 70.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17373,8 +17800,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 18:31:57 +0000",
       "posted_at": "2026-11-22T18:31:57+00:00",
-      "detected_at": "2026-11-25T01:49:06.727388+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 55.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102435+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 70.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17383,8 +17810,8 @@
       "company": "",
       "source_timestamp_raw": "Sun, 22 Nov 2026 18:32:04 +0000",
       "posted_at": "2026-11-22T18:32:04+00:00",
-      "detected_at": "2026-11-25T01:49:06.727172+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 55.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102342+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 70.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17393,8 +17820,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 23 Nov 2026 06:00:57 +0000",
       "posted_at": "2026-11-23T06:00:57+00:00",
-      "detected_at": "2026-11-25T01:49:06.726975+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 43.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102249+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 58.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17403,8 +17830,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 23 Nov 2026 06:01:43 +0000",
       "posted_at": "2026-11-23T06:01:43+00:00",
-      "detected_at": "2026-11-25T01:49:06.726774+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 43.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102159+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 58.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17413,8 +17840,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 23 Nov 2026 18:30:56 +0000",
       "posted_at": "2026-11-23T18:30:56+00:00",
-      "detected_at": "2026-11-25T01:49:06.726567+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 31.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.102068+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_frontend",
@@ -17423,8 +17850,8 @@
       "company": "",
       "source_timestamp_raw": "Mon, 23 Nov 2026 18:32:28 +0000",
       "posted_at": "2026-11-23T18:32:28+00:00",
-      "detected_at": "2026-11-25T01:49:06.726306+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 31.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:37.101972+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 46.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17433,8 +17860,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 30 Sep 2026 15:13:43 +0000",
       "posted_at": "2026-09-30T15:13:43+00:00",
-      "detected_at": "2026-11-25T01:49:06.420417+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1330.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.859211+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1345.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17443,8 +17870,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:08:54 +0000",
       "posted_at": "2026-10-07T00:08:54+00:00",
-      "detected_at": "2026-11-25T01:49:06.420213+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1177.7h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.859122+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1192.5h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17453,8 +17880,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 07 Oct 2026 00:11:33 +0000",
       "posted_at": "2026-10-07T00:11:33+00:00",
-      "detected_at": "2026-11-25T01:49:06.420027+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 1177.6h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.859032+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 1192.4h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17463,18 +17890,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 21 Oct 2026 12:51:00 +0000",
       "posted_at": "2026-10-21T12:51:00+00:00",
-      "detected_at": "2026-11-25T01:49:06.419841+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 829.0h ago (exceeds 24h limit)"
-    },
-    {
-      "source": "wwr_design",
-      "source_id": "maptiler-head-of-design-maps-platform-remote-in-europe",
-      "title": "MapTiler:  Head of Design | Maps Platform (Remote in Europe)",
-      "company": "",
-      "source_timestamp_raw": "Mon, 26 Oct 2026 11:48:42 +0000",
-      "posted_at": "2026-10-26T11:48:42+00:00",
-      "detected_at": "2026-11-25T01:49:06.419645+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 710.0h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858939+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 843.8h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17483,8 +17900,8 @@
       "company": "",
       "source_timestamp_raw": "Fri, 30 Oct 2026 07:31:10 +0000",
       "posted_at": "2026-10-30T07:31:10+00:00",
-      "detected_at": "2026-11-25T01:49:06.419457+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 618.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858850+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 633.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17493,8 +17910,8 @@
       "company": "",
       "source_timestamp_raw": "Thu, 05 Nov 2026 22:31:50 +0000",
       "posted_at": "2026-11-05T22:31:50+00:00",
-      "detected_at": "2026-11-25T01:49:06.419249+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 459.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858760+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 474.1h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17503,8 +17920,8 @@
       "company": "",
       "source_timestamp_raw": "Sat, 07 Nov 2026 17:01:14 +0000",
       "posted_at": "2026-11-07T17:01:14+00:00",
-      "detected_at": "2026-11-25T01:49:06.419063+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 416.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858667+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 431.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17513,8 +17930,8 @@
       "company": "",
       "source_timestamp_raw": "Wed, 11 Nov 2026 17:01:15 +0000",
       "posted_at": "2026-11-11T17:01:15+00:00",
-      "detected_at": "2026-11-25T01:49:06.418877+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 320.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858562+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 335.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17523,8 +17940,8 @@
       "company": "",
       "source_timestamp_raw": "Tue, 17 Nov 2026 18:01:48 +0000",
       "posted_at": "2026-11-17T18:01:48+00:00",
-      "detected_at": "2026-11-25T01:49:06.418690+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 175.8h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858472+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 190.6h ago (exceeds 24h limit)"
     },
     {
       "source": "wwr_design",
@@ -17533,8 +17950,28 @@
       "company": "",
       "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:38 +0000",
       "posted_at": "2026-11-18T11:31:38+00:00",
-      "detected_at": "2026-11-25T01:49:06.418501+00:00",
-      "exclusion_reason": "Excluded by age filter: posted 158.3h ago (exceeds 24h limit)"
+      "detected_at": "2026-11-25T16:36:36.858381+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 173.1h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "wwr_design",
+      "source_id": "lightbox-animation-senior-sets-props-surface-artist",
+      "title": "Lightbox Animation: Senior Sets&Props Surface Artist",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:41 +0000",
+      "posted_at": "2026-11-18T11:31:41+00:00",
+      "detected_at": "2026-11-25T16:36:36.858291+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 173.1h ago (exceeds 24h limit)"
+    },
+    {
+      "source": "wwr_design",
+      "source_id": "shirvano-graphic-design-intern-remote",
+      "title": "SHIRVANO: Graphic Design Intern (Remote)",
+      "company": "",
+      "source_timestamp_raw": "Wed, 18 Nov 2026 11:31:43 +0000",
+      "posted_at": "2026-11-18T11:31:43+00:00",
+      "detected_at": "2026-11-25T16:36:36.858201+00:00",
+      "exclusion_reason": "Excluded by age filter: posted 173.1h ago (exceeds 24h limit)"
     }
   ],
   "uae_sources": [
@@ -17559,7 +17996,7 @@
       "search_url": "https://ae.indeed.com/jobs?q={query}&l={location}&fromage=1",
       "mode": "email_or_manual",
       "reason": "Cloudflare 403 protection on web search; supported via Gmail Indeed job alert parser or manual search.",
-      "last_checked_at": "2026-11-25T01:49:07.046252+00:00",
+      "last_checked_at": "2026-11-25T16:36:37.360795+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -17611,7 +18048,7 @@
       "search_url": "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}%2C%20United%20Arab%20Emirates&f_TPR=r86400",
       "mode": "email_or_manual",
       "reason": "robots.txt prohibits automated scraping; supported via Gmail LinkedIn alerts or 24h manual search.",
-      "last_checked_at": "2026-11-25T01:49:07.046252+00:00",
+      "last_checked_at": "2026-11-25T16:36:37.360795+00:00",
       "last_success": true,
       "last_jobs_found": 0,
       "last_error": ""
@@ -17741,7 +18178,7 @@
       "search_url": "https://www.hays.ae/job-search?q={query}&location={location}",
       "mode": "automated",
       "reason": "Public job search + JSON-LD parser (strictly excludes date-only listings under 24h rule).",
-      "last_checked_at": "2026-11-25T01:49:34.694172+00:00",
+      "last_checked_at": "2026-11-25T16:37:05.232521+00:00",
       "last_success": false,
       "last_jobs_found": 0,
       "last_error": "Access denied: robots.txt disallows: https://www.hays.ae/job-search"
@@ -17767,7 +18204,7 @@
       "search_url": "https://www.sawatech.com/careers/",
       "mode": "automated",
       "reason": "Permitted public RSS feed (/jobs/feed/) + JSON-LD JobPosting with verified UAE offset timestamp.",
-      "last_checked_at": "2026-11-25T01:49:08.142424+00:00",
+      "last_checked_at": "2026-11-25T16:36:38.462624+00:00",
       "last_success": true,
       "last_jobs_found": 7,
       "last_error": ""
@@ -17780,7 +18217,7 @@
       "search_url": "https://www.prism-me.com/careers",
       "mode": "automated",
       "reason": "Permitted Next.js __NEXT_DATA__ careers feed with verified UTC createdAt timestamps.",
-      "last_checked_at": "2026-11-25T01:49:34.576008+00:00",
+      "last_checked_at": "2026-11-25T16:37:05.127844+00:00",
       "last_success": true,
       "last_jobs_found": 12,
       "last_error": ""
